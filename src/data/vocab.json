@@ -1,0 +1,2522 @@
+[
+  {
+    "id": 1,
+    "jp": "わたし",
+    "eng": "I",
+    "card": 1
+  },
+  {
+    "id": 2,
+    "jp": "です",
+    "eng": "is/am/are",
+    "card": 1
+  },
+  {
+    "id": 3,
+    "jp": "さん",
+    "eng": "Mr./Ms./Mrs.",
+    "card": 1
+  },
+  {
+    "id": 4,
+    "jp": "ちゃん",
+    "eng": "Ms.",
+    "card": 1
+  },
+  {
+    "id": 5,
+    "jp": "あなた",
+    "eng": "you",
+    "card": 1
+  },
+  {
+    "id": 6,
+    "jp": "かれ",
+    "eng": "he",
+    "card": 1
+  },
+  {
+    "id": 7,
+    "jp": "かのじょ",
+    "eng": "she",
+    "card": 1
+  },
+  {
+    "id": 8,
+    "jp": "おなまえ",
+    "eng": "your name",
+    "card": 1
+  },
+  {
+    "id": 9,
+    "jp": "はい",
+    "eng": "yes",
+    "card": 1
+  },
+  {
+    "id": 10,
+    "jp": "ええ",
+    "eng": "yes",
+    "card": 2
+  },
+  {
+    "id": 11,
+    "jp": "いいえ",
+    "eng": "no",
+    "card": 2
+  },
+  {
+    "id": 12,
+    "jp": "そうです",
+    "eng": "yes, That's correct",
+    "card": 2
+  },
+  {
+    "id": 13,
+    "jp": "ちがいます",
+    "eng": "no, That's incorrect",
+    "card": 2
+  },
+  {
+    "id": 14,
+    "jp": "おはよう / おはようございます",
+    "eng": "Good morning",
+    "card": 2
+  },
+  {
+    "id": 15,
+    "jp": "こんにちは",
+    "eng": "Hello / Good afternoon",
+    "card": 2
+  },
+  {
+    "id": 16,
+    "jp": "こんばんは",
+    "eng": "Good evening",
+    "card": 2
+  },
+  {
+    "id": 17,
+    "jp": "さようなら",
+    "eng": "Goodbye",
+    "card": 2
+  },
+  {
+    "id": 18,
+    "jp": "じゃ、また",
+    "eng": "See you later",
+    "card": 2
+  },
+  {
+    "id": 19,
+    "jp": "おやすみなさい",
+    "eng": "Good night",
+    "card": 3
+  },
+  {
+    "id": 20,
+    "jp": "ありがとう / ありがとうございます",
+    "eng": "Thank you",
+    "card": 3
+  },
+  {
+    "id": 21,
+    "jp": "どういたしまして",
+    "eng": "You're welcome",
+    "card": 3
+  },
+  {
+    "id": 22,
+    "jp": "どうぞ",
+    "eng": "go ahead",
+    "card": 3
+  },
+  {
+    "id": 23,
+    "jp": "どうも",
+    "eng": "Thank you",
+    "card": 3
+  },
+  {
+    "id": 24,
+    "jp": "はじめまして",
+    "eng": "hello",
+    "card": 3
+  },
+  {
+    "id": 25,
+    "jp": "どうぞよろしく",
+    "eng": "glad to meet you",
+    "card": 3
+  },
+  {
+    "id": 26,
+    "jp": "こちらこそ",
+    "eng": "Me too, Same here",
+    "card": 3
+  },
+  {
+    "id": 27,
+    "jp": "かぞく",
+    "eng": "family",
+    "card": 3
+  },
+  {
+    "id": 28,
+    "jp": "りょうしん",
+    "eng": "parents",
+    "card": 4
+  },
+  {
+    "id": 29,
+    "jp": "父",
+    "eng": "father",
+    "card": 4
+  },
+  {
+    "id": 30,
+    "jp": "母",
+    "eng": "mother",
+    "card": 4
+  },
+  {
+    "id": 31,
+    "jp": "あね",
+    "eng": "elder sister",
+    "card": 4
+  },
+  {
+    "id": 32,
+    "jp": "あに",
+    "eng": "elder brother",
+    "card": 4
+  },
+  {
+    "id": 33,
+    "jp": "わたし",
+    "eng": "I",
+    "card": 4
+  },
+  {
+    "id": 34,
+    "jp": "おとうと",
+    "eng": "younger brother",
+    "card": 4
+  },
+  {
+    "id": 35,
+    "jp": "いもうと",
+    "eng": "younger sister",
+    "card": 4
+  },
+  {
+    "id": 36,
+    "jp": "きょうだい",
+    "eng": "siblings",
+    "card": 4
+  },
+  {
+    "id": 37,
+    "jp": "いぬ",
+    "eng": "dog",
+    "card": 5
+  },
+  {
+    "id": 38,
+    "jp": "ねこ",
+    "eng": "cat",
+    "card": 5
+  },
+  {
+    "id": 39,
+    "jp": "いる",
+    "eng": "to have/to be",
+    "card": 5
+  },
+  {
+    "id": 40,
+    "jp": "うち",
+    "eng": "household",
+    "card": 5
+  },
+  {
+    "id": 41,
+    "jp": "おじいさん",
+    "eng": "grandfather",
+    "card": 5
+  },
+  {
+    "id": 42,
+    "jp": "おばあさん",
+    "eng": "grandmother",
+    "card": 5
+  },
+  {
+    "id": 43,
+    "jp": "おとうさん",
+    "eng": "your father",
+    "card": 5
+  },
+  {
+    "id": 44,
+    "jp": "ごりょうしん",
+    "eng": "your parents",
+    "card": 5
+  },
+  {
+    "id": 45,
+    "jp": "おかあさん",
+    "eng": "your mother",
+    "card": 5
+  },
+  {
+    "id": 46,
+    "jp": "おねえさん",
+    "eng": "your elder sister",
+    "card": 6
+  },
+  {
+    "id": 47,
+    "jp": "おにいさん",
+    "eng": "your elder brother",
+    "card": 6
+  },
+  {
+    "id": 48,
+    "jp": "おとうとさん",
+    "eng": "your younger brother",
+    "card": 6
+  },
+  {
+    "id": 49,
+    "jp": "いもうとさん",
+    "eng": "your younger sister",
+    "card": 6
+  },
+  {
+    "id": 50,
+    "jp": "ひとり",
+    "eng": "one person",
+    "card": 6
+  },
+  {
+    "id": 51,
+    "jp": "ふたり",
+    "eng": "two people",
+    "card": 6
+  },
+  {
+    "id": 52,
+    "jp": "よにん",
+    "eng": "four people",
+    "card": 6
+  },
+  {
+    "id": 53,
+    "jp": "何人",
+    "eng": "how many people",
+    "card": 6
+  },
+  {
+    "id": 54,
+    "jp": "大人",
+    "eng": "adult",
+    "card": 6
+  },
+  {
+    "id": 55,
+    "jp": "子ども",
+    "eng": "child",
+    "card": 7
+  },
+  {
+    "id": 56,
+    "jp": "男",
+    "eng": "man",
+    "card": 7
+  },
+  {
+    "id": 57,
+    "jp": "女",
+    "eng": "woman",
+    "card": 7
+  },
+  {
+    "id": 58,
+    "jp": "男の子",
+    "eng": "boy",
+    "card": 7
+  },
+  {
+    "id": 59,
+    "jp": "女の子",
+    "eng": "girl",
+    "card": 7
+  },
+  {
+    "id": 60,
+    "jp": "くに",
+    "eng": "country",
+    "card": 7
+  },
+  {
+    "id": 61,
+    "jp": "ある",
+    "eng": "to be",
+    "card": 7
+  },
+  {
+    "id": 62,
+    "jp": "どちら",
+    "eng": "which",
+    "card": 7
+  },
+  {
+    "id": 63,
+    "jp": "〜からきました",
+    "eng": "came from ~",
+    "card": 7
+  },
+  {
+    "id": 64,
+    "jp": "〜じん",
+    "eng": "nationality",
+    "card": 8
+  },
+  {
+    "id": 65,
+    "jp": "ちず",
+    "eng": "map",
+    "card": 8
+  },
+  {
+    "id": 66,
+    "jp": "せかい",
+    "eng": "world",
+    "card": 8
+  },
+  {
+    "id": 67,
+    "jp": "にほん",
+    "eng": "Japan",
+    "card": 8
+  },
+  {
+    "id": 68,
+    "jp": "インド",
+    "eng": "India",
+    "card": 8
+  },
+  {
+    "id": 69,
+    "jp": "インドネシア",
+    "eng": "Indonesia",
+    "card": 8
+  },
+  {
+    "id": 70,
+    "jp": "かんこく",
+    "eng": "South Korea",
+    "card": 8
+  },
+  {
+    "id": 71,
+    "jp": "タイ",
+    "eng": "Thailand",
+    "card": 8
+  },
+  {
+    "id": 72,
+    "jp": "タイワン",
+    "eng": "Taiwan",
+    "card": 8
+  },
+  {
+    "id": 73,
+    "jp": "ちゅうごく",
+    "eng": "China",
+    "card": 9
+  },
+  {
+    "id": 74,
+    "jp": "ネパル",
+    "eng": "Nepal",
+    "card": 9
+  },
+  {
+    "id": 75,
+    "jp": "フィリピン",
+    "eng": "Philippines",
+    "card": 9
+  },
+  {
+    "id": 76,
+    "jp": "ベトナム",
+    "eng": "Vietnam",
+    "card": 9
+  },
+  {
+    "id": 77,
+    "jp": "マレシア",
+    "eng": "Malaysia",
+    "card": 9
+  },
+  {
+    "id": 78,
+    "jp": "ミャンマ",
+    "eng": "Myanmar",
+    "card": 9
+  },
+  {
+    "id": 79,
+    "jp": "トルコ",
+    "eng": "Turkey",
+    "card": 9
+  },
+  {
+    "id": 80,
+    "jp": "オストラリア",
+    "eng": "Australia",
+    "card": 9
+  },
+  {
+    "id": 81,
+    "jp": "ニュジランド",
+    "eng": "New Zealand",
+    "card": 9
+  },
+  {
+    "id": 82,
+    "jp": "アメリカ",
+    "eng": "America",
+    "card": 10
+  },
+  {
+    "id": 83,
+    "jp": "カナダ",
+    "eng": "Canada",
+    "card": 10
+  },
+  {
+    "id": 84,
+    "jp": "メキシコ",
+    "eng": "Mexico",
+    "card": 10
+  },
+  {
+    "id": 85,
+    "jp": "ブラジル",
+    "eng": "Brazil",
+    "card": 10
+  },
+  {
+    "id": 86,
+    "jp": "ロシア",
+    "eng": "Russia",
+    "card": 10
+  },
+  {
+    "id": 87,
+    "jp": "イギリス",
+    "eng": "england",
+    "card": 10
+  },
+  {
+    "id": 88,
+    "jp": "フランス",
+    "eng": "France",
+    "card": 10
+  },
+  {
+    "id": 89,
+    "jp": "ドイツ",
+    "eng": "Germany",
+    "card": 10
+  },
+  {
+    "id": 90,
+    "jp": "スイス",
+    "eng": "Switzerland",
+    "card": 10
+  },
+  {
+    "id": 91,
+    "jp": "イタリア",
+    "eng": "Italy",
+    "card": 11
+  },
+  {
+    "id": 92,
+    "jp": "スペイン",
+    "eng": "Spain",
+    "card": 11
+  },
+  {
+    "id": 93,
+    "jp": "エジプト",
+    "eng": "Egypt",
+    "card": 11
+  },
+  {
+    "id": 94,
+    "jp": "ケニア",
+    "eng": "Kenya",
+    "card": 11
+  },
+  {
+    "id": 95,
+    "jp": "先生",
+    "eng": "teacher",
+    "card": 11
+  },
+  {
+    "id": 96,
+    "jp": "がくせい",
+    "eng": "student",
+    "card": 11
+  },
+  {
+    "id": 97,
+    "jp": "りゅうがくせい",
+    "eng": "foreign student",
+    "card": 11
+  },
+  {
+    "id": 98,
+    "jp": "がっこう",
+    "eng": "school",
+    "card": 11
+  },
+  {
+    "id": 99,
+    "jp": "べんきょう",
+    "eng": "study",
+    "card": 11
+  },
+  {
+    "id": 100,
+    "jp": "べんきょうする",
+    "eng": "to study",
+    "card": 12
+  },
+  {
+    "id": 101,
+    "jp": "にほんごがっこう",
+    "eng": "Japanese school",
+    "card": 12
+  },
+  {
+    "id": 102,
+    "jp": "しょうがっこう",
+    "eng": "elementary school",
+    "card": 12
+  },
+  {
+    "id": 103,
+    "jp": "ちゅうがっこう",
+    "eng": "junior high school",
+    "card": 12
+  },
+  {
+    "id": 104,
+    "jp": "高校",
+    "eng": "high school",
+    "card": 12
+  },
+  {
+    "id": 105,
+    "jp": "だいがく",
+    "eng": "college/university",
+    "card": 12
+  },
+  {
+    "id": 106,
+    "jp": "きょうしつ",
+    "eng": "classroom",
+    "card": 12
+  },
+  {
+    "id": 107,
+    "jp": "クラス",
+    "eng": "class",
+    "card": 12
+  },
+  {
+    "id": 108,
+    "jp": "いく",
+    "eng": "to go",
+    "card": 12
+  },
+  {
+    "id": 109,
+    "jp": "くる",
+    "eng": "to come",
+    "card": 13
+  },
+  {
+    "id": 110,
+    "jp": "かえる",
+    "eng": "to leave/to go home",
+    "card": 13
+  },
+  {
+    "id": 111,
+    "jp": "ゼロ",
+    "eng": "zero",
+    "card": 13
+  },
+  {
+    "id": 112,
+    "jp": "いち/一",
+    "eng": "one",
+    "card": 13
+  },
+  {
+    "id": 113,
+    "jp": "に/二",
+    "eng": "two",
+    "card": 13
+  },
+  {
+    "id": 114,
+    "jp": "さん/三",
+    "eng": "three",
+    "card": 13
+  },
+  {
+    "id": 115,
+    "jp": "よん/四",
+    "eng": "four",
+    "card": 13
+  },
+  {
+    "id": 116,
+    "jp": "ご/五",
+    "eng": "five",
+    "card": 13
+  },
+  {
+    "id": 117,
+    "jp": "ろく/六",
+    "eng": "six",
+    "card": 13
+  },
+  {
+    "id": 118,
+    "jp": "なな/七",
+    "eng": "seven",
+    "card": 14
+  },
+  {
+    "id": 119,
+    "jp": "はち/八",
+    "eng": "eight",
+    "card": 14
+  },
+  {
+    "id": 120,
+    "jp": "きゅう/九",
+    "eng": "nine",
+    "card": 14
+  },
+  {
+    "id": 121,
+    "jp": "じゅう/十",
+    "eng": "ten",
+    "card": 14
+  },
+  {
+    "id": 122,
+    "jp": "じゅういち/十一",
+    "eng": "eleven",
+    "card": 14
+  },
+  {
+    "id": 123,
+    "jp": "じゅうに/十二",
+    "eng": "twelve",
+    "card": 14
+  },
+  {
+    "id": 124,
+    "jp": "~がつ",
+    "eng": "~month",
+    "card": 14
+  },
+  {
+    "id": 125,
+    "jp": "一月",
+    "eng": "January",
+    "card": 14
+  },
+  {
+    "id": 126,
+    "jp": "二月",
+    "eng": "February",
+    "card": 14
+  },
+  {
+    "id": 127,
+    "jp": "三月",
+    "eng": "March",
+    "card": 15
+  },
+  {
+    "id": 128,
+    "jp": "四月",
+    "eng": "April",
+    "card": 15
+  },
+  {
+    "id": 129,
+    "jp": "五月",
+    "eng": "May",
+    "card": 15
+  },
+  {
+    "id": 130,
+    "jp": "六月",
+    "eng": "June",
+    "card": 15
+  },
+  {
+    "id": 131,
+    "jp": "七月",
+    "eng": "July",
+    "card": 15
+  },
+  {
+    "id": 132,
+    "jp": "八月",
+    "eng": "August",
+    "card": 15
+  },
+  {
+    "id": 133,
+    "jp": "九月",
+    "eng": "September",
+    "card": 15
+  },
+  {
+    "id": 134,
+    "jp": "十月",
+    "eng": "October",
+    "card": 15
+  },
+  {
+    "id": 135,
+    "jp": "十一月",
+    "eng": "November",
+    "card": 15
+  },
+  {
+    "id": 136,
+    "jp": "十二月",
+    "eng": "December",
+    "card": 16
+  },
+  {
+    "id": 137,
+    "jp": "何月",
+    "eng": "what month",
+    "card": 16
+  },
+  {
+    "id": 138,
+    "jp": "日曜日",
+    "eng": "Sunday",
+    "card": 16
+  },
+  {
+    "id": 139,
+    "jp": "月曜日",
+    "eng": "Monday",
+    "card": 16
+  },
+  {
+    "id": 140,
+    "jp": "火曜日",
+    "eng": "Tuesday",
+    "card": 16
+  },
+  {
+    "id": 141,
+    "jp": "水曜日",
+    "eng": "Wednesday",
+    "card": 16
+  },
+  {
+    "id": 142,
+    "jp": "木曜日",
+    "eng": "Thursday",
+    "card": 16
+  },
+  {
+    "id": 143,
+    "jp": "金曜日",
+    "eng": "Friday",
+    "card": 16
+  },
+  {
+    "id": 144,
+    "jp": "土曜日",
+    "eng": "Saturday",
+    "card": 16
+  },
+  {
+    "id": 145,
+    "jp": "何曜日",
+    "eng": "what day",
+    "card": 17
+  },
+  {
+    "id": 146,
+    "jp": "おととい",
+    "eng": "day before yesterday",
+    "card": 17
+  },
+  {
+    "id": 147,
+    "jp": "きのう",
+    "eng": "yesterday",
+    "card": 17
+  },
+  {
+    "id": 148,
+    "jp": "今日",
+    "eng": "today",
+    "card": 17
+  },
+  {
+    "id": 149,
+    "jp": "あした",
+    "eng": "tomorrow",
+    "card": 17
+  },
+  {
+    "id": 150,
+    "jp": "あさって",
+    "eng": "day after tomorrow",
+    "card": 17
+  },
+  {
+    "id": 151,
+    "jp": "毎日",
+    "eng": "every day",
+    "card": 17
+  },
+  {
+    "id": 152,
+    "jp": "~しゅうかん",
+    "eng": "weeks",
+    "card": 17
+  },
+  {
+    "id": 153,
+    "jp": "～月",
+    "eng": "months",
+    "card": 17
+  },
+  {
+    "id": 154,
+    "jp": "～年",
+    "eng": "years",
+    "card": 18
+  },
+  {
+    "id": 155,
+    "jp": "~かい",
+    "eng": "~times",
+    "card": 18
+  },
+  {
+    "id": 156,
+    "jp": "何かい",
+    "eng": "how many times",
+    "card": 18
+  },
+  {
+    "id": 157,
+    "jp": "アルバイトする",
+    "eng": "to work part-time job",
+    "card": 18
+  },
+  {
+    "id": 158,
+    "jp": "する",
+    "eng": "to do",
+    "card": 18
+  },
+  {
+    "id": 159,
+    "jp": "ことば",
+    "eng": "word",
+    "card": 18
+  },
+  {
+    "id": 160,
+    "jp": "じ",
+    "eng": "letter",
+    "card": 18
+  },
+  {
+    "id": 161,
+    "jp": "日本語",
+    "eng": "Japanese language",
+    "card": 18
+  },
+  {
+    "id": 162,
+    "jp": "~ご",
+    "eng": "language suffix",
+    "card": 18
+  },
+  {
+    "id": 163,
+    "jp": "はなす",
+    "eng": "to speak",
+    "card": 19
+  },
+  {
+    "id": 164,
+    "jp": "ゆっくり",
+    "eng": "slowly",
+    "card": 19
+  },
+  {
+    "id": 165,
+    "jp": "いう/言",
+    "eng": "to say/to tell",
+    "card": 19
+  },
+  {
+    "id": 166,
+    "jp": "もういちど",
+    "eng": "once more",
+    "card": 19
+  },
+  {
+    "id": 167,
+    "jp": "おねがいします",
+    "eng": "please",
+    "card": 19
+  },
+  {
+    "id": 168,
+    "jp": "わかる",
+    "eng": "to understand/to know",
+    "card": 19
+  },
+  {
+    "id": 169,
+    "jp": "すこし",
+    "eng": "little",
+    "card": 19
+  },
+  {
+    "id": 170,
+    "jp": "もうすこし",
+    "eng": "a little bit",
+    "card": 19
+  },
+  {
+    "id": 171,
+    "jp": "よく",
+    "eng": "well/properly",
+    "card": 19
+  },
+  {
+    "id": 172,
+    "jp": "だいたい",
+    "eng": "about/roughly",
+    "card": 20
+  },
+  {
+    "id": 173,
+    "jp": "ぜんぜん ～いません",
+    "eng": "not at all",
+    "card": 20
+  },
+  {
+    "id": 174,
+    "jp": "ひらがな",
+    "eng": "hiragana",
+    "card": 20
+  },
+  {
+    "id": 175,
+    "jp": "かたかな",
+    "eng": "katakana",
+    "card": 20
+  },
+  {
+    "id": 176,
+    "jp": "かんじ",
+    "eng": "kanji",
+    "card": 20
+  },
+  {
+    "id": 177,
+    "jp": "ろーまじ",
+    "eng": "romaji",
+    "card": 20
+  },
+  {
+    "id": 178,
+    "jp": "よむ",
+    "eng": "to read",
+    "card": 20
+  },
+  {
+    "id": 179,
+    "jp": "本",
+    "eng": "book",
+    "card": 20
+  },
+  {
+    "id": 180,
+    "jp": "書",
+    "eng": "to write",
+    "card": 20
+  },
+  {
+    "id": 181,
+    "jp": "聞",
+    "eng": "to listen",
+    "card": 21
+  },
+  {
+    "id": 182,
+    "jp": "シーディー",
+    "eng": "CD",
+    "card": 21
+  },
+  {
+    "id": 183,
+    "jp": "買",
+    "eng": "to buy",
+    "card": 21
+  },
+  {
+    "id": 184,
+    "jp": "じしょ",
+    "eng": "dictionary",
+    "card": 21
+  },
+  {
+    "id": 185,
+    "jp": "でんしじしょ",
+    "eng": "electronic dictionary",
+    "card": 21
+  },
+  {
+    "id": 186,
+    "jp": "いみ",
+    "eng": "meaning",
+    "card": 21
+  },
+  {
+    "id": 187,
+    "jp": "がんばる",
+    "eng": "to give one's best",
+    "card": 21
+  },
+  {
+    "id": 188,
+    "jp": "しゅくだい",
+    "eng": "homework",
+    "card": 21
+  },
+  {
+    "id": 189,
+    "jp": "にっき",
+    "eng": "diary",
+    "card": 21
+  },
+  {
+    "id": 190,
+    "jp": "レポート",
+    "eng": "report",
+    "card": 22
+  },
+  {
+    "id": 191,
+    "jp": "としょかん",
+    "eng": "library",
+    "card": 22
+  },
+  {
+    "id": 192,
+    "jp": "ほんや",
+    "eng": "bookstore",
+    "card": 22
+  },
+  {
+    "id": 193,
+    "jp": "れんしゅう",
+    "eng": "practice",
+    "card": 22
+  },
+  {
+    "id": 194,
+    "jp": "れんしゅうする",
+    "eng": "to practice",
+    "card": 22
+  },
+  {
+    "id": 195,
+    "jp": "スピーチ",
+    "eng": "speech",
+    "card": 22
+  },
+  {
+    "id": 196,
+    "jp": "おぼえる",
+    "eng": "to remember",
+    "card": 22
+  },
+  {
+    "id": 197,
+    "jp": "わすれる",
+    "eng": "to forget",
+    "card": 22
+  },
+  {
+    "id": 198,
+    "jp": "もんだい",
+    "eng": "problem",
+    "card": 22
+  },
+  {
+    "id": 199,
+    "jp": "れい",
+    "eng": "example",
+    "card": 23
+  },
+  {
+    "id": 200,
+    "jp": "こたえ",
+    "eng": "answer",
+    "card": 23
+  },
+  {
+    "id": 201,
+    "jp": "しつもんする",
+    "eng": "to ask a question",
+    "card": 23
+  },
+  {
+    "id": 202,
+    "jp": "けんがくする",
+    "eng": "to observe",
+    "card": 23
+  },
+  {
+    "id": 203,
+    "jp": "かいしゃ",
+    "eng": "company",
+    "card": 23
+  },
+  {
+    "id": 204,
+    "jp": "ぎんこう",
+    "eng": "bank",
+    "card": 23
+  },
+  {
+    "id": 205,
+    "jp": "はたらく",
+    "eng": "to work",
+    "card": 23
+  },
+  {
+    "id": 206,
+    "jp": "やすむ",
+    "eng": "to rest/to take a leave",
+    "card": 23
+  },
+  {
+    "id": 207,
+    "jp": "やすみ",
+    "eng": "day off/holiday",
+    "card": 23
+  },
+  {
+    "id": 208,
+    "jp": "ひるやすみ",
+    "eng": "lunch break",
+    "card": 24
+  },
+  {
+    "id": 209,
+    "jp": "ひまな",
+    "eng": "free time",
+    "card": 24
+  },
+  {
+    "id": 210,
+    "jp": "いそがしい",
+    "eng": "busy",
+    "card": 24
+  },
+  {
+    "id": 211,
+    "jp": "ざんぎょうする",
+    "eng": "to do overtime",
+    "card": 24
+  },
+  {
+    "id": 212,
+    "jp": "しゅっちょう",
+    "eng": "business trip",
+    "card": 24
+  },
+  {
+    "id": 213,
+    "jp": "じむしょ",
+    "eng": "office",
+    "card": 24
+  },
+  {
+    "id": 214,
+    "jp": "こうじょう",
+    "eng": "factory",
+    "card": 24
+  },
+  {
+    "id": 215,
+    "jp": "うけつけ",
+    "eng": "reception desk",
+    "card": 24
+  },
+  {
+    "id": 216,
+    "jp": "かいぎ",
+    "eng": "meeting",
+    "card": 24
+  },
+  {
+    "id": 217,
+    "jp": "かいぎしつ",
+    "eng": "meeting room",
+    "card": 25
+  },
+  {
+    "id": 218,
+    "jp": "電話",
+    "eng": "telephone",
+    "card": 25
+  },
+  {
+    "id": 219,
+    "jp": "電話をかける",
+    "eng": "to make a call",
+    "card": 25
+  },
+  {
+    "id": 220,
+    "jp": "もしもし",
+    "eng": "hello",
+    "card": 25
+  },
+  {
+    "id": 221,
+    "jp": "電話ばんごう",
+    "eng": "phone number",
+    "card": 25
+  },
+  {
+    "id": 222,
+    "jp": "しる",
+    "eng": "to know",
+    "card": 25
+  },
+  {
+    "id": 223,
+    "jp": "何ばん",
+    "eng": "what number",
+    "card": 25
+  },
+  {
+    "id": 224,
+    "jp": "おしえる",
+    "eng": "to teach/to tell",
+    "card": 25
+  },
+  {
+    "id": 225,
+    "jp": "てつだう",
+    "eng": "to help",
+    "card": 25
+  },
+  {
+    "id": 226,
+    "jp": "つくる",
+    "eng": "to cook/to prepare",
+    "card": 26
+  },
+  {
+    "id": 227,
+    "jp": "やくにたつ",
+    "eng": "to be helpful",
+    "card": 26
+  },
+  {
+    "id": 228,
+    "jp": "しごと",
+    "eng": "work",
+    "card": 26
+  },
+  {
+    "id": 229,
+    "jp": "かいしゃいん",
+    "eng": "company employee",
+    "card": 26
+  },
+  {
+    "id": 230,
+    "jp": "ぎんこういん",
+    "eng": "bank employee",
+    "card": 26
+  },
+  {
+    "id": 231,
+    "jp": "いしゃ/おいしゃさん",
+    "eng": "doctor",
+    "card": 26
+  },
+  {
+    "id": 232,
+    "jp": "かんごし/かんごしさん",
+    "eng": "nurse",
+    "card": 26
+  },
+  {
+    "id": 233,
+    "jp": "かいごし/かいごしさん",
+    "eng": "care worker",
+    "card": 26
+  },
+  {
+    "id": 234,
+    "jp": "けいさつさん/おまわりさん",
+    "eng": "policeman",
+    "card": 26
+  },
+  {
+    "id": 235,
+    "jp": "えきいん/えきいんさん",
+    "eng": "station master",
+    "card": 27
+  },
+  {
+    "id": 236,
+    "jp": "うんてんしゅ/うんてんしゅさん",
+    "eng": "driver",
+    "card": 27
+  },
+  {
+    "id": 237,
+    "jp": "しゃちょう",
+    "eng": "CEO",
+    "card": 27
+  },
+  {
+    "id": 238,
+    "jp": "ぶちょう",
+    "eng": "manager",
+    "card": 27
+  },
+  {
+    "id": 239,
+    "jp": "かちょう",
+    "eng": "section manager",
+    "card": 27
+  },
+  {
+    "id": 240,
+    "jp": "しゃいん",
+    "eng": "employee",
+    "card": 27
+  },
+  {
+    "id": 241,
+    "jp": "これ",
+    "eng": "this",
+    "card": 27
+  },
+  {
+    "id": 242,
+    "jp": "それ",
+    "eng": "that",
+    "card": 27
+  },
+  {
+    "id": 243,
+    "jp": "あれ",
+    "eng": "that over there",
+    "card": 27
+  },
+  {
+    "id": 244,
+    "jp": "どれ",
+    "eng": "which",
+    "card": 28
+  },
+  {
+    "id": 245,
+    "jp": "この",
+    "eng": "this",
+    "card": 28
+  },
+  {
+    "id": 246,
+    "jp": "その",
+    "eng": "that",
+    "card": 28
+  },
+  {
+    "id": 247,
+    "jp": "あの",
+    "eng": "that over there",
+    "card": 28
+  },
+  {
+    "id": 248,
+    "jp": "どの",
+    "eng": "which",
+    "card": 28
+  },
+  {
+    "id": 249,
+    "jp": "何",
+    "eng": "what",
+    "card": 28
+  },
+  {
+    "id": 250,
+    "jp": "めいし",
+    "eng": "visiting card",
+    "card": 28
+  },
+  {
+    "id": 251,
+    "jp": "けいたいでんわ",
+    "eng": "cell phone",
+    "card": 28
+  },
+  {
+    "id": 252,
+    "jp": "スマートフォン",
+    "eng": "smartphone",
+    "card": 28
+  },
+  {
+    "id": 253,
+    "jp": "でんち",
+    "eng": "battery",
+    "card": 29
+  },
+  {
+    "id": 254,
+    "jp": "ノート",
+    "eng": "notebook",
+    "card": 29
+  },
+  {
+    "id": 255,
+    "jp": "かみ",
+    "eng": "paper",
+    "card": 29
+  },
+  {
+    "id": 256,
+    "jp": "てちょう",
+    "eng": "pocket diary",
+    "card": 29
+  },
+  {
+    "id": 257,
+    "jp": "ボールペン",
+    "eng": "ball pen",
+    "card": 29
+  },
+  {
+    "id": 258,
+    "jp": "シャープペンシル",
+    "eng": "sharp pencil",
+    "card": 29
+  },
+  {
+    "id": 259,
+    "jp": "えんぴつ",
+    "eng": "pencil",
+    "card": 29
+  },
+  {
+    "id": 260,
+    "jp": "けしごむ",
+    "eng": "eraser",
+    "card": 29
+  },
+  {
+    "id": 261,
+    "jp": "パンチ",
+    "eng": "hole punch",
+    "card": 29
+  },
+  {
+    "id": 262,
+    "jp": "ホッチキス",
+    "eng": "stapler",
+    "card": 30
+  },
+  {
+    "id": 263,
+    "jp": "セロテープ",
+    "eng": "cello tape",
+    "card": 30
+  },
+  {
+    "id": 264,
+    "jp": "はさみ",
+    "eng": "scissor",
+    "card": 30
+  },
+  {
+    "id": 265,
+    "jp": "はこ",
+    "eng": "box",
+    "card": 30
+  },
+  {
+    "id": 266,
+    "jp": "コンピューター",
+    "eng": "computer",
+    "card": 30
+  },
+  {
+    "id": 267,
+    "jp": "パソコン",
+    "eng": "personal computer",
+    "card": 30
+  },
+  {
+    "id": 268,
+    "jp": "インターネット",
+    "eng": "internet",
+    "card": 30
+  },
+  {
+    "id": 269,
+    "jp": "しりょう",
+    "eng": "material",
+    "card": 30
+  },
+  {
+    "id": 270,
+    "jp": "きる",
+    "eng": "to cut",
+    "card": 30
+  },
+  {
+    "id": 271,
+    "jp": "つかう",
+    "eng": "to use",
+    "card": 31
+  },
+  {
+    "id": 272,
+    "jp": "なんこ",
+    "eng": "how many small things",
+    "card": 31
+  },
+  {
+    "id": 273,
+    "jp": "～こ",
+    "eng": "counter for small things",
+    "card": 31
+  },
+  {
+    "id": 274,
+    "jp": "何だい",
+    "eng": "how many electronic things",
+    "card": 31
+  },
+  {
+    "id": 275,
+    "jp": "～だい",
+    "eng": "counter for electronic things",
+    "card": 31
+  },
+  {
+    "id": 276,
+    "jp": "なんじ",
+    "eng": "what time",
+    "card": 31
+  },
+  {
+    "id": 277,
+    "jp": "なんぷん",
+    "eng": "how many minutes",
+    "card": 31
+  },
+  {
+    "id": 278,
+    "jp": "～じ/～時",
+    "eng": "hours",
+    "card": 31
+  },
+  {
+    "id": 279,
+    "jp": "1時",
+    "eng": "1 o'clock",
+    "card": 31
+  },
+  {
+    "id": 280,
+    "jp": "4時",
+    "eng": "4 o'clock",
+    "card": 32
+  },
+  {
+    "id": 281,
+    "jp": "9時",
+    "eng": "9 o'clock",
+    "card": 32
+  },
+  {
+    "id": 282,
+    "jp": "～分",
+    "eng": "minutes",
+    "card": 32
+  },
+  {
+    "id": 283,
+    "jp": "一分",
+    "eng": "one minute",
+    "card": 32
+  },
+  {
+    "id": 284,
+    "jp": "二分",
+    "eng": "two minutes",
+    "card": 32
+  },
+  {
+    "id": 285,
+    "jp": "三分",
+    "eng": "three minutes",
+    "card": 32
+  },
+  {
+    "id": 286,
+    "jp": "四分",
+    "eng": "four minutes",
+    "card": 32
+  },
+  {
+    "id": 287,
+    "jp": "五分",
+    "eng": "five minutes",
+    "card": 32
+  },
+  {
+    "id": 288,
+    "jp": "六分",
+    "eng": "six minutes",
+    "card": 32
+  },
+  {
+    "id": 289,
+    "jp": "七分",
+    "eng": "seven minutes",
+    "card": 33
+  },
+  {
+    "id": 290,
+    "jp": "八分",
+    "eng": "eight minutes",
+    "card": 33
+  },
+  {
+    "id": 291,
+    "jp": "九分",
+    "eng": "nine minutes",
+    "card": 33
+  },
+  {
+    "id": 292,
+    "jp": "十分",
+    "eng": "ten minutes",
+    "card": 33
+  },
+  {
+    "id": 293,
+    "jp": "15分/じゅうごふん",
+    "eng": "15 minutes",
+    "card": 33
+  },
+  {
+    "id": 294,
+    "jp": "半",
+    "eng": "half",
+    "card": 33
+  },
+  {
+    "id": 295,
+    "jp": "ごろ",
+    "eng": "around",
+    "card": 33
+  },
+  {
+    "id": 296,
+    "jp": "午前",
+    "eng": "a.m.",
+    "card": 33
+  },
+  {
+    "id": 297,
+    "jp": "午後",
+    "eng": "p.m.",
+    "card": 33
+  },
+  {
+    "id": 298,
+    "jp": "いま",
+    "eng": "now",
+    "card": 34
+  },
+  {
+    "id": 299,
+    "jp": "～ぐらい",
+    "eng": "approximately",
+    "card": 34
+  },
+  {
+    "id": 300,
+    "jp": "～じかん",
+    "eng": "hours",
+    "card": 34
+  },
+  {
+    "id": 301,
+    "jp": "何じかん",
+    "eng": "how many hours",
+    "card": 34
+  },
+  {
+    "id": 302,
+    "jp": "～から",
+    "eng": "from",
+    "card": 34
+  },
+  {
+    "id": 303,
+    "jp": "～まで",
+    "eng": "to",
+    "card": 34
+  },
+  {
+    "id": 304,
+    "jp": "友だち",
+    "eng": "friend",
+    "card": 34
+  },
+  {
+    "id": 305,
+    "jp": "どんな",
+    "eng": "what kind of",
+    "card": 34
+  },
+  {
+    "id": 306,
+    "jp": "人",
+    "eng": "person",
+    "card": 34
+  },
+  {
+    "id": 307,
+    "jp": "しんせつな",
+    "eng": "kind",
+    "card": 35
+  },
+  {
+    "id": 308,
+    "jp": "みんな",
+    "eng": "everyone",
+    "card": 35
+  },
+  {
+    "id": 309,
+    "jp": "げんきな",
+    "eng": "energetic/fine",
+    "card": 35
+  },
+  {
+    "id": 310,
+    "jp": "きれいな",
+    "eng": "beautiful/clean",
+    "card": 35
+  },
+  {
+    "id": 311,
+    "jp": "ハンサム",
+    "eng": "handsome",
+    "card": 35
+  },
+  {
+    "id": 312,
+    "jp": "かわいい",
+    "eng": "cute",
+    "card": 35
+  },
+  {
+    "id": 313,
+    "jp": "かっこういい",
+    "eng": "cool",
+    "card": 35
+  },
+  {
+    "id": 314,
+    "jp": "あたまがいい",
+    "eng": "intelligent",
+    "card": 35
+  },
+  {
+    "id": 315,
+    "jp": "やさしい",
+    "eng": "kind",
+    "card": 35
+  },
+  {
+    "id": 316,
+    "jp": "ユーモア",
+    "eng": "humor",
+    "card": 36
+  },
+  {
+    "id": 317,
+    "jp": "せい",
+    "eng": "height",
+    "card": 36
+  },
+  {
+    "id": 318,
+    "jp": "高",
+    "eng": "tall",
+    "card": 36
+  },
+  {
+    "id": 319,
+    "jp": "ひくい",
+    "eng": "low",
+    "card": 36
+  },
+  {
+    "id": 320,
+    "jp": "目",
+    "eng": "eyes",
+    "card": 36
+  },
+  {
+    "id": 321,
+    "jp": "大きい",
+    "eng": "big",
+    "card": 36
+  },
+  {
+    "id": 322,
+    "jp": "小さい",
+    "eng": "small",
+    "card": 36
+  },
+  {
+    "id": 323,
+    "jp": "かみ",
+    "eng": "hair",
+    "card": 36
+  },
+  {
+    "id": 324,
+    "jp": "長",
+    "eng": "long",
+    "card": 36
+  },
+  {
+    "id": 325,
+    "jp": "みじかい",
+    "eng": "short",
+    "card": 37
+  },
+  {
+    "id": 326,
+    "jp": "ふく",
+    "eng": "clothes",
+    "card": 37
+  },
+  {
+    "id": 327,
+    "jp": "サイズ",
+    "eng": "size",
+    "card": 37
+  },
+  {
+    "id": 328,
+    "jp": "すてきな",
+    "eng": "fancy/nice",
+    "card": 37
+  },
+  {
+    "id": 329,
+    "jp": "デザイン",
+    "eng": "designer",
+    "card": 37
+  },
+  {
+    "id": 330,
+    "jp": "きる",
+    "eng": "to wear",
+    "card": 37
+  },
+  {
+    "id": 331,
+    "jp": "ぬぐ",
+    "eng": "to take off",
+    "card": 37
+  },
+  {
+    "id": 332,
+    "jp": "あかい",
+    "eng": "red",
+    "card": 37
+  },
+  {
+    "id": 333,
+    "jp": "あおい",
+    "eng": "blue",
+    "card": 37
+  },
+  {
+    "id": 334,
+    "jp": "しろい",
+    "eng": "white",
+    "card": 38
+  },
+  {
+    "id": 335,
+    "jp": "くろい",
+    "eng": "black",
+    "card": 38
+  },
+  {
+    "id": 336,
+    "jp": "きいろい",
+    "eng": "yellow",
+    "card": 38
+  },
+  {
+    "id": 337,
+    "jp": "いろいろな",
+    "eng": "various",
+    "card": 38
+  },
+  {
+    "id": 338,
+    "jp": "シャツ",
+    "eng": "shirt",
+    "card": 38
+  },
+  {
+    "id": 339,
+    "jp": "セーター",
+    "eng": "sweater",
+    "card": 38
+  },
+  {
+    "id": 340,
+    "jp": "コート",
+    "eng": "coat",
+    "card": 38
+  },
+  {
+    "id": 341,
+    "jp": "スーツ",
+    "eng": "suit",
+    "card": 38
+  },
+  {
+    "id": 342,
+    "jp": "うわぎ",
+    "eng": "coat/jacket",
+    "card": 38
+  },
+  {
+    "id": 343,
+    "jp": "したぎ",
+    "eng": "underwear",
+    "card": 39
+  },
+  {
+    "id": 344,
+    "jp": "きもの",
+    "eng": "kimono",
+    "card": 39
+  },
+  {
+    "id": 345,
+    "jp": "はく",
+    "eng": "to wear",
+    "card": 39
+  },
+  {
+    "id": 346,
+    "jp": "ズボン",
+    "eng": "pants",
+    "card": 39
+  },
+  {
+    "id": 347,
+    "jp": "ジーンズ",
+    "eng": "jeans",
+    "card": 39
+  },
+  {
+    "id": 348,
+    "jp": "パンツ",
+    "eng": "pants",
+    "card": 39
+  },
+  {
+    "id": 349,
+    "jp": "スカート",
+    "eng": "skirt",
+    "card": 39
+  },
+  {
+    "id": 350,
+    "jp": "くつ",
+    "eng": "shoes",
+    "card": 39
+  },
+  {
+    "id": 351,
+    "jp": "くつした",
+    "eng": "socks",
+    "card": 39
+  },
+  {
+    "id": 352,
+    "jp": "かぶる",
+    "eng": "to wear headgear",
+    "card": 40
+  },
+  {
+    "id": 353,
+    "jp": "ぼうし",
+    "eng": "hat",
+    "card": 40
+  },
+  {
+    "id": 354,
+    "jp": "めがねをかける",
+    "eng": "to wear glasses",
+    "card": 40
+  },
+  {
+    "id": 355,
+    "jp": "めがね",
+    "eng": "glasses",
+    "card": 40
+  },
+  {
+    "id": 356,
+    "jp": "サングラス",
+    "eng": "sunglasses",
+    "card": 40
+  },
+  {
+    "id": 357,
+    "jp": "ゆびわをかける",
+    "eng": "to wear a ring",
+    "card": 40
+  },
+  {
+    "id": 358,
+    "jp": "ネクタイ",
+    "eng": "necktie",
+    "card": 40
+  },
+  {
+    "id": 359,
+    "jp": "ゆびわ",
+    "eng": "ring",
+    "card": 40
+  },
+  {
+    "id": 360,
+    "jp": "とけい",
+    "eng": "watch",
+    "card": 40
+  },
+  {
+    "id": 361,
+    "jp": "もつ",
+    "eng": "to hold",
+    "card": 41
+  },
+  {
+    "id": 362,
+    "jp": "かばん",
+    "eng": "bag",
+    "card": 41
+  },
+  {
+    "id": 363,
+    "jp": "あそぶ",
+    "eng": "to play/to have fun",
+    "card": 41
+  },
+  {
+    "id": 364,
+    "jp": "あんないする",
+    "eng": "to guide",
+    "card": 41
+  },
+  {
+    "id": 365,
+    "jp": "むかえる",
+    "eng": "to pick up/go and receive",
+    "card": 41
+  },
+  {
+    "id": 366,
+    "jp": "もっていく",
+    "eng": "to take along",
+    "card": 41
+  },
+  {
+    "id": 367,
+    "jp": "もってくる",
+    "eng": "to bring over",
+    "card": 41
+  },
+  {
+    "id": 368,
+    "jp": "どうぶつ",
+    "eng": "animal",
+    "card": 41
+  },
+  {
+    "id": 369,
+    "jp": "どうぶつえん",
+    "eng": "zoo",
+    "card": 41
+  },
+  {
+    "id": 370,
+    "jp": "パンダ",
+    "eng": "panda",
+    "card": 42
+  },
+  {
+    "id": 371,
+    "jp": "ぞう",
+    "eng": "elephant",
+    "card": 42
+  },
+  {
+    "id": 372,
+    "jp": "うま",
+    "eng": "horse",
+    "card": 42
+  },
+  {
+    "id": 373,
+    "jp": "うし",
+    "eng": "cow",
+    "card": 42
+  },
+  {
+    "id": 374,
+    "jp": "まつり",
+    "eng": "festival",
+    "card": 42
+  },
+  {
+    "id": 375,
+    "jp": "おてら",
+    "eng": "temple",
+    "card": 42
+  },
+  {
+    "id": 376,
+    "jp": "じんじゃ",
+    "eng": "shrine",
+    "card": 42
+  },
+  {
+    "id": 377,
+    "jp": "りょこうする",
+    "eng": "to travel",
+    "card": 42
+  },
+  {
+    "id": 378,
+    "jp": "じゅんびする",
+    "eng": "to prepare",
+    "card": 42
+  },
+  {
+    "id": 379,
+    "jp": "よやくする",
+    "eng": "to reserve",
+    "card": 43
+  },
+  {
+    "id": 380,
+    "jp": "ほてる",
+    "eng": "hotel",
+    "card": 43
+  },
+  {
+    "id": 381,
+    "jp": "とまる",
+    "eng": "to stay",
+    "card": 43
+  },
+  {
+    "id": 382,
+    "jp": "ロビー",
+    "eng": "lobby",
+    "card": 43
+  },
+  {
+    "id": 383,
+    "jp": "おみやげ",
+    "eng": "souvenir",
+    "card": 43
+  },
+  {
+    "id": 384,
+    "jp": "サービス",
+    "eng": "service",
+    "card": 43
+  },
+  {
+    "id": 385,
+    "jp": "ホームステイ",
+    "eng": "homestay",
+    "card": 43
+  },
+  {
+    "id": 386,
+    "jp": "まちまち",
+    "eng": "city",
+    "card": 43
+  },
+  {
+    "id": 387,
+    "jp": "けん",
+    "eng": "prefecture",
+    "card": 43
+  },
+  {
+    "id": 388,
+    "jp": "とうきょう",
+    "eng": "Tokyo",
+    "card": 44
+  },
+  {
+    "id": 389,
+    "jp": "なりた",
+    "eng": "Narita",
+    "card": 44
+  },
+  {
+    "id": 390,
+    "jp": "うえの",
+    "eng": "Ueno",
+    "card": 44
+  },
+  {
+    "id": 391,
+    "jp": "あさくさ",
+    "eng": "Asakusa",
+    "card": 44
+  },
+  {
+    "id": 392,
+    "jp": "しんじゅく",
+    "eng": "Shinjuku",
+    "card": 44
+  },
+  {
+    "id": 393,
+    "jp": "あきはばら",
+    "eng": "Akihabara",
+    "card": 44
+  },
+  {
+    "id": 394,
+    "jp": "しぶや",
+    "eng": "Shibuya",
+    "card": 44
+  },
+  {
+    "id": 395,
+    "jp": "ぎんざ",
+    "eng": "Ginza",
+    "card": 44
+  },
+  {
+    "id": 396,
+    "jp": "はねだ",
+    "eng": "Haneda",
+    "card": 44
+  },
+  {
+    "id": 397,
+    "jp": "よこはま",
+    "eng": "Yokohama",
+    "card": 45
+  },
+  {
+    "id": 398,
+    "jp": "かまくら",
+    "eng": "Kamakura",
+    "card": 45
+  },
+  {
+    "id": 399,
+    "jp": "ほっかいどう",
+    "eng": "Hokkaido",
+    "card": 45
+  },
+  {
+    "id": 400,
+    "jp": "さっぽろ",
+    "eng": "Sapporo",
+    "card": 45
+  },
+  {
+    "id": 401,
+    "jp": "せんだい",
+    "eng": "Sendai",
+    "card": 45
+  },
+  {
+    "id": 402,
+    "jp": "にっこう",
+    "eng": "Nikko",
+    "card": 45
+  },
+  {
+    "id": 403,
+    "jp": "ふじさん",
+    "eng": "Mt. Fuji",
+    "card": 45
+  },
+  {
+    "id": 404,
+    "jp": "かなざわ",
+    "eng": "Kanazawa",
+    "card": 45
+  },
+  {
+    "id": 405,
+    "jp": "なごや",
+    "eng": "Nagoya",
+    "card": 45
+  },
+  {
+    "id": 406,
+    "jp": "きょうと",
+    "eng": "Kyoto",
+    "card": 46
+  },
+  {
+    "id": 407,
+    "jp": "なら",
+    "eng": "Nara",
+    "card": 46
+  },
+  {
+    "id": 408,
+    "jp": "おおさか",
+    "eng": "Osaka",
+    "card": 46
+  },
+  {
+    "id": 409,
+    "jp": "こうべ",
+    "eng": "Kobe",
+    "card": 46
+  },
+  {
+    "id": 410,
+    "jp": "ひろしま",
+    "eng": "Hiroshima",
+    "card": 46
+  },
+  {
+    "id": 411,
+    "jp": "ふくおか",
+    "eng": "Fukuoka",
+    "card": 46
+  },
+  {
+    "id": 412,
+    "jp": "ながさき",
+    "eng": "Nagasaki",
+    "card": 46
+  },
+  {
+    "id": 413,
+    "jp": "おきなわ",
+    "eng": "Okinawa",
+    "card": 46
+  },
+  {
+    "id": 414,
+    "jp": "あさ",
+    "eng": "morning",
+    "card": 46
+  },
+  {
+    "id": 415,
+    "jp": "ひる",
+    "eng": "noon",
+    "card": 47
+  },
+  {
+    "id": 416,
+    "jp": "よる",
+    "eng": "evening",
+    "card": 47
+  },
+  {
+    "id": 417,
+    "jp": "まいあさ",
+    "eng": "every morning",
+    "card": 47
+  },
+  {
+    "id": 418,
+    "jp": "まいばん",
+    "eng": "every night",
+    "card": 47
+  },
+  {
+    "id": 419,
+    "jp": "けさ",
+    "eng": "this morning",
+    "card": 47
+  },
+  {
+    "id": 420,
+    "jp": "こんばん",
+    "eng": "this evening",
+    "card": 47
+  }
+]

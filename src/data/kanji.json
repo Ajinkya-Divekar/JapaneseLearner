@@ -1,0 +1,882 @@
+[
+  {
+    "id": 1,
+    "kanji": "山",
+    "kun": "やま",
+    "on": "サン",
+    "meaning": "mountain",
+    "lesson": 1
+  },
+  {
+    "id": 2,
+    "kanji": "川",
+    "kun": "かわ",
+    "on": "セン",
+    "meaning": "river",
+    "lesson": 1
+  },
+  {
+    "id": 3,
+    "kanji": "田",
+    "kun": "た",
+    "on": "デン",
+    "meaning": "rice field",
+    "lesson": 1
+  },
+  {
+    "id": 4,
+    "kanji": "日",
+    "kun": "ひ/び",
+    "on": "ニ/ニチ/ジツ",
+    "meaning": "sun/day",
+    "lesson": 1
+  },
+  {
+    "id": 5,
+    "kanji": "月",
+    "kun": "つき",
+    "on": "ゲツ/ガツ",
+    "meaning": "moon/month",
+    "lesson": 1
+  },
+  {
+    "id": 6,
+    "kanji": "火",
+    "kun": "ひ",
+    "on": "カ",
+    "meaning": "fire",
+    "lesson": 1
+  },
+  {
+    "id": 7,
+    "kanji": "水",
+    "kun": "みず",
+    "on": "スイ",
+    "meaning": "water",
+    "lesson": 1
+  },
+  {
+    "id": 8,
+    "kanji": "木",
+    "kun": "き",
+    "on": "モク",
+    "meaning": "tree",
+    "lesson": 1
+  },
+  {
+    "id": 9,
+    "kanji": "金",
+    "kun": "かね",
+    "on": "キン",
+    "meaning": "gold/money",
+    "lesson": 1
+  },
+  {
+    "id": 10,
+    "kanji": "土",
+    "kun": "つち",
+    "on": "ト/ド",
+    "meaning": "soil",
+    "lesson": 1
+  },
+  {
+    "id": 11,
+    "kanji": "一",
+    "kun": "ひとーつ",
+    "on": "イチ/イッ",
+    "meaning": "one",
+    "lesson": 2
+  },
+  {
+    "id": 12,
+    "kanji": "二",
+    "kun": "ふたーつ",
+    "on": "ニ",
+    "meaning": "two",
+    "lesson": 2
+  },
+  {
+    "id": 13,
+    "kanji": "三",
+    "kun": "みっーつ",
+    "on": "サン",
+    "meaning": "three",
+    "lesson": 2
+  },
+  {
+    "id": 14,
+    "kanji": "四",
+    "kun": "よっーつ/よん/よ",
+    "on": "シ",
+    "meaning": "four",
+    "lesson": 2
+  },
+  {
+    "id": 15,
+    "kanji": "五",
+    "kun": "いつーつ",
+    "on": "ゴ",
+    "meaning": "five",
+    "lesson": 2
+  },
+  {
+    "id": 16,
+    "kanji": "六",
+    "kun": "むっーつ",
+    "on": "ロク/ロッ",
+    "meaning": "six",
+    "lesson": 2
+  },
+  {
+    "id": 17,
+    "kanji": "七",
+    "kun": "ななーつ/なな",
+    "on": "シチ",
+    "meaning": "seven",
+    "lesson": 2
+  },
+  {
+    "id": 18,
+    "kanji": "八",
+    "kun": "やっーつ",
+    "on": "ハチ/ハッ",
+    "meaning": "eight",
+    "lesson": 2
+  },
+  {
+    "id": 19,
+    "kanji": "九",
+    "kun": "ここのーつ",
+    "on": "キュウ/ク",
+    "meaning": "nine",
+    "lesson": 2
+  },
+  {
+    "id": 20,
+    "kanji": "十",
+    "kun": "とお",
+    "on": "ジュウ/ジッ",
+    "meaning": "ten",
+    "lesson": 2
+  },
+  {
+    "id": 21,
+    "kanji": "百",
+    "kun": "ひゃく/びゃく/ぴゃく",
+    "on": "ヒャク/ビャク/ピャク",
+    "meaning": "hundred",
+    "lesson": 3
+  },
+  {
+    "id": 22,
+    "kanji": "千",
+    "kun": "ち",
+    "on": "セン/ゼン",
+    "meaning": "thousand",
+    "lesson": 3
+  },
+  {
+    "id": 23,
+    "kanji": "万",
+    "kun": "まん/ばん",
+    "on": "マン/バン",
+    "meaning": "ten thousand",
+    "lesson": 3
+  },
+  {
+    "id": 24,
+    "kanji": "円",
+    "kun": "えん",
+    "on": "エン",
+    "meaning": "yen/circle",
+    "lesson": 3
+  },
+  {
+    "id": 25,
+    "kanji": "年",
+    "kun": "とし",
+    "on": "ネン",
+    "meaning": "year",
+    "lesson": 3
+  },
+  {
+    "id": 26,
+    "kanji": "上",
+    "kun": "あーがる/あーげる",
+    "on": "ジョウ",
+    "meaning": "above/on",
+    "lesson": 3
+  },
+  {
+    "id": 27,
+    "kanji": "下",
+    "kun": "さーがる/した/くだーる",
+    "on": "カ/ゲ",
+    "meaning": "under",
+    "lesson": 3
+  },
+  {
+    "id": 28,
+    "kanji": "中",
+    "kun": "なか",
+    "on": "チュウ/ジュウ",
+    "meaning": "middle",
+    "lesson": 3
+  },
+  {
+    "id": 29,
+    "kanji": "半",
+    "kun": "はん",
+    "on": "ハン",
+    "meaning": "half",
+    "lesson": 3
+  },
+  {
+    "id": 30,
+    "kanji": "分",
+    "kun": "わーかる/わーける",
+    "on": "ブン/フン/プン",
+    "meaning": "understand/divide/minute",
+    "lesson": 3
+  },
+  {
+    "id": 31,
+    "kanji": "人",
+    "kun": "ひと",
+    "on": "ジン/ニン",
+    "meaning": "person",
+    "lesson": 4
+  },
+  {
+    "id": 32,
+    "kanji": "子",
+    "kun": "こ",
+    "on": "シ",
+    "meaning": "child",
+    "lesson": 4
+  },
+  {
+    "id": 33,
+    "kanji": "女",
+    "kun": "おんな",
+    "on": "ジョ",
+    "meaning": "woman",
+    "lesson": 4
+  },
+  {
+    "id": 34,
+    "kanji": "男",
+    "kun": "おとこ",
+    "on": "ダン/ナン",
+    "meaning": "man",
+    "lesson": 4
+  },
+  {
+    "id": 35,
+    "kanji": "目",
+    "kun": "め",
+    "on": "モク",
+    "meaning": "eye",
+    "lesson": 4
+  },
+  {
+    "id": 36,
+    "kanji": "口",
+    "kun": "くち/ぐち",
+    "on": "コウ",
+    "meaning": "mouth",
+    "lesson": 4
+  },
+  {
+    "id": 37,
+    "kanji": "耳",
+    "kun": "みみ",
+    "on": "ジ",
+    "meaning": "ear",
+    "lesson": 4
+  },
+  {
+    "id": 38,
+    "kanji": "手",
+    "kun": "て",
+    "on": "シュ",
+    "meaning": "hand",
+    "lesson": 4
+  },
+  {
+    "id": 39,
+    "kanji": "足",
+    "kun": "あし/たーりる",
+    "on": "ソク",
+    "meaning": "leg/foot",
+    "lesson": 4
+  },
+  {
+    "id": 40,
+    "kanji": "力",
+    "kun": "ちから",
+    "on": "リョク/リキ",
+    "meaning": "power/strength",
+    "lesson": 4
+  },
+  {
+    "id": 41,
+    "kanji": "父",
+    "kun": "ちち",
+    "on": "フ",
+    "meaning": "father",
+    "lesson": 5
+  },
+  {
+    "id": 42,
+    "kanji": "母",
+    "kun": "はは",
+    "on": "ボ",
+    "meaning": "mother",
+    "lesson": 5
+  },
+  {
+    "id": 43,
+    "kanji": "先",
+    "kun": "さき",
+    "on": "セン",
+    "meaning": "foregoing/previous",
+    "lesson": 5
+  },
+  {
+    "id": 44,
+    "kanji": "生",
+    "kun": "うーまれる/いーきる",
+    "on": "セイ/ショウ",
+    "meaning": "be born/live",
+    "lesson": 5
+  },
+  {
+    "id": 45,
+    "kanji": "学",
+    "kun": "まなーぶ",
+    "on": "ガク",
+    "meaning": "study",
+    "lesson": 5
+  },
+  {
+    "id": 46,
+    "kanji": "校",
+    "kun": "こう",
+    "on": "コウ",
+    "meaning": "school",
+    "lesson": 5
+  },
+  {
+    "id": 47,
+    "kanji": "友",
+    "kun": "とも",
+    "on": "ユウ",
+    "meaning": "friend",
+    "lesson": 5
+  },
+  {
+    "id": 48,
+    "kanji": "本",
+    "kun": "もと",
+    "on": "ホン",
+    "meaning": "book/root",
+    "lesson": 5
+  },
+  {
+    "id": 49,
+    "kanji": "毎",
+    "kun": "まい",
+    "on": "マイ",
+    "meaning": "every",
+    "lesson": 5
+  },
+  {
+    "id": 50,
+    "kanji": "何",
+    "kun": "なに/なん",
+    "on": "ナニ/ナン",
+    "meaning": "what",
+    "lesson": 5
+  },
+  {
+    "id": 51,
+    "kanji": "前",
+    "kun": "まえ",
+    "on": "ゼン",
+    "meaning": "front/before",
+    "lesson": 6
+  },
+  {
+    "id": 52,
+    "kanji": "後",
+    "kun": "あと/うしーろ",
+    "on": "ゴ/コウ",
+    "meaning": "back/after",
+    "lesson": 6
+  },
+  {
+    "id": 53,
+    "kanji": "外",
+    "kun": "そと",
+    "on": "ガイ/ゲ",
+    "meaning": "outside",
+    "lesson": 6
+  },
+  {
+    "id": 54,
+    "kanji": "左",
+    "kun": "ひだり",
+    "on": "サ",
+    "meaning": "left",
+    "lesson": 6
+  },
+  {
+    "id": 55,
+    "kanji": "右",
+    "kun": "みぎ",
+    "on": "ウ/ユウ",
+    "meaning": "right",
+    "lesson": 6
+  },
+  {
+    "id": 56,
+    "kanji": "東",
+    "kun": "ひがし",
+    "on": "トウ",
+    "meaning": "east",
+    "lesson": 6
+  },
+  {
+    "id": 57,
+    "kanji": "西",
+    "kun": "にし",
+    "on": "セイ/サイ/ーザイ",
+    "meaning": "west",
+    "lesson": 6
+  },
+  {
+    "id": 58,
+    "kanji": "南",
+    "kun": "みなみ",
+    "on": "ナン",
+    "meaning": "south",
+    "lesson": 6
+  },
+  {
+    "id": 59,
+    "kanji": "北",
+    "kun": "きた",
+    "on": "ホク/ホッー",
+    "meaning": "north",
+    "lesson": 6
+  },
+  {
+    "id": 60,
+    "kanji": "名",
+    "kun": "な",
+    "on": "メイ",
+    "meaning": "name",
+    "lesson": 6
+  },
+  {
+    "id": 61,
+    "kanji": "牛",
+    "kun": "うし",
+    "on": "ギュウ",
+    "meaning": "cow/ox",
+    "lesson": 7
+  },
+  {
+    "id": 62,
+    "kanji": "馬",
+    "kun": "うま",
+    "on": "バ",
+    "meaning": "horse",
+    "lesson": 7
+  },
+  {
+    "id": 63,
+    "kanji": "魚",
+    "kun": "さかな",
+    "on": "ギョ",
+    "meaning": "fish",
+    "lesson": 7
+  },
+  {
+    "id": 64,
+    "kanji": "貝",
+    "kun": "かい",
+    "on": "カイ",
+    "meaning": "shellfish",
+    "lesson": 7
+  },
+  {
+    "id": 65,
+    "kanji": "雨",
+    "kun": "あめ",
+    "on": "ウ",
+    "meaning": "rain",
+    "lesson": 7
+  },
+  {
+    "id": 66,
+    "kanji": "天",
+    "kun": "てん",
+    "on": "テン",
+    "meaning": "heaven",
+    "lesson": 7
+  },
+  {
+    "id": 67,
+    "kanji": "気",
+    "kun": "き",
+    "on": "キ",
+    "meaning": "spirit/air/energy",
+    "lesson": 7
+  },
+  {
+    "id": 68,
+    "kanji": "車",
+    "kun": "くるま",
+    "on": "シャ",
+    "meaning": "car/vehicle",
+    "lesson": 7
+  },
+  {
+    "id": 69,
+    "kanji": "門",
+    "kun": "もん",
+    "on": "モン",
+    "meaning": "gate",
+    "lesson": 7
+  },
+  {
+    "id": 70,
+    "kanji": "午",
+    "kun": "ひる",
+    "on": "ゴ",
+    "meaning": "noon/daytime",
+    "lesson": 7
+  },
+  {
+    "id": 71,
+    "kanji": "大",
+    "kun": "おおーきい",
+    "on": "ダイ/タイ",
+    "meaning": "big/large",
+    "lesson": 8
+  },
+  {
+    "id": 72,
+    "kanji": "小",
+    "kun": "ちいーさい/こ/お",
+    "on": "ショウ",
+    "meaning": "small/little",
+    "lesson": 8
+  },
+  {
+    "id": 73,
+    "kanji": "高",
+    "kun": "たかーい",
+    "on": "コウ",
+    "meaning": "tall/high/expensive",
+    "lesson": 8
+  },
+  {
+    "id": 74,
+    "kanji": "安",
+    "kun": "やすーい",
+    "on": "アン",
+    "meaning": "cheap/safe",
+    "lesson": 8
+  },
+  {
+    "id": 75,
+    "kanji": "新",
+    "kun": "あたらーしい",
+    "on": "シン",
+    "meaning": "new",
+    "lesson": 8
+  },
+  {
+    "id": 76,
+    "kanji": "古",
+    "kun": "ふるーい",
+    "on": "コ",
+    "meaning": "old",
+    "lesson": 8
+  },
+  {
+    "id": 77,
+    "kanji": "長",
+    "kun": "ながーい",
+    "on": "チョウ",
+    "meaning": "long",
+    "lesson": 8
+  },
+  {
+    "id": 78,
+    "kanji": "多",
+    "kun": "おお",
+    "on": "タ",
+    "meaning": "many/much",
+    "lesson": 8
+  },
+  {
+    "id": 79,
+    "kanji": "少",
+    "kun": "すく/すこ",
+    "on": "ショウ",
+    "meaning": "few/little",
+    "lesson": 8
+  },
+  {
+    "id": 80,
+    "kanji": "早",
+    "kun": "はや/さっ",
+    "on": "ソウ",
+    "meaning": "early/fast/quick",
+    "lesson": 8
+  },
+  {
+    "id": 81,
+    "kanji": "行",
+    "kun": "いーく/おこなーう",
+    "on": "コウ/ギョウ",
+    "meaning": "go",
+    "lesson": 9
+  },
+  {
+    "id": 82,
+    "kanji": "来",
+    "kun": "くーる/きーます/こーない",
+    "on": "ライ",
+    "meaning": "come",
+    "lesson": 9
+  },
+  {
+    "id": 83,
+    "kanji": "食",
+    "kun": "たーべる",
+    "on": "ショク",
+    "meaning": "eat",
+    "lesson": 9
+  },
+  {
+    "id": 84,
+    "kanji": "見",
+    "kun": "みーる",
+    "on": "ケン",
+    "meaning": "see",
+    "lesson": 9
+  },
+  {
+    "id": 85,
+    "kanji": "入",
+    "kun": "いれーる/はいーる",
+    "on": "ニュウ",
+    "meaning": "enter/put in",
+    "lesson": 9
+  },
+  {
+    "id": 86,
+    "kanji": "出",
+    "kun": "でーる/だーす",
+    "on": "シュツ/シュッー",
+    "meaning": "go out/take out",
+    "lesson": 9
+  },
+  {
+    "id": 87,
+    "kanji": "立",
+    "kun": "たーつ",
+    "on": "リツ/リッー",
+    "meaning": "stand",
+    "lesson": 9
+  },
+  {
+    "id": 88,
+    "kanji": "書",
+    "kun": "かーく",
+    "on": "ショ",
+    "meaning": "write/book",
+    "lesson": 9
+  },
+  {
+    "id": 89,
+    "kanji": "言",
+    "kun": "いーう",
+    "on": "ゲン/ゴン",
+    "meaning": "say",
+    "lesson": 9
+  },
+  {
+    "id": 90,
+    "kanji": "飲",
+    "kun": "のーむ",
+    "on": "イン",
+    "meaning": "drink",
+    "lesson": 9
+  },
+  {
+    "id": 91,
+    "kanji": "話",
+    "kun": "はなーす/はなし",
+    "on": "ワ",
+    "meaning": "speak",
+    "lesson": 10
+  },
+  {
+    "id": 92,
+    "kanji": "読",
+    "kun": "よーむ",
+    "on": "ドク",
+    "meaning": "read",
+    "lesson": 10
+  },
+  {
+    "id": 93,
+    "kanji": "語",
+    "kun": "かたーる",
+    "on": "ゴ",
+    "meaning": "word",
+    "lesson": 10
+  },
+  {
+    "id": 94,
+    "kanji": "間",
+    "kun": "あいだ/ま",
+    "on": "カン",
+    "meaning": "between",
+    "lesson": 10
+  },
+  {
+    "id": 95,
+    "kanji": "聞",
+    "kun": "きーく/きーこえる",
+    "on": "ブン",
+    "meaning": "listen",
+    "lesson": 10
+  },
+  {
+    "id": 96,
+    "kanji": "買",
+    "kun": "かーう",
+    "on": "バイ",
+    "meaning": "buy",
+    "lesson": 10
+  },
+  {
+    "id": 97,
+    "kanji": "休",
+    "kun": "やすーむ",
+    "on": "キュウ",
+    "meaning": "rest",
+    "lesson": 10
+  },
+  {
+    "id": 98,
+    "kanji": "時",
+    "kun": "とき",
+    "on": "ジ",
+    "meaning": "time",
+    "lesson": 10
+  },
+  {
+    "id": 99,
+    "kanji": "週",
+    "kun": "しゅう",
+    "on": "シュウ",
+    "meaning": "week",
+    "lesson": 10
+  },
+  {
+    "id": 100,
+    "kanji": "道",
+    "kun": "みち",
+    "on": "ドウ",
+    "meaning": "road/street",
+    "lesson": 10
+  },
+  {
+    "id": 101,
+    "kanji": "今",
+    "kun": "いま",
+    "on": "コン",
+    "meaning": "now",
+    "lesson": 11
+  },
+  {
+    "id": 102,
+    "kanji": "会",
+    "kun": "あーう",
+    "on": "カイ",
+    "meaning": "meet",
+    "lesson": 11
+  },
+  {
+    "id": 103,
+    "kanji": "社",
+    "kun": "しゃ/ーじゃ",
+    "on": "シャ/ージャ",
+    "meaning": "company/shrine",
+    "lesson": 11
+  },
+  {
+    "id": 104,
+    "kanji": "店",
+    "kun": "みせ",
+    "on": "テン",
+    "meaning": "shop",
+    "lesson": 11
+  },
+  {
+    "id": 105,
+    "kanji": "駅",
+    "kun": "えき",
+    "on": "エキ",
+    "meaning": "station",
+    "lesson": 11
+  },
+  {
+    "id": 106,
+    "kanji": "花",
+    "kun": "はな",
+    "on": "カ",
+    "meaning": "flower",
+    "lesson": 11
+  },
+  {
+    "id": 107,
+    "kanji": "国",
+    "kun": "くに",
+    "on": "コク/ーゴク",
+    "meaning": "country",
+    "lesson": 11
+  },
+  {
+    "id": 108,
+    "kanji": "白",
+    "kun": "しろ/しろーい",
+    "on": "ハク",
+    "meaning": "white",
+    "lesson": 11
+  },
+  {
+    "id": 109,
+    "kanji": "空",
+    "kun": "そら/ーぞら",
+    "on": "クウ",
+    "meaning": "sky/empty",
+    "lesson": 11
+  },
+  {
+    "id": 110,
+    "kanji": "電",
+    "kun": "でんき",
+    "on": "デン",
+    "meaning": "electricity",
+    "lesson": 11
+  }
+]

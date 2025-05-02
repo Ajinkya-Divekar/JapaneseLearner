@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "eng": "to meet",
+    "jp": "あう",
+    "masu_form": "あいます",
+    "te_form": "あって",
+    "group": 1
+  },
+  {
+    "id": 2,
+    "eng": "to buy",
+    "jp": "かう",
+    "masu_form": "かいます",
+    "te_form": "かって",
+    "group": 1
+  },
+  {
+    "id": 3,
+    "eng": "to use",
+    "jp": "つかう",
+    "masu_form": "つかいます",
+    "te_form": "つかって",
+    "group": 1
+  },
+  {
+    "id": 4,
+    "eng": "to wash",
+    "jp": "あらう",
+    "masu_form": "あらいます",
+    "te_form": "あらって",
+    "group": 1
+  },
+  {
+    "id": 5,
+    "eng": "to learn",
+    "jp": "ならう",
+    "masu_form": "ならいます",
+    "te_form": "ならって",
+    "group": 1
+  },
+  {
+    "id": 6,
+    "eng": "to pay",
+    "jp": "はらう",
+    "masu_form": "はらいます",
+    "te_form": "はらって",
+    "group": 1
+  },
+  {
+    "id": 7,
+    "eng": "to sing",
+    "jp": "うたう",
+    "masu_form": "うたいます",
+    "te_form": "うたって",
+    "group": 1
+  },
+  {
+    "id": 8,
+    "eng": "to laugh",
+    "jp": "わらう",
+    "masu_form": "わらいます",
+    "te_form": "わらって",
+    "group": 1
+  },
+  {
+    "id": 9,
+    "eng": "to say",
+    "jp": "いう",
+    "masu_form": "いいます",
+    "te_form": "いって",
+    "group": 3
+  },
+  {
+    "id": 10,
+    "eng": "to differ",
+    "jp": "ちがう",
+    "masu_form": "ちがいます",
+    "te_form": "ちがって",
+    "group": 1
+  },
+  {
+    "id": 11,
+    "eng": "to receive",
+    "jp": "もらう",
+    "masu_form": "もらいます",
+    "te_form": "もらって",
+    "group": 1
+  },
+  {
+    "id": 12,
+    "eng": "to smoke",
+    "jp": "すう",
+    "masu_form": "すいます",
+    "te_form": "すって",
+    "group": 1
+  },
+  {
+    "id": 13,
+    "eng": "to help",
+    "jp": "てつだう",
+    "masu_form": "てつだいます",
+    "te_form": "てつだって",
+    "group": 1
+  }
+]

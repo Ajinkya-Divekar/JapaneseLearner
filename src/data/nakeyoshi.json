@@ -1,0 +1,52 @@
+[
+  { "id": 1, "eng": "like/favourite", "jp": "すきな", "rom": "sukina" },
+  { "id": 2, "eng": "enough/fine", "jp": "けっこうな", "rom": "kekkouna" },
+  { "id": 3, "eng": "famous", "jp": "ゆうめいな", "rom": "yuumeina" },
+  { "id": 4, "eng": "beautiful/clean", "jp": "きれいな", "rom": "kireina" },
+  { "id": 5, "eng": "polite", "jp": "ていねいな", "rom": "teineina" },
+  { "id": 6, "eng": "dislike/hate", "jp": "きらいな", "rom": "kiraina" },
+  { "id": 7, "eng": "quiet", "jp": "しずかな", "rom": "shizukana" },
+  { "id": 8, "eng": "free/idle", "jp": "ひまな", "rom": "himana" },
+  { "id": 9, "eng": "lively/crowded", "jp": "にぎやかな", "rom": "nigiyakana" },
+  { "id": 10, "eng": "convenient", "jp": "べんりな", "rom": "benrina" },
+  { "id": 11, "eng": "healthy/cheerful", "jp": "げんきな", "rom": "genkina" },
+  { "id": 12, "eng": "various", "jp": "いろいろな", "rom": "iroirona" },
+  { "id": 13, "eng": "special", "jp": "とくべつな", "rom": "tokubetsuna" },
+  {
+    "id": 14,
+    "eng": "enthusiastic/eager",
+    "jp": "ねっしんな",
+    "rom": "nesshinna"
+  },
+  { "id": 15, "eng": "necessary", "jp": "ひつような", "rom": "hitsuyouna" },
+  { "id": 16, "eng": "serious/earnest", "jp": "まじめな", "rom": "majimena" },
+  { "id": 17, "eng": "straight", "jp": "まっすぐな", "rom": "massuguna" },
+  { "id": 18, "eng": "splendid", "jp": "りっぱな", "rom": "rippana" },
+  { "id": 19, "eng": "okay/fine", "jp": "だいじょうぶな", "rom": "daijoubuna" },
+  { "id": 20, "eng": "healthy/robust", "jp": "じょうぶな", "rom": "joubuna" },
+  { "id": 21, "eng": "terrible", "jp": "たいへんな", "rom": "taihenna" },
+  { "id": 22, "eng": "comfortable", "jp": "らくな", "rom": "rakuna" },
+  { "id": 23, "eng": "unpleasant", "jp": "いやな", "rom": "iyana" },
+  { "id": 24, "eng": "important", "jp": "たいせつな", "rom": "taisetsuna" },
+  { "id": 25, "eng": "good at", "jp": "じょうずな", "rom": "jouzuna" },
+  { "id": 26, "eng": "bad at", "jp": "へたな", "rom": "hetana" },
+  {
+    "id": 27,
+    "eng": "sincerely",
+    "jp": "いっしょけんめいな",
+    "rom": "isshokenmeina"
+  },
+  { "id": 28, "eng": "dangerous", "jp": "きけんな", "rom": "kikenna" },
+  { "id": 29, "eng": "regrettable", "jp": "ざんねんな", "rom": "zannenna" },
+  { "id": 30, "eng": "worry", "jp": "しんぱいな", "rom": "shinpaina" },
+  { "id": 31, "eng": "free/independent", "jp": "じゆうな", "rom": "jiyuuna" },
+  { "id": 32, "eng": "sufficient", "jp": "じゅうぶんな", "rom": "juubunna" },
+  { "id": 33, "eng": "passionate", "jp": "だいすきな", "rom": "daisukina" },
+  {
+    "id": 34,
+    "eng": "proper/suitable",
+    "jp": "てきとうな",
+    "rom": "tekitouna"
+  },
+  { "id": 35, "eng": "impossible", "jp": "むりな", "rom": "murina" }
+]
