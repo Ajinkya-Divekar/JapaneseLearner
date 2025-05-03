@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import vocab from "./data/vocab.json";
 import Verb from "./components/Verbs";
 import Homepage from "./components/Homepage";
+import AuthPage from "./components/AuthForm";
 
 function App() {
   useEffect(() => {
@@ -20,7 +21,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<AuthPage />} />
+        <Route path="/home" element={<Homepage />} />
         <Route path="/vocab" element={<Vocab />} />
         <Route path="/adjectives" element={<Adjectives />} />
         <Route path="/kanji" element={<Kanji />} />
