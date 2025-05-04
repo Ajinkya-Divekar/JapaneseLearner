@@ -143,14 +143,6 @@ const Adjectives = () => {
     }
   }, [finished]);
 
-  if (finished) {
-    return (
-      <div>
-        <button onClick={startTest}>Retake Test</button>
-      </div>
-    );
-  }
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 flex items-center justify-center p-6">
       <div className="w-full max-w-5xl bg-white/60 backdrop-blur-md rounded-xl shadow-lg p-8">

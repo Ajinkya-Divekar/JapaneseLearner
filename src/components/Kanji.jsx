@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import kanjiList from "../data/kanji.json";
 
 const KanjiTest = () => {
-  const [selectedLessons, setSelectedLessons] = useState([]);
+  const [selectedLessons, setSelectedLessons] = useState([1]);
   const [testList, setTestList] = useState([]);
   const [visited, setVisited] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(null);
