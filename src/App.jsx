@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import vocab from "./data/vocab.json";
 import Verb from "./components/Verbs";
 import Homepage from "./components/Homepage";
-import AuthPage from "./components/AuthForm";
+import AuthPage from "./components/Authform";
 
 function App() {
   useEffect(() => {
