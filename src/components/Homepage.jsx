@@ -5,11 +5,11 @@ function Homepage() {
     <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-gray-100 to-pink-100 p-6 flex flex-col items-center">
       <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-6 auto-rows-min gap-6">
         {/* Header */}
-        <header className="md:col-span-6 p-6 bg-white/60 backdrop-blur-md rounded-3xl border border-gray-200 shadow-2xl">
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-center sm:text-left text-indigo-800 mb-2">
+        <header className="md:col-span-6 p-6 bg-white/60 backdrop-blur-md text-center rounded-3xl border border-gray-200 shadow-2xl">
+          <h1 className="text-3xl sm:text-4xl font-extrabold text-indigo-800 mb-2">
             🎌 Welcome to the Japanese Learning App!
           </h1>
-          <p className="text-gray-700 text-center sm:text-left">
+          <p className="text-gray-700">
             Start learning Japanese by practicing Vocabulary, Adjectives, Kanji,
             and Verbs interactively.
           </p>
@@ -54,13 +54,15 @@ function Homepage() {
 
         {/* Extra Features */}
         <section className="md:col-span-1 row-span-3 p-6 bg-white/60 backdrop-blur-md border border-gray-200 rounded-3xl shadow-xl">
-          <h2 className="text-lg font-semibold text-gray-800 mb-3">
+          <h2 className="text-xl font-bold text-gray-800 mb-4">
             🚀 Extra Features
           </h2>
-          <p className="text-gray-700">
-            More advanced features like spaced repetition, AI quiz generation,
-            and progress tracking coming soon!
-          </p>
+          <ul className="list-disc list-inside text-gray-700 space-y-2">
+            <li>Spaced repetition</li>
+            <li>AI quiz generation</li>
+            <li>Progress tracking</li>
+            <li>More coming soon!</li>
+          </ul>
         </section>
 
         {/* Tips Section */}

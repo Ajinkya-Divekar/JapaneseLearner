@@ -81,19 +81,19 @@ const VocabTest = () => {
   };
 
   return (
-    <div className="p-6 w-full mx-auto bg-gradient-to-br from-indigo-50 to-indigo-100 min-h-screen flex flex-col items-center">
+    <div className="p-6 max-w-3xl mx-auto bg-gradient-to-br from-indigo-50 to-indigo-100 min-h-screen flex flex-col items-center">
       {/* Control Section */}
-      <div className="backdrop-blur-lg bg-white/30 border border-white/50 rounded-2xl shadow-xl p-6 w-full max-w-4xl mb-6 space-y-4">
+      <div className="backdrop-blur-lg bg-white/30 border border-white/50 rounded-2xl shadow-xl p-8 w-full mb-8 space-y-6">
         {/* Card Selection Row */}
-        <div className="grid grid-cols-1 md:grid-cols-[minmax(180px,auto)_1fr] gap-4 items-center">
-          <h2 className="text-lg md:text-xl font-semibold text-indigo-900">
-            📚 Select Card Number:
+        <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
+          <h2 className="text-xl font-bold text-indigo-900 whitespace-nowrap">
+            Select Card Number:
           </h2>
-          <div className="flex gap-3 w-full">
+          <div className="flex gap-3 w-full md:w-auto">
             <select
               value={selectedCard}
               onChange={(e) => setSelectedCard(Number(e.target.value))}
-              className="p-2.5 border-2 border-indigo-200 rounded-lg bg-white/50 text-indigo-900 w-full focus:ring-2 focus:ring-indigo-300"
+              className="p-2.5 border-2 border-indigo-200 rounded-xl bg-white/50 text-indigo-900 w-full md:w-48 focus:ring-2 focus:ring-indigo-300"
             >
               {Array.from({ length: maxCardNumber / 5 }, (_, i) => (
                 <option key={(i + 1) * 5} value={(i + 1) * 5}>
@@ -103,7 +103,7 @@ const VocabTest = () => {
             </select>
             <button
               onClick={generateTestList}
-              className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-colors duration-200 whitespace-nowrap"
+              className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-xl transition-all duration-200 transform hover:scale-[1.02] whitespace-nowrap w-full md:w-auto"
             >
               Generate List
             </button>
@@ -111,12 +111,11 @@ const VocabTest = () => {
         </div>
 
         {/* Toggle Section */}
-        <div className="flex items-center justify-between p-3 bg-indigo-50/50 rounded-lg mt-2">
-          <span className="text-base md:text-lg text-indigo-900 font-medium">
-            🔄 Reverse: Show English first
+        <div className="flex items-center justify-between p-3 bg-indigo-50/50 rounded-lg">
+          <span className="text-lg text-indigo-900 font-medium">
+            Reverse: Show English first
           </span>
           <label className="cursor-pointer">
-            {/* Toggle remains untouched */}
             <div className="relative inline-block h-8 w-14 rounded-full bg-indigo-200 transition [-webkit-tap-highlight-color:transparent]">
               <input
                 type="checkbox"
@@ -135,26 +134,26 @@ const VocabTest = () => {
         testList.length > 0 &&
         currentIndex !== null &&
         !testComplete && (
-          <div className="backdrop-blur-lg bg-white/30 border border-white/50 rounded-2xl shadow-xl p-6 w-full max-w-2xl space-y-6">
-            <div className="text-3xl md:text-4xl font-bold text-indigo-900 text-center min-h-[120px] flex items-center justify-center px-4">
+          <div className="backdrop-blur-lg bg-white/30 border border-white/50 rounded-2xl shadow-xl p-8 w-full space-y-6">
+            <div className="text-4xl font-bold text-indigo-900 text-center min-h-[120px] flex items-center justify-center">
               {reverse ? testList[currentIndex].eng : testList[currentIndex].jp}
             </div>
 
-            <div className="space-y-4">
-              <input
-                type="text"
-                value={userInput}
-                onChange={(e) => setUserInput(e.target.value)}
-                onKeyDown={handleKeyDown}
-                className="p-3.5 border-2 border-indigo-200 rounded-lg bg-white/50 text-indigo-900 text-lg w-full focus:ring-2 focus:ring-indigo-300"
-                placeholder="✍️ Type your answer here..."
-              />
+            <input
+              type="text"
+              value={userInput}
+              onChange={(e) => setUserInput(e.target.value)}
+              onKeyDown={handleKeyDown}
+              className="p-4 border-2 border-indigo-200 rounded-xl bg-white/50 text-indigo-900 text-lg w-full focus:ring-2 focus:ring-indigo-300 focus:border-transparent"
+              placeholder="Type your answer here..."
+            />
 
+            <div className="grid grid-cols-1 gap-3">
               <button
                 onClick={handleSubmit}
-                className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition-colors duration-200"
+                className="py-3.5 px-6 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl transition-all duration-200 transform hover:scale-[1.02]"
               >
-                ✅ Submit Answer
+                Submit Answer
               </button>
             </div>
           </div>
@@ -162,11 +161,11 @@ const VocabTest = () => {
 
       {/* Answer Display */}
       {showAnswer && (
-        <div className="mt-6 p-5 w-full max-w-2xl bg-emerald-50/90 border border-emerald-200 rounded-xl shadow-md text-center animate-fade-in">
+        <div className="mt-8 p-6 w-full bg-emerald-50/90 border border-emerald-200 rounded-2xl shadow-lg text-center animate-fade-in">
           <p className="text-sm font-semibold text-emerald-600 mb-2">
-            🎯 CORRECT ANSWER
+            CORRECT ANSWER
           </p>
-          <p className="text-xl font-medium text-emerald-900">
+          <p className="text-2xl font-medium text-emerald-900">
             {reverse ? testList[currentIndex].jp : testList[currentIndex].eng}
           </p>
         </div>

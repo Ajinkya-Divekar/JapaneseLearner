@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import kanjiList from "../data/kanji.json";
 
 const KanjiTest = () => {
-  const [selectedLessons, setSelectedLessons] = useState([]); // For multiple selected lessons
+  const [selectedLessons, setSelectedLessons] = useState([]);
   const [testList, setTestList] = useState([]);
   const [visited, setVisited] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(null);
@@ -12,10 +12,11 @@ const KanjiTest = () => {
   const [testStarted, setTestStarted] = useState(false);
   const [selectedField, setSelectedField] = useState("kun");
   const [showHint, setShowHint] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false); // For dropdown toggle
-  const dropdownRef = useRef(null); // Reference for the dropdown
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [revealedAnswer, setRevealedAnswer] = useState(null);
 
-  // Detect clicks outside of dropdown to close it
+  const dropdownRef = useRef(null);
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -45,6 +46,7 @@ const KanjiTest = () => {
     setAttempts(0);
     setShowAnswer(false);
     setShowHint(false);
+    setRevealedAnswer(null);
   };
 
   const handleNext = () => {
@@ -52,7 +54,6 @@ const KanjiTest = () => {
       .map((_, i) => i)
       .filter((i) => !visited.includes(i));
     if (available.length === 0) {
-      alert("Test complete!");
       setTestStarted(false);
       return;
     }
@@ -63,6 +64,7 @@ const KanjiTest = () => {
     setAttempts(0);
     setShowAnswer(false);
     setShowHint(false);
+    setRevealedAnswer(null);
   };
 
   const handleSubmit = () => {
@@ -91,8 +93,7 @@ const KanjiTest = () => {
 
   const handleRevealAnswer = () => {
     const answer = testList[currentIndex][selectedField];
-    alert(`Correct Answer: ${answer}`);
-    handleNext();
+    setRevealedAnswer(answer);
   };
 
   const getHint = () => {
@@ -110,22 +111,25 @@ const KanjiTest = () => {
     );
   };
 
-  // Find the maximum number of lessons based on the JSON data
   const maxLesson = Math.max(...kanjiList.map((entry) => entry.lesson));
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-100 to-emerald-200 py-10 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto space-y-10">
-        {/* Lesson Selection Dropdown */}
-        <div className="w-96 max-w-2xl space-y-6 mb-8" ref={dropdownRef}>
+    <div className="min-h-screen bg-gradient-to-br from-green-100 to-emerald-200 flex items-center justify-center p-6">
+      <div className="w-full max-w-5xl bg-white/60 backdrop-blur-md rounded-xl shadow-lg p-8 space-y-10">
+        <h1 className="text-4xl font-bold text-center mb-4 text-green-800">
+          Kanji Practice
+        </h1>
+
+        {/* Lesson Selection */}
+        <div className="w-full max-w-xl mx-auto space-y-6" ref={dropdownRef}>
           <div className="relative">
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="w-full px-6 py-3 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 transition-all flex items-center justify-between"
+              className="w-full px-6 py-3 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 flex items-center justify-between"
             >
               <span>Select Lessons ({selectedLessons.length})</span>
               <svg
-                className={`w-5 h-5 transform transition-transform ${
+                className={`w-5 h-5 transition-transform ${
                   isDropdownOpen ? "rotate-180" : ""
                 }`}
                 fill="none"
@@ -174,15 +178,15 @@ const KanjiTest = () => {
         </div>
 
         {/* Controls */}
-        <div className="space-y-4">
+        <div className="space-y-4 max-w-xl mx-auto">
           <button
             onClick={generateTestList}
-            className="bg-green-600 text-white px-6 py-3 rounded-xl shadow hover:bg-green-700 transition"
+            className="w-full bg-green-600 text-white px-6 py-3 rounded-xl shadow hover:bg-green-700"
           >
             Start Test
           </button>
 
-          <div className="flex flex-wrap gap-4 bg-green-100 p-4 rounded-xl shadow-lg">
+          <div className="flex flex-wrap gap-4 bg-green-100 p-4 rounded-xl shadow-lg justify-center">
             {["kun", "on", "meaning"].map((field) => (
               <label
                 key={field}
@@ -204,7 +208,7 @@ const KanjiTest = () => {
 
         {/* Test Area */}
         {testStarted && testList.length > 0 && currentIndex !== null && (
-          <div className="bg-white p-8 rounded-2xl shadow-xl space-y-6">
+          <div className="bg-white p-8 rounded-2xl shadow-xl space-y-6 max-w-xl mx-auto">
             <div className="text-center">
               <div className="text-6xl font-bold text-green-700 mb-3">
                 {testList[currentIndex].kanji}
@@ -227,19 +231,26 @@ const KanjiTest = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
                   onClick={handleSubmit}
-                  className="bg-green-600 text-white px-8 py-3 rounded-lg shadow hover:bg-green-700 transition flex-1"
+                  className="bg-green-600 text-white px-8 py-3 rounded-lg shadow hover:bg-green-700 flex-1"
                 >
                   Submit Answer
                 </button>
+
                 {showAnswer && (
                   <button
                     onClick={handleRevealAnswer}
-                    className="bg-green-100 text-green-700 px-8 py-3 rounded-lg shadow hover:bg-green-200 transition flex-1"
+                    className="bg-green-100 text-green-700 px-8 py-3 rounded-lg shadow hover:bg-green-200 flex-1"
                   >
                     Reveal Answer
                   </button>
                 )}
               </div>
+
+              {revealedAnswer && (
+                <div className="mt-4 text-center bg-green-50 border border-green-200 text-green-800 px-6 py-3 rounded-lg shadow">
+                  Correct Answer: <strong>{revealedAnswer}</strong>
+                </div>
+              )}
             </div>
 
             <div className="text-center text-sm text-gray-500">
