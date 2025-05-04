@@ -144,56 +144,67 @@ const Verb = () => {
   }, [finished]);
 
   return (
-    <div>
-      <h1>Verb Test</h1>
+    <div className="max-w-4xl mx-auto my-10 p-8 bg-gradient-to-br from-teal-50 via-white to-cyan-50 shadow-2xl rounded-3xl space-y-8 border border-teal-100">
+      <h1 className="text-3xl font-extrabold text-teal-700 tracking-tight text-center">
+        📝 Japanese Verb Test
+      </h1>
 
-      {/* Checkbox for selecting verb forms */}
-      <div>
-        <label>
-          <input
-            type="checkbox"
-            name="masu"
-            checked={selectedForms.masu}
-            onChange={handleFormSelect}
-          />
-          Masu-form
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            name="te"
-            checked={selectedForms.te}
-            onChange={handleFormSelect}
-          />
-          Te-form
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            name="jp"
-            checked={selectedForms.jp}
-            onChange={handleFormSelect}
-          />
-          Dictionary-form (JP)
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            name="eng"
-            checked={selectedForms.eng}
-            onChange={handleFormSelect}
-          />
-          English meaning
-        </label>
+      {/* Checkbox Section */}
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
+        {[
+          { name: "masu", label: "Masu-form" },
+          { name: "te", label: "Te-form" },
+          { name: "jp", label: "Dictionary (JP)" },
+          { name: "eng", label: "English" },
+        ].map(({ name, label }) => (
+          <label
+            key={name}
+            className="flex items-center space-x-3 cursor-pointer p-3 rounded-xl bg-white border border-teal-200 hover:border-teal-500 shadow-sm hover:shadow-md transition-all"
+          >
+            <input
+              type="checkbox"
+              name={name}
+              checked={selectedForms[name]}
+              onChange={handleFormSelect}
+              className="hidden peer"
+            />
+            <span className="w-5 h-5 border-2 border-teal-500 rounded-md flex items-center justify-center text-transparent peer-checked:bg-teal-500 peer-checked:text-white peer-checked:border-teal-600 transition-colors">
+              <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+              </svg>
+            </span>
+            <span className="text-sm font-medium text-teal-900">{label}</span>
+          </label>
+        ))}
       </div>
 
-      {/* Button to generate test */}
-      <button onClick={startTest}>Generate Test</button>
+      {/* Generate Button */}
+      <div className="text-center">
+        <button
+          onClick={startTest}
+          className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-teal-600 to-cyan-600 text-white rounded-xl font-semibold hover:brightness-110 shadow-lg transition"
+        >
+          <svg
+            className="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M12 4v16m8-8H4"
+            />
+          </svg>
+          Generate Test
+        </button>
+      </div>
 
-      {/* Test interface */}
+      {/* Test Interface */}
       {testStarted && currentItem && (
-        <div>
-          <h2>
+        <div className="space-y-6 bg-white border border-cyan-100 p-6 rounded-2xl shadow-inner">
+          <h2 className="text-2xl font-bold text-cyan-700 text-center">
             {selectedForms.eng
               ? currentItem.jp
               : selectedForms.jp
@@ -205,15 +216,33 @@ const Verb = () => {
             type="text"
             value={userAnswer}
             onChange={handleInputChange}
-            placeholder="Your answer"
+            placeholder="Type your answer..."
+            className="w-full px-4 py-3 border border-cyan-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 text-lg"
           />
-          <button onClick={checkAnswer}>Check Answer</button>
 
-          {/* Hint and Find Answer buttons */}
+          <div className="flex flex-wrap justify-center gap-4">
+            <button
+              onClick={checkAnswer}
+              className="px-5 py-2 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition shadow-md"
+            >
+              ✅ Check Answer
+            </button>
+
+            {showFindAnswerButton && (
+              <button
+                onClick={findAnswer}
+                className="px-5 py-2 bg-teal-500 text-white rounded-lg hover:bg-teal-600 transition shadow-md"
+              >
+                🕵️ Find Answer
+              </button>
+            )}
+          </div>
+
+          {/* Hint Box */}
           {hintVisible && (
-            <div>
-              <p>Hints:</p>
-              <ul>
+            <div className="bg-cyan-50 border border-cyan-200 p-4 rounded-xl">
+              <p className="text-cyan-800 font-semibold mb-2">💡 Hints:</p>
+              <ul className="list-disc list-inside text-cyan-700 space-y-1">
                 {Object.entries(currentItem).map(([key, val]) => {
                   if (key !== "id" && typeof val === "string") {
                     return <li key={key}>{`${key}: ${val}`}</li>;
@@ -222,10 +251,6 @@ const Verb = () => {
                 })}
               </ul>
             </div>
-          )}
-
-          {showFindAnswerButton && (
-            <button onClick={findAnswer}>Find Answer</button>
           )}
         </div>
       )}

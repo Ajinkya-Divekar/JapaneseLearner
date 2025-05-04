@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import vocabList from "../data/vocab.json";
 
 const VocabTest = () => {
@@ -53,6 +53,7 @@ const VocabTest = () => {
 
   const handleSubmit = () => {
     if (!testList[currentIndex]) return;
+
     const answer = reverse
       ? testList[currentIndex].jp
       : testList[currentIndex].eng;
@@ -60,12 +61,15 @@ const VocabTest = () => {
       .split("/")
       .map((a) => a.trim().toLowerCase());
     const input = userInput.trim().toLowerCase();
+
+    // Check if the answer is correct
     if (acceptedAnswers.includes(input)) {
+      setAttempts(0); // Reset attempts on correct answer
       handleNext();
     } else {
-      setAttempts(attempts + 1);
+      setAttempts((prev) => prev + 1);
       if (attempts >= 2) {
-        setShowAnswer(true);
+        setShowAnswer(true); // Show answer after 2 wrong attempts
       }
     }
   };
@@ -76,81 +80,97 @@ const VocabTest = () => {
     }
   };
 
-  const handleRevealAnswer = () => {
-    const answer = reverse
-      ? testList[currentIndex].jp
-      : testList[currentIndex].eng;
-    alert(`Correct Answer: ${answer}`);
-    handleNext();
-  };
-
   return (
-    <div className="p-4 max-w-xl mx-auto">
-      <div className="mb-4">
-        <label className="block mb-1 font-bold">Select Card Number:</label>
-        <select
-          value={selectedCard}
-          onChange={(e) => setSelectedCard(Number(e.target.value))}
-          className="p-2 border rounded"
-        >
-          {Array.from({ length: maxCardNumber / 5 }, (_, i) => (
-            <option key={(i + 1) * 5} value={(i + 1) * 5}>
-              {(i + 1) * 5}
-            </option>
-          ))}
-        </select>
-        <button
-          onClick={generateTestList}
-          className="ml-2 p-2 bg-green-500 text-white rounded"
-        >
-          Generate List
-        </button>
+    <div className="p-6 w-full mx-auto bg-gradient-to-br from-indigo-50 to-indigo-100 min-h-screen flex flex-col items-center">
+      {/* Control Section */}
+      <div className="backdrop-blur-lg bg-white/30 border border-white/50 rounded-2xl shadow-xl p-6 w-full max-w-4xl mb-6 space-y-4">
+        {/* Card Selection Row */}
+        <div className="grid grid-cols-1 md:grid-cols-[minmax(180px,auto)_1fr] gap-4 items-center">
+          <h2 className="text-lg md:text-xl font-semibold text-indigo-900">
+            📚 Select Card Number:
+          </h2>
+          <div className="flex gap-3 w-full">
+            <select
+              value={selectedCard}
+              onChange={(e) => setSelectedCard(Number(e.target.value))}
+              className="p-2.5 border-2 border-indigo-200 rounded-lg bg-white/50 text-indigo-900 w-full focus:ring-2 focus:ring-indigo-300"
+            >
+              {Array.from({ length: maxCardNumber / 5 }, (_, i) => (
+                <option key={(i + 1) * 5} value={(i + 1) * 5}>
+                  {(i + 1) * 5}
+                </option>
+              ))}
+            </select>
+            <button
+              onClick={generateTestList}
+              className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-colors duration-200 whitespace-nowrap"
+            >
+              Generate List
+            </button>
+          </div>
+        </div>
+
+        {/* Toggle Section */}
+        <div className="flex items-center justify-between p-3 bg-indigo-50/50 rounded-lg mt-2">
+          <span className="text-base md:text-lg text-indigo-900 font-medium">
+            🔄 Reverse: Show English first
+          </span>
+          <label className="cursor-pointer">
+            {/* Toggle remains untouched */}
+            <div className="relative inline-block h-8 w-14 rounded-full bg-indigo-200 transition [-webkit-tap-highlight-color:transparent]">
+              <input
+                type="checkbox"
+                className="peer sr-only"
+                checked={reverse}
+                onChange={(e) => setReverse(e.target.checked)}
+              />
+              <span className="absolute inset-y-0 left-0 m-1 w-6 h-6 rounded-full bg-white shadow-md transition-all peer-checked:left-6 peer-checked:bg-indigo-600"></span>
+            </div>
+          </label>
+        </div>
       </div>
 
-      <div className="mb-4">
-        <label className="inline-flex items-center">
-          <input
-            type="checkbox"
-            className="mr-2"
-            checked={reverse}
-            onChange={(e) => setReverse(e.target.checked)}
-          />
-          Reverse: Show English first
-        </label>
-      </div>
-
+      {/* Test Section */}
       {testStarted &&
         testList.length > 0 &&
         currentIndex !== null &&
         !testComplete && (
-          <div className="mb-4">
-            <div className="text-2xl mb-2">
+          <div className="backdrop-blur-lg bg-white/30 border border-white/50 rounded-2xl shadow-xl p-6 w-full max-w-2xl space-y-6">
+            <div className="text-3xl md:text-4xl font-bold text-indigo-900 text-center min-h-[120px] flex items-center justify-center px-4">
               {reverse ? testList[currentIndex].eng : testList[currentIndex].jp}
             </div>
-            <input
-              type="text"
-              value={userInput}
-              onChange={(e) => setUserInput(e.target.value)}
-              onKeyDown={handleKeyDown}
-              className="p-2 border w-full rounded"
-              placeholder="Type your answer here"
-            />
-            <button
-              onClick={handleSubmit}
-              className="mt-2 p-2 bg-blue-500 text-white rounded"
-            >
-              Submit
-            </button>
-            {showAnswer && (
+
+            <div className="space-y-4">
+              <input
+                type="text"
+                value={userInput}
+                onChange={(e) => setUserInput(e.target.value)}
+                onKeyDown={handleKeyDown}
+                className="p-3.5 border-2 border-indigo-200 rounded-lg bg-white/50 text-indigo-900 text-lg w-full focus:ring-2 focus:ring-indigo-300"
+                placeholder="✍️ Type your answer here..."
+              />
+
               <button
-                onClick={handleRevealAnswer}
-                className="ml-2 mt-2 p-2 bg-red-500 text-white rounded"
+                onClick={handleSubmit}
+                className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition-colors duration-200"
               >
-                Find Answer
+                ✅ Submit Answer
               </button>
-            )}
+            </div>
           </div>
         )}
+
+      {/* Answer Display */}
+      {showAnswer && (
+        <div className="mt-6 p-5 w-full max-w-2xl bg-emerald-50/90 border border-emerald-200 rounded-xl shadow-md text-center animate-fade-in">
+          <p className="text-sm font-semibold text-emerald-600 mb-2">
+            🎯 CORRECT ANSWER
+          </p>
+          <p className="text-xl font-medium text-emerald-900">
+            {reverse ? testList[currentIndex].jp : testList[currentIndex].eng}
+          </p>
+        </div>
+      )}
     </div>
   );
 };

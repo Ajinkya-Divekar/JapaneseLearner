@@ -152,74 +152,130 @@ const Adjectives = () => {
   }
 
   return (
-    <div>
-      <h1>Adjective Test</h1>
+    <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 flex items-center justify-center p-6">
+      <div className="w-full max-w-5xl bg-white/60 backdrop-blur-md rounded-xl shadow-lg p-8">
+        <h1 className="text-4xl font-bold text-center mb-8 text-yellow-800">
+          Adjective Test
+        </h1>
 
-      {/* Error message if no file is selected */}
-      {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
+        {errorMessage && (
+          <p className="text-red-600 font-semibold mb-4 text-center">
+            {errorMessage}
+          </p>
+        )}
 
-      {/* Checkbox for selecting files */}
-      <div>
-        <label>
-          <input
-            type="checkbox"
-            checked={selectedFiles[0]}
-            onChange={() => handleCheckboxChange(0)}
-            disabled={testStarted}
-          />
-          Ikeyoshi
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            checked={selectedFiles[1]}
-            onChange={() => handleCheckboxChange(1)}
-            disabled={testStarted}
-          />
-          Nakeyoshi
-        </label>
+        {/* Top controls: File selection + Reverse option */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          <div>
+            <label className="block text-yellow-900 font-semibold text-lg mb-4">
+              Select Files
+            </label>
+            <div className="space-y-4">
+              <div className="flex items-center space-x-3">
+                <input
+                  type="checkbox"
+                  checked={selectedFiles[0]}
+                  onChange={() => handleCheckboxChange(0)}
+                  disabled={testStarted}
+                  className="accent-yellow-500 w-5 h-5 border-2 border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-400"
+                />
+                <label className="text-yellow-900 font-medium text-lg">
+                  Ikeyoshi
+                </label>
+              </div>
+              <div className="flex items-center space-x-3">
+                <input
+                  type="checkbox"
+                  checked={selectedFiles[1]}
+                  onChange={() => handleCheckboxChange(1)}
+                  disabled={testStarted}
+                  className="accent-yellow-500 w-5 h-5 border-2 border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-400"
+                />
+                <label className="text-yellow-900 font-medium text-lg">
+                  Nakeyoshi
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex items-center md:justify-end mt-6 md:mt-0 space-x-3">
+            <input
+              type="checkbox"
+              checked={reverse}
+              onChange={handleReverseChange}
+              className="accent-yellow-500 w-5 h-5 border-2 border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-400"
+            />
+            <label className="text-yellow-800 font-medium text-lg">
+              English to Japanese?
+            </label>
+          </div>
+        </div>
+
+        {/* Generate Test Button */}
+        <button
+          onClick={startTest}
+          className="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-3 px-6 rounded-md transition mb-6"
+        >
+          Generate Test List
+        </button>
+
+        {/* Display the word/question */}
+        {testStarted && currentItem && (
+          <h2 className="text-3xl font-semibold text-center text-yellow-900 mb-6">
+            {reverse ? currentItem.eng : currentItem.jp}
+          </h2>
+        )}
+
+        {/* Input + Check button */}
+        {testStarted && (
+          <div className="space-y-4">
+            <input
+              type="text"
+              value={userAnswer}
+              onChange={handleInputChange}
+              placeholder="Your answer"
+              className="w-full p-3 border border-yellow-300 rounded-md text-lg"
+            />
+            <button
+              onClick={checkAnswer}
+              className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-md transition"
+            >
+              Check Answer
+            </button>
+          </div>
+        )}
+
+        {/* Hint */}
+        {hintVisible && (
+          <p className="mt-6 text-center text-sm text-gray-700 italic">
+            Hint: <span className="font-medium">{currentItem.rom}</span>
+          </p>
+        )}
+
+        {/* Find Answer */}
+        {showFindAnswerButton && (
+          <div className="mt-6 text-center">
+            <button
+              onClick={findAnswer}
+              className="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-md transition"
+            >
+              Find Answer
+            </button>
+          </div>
+        )}
+
+        {/* Retake Test if finished */}
+        {finished && (
+          <div className="mt-6 text-center">
+            <button
+              onClick={startTest}
+              className="bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-6 rounded-md"
+            >
+              Retake Test
+            </button>
+          </div>
+        )}
       </div>
-
-      {/* Checkbox to reverse question/answer */}
-      <div>
-        <label>
-          <input
-            type="checkbox"
-            checked={reverse}
-            onChange={handleReverseChange}
-          />
-          English to Japanese?
-        </label>
-      </div>
-
-      {/* Button to generate a random test */}
-      <button onClick={startTest}>Generate Test List</button>
-
-      {/* Display the random word/question */}
-      {testStarted && currentItem && (
-        <h2>{reverse ? currentItem.eng : currentItem.jp}</h2>
-      )}
-
-      {/* Conditionally render input box and check answer button */}
-      {testStarted && (
-        <>
-          <input
-            type="text"
-            value={userAnswer}
-            onChange={handleInputChange}
-            placeholder="Your answer"
-          />
-          <button onClick={checkAnswer}>Check Answer</button>
-        </>
-      )}
-
-      {/* Hint text if the answer is wrong */}
-      {hintVisible && <p>Hint: {currentItem.rom}</p>}
-
-      {/* Show "Find Answer" button after 3 incorrect attempts */}
-      {showFindAnswerButton && (
-        <button onClick={findAnswer}>Find Answer</button>
-      )}
     </div>
   );
 };
