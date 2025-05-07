@@ -2518,5 +2518,521 @@
     "jp": "こんばん",
     "eng": "this evening",
     "card": 47
+  },
+  {
+    "id": 421,
+    "jp": "おきる",
+    "eng": "to wake up",
+    "card": 47
+  },
+  {
+    "id": 422,
+    "jp": "ねる",
+    "eng": "to sleep",
+    "card": 47
+  },
+  {
+    "id": 423,
+    "jp": "みる",
+    "eng": "to see",
+    "card": 47
+  },
+  {
+    "id": 424,
+    "jp": "ニュース",
+    "eng": "news",
+    "card": 48
+  },
+  {
+    "id": 425,
+    "jp": "ラジオ",
+    "eng": "radio",
+    "card": 48
+  },
+  {
+    "id": 426,
+    "jp": "テレビ",
+    "eng": "tv",
+    "card": 48
+  },
+  {
+    "id": 427,
+    "jp": "はやい",
+    "eng": "fast/early/quick",
+    "card": 48
+  },
+  {
+    "id": 428,
+    "jp": "おそい",
+    "eng": "slow/late",
+    "card": 48
+  },
+  {
+    "id": 429,
+    "jp": "かがみ",
+    "eng": "mirror",
+    "card": 48
+  },
+  {
+    "id": 430,
+    "jp": "かお",
+    "eng": "face",
+    "card": 48
+  },
+  {
+    "id": 431,
+    "jp": "あらう",
+    "eng": "to wash",
+    "card": 48
+  },
+  {
+    "id": 432,
+    "jp": "おふろ",
+    "eng": "bath",
+    "card": 48
+  },
+  {
+    "id": 433,
+    "jp": "はいる",
+    "eng": "to put i",
+    "card": 49
+  },
+  {
+    "id": 434,
+    "jp": "シャワー",
+    "eng": "shower",
+    "card": 49
+  },
+  {
+    "id": 435,
+    "jp": "あびる",
+    "eng": "to take a shower",
+    "card": 49
+  },
+  {
+    "id": 436,
+    "jp": "は",
+    "eng": "teeth",
+    "card": 49
+  },
+  {
+    "id": 437,
+    "jp": "みがく",
+    "eng": "to brush",
+    "card": 49
+  },
+  {
+    "id": 438,
+    "jp": "たべる",
+    "eng": "to eat",
+    "card": 49
+  },
+  {
+    "id": 439,
+    "jp": "たべもの",
+    "eng": "food",
+    "card": 49
+  },
+  {
+    "id": 440,
+    "jp": "あさごはん",
+    "eng": "breakfast",
+    "card": 49
+  },
+  {
+    "id": 441,
+    "jp": "ひるごはん",
+    "eng": "lunch",
+    "card": 49
+  },
+  {
+    "id": 442,
+    "jp": "ばんごはん",
+    "eng": "dinner",
+    "card": 50
+  },
+  {
+    "id": 443,
+    "jp": "たくさん",
+    "eng": "lot",
+    "card": 50
+  },
+  {
+    "id": 444,
+    "jp": "スーパー",
+    "eng": "supermarket",
+    "card": 50
+  },
+  {
+    "id": 445,
+    "jp": "にく",
+    "eng": "meat",
+    "card": 50
+  },
+  {
+    "id": 446,
+    "jp": "ぎゅうにく",
+    "eng": "beef",
+    "card": 50
+  },
+  {
+    "id": 447,
+    "jp": "ぶたにく",
+    "eng": "pork",
+    "card": 50
+  },
+  {
+    "id": 448,
+    "jp": "とりにく",
+    "eng": "chicken",
+    "card": 50
+  },
+  {
+    "id": 449,
+    "jp": "さかな",
+    "eng": "fish",
+    "card": 50
+  },
+  {
+    "id": 450,
+    "jp": "たまご",
+    "eng": "egg",
+    "card": 50
+  },
+  {
+    "id": 451,
+    "jp": "やさい",
+    "eng": "vegetables",
+    "card": 51
+  },
+  {
+    "id": 452,
+    "jp": "くだもの",
+    "eng": "fruits",
+    "card": 51
+  },
+  {
+    "id": 453,
+    "jp": "バナナ",
+    "eng": "banana",
+    "card": 51
+  },
+  {
+    "id": 454,
+    "jp": "りんご",
+    "eng": "apple",
+    "card": 51
+  },
+  {
+    "id": 455,
+    "jp": "レモン",
+    "eng": "lemon",
+    "card": 51
+  },
+  {
+    "id": 456,
+    "jp": "みかん",
+    "eng": "orange",
+    "card": 51
+  },
+  {
+    "id": 457,
+    "jp": "パン",
+    "eng": "bread",
+    "card": 51
+  },
+  {
+    "id": 458,
+    "jp": "おかし",
+    "eng": "sweets",
+    "card": 51
+  },
+  {
+    "id": 459,
+    "jp": "チョコレート",
+    "eng": "chocolate",
+    "card": 51
+  },
+  {
+    "id": 460,
+    "jp": "のむ",
+    "eng": "to drink",
+    "card": 52
+  },
+  {
+    "id": 461,
+    "jp": "のみもの",
+    "eng": "drinks",
+    "card": 52
+  },
+  {
+    "id": 462,
+    "jp": "みず",
+    "eng": "water",
+    "card": 52
+  },
+  {
+    "id": 463,
+    "jp": "おゆ",
+    "eng": "hot water",
+    "card": 52
+  },
+  {
+    "id": 464,
+    "jp": "つめたい",
+    "eng": "cold",
+    "card": 52
+  },
+  {
+    "id": 465,
+    "jp": "～がいい",
+    "eng": "want",
+    "card": 52
+  },
+  {
+    "id": 466,
+    "jp": "いれる",
+    "eng": "to put in",
+    "card": 52
+  },
+  {
+    "id": 467,
+    "jp": "ぎゅうにゅう",
+    "eng": "milk",
+    "card": 52
+  },
+  {
+    "id": 468,
+    "jp": "じどうはんばいき",
+    "eng": "vending machine",
+    "card": 52
+  },
+  {
+    "id": 469,
+    "jp": "ミルク",
+    "eng": "milk",
+    "card": 53
+  },
+  {
+    "id": 470,
+    "jp": "ジュース",
+    "eng": "juice",
+    "card": 53
+  },
+  {
+    "id": 471,
+    "jp": "コーヒー",
+    "eng": "coffee",
+    "card": 53
+  },
+  {
+    "id": 472,
+    "jp": "こうちゃ",
+    "eng": "tea",
+    "card": 53
+  },
+  {
+    "id": 473,
+    "jp": "おちゃおちゃ",
+    "eng": "green tea",
+    "card": 53
+  },
+  {
+    "id": 474,
+    "jp": "さけ",
+    "eng": "sake",
+    "card": 53
+  },
+  {
+    "id": 475,
+    "jp": "ビール",
+    "eng": "beer",
+    "card": 53
+  },
+  {
+    "id": 476,
+    "jp": "ワイン",
+    "eng": "wine",
+    "card": 53
+  },
+  {
+    "id": 477,
+    "jp": "カップ,コップ",
+    "eng": "cup",
+    "card": 53
+  },
+  {
+    "id": 478,
+    "jp": "りょうり",
+    "eng": "cuisine/cooking",
+    "card": 54
+  },
+  {
+    "id": 479,
+    "jp": "ごはん",
+    "eng": "rice",
+    "card": 54
+  },
+  {
+    "id": 480,
+    "jp": "サンドイッチ",
+    "eng": "sandwich",
+    "card": 54
+  },
+  {
+    "id": 481,
+    "jp": "おにぎり",
+    "eng": "onigiri",
+    "card": 54
+  },
+  {
+    "id": 482,
+    "jp": "べんとう",
+    "eng": "lunch box",
+    "card": 54
+  },
+  {
+    "id": 483,
+    "jp": "ラーメン",
+    "eng": "ramen",
+    "card": 54
+  },
+  {
+    "id": 484,
+    "jp": "パスタ",
+    "eng": "pasta",
+    "card": 54
+  },
+  {
+    "id": 485,
+    "jp": "うどん",
+    "eng": "udon noodles",
+    "card": 54
+  },
+  {
+    "id": 486,
+    "jp": "そば",
+    "eng": "soba noodles",
+    "card": 54
+  },
+  {
+    "id": 487,
+    "jp": "てんぷら",
+    "eng": "tenpura",
+    "card": 55
+  },
+  {
+    "id": 488,
+    "jp": "すきやき",
+    "eng": "sukiyaki",
+    "card": 55
+  },
+  {
+    "id": 489,
+    "jp": "さしみ",
+    "eng": "sashimi",
+    "card": 55
+  },
+  {
+    "id": 490,
+    "jp": "カレーライス",
+    "eng": "curry rice",
+    "card": 55
+  },
+  {
+    "id": 491,
+    "jp": "ぎゅうどん",
+    "eng": "beef bowl",
+    "card": 55
+  },
+  {
+    "id": 492,
+    "jp": "すし",
+    "eng": "sushi",
+    "card": 55
+  },
+  {
+    "id": 493,
+    "jp": "ケーキ",
+    "eng": "cake",
+    "card": 55
+  },
+  {
+    "id": 494,
+    "jp": "アイスクリーム",
+    "eng": "ice cream",
+    "card": 55
+  },
+  {
+    "id": 495,
+    "jp": "とる",
+    "eng": "to get",
+    "card": 55
+  },
+  {
+    "id": 496,
+    "jp": "さとう",
+    "eng": "sugar",
+    "card": 56
+  },
+  {
+    "id": 497,
+    "jp": "しお",
+    "eng": "salt",
+    "card": 56
+  },
+  {
+    "id": 498,
+    "jp": "しょうゆ",
+    "eng": "soy sauce",
+    "card": 56
+  },
+  {
+    "id": 499,
+    "jp": "なに",
+    "eng": "what",
+    "card": 56
+  },
+  {
+    "id": 500,
+    "jp": "何か",
+    "eng": "someone",
+    "card": 56
+  },
+  {
+    "id": 501,
+    "jp": "しょくじする",
+    "eng": "to have meal",
+    "card": 56
+  },
+  {
+    "id": 502,
+    "jp": "ゆうめいな",
+    "eng": "famous",
+    "card": 56
+  },
+  {
+    "id": 503,
+    "jp": "レストラン",
+    "eng": "restaurant",
+    "card": 56
+  },
+  {
+    "id": 504,
+    "jp": "しょくどう",
+    "eng": "cafeteria",
+    "card": 56
+  },
+  {
+    "id": 505,
+    "jp": "ていしょく",
+    "eng": "set meal",
+    "card": 57
+  },
+  {
+    "id": 506,
+    "jp": "～で",
+    "eng": "with someone",
+    "card": 57
   }
 ]

@@ -14,6 +14,7 @@ const KanjiTest = () => {
   const [showHint, setShowHint] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [revealedAnswer, setRevealedAnswer] = useState(null);
+  const [feedback, setFeedback] = useState("");
 
   const dropdownRef = useRef(null);
 
@@ -47,6 +48,7 @@ const KanjiTest = () => {
     setShowAnswer(false);
     setShowHint(false);
     setRevealedAnswer(null);
+    setFeedback("");
   };
 
   const handleNext = () => {
@@ -65,6 +67,7 @@ const KanjiTest = () => {
     setShowAnswer(false);
     setShowHint(false);
     setRevealedAnswer(null);
+    setFeedback("");
   };
 
   const handleSubmit = () => {
@@ -74,12 +77,16 @@ const KanjiTest = () => {
       .split("/")
       .map((a) => a.trim().toLowerCase());
     const input = userInput.trim().toLowerCase();
+
     if (acceptedAnswers.includes(input)) {
+      setFeedback("");
       handleNext();
     } else {
-      setAttempts(attempts + 1);
+      const newAttempts = attempts + 1;
+      setAttempts(newAttempts);
       setShowHint(true);
-      if (attempts >= 2) {
+      setFeedback("Incorrect. Try again!");
+      if (newAttempts >= 3) {
         setShowAnswer(true);
       }
     }
@@ -112,9 +119,15 @@ const KanjiTest = () => {
   };
 
   const maxLesson = Math.max(...kanjiList.map((entry) => entry.lesson));
+  const allLessons = Array.from({ length: maxLesson }, (_, i) => i + 1);
+  const isAllSelected = selectedLessons.length === allLessons.length;
+
+  const toggleSelectAll = () => {
+    setSelectedLessons(isAllSelected ? [] : allLessons);
+  };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-100 to-emerald-200 flex items-center justify-center p-6">
+    <div className="min-h-screen bg-gradient-to-br from-green-100 to-emerald-200 flex items-center flex-col p-6">
       <div className="w-full max-w-5xl bg-white/60 backdrop-blur-md rounded-xl shadow-lg p-8 space-y-10">
         <h1 className="text-4xl font-bold text-center mb-4 text-green-800">
           Kanji Practice
@@ -127,7 +140,7 @@ const KanjiTest = () => {
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               className="w-full px-6 py-3 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 flex items-center justify-between"
             >
-              <span>Select Lessons ({selectedLessons.length})</span>
+              <span>Select Lessons ({selectedLessons.join(", ")})</span>
               <svg
                 className={`w-5 h-5 transition-transform ${
                   isDropdownOpen ? "rotate-180" : ""
@@ -147,30 +160,53 @@ const KanjiTest = () => {
 
             {isDropdownOpen && (
               <div className="absolute top-full left-0 right-0 mt-2 bg-white border border-green-200 rounded-xl shadow-xl z-50 overflow-hidden">
-                <div className="p-4 grid grid-cols-2 md:grid-cols-3 gap-4 max-h-96 overflow-y-auto">
-                  {Array.from({ length: maxLesson }, (_, i) => (
-                    <label
-                      key={i + 1}
-                      className="flex items-center space-x-2 cursor-pointer p-2 hover:bg-green-50 rounded-lg"
-                    >
-                      <input
-                        type="checkbox"
-                        checked={selectedLessons.includes(i + 1)}
-                        onChange={() => toggleLessonSelection(i + 1)}
-                        className="hidden peer"
-                      />
-                      <span className="w-5 h-5 border-2 border-green-500 rounded-md flex items-center justify-center text-transparent peer-checked:bg-green-500 peer-checked:text-white peer-checked:border-green-600 transition-colors">
-                        <svg
-                          className="w-3 h-3"
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
-                        >
-                          <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
-                        </svg>
-                      </span>
-                      <span className="text-gray-700">Lesson {i + 1}</span>
-                    </label>
-                  ))}
+                <div className="p-4 space-y-4 max-h-96 overflow-y-auto">
+                  <label className="flex items-center space-x-2 cursor-pointer p-2 hover:bg-green-50 rounded-lg">
+                    <input
+                      type="checkbox"
+                      checked={isAllSelected}
+                      onChange={toggleSelectAll}
+                      className="hidden peer"
+                    />
+                    <span className="w-5 h-5 border-2 border-green-500 rounded-md flex items-center justify-center text-transparent peer-checked:bg-green-500 peer-checked:text-white peer-checked:border-green-600 transition-colors">
+                      <svg
+                        className="w-3 h-3"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                      </svg>
+                    </span>
+                    <span className="text-gray-700 font-semibold">
+                      Select All
+                    </span>
+                  </label>
+
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    {allLessons.map((lesson) => (
+                      <label
+                        key={lesson}
+                        className="flex items-center space-x-2 cursor-pointer p-2 hover:bg-green-50 rounded-lg"
+                      >
+                        <input
+                          type="checkbox"
+                          checked={selectedLessons.includes(lesson)}
+                          onChange={() => toggleLessonSelection(lesson)}
+                          className="hidden peer"
+                        />
+                        <span className="w-5 h-5 border-2 border-green-500 rounded-md flex items-center justify-center text-transparent peer-checked:bg-green-500 peer-checked:text-white peer-checked:border-green-600 transition-colors">
+                          <svg
+                            className="w-3 h-3"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                          >
+                            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                          </svg>
+                        </span>
+                        <span className="text-gray-700">Lesson {lesson}</span>
+                      </label>
+                    ))}
+                  </div>
                 </div>
               </div>
             )}
@@ -228,6 +264,14 @@ const KanjiTest = () => {
                 className="w-full px-4 py-3 border border-green-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
               />
 
+              {feedback && (
+                <div className="text-center">
+                  <div className="text-red-600 text-sm font-medium inline-block">
+                    {feedback}
+                  </div>
+                </div>
+              )}
+
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
                   onClick={handleSubmit}
@@ -247,8 +291,13 @@ const KanjiTest = () => {
               </div>
 
               {revealedAnswer && (
-                <div className="mt-4 text-center bg-green-50 border border-green-200 text-green-800 px-6 py-3 rounded-lg shadow">
-                  Correct Answer: <strong>{revealedAnswer}</strong>
+                <div className="mt-8 p-6 w-full bg-emerald-50/90 border border-emerald-200 rounded-2xl shadow-lg text-center">
+                  <p className="text-sm font-semibold text-emerald-600 mb-2">
+                    CORRECT ANSWER
+                  </p>
+                  <p className="text-2xl font-medium text-emerald-900">
+                    {revealedAnswer}
+                  </p>
                 </div>
               )}
             </div>

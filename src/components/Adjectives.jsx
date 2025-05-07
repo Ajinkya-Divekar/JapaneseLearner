@@ -140,11 +140,14 @@ const Adjectives = () => {
   useEffect(() => {
     if (finished) {
       alert("Congratulations! You've completed the test.");
+      window.location.reload();
     }
   }, [finished]);
 
+  const totalData = getCurrentData().length;
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 flex items-center justify-center p-6">
+    <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 flex items-center flex-col p-6">
       <div className="w-full max-w-5xl bg-white/60 backdrop-blur-md rounded-xl shadow-lg p-8">
         <h1 className="text-4xl font-bold text-center mb-8 text-yellow-800">
           Adjective Test
@@ -234,6 +237,9 @@ const Adjectives = () => {
             >
               Check Answer
             </button>
+            <div className="text-center text-sm text-gray-500">
+              Progress: {visited.size + 1}/{totalData}
+            </div>
           </div>
         )}
 
@@ -252,18 +258,6 @@ const Adjectives = () => {
               className="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-md transition"
             >
               Find Answer
-            </button>
-          </div>
-        )}
-
-        {/* Retake Test if finished */}
-        {finished && (
-          <div className="mt-6 text-center">
-            <button
-              onClick={startTest}
-              className="bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-6 rounded-md"
-            >
-              Retake Test
             </button>
           </div>
         )}
