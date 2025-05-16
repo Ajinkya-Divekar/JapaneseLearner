@@ -12,33 +12,15 @@ const Verb = () => {
   const [incorrectAttempts, setIncorrectAttempts] = useState(0);
   const [showFindAnswerButton, setShowFindAnswerButton] = useState(false);
   const [revealedAnswer, setRevealedAnswer] = useState(null);
+  const [feedback, setFeedback] = useState("");
 
   const getRandomItem = () => {
-    const unvisited = doushiData.filter((item) => !visited.has(item.id));
-    if (unvisited.length === 0) {
-      setFinished(true);
-      return null;
-    }
-    const randIndex = Math.floor(Math.random() * unvisited.length);
-    return unvisited[randIndex];
-  };
-
-  const startTest = () => {
-    const newItem = getRandomItem();
-    if (!newItem) {
-      setFinished(true);
-      return;
-    }
-
-    setCurrentItem(newItem);
-    setVisited(new Set());
-    setFinished(false);
-    setUserAnswer("");
-    setHintVisible(false);
-    setTestStarted(true);
-    setIncorrectAttempts(0);
-    setShowFindAnswerButton(false);
-    setRevealedAnswer(null);
+    const allIds = new Set(doushiData.map((item) => item.id));
+    const unvisitedIds = [...allIds].filter((id) => !visited.has(id));
+    if (unvisitedIds.length === 0) return null;
+    const randId =
+      unvisitedIds[Math.floor(Math.random() * unvisitedIds.length)];
+    return doushiData.find((item) => item.id === randId);
   };
 
   const loadNextQuestion = () => {
@@ -50,12 +32,23 @@ const Verb = () => {
       setIncorrectAttempts(0);
       setShowFindAnswerButton(false);
       setRevealedAnswer(null);
+      setFeedback(""); // Clear feedback on load
+    } else {
+      setFinished(true);
     }
   };
 
-  const checkAnswer = () => {
-    let correctAnswer = null;
+  const startTest = () => {
+    setVisited(new Set());
+    setFinished(false);
+    setTestStarted(true);
+    loadNextQuestion();
+  };
 
+  const checkAnswer = () => {
+    if (!currentItem) return;
+
+    let correctAnswer = "";
     switch (selectedForm) {
       case "jp":
         correctAnswer = currentItem.jp;
@@ -70,19 +63,24 @@ const Verb = () => {
         correctAnswer = currentItem.eng;
         break;
       default:
-        console.warn("No valid form selected");
         return;
     }
 
     const normalized = userAnswer.toLowerCase().trim();
-    if (normalized === correctAnswer.toLowerCase().trim()) {
-      setVisited((prev) => new Set(prev).add(currentItem.id));
+    const correctNormalized = correctAnswer.toLowerCase().trim();
+
+    if (normalized === correctNormalized) {
+      setFeedback("✅ Correct!");
+      setVisited((prevVisited) => new Set([...prevVisited, currentItem.id]));
+
       setTimeout(() => {
+        setFeedback(""); // Clear feedback on next question
         loadNextQuestion();
-      }, 200);
+      }, 700);
     } else {
       setIncorrectAttempts((prev) => prev + 1);
       setHintVisible(true);
+      setFeedback("❌ Incorrect. Try again!");
       if (incorrectAttempts >= 2) {
         setShowFindAnswerButton(true);
       }
@@ -90,8 +88,9 @@ const Verb = () => {
   };
 
   const findAnswer = () => {
-    let correctAnswer = null;
+    if (!currentItem) return;
 
+    let correctAnswer = "";
     switch (selectedForm) {
       case "jp":
         correctAnswer = currentItem.jp;
@@ -123,12 +122,6 @@ const Verb = () => {
   };
 
   useEffect(() => {
-    if (testStarted && currentItem === null) {
-      loadNextQuestion();
-    }
-  }, [testStarted, currentItem]);
-
-  useEffect(() => {
     const onEnter = (e) => {
       if (e.key === "Enter" && testStarted) {
         e.preventDefault();
@@ -137,12 +130,12 @@ const Verb = () => {
     };
     window.addEventListener("keydown", onEnter);
     return () => window.removeEventListener("keydown", onEnter);
-  }, [testStarted, userAnswer, incorrectAttempts]);
+  }, [testStarted, userAnswer, incorrectAttempts, currentItem]);
 
   useEffect(() => {
     if (finished) {
       alert("Congratulations! You've completed the test.");
-      setUserAnswer("");
+      window.location.reload();
     }
   }, [finished]);
 
@@ -224,6 +217,14 @@ const Verb = () => {
             className="w-full px-4 py-3 border border-cyan-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 text-lg"
           />
 
+          {feedback && (
+            <div className="text-center">
+              <div className="text-red-600 text-sm font-medium inline-block">
+                {feedback}
+              </div>
+            </div>
+          )}
+
           <div className="flex flex-wrap justify-center gap-4">
             <button
               onClick={checkAnswer}
@@ -253,6 +254,10 @@ const Verb = () => {
               </p>
             </div>
           )}
+
+          <div className="text-center text-sm text-gray-500">
+            Progress: {visited.size}/{doushiData.length}
+          </div>
         </div>
       )}
     </div>
