@@ -4444,5 +4444,623 @@
     "jp": "～さい",
     "eng": "years old",
     "card": 83
+  },
+  {
+    "id": 742,
+    "jp": "何日",
+    "eng": "what date",
+    "card": 83
+  },
+  {
+    "id": 743,
+    "jp": "～日",
+    "eng": "date",
+    "card": 83
+  },
+  {
+    "id": 744,
+    "jp": "えき",
+    "eng": "station",
+    "card": 83
+  },
+  {
+    "id": 745,
+    "jp": "でんしゃ",
+    "eng": "train",
+    "card": 83
+  },
+  {
+    "id": 746,
+    "jp": "のる",
+    "eng": "to get in",
+    "card": 83
+  },
+  {
+    "id": 747,
+    "jp": "おりる",
+    "eng": "to get off",
+    "card": 83
+  },
+  {
+    "id": 748,
+    "jp": "きっぷ",
+    "eng": "ticket",
+    "card": 84
+  },
+  {
+    "id": 749,
+    "jp": "つぎの",
+    "eng": "next",
+    "card": 84
+  },
+  {
+    "id": 750,
+    "jp": "のりかえる",
+    "eng": "to change / to transfer",
+    "card": 84
+  },
+  {
+    "id": 751,
+    "jp": "かくえ電車",
+    "eng": "local train",
+    "card": 84
+  },
+  {
+    "id": 752,
+    "jp": "きゅうこう",
+    "eng": "express train",
+    "card": 84
+  },
+  {
+    "id": 753,
+    "jp": "とっきゅう",
+    "eng": "limited express",
+    "card": 84
+  },
+  {
+    "id": 754,
+    "jp": "しんかんせん",
+    "eng": "bullet train",
+    "card": 84
+  },
+  {
+    "id": 755,
+    "jp": "ちかてつ",
+    "eng": "subway",
+    "card": 84
+  },
+  {
+    "id": 756,
+    "jp": "～ばんせん",
+    "eng": "track number",
+    "card": 84
+  },
+  {
+    "id": 757,
+    "jp": "なんばんせん",
+    "eng": "what track number",
+    "card": 85
+  },
+  {
+    "id": 758,
+    "jp": "じどうしゃ",
+    "eng": "automobile",
+    "card": 85
+  },
+  {
+    "id": 759,
+    "jp": "車",
+    "eng": "car",
+    "card": 85
+  },
+  {
+    "id": 760,
+    "jp": "うんてんする",
+    "eng": "to drive",
+    "card": 85
+  },
+  {
+    "id": 761,
+    "jp": "おくる",
+    "eng": "to send",
+    "card": 85
+  },
+  {
+    "id": 762,
+    "jp": "ちゅうしゃじょう",
+    "eng": "parking lot",
+    "card": 85
+  },
+  {
+    "id": 763,
+    "jp": "とめる",
+    "eng": "to stop/to park",
+    "card": 85
+  },
+  {
+    "id": 764,
+    "jp": "じてんしゃ",
+    "eng": "bicycle",
+    "card": 85
+  },
+  {
+    "id": 765,
+    "jp": "バイク",
+    "eng": "bike",
+    "card": 85
+  },
+  {
+    "id": 766,
+    "jp": "バス",
+    "eng": "bus",
+    "card": 86
+  },
+  {
+    "id": 767,
+    "jp": "タクシー",
+    "eng": "taxi",
+    "card": 86
+  },
+  {
+    "id": 768,
+    "jp": "ひこうき",
+    "eng": "airplane",
+    "card": 86
+  },
+  {
+    "id": 769,
+    "jp": "ふね",
+    "eng": "ship / boat",
+    "card": 86
+  },
+  {
+    "id": 770,
+    "jp": "のりば",
+    "eng": "place for boarding vehicles / stand",
+    "card": 86
+  },
+  {
+    "id": 771,
+    "jp": "くうこう",
+    "eng": "airport",
+    "card": 86
+  },
+  {
+    "id": 772,
+    "jp": "じこくひょう",
+    "eng": "timetable",
+    "card": 86
+  },
+  {
+    "id": 773,
+    "jp": "じかん",
+    "eng": "time",
+    "card": 86
+  },
+  {
+    "id": 774,
+    "jp": "いそぐ",
+    "eng": "to hurry",
+    "card": 86
+  },
+  {
+    "id": 775,
+    "jp": "どのぐらい",
+    "eng": "how long",
+    "card": 87
+  },
+  {
+    "id": 776,
+    "jp": "かかる",
+    "eng": "to take time/to take money",
+    "card": 87
+  },
+  {
+    "id": 777,
+    "jp": "ちかい",
+    "eng": "near",
+    "card": 87
+  },
+  {
+    "id": 778,
+    "jp": "とおい",
+    "eng": "far",
+    "card": 87
+  },
+  {
+    "id": 779,
+    "jp": "ずっと",
+    "eng": "much / continuously",
+    "card": 87
+  },
+  {
+    "id": 780,
+    "jp": "いつも",
+    "eng": "always",
+    "card": 87
+  },
+  {
+    "id": 781,
+    "jp": "たいてい",
+    "eng": "mostly / usually",
+    "card": 87
+  },
+  {
+    "id": 782,
+    "jp": "よく",
+    "eng": "often",
+    "card": 87
+  },
+  {
+    "id": 783,
+    "jp": "ときどき",
+    "eng": "sometimes",
+    "card": 87
+  },
+  {
+    "id": 784,
+    "jp": "だけ",
+    "eng": "only",
+    "card": 88
+  },
+  {
+    "id": 785,
+    "jp": "どうやって",
+    "eng": "how",
+    "card": 88
+  },
+  {
+    "id": 786,
+    "jp": "あるく",
+    "eng": "to walk",
+    "card": 88
+  },
+  {
+    "id": 787,
+    "jp": "みち",
+    "eng": "road",
+    "card": 88
+  },
+  {
+    "id": 788,
+    "jp": "まっすぐ",
+    "eng": "straight",
+    "card": 88
+  },
+  {
+    "id": 789,
+    "jp": "まがる",
+    "eng": "to bend / to turn",
+    "card": 88
+  },
+  {
+    "id": 790,
+    "jp": "わたる",
+    "eng": "to cross",
+    "card": 88
+  },
+  {
+    "id": 791,
+    "jp": "せつめいする",
+    "eng": "to explain",
+    "card": 88
+  },
+  {
+    "id": 792,
+    "jp": "かど",
+    "eng": "corner",
+    "card": 88
+  },
+  {
+    "id": 793,
+    "jp": "こうさてん",
+    "eng": "intersection",
+    "card": 89
+  },
+  {
+    "id": 794,
+    "jp": "しんごう",
+    "eng": "signal",
+    "card": 89
+  },
+  {
+    "id": 795,
+    "jp": "左",
+    "eng": "left",
+    "card": 89
+  },
+  {
+    "id": 796,
+    "jp": "右",
+    "eng": "right",
+    "card": 89
+  },
+  {
+    "id": 797,
+    "jp": "はし",
+    "eng": "bridge",
+    "card": 89
+  },
+  {
+    "id": 798,
+    "jp": "東",
+    "eng": "east",
+    "card": 89
+  },
+  {
+    "id": 799,
+    "jp": "西",
+    "eng": "west",
+    "card": 89
+  },
+  {
+    "id": 800,
+    "jp": "南",
+    "eng": "south",
+    "card": 89
+  },
+  {
+    "id": 801,
+    "jp": "北",
+    "eng": "north",
+    "card": 89
+  },
+  {
+    "id": 802,
+    "jp": "いくつ目",
+    "eng": "how many / which",
+    "card": 90
+  },
+  {
+    "id": 803,
+    "jp": "ひとつ目",
+    "eng": "first",
+    "card": 90
+  },
+  {
+    "id": 804,
+    "jp": "ふたつ目",
+    "eng": "second",
+    "card": 90
+  },
+  {
+    "id": 805,
+    "jp": "みっつ目",
+    "eng": "third",
+    "card": 90
+  },
+  {
+    "id": 806,
+    "jp": "なんメートル",
+    "eng": "how many meters",
+    "card": 90
+  },
+  {
+    "id": 807,
+    "jp": "～メートル",
+    "eng": "meters",
+    "card": 90
+  },
+  {
+    "id": 808,
+    "jp": "となり",
+    "eng": "next",
+    "card": 90
+  },
+  {
+    "id": 809,
+    "jp": "間",
+    "eng": "between",
+    "card": 90
+  },
+  {
+    "id": 810,
+    "jp": "ちかく",
+    "eng": "near",
+    "card": 90
+  },
+  {
+    "id": 811,
+    "jp": "上",
+    "eng": "above",
+    "card": 91
+  },
+  {
+    "id": 812,
+    "jp": "下",
+    "eng": "below",
+    "card": 91
+  },
+  {
+    "id": 813,
+    "jp": "前",
+    "eng": "front",
+    "card": 91
+  },
+  {
+    "id": 814,
+    "jp": "後ろ",
+    "eng": "behind",
+    "card": 91
+  },
+  {
+    "id": 815,
+    "jp": "なか",
+    "eng": "inside",
+    "card": 91
+  },
+  {
+    "id": 816,
+    "jp": "そと",
+    "eng": "outside",
+    "card": 91
+  },
+  {
+    "id": 817,
+    "jp": "ここ",
+    "eng": "here",
+    "card": 91
+  },
+  {
+    "id": 818,
+    "jp": "そこ",
+    "eng": "there",
+    "card": 91
+  },
+  {
+    "id": 819,
+    "jp": "あそこ",
+    "eng": "over there",
+    "card": 91
+  },
+  {
+    "id": 820,
+    "jp": "どこ",
+    "eng": "where",
+    "card": 92
+  },
+  {
+    "id": 821,
+    "jp": "出る",
+    "eng": "to go out",
+    "card": 92
+  },
+  {
+    "id": 822,
+    "jp": "出かける",
+    "eng": "to leave",
+    "card": 92
+  },
+  {
+    "id": 823,
+    "jp": "つく",
+    "eng": "to arrive",
+    "card": 92
+  },
+  {
+    "id": 824,
+    "jp": "あう",
+    "eng": "to meet",
+    "card": 92
+  },
+  {
+    "id": 825,
+    "jp": "まつ",
+    "eng": "to wait",
+    "card": 92
+  },
+  {
+    "id": 826,
+    "jp": "デートする",
+    "eng": "to date",
+    "card": 92
+  },
+  {
+    "id": 827,
+    "jp": "やくそくする",
+    "eng": "to promise",
+    "card": 92
+  },
+  {
+    "id": 828,
+    "jp": "ようじ",
+    "eng": "errand",
+    "card": 92
+  },
+  {
+    "id": 829,
+    "jp": "つごうがいい",
+    "eng": "be convenient",
+    "card": 93
+  },
+  {
+    "id": 830,
+    "jp": "つごうがわるい",
+    "eng": "be inconvenient",
+    "card": 93
+  },
+  {
+    "id": 831,
+    "jp": "だめ",
+    "eng": "not good",
+    "card": 93
+  },
+  {
+    "id": 832,
+    "jp": "かえる",
+    "eng": "to change",
+    "card": 93
+  },
+  {
+    "id": 833,
+    "jp": "おでかけますか",
+    "eng": "are you going out?",
+    "card": 93
+  },
+  {
+    "id": 834,
+    "jp": "よかったら",
+    "eng": "if it is alright",
+    "card": 93
+  },
+  {
+    "id": 835,
+    "jp": "すみません",
+    "eng": "excuse me",
+    "card": 93
+  },
+  {
+    "id": 836,
+    "jp": "ざんねんですが",
+    "eng": "unfortunately",
+    "card": 93
+  },
+  {
+    "id": 837,
+    "jp": "またこんどおねがいします",
+    "eng": "next time please",
+    "card": 93
+  },
+  {
+    "id": 838,
+    "jp": "チャンス",
+    "eng": "chance",
+    "card": 94
+  },
+  {
+    "id": 839,
+    "jp": "行ってきます",
+    "eng": "goodbye",
+    "card": 94
+  },
+  {
+    "id": 840,
+    "jp": "行ってらっしゃい",
+    "eng": "have a good day",
+    "card": 94
+  },
+  {
+    "id": 841,
+    "jp": "ただいま",
+    "eng": "I'm back",
+    "card": 94
+  },
+  {
+    "id": 842,
+    "jp": "おかえり",
+    "eng": "Welcome home",
+    "card": 94
+  },
+  {
+    "id": 843,
+    "jp": "いえ",
+    "eng": "house",
+    "card": 94
+  },
+  {
+    "id": 844,
+    "jp": "へや",
+    "eng": "room",
+    "card": 94
   }
 ]
