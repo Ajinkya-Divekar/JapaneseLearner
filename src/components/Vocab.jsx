@@ -13,6 +13,7 @@ const VocabTest = () => {
   const [reverse, setReverse] = useState(false);
   const [testStarted, setTestStarted] = useState(false);
   const [testComplete, setTestComplete] = useState(false);
+  const [random100, setRandom100] = useState(false);
 
   const dropdownRef = useRef(null);
 
@@ -64,13 +65,44 @@ const VocabTest = () => {
   };
 
   const generateTestList = () => {
-    const filtered = vocabList.filter((entry) =>
-      selectedCardRanges.includes(entry.card)
-    );
-    if (filtered.length === 0) {
-      alert("Please select at least one card range.");
-      return;
+    let filtered = [];
+
+    if (random100) {
+      const groupedByCard = {};
+      vocabList.forEach((entry) => {
+        if (!groupedByCard[entry.card]) {
+          groupedByCard[entry.card] = [];
+        }
+        groupedByCard[entry.card].push(entry);
+      });
+
+      const cardKeys = Object.keys(groupedByCard);
+      const perCard = Math.floor(100 / cardKeys.length);
+      const remainder = 100 % cardKeys.length;
+
+      cardKeys.forEach((card, index) => {
+        const limit = perCard + (index < remainder ? 1 : 0);
+        const entries = [...groupedByCard[card]];
+        const selected = [];
+
+        while (selected.length < Math.min(limit, entries.length)) {
+          const randIdx = Math.floor(Math.random() * entries.length);
+          selected.push(entries.splice(randIdx, 1)[0]);
+        }
+
+        filtered = filtered.concat(selected);
+      });
+    } else {
+      filtered = vocabList.filter((entry) =>
+        selectedCardRanges.includes(entry.card)
+      );
+
+      if (filtered.length === 0) {
+        alert("Please select at least one card range.");
+        return;
+      }
     }
+
     setTestList(filtered);
     resetTest(filtered);
     setTestStarted(true);
@@ -152,8 +184,24 @@ const VocabTest = () => {
                 <label className="flex items-center space-x-2 font-semibold text-indigo-900">
                   <input
                     type="checkbox"
-                    checked={selectedCardRanges.length === maxCard}
+                    checked={random100}
                     onChange={() => {
+                      setRandom100(!random100);
+                      setSelectedCardRanges([]);
+                    }}
+                    className="accent-indigo-600"
+                  />
+                  <span>Random 100</span>
+                </label>
+
+                <label className="flex items-center space-x-2 font-semibold text-indigo-900">
+                  <input
+                    type="checkbox"
+                    checked={
+                      selectedCardRanges.length === maxCard && !random100
+                    }
+                    onChange={() => {
+                      if (random100) return;
                       if (selectedCardRanges.length === maxCard) {
                         setSelectedCardRanges([]);
                       } else {
@@ -165,6 +213,7 @@ const VocabTest = () => {
                       }
                     }}
                     className="accent-indigo-600"
+                    disabled={random100}
                   />
                   <span>Select All</span>
                 </label>
@@ -184,9 +233,12 @@ const VocabTest = () => {
                     >
                       <input
                         type="checkbox"
-                        checked={isChecked}
-                        onChange={() => toggleRangeSelection(start, end)}
+                        checked={isChecked && !random100}
+                        onChange={() => {
+                          if (!random100) toggleRangeSelection(start, end);
+                        }}
                         className="accent-indigo-600"
+                        disabled={random100}
                       />
                       <span>{`${start}–${end}`}</span>
                     </label>

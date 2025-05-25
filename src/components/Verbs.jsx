@@ -70,13 +70,12 @@ const Verb = () => {
     const correctNormalized = correctAnswer.toLowerCase().trim();
 
     if (normalized === correctNormalized) {
-      setFeedback("✅ Correct!");
       setVisited((prevVisited) => new Set([...prevVisited, currentItem.id]));
 
       setTimeout(() => {
         setFeedback(""); // Clear feedback on next question
         loadNextQuestion();
-      }, 700);
+      }, 200);
     } else {
       setIncorrectAttempts((prev) => prev + 1);
       setHintVisible(true);

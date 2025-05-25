@@ -14,6 +14,7 @@ const Adjectives = () => {
   const [incorrectAttempts, setIncorrectAttempts] = useState(0);
   const [showFindAnswerButton, setShowFindAnswerButton] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
+  const [showAnswer, setShowAnswer] = useState(false);
 
   // Merging data from selected files
   const getCurrentData = () => {
@@ -58,6 +59,7 @@ const Adjectives = () => {
     const newItem = getRandomItem(data);
     if (newItem) {
       setCurrentItem(newItem);
+      setShowAnswer(false); // reset answer display
     }
   };
 
@@ -77,6 +79,7 @@ const Adjectives = () => {
       setHintVisible(false);
       setIncorrectAttempts(0);
       setShowFindAnswerButton(false);
+      setShowAnswer(false); // reset this
       loadNextQuestion();
     } else {
       setIncorrectAttempts((prevAttempts) => prevAttempts + 1);
@@ -90,10 +93,9 @@ const Adjectives = () => {
 
   // Handle "Find Answer" button click
   const findAnswer = () => {
-    const correctAnswer = reverse ? currentItem.jp : currentItem.eng;
-    setUserAnswer(correctAnswer);
-    setIncorrectAttempts(0);
+    setShowAnswer(true);
     setShowFindAnswerButton(false);
+    setHintVisible(false);
   };
 
   // Handle checkbox selection (which files to include)
@@ -259,6 +261,17 @@ const Adjectives = () => {
             >
               Find Answer
             </button>
+          </div>
+        )}
+
+        {showAnswer && (
+          <div className="mt-8 p-6 w-full bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 border border-yellow-300 rounded-2xl shadow-lg text-center">
+            <p className="text-sm font-semibold text-yellow-600 mb-2">
+              CORRECT ANSWER
+            </p>
+            <p className="text-2xl font-medium text-yellow-800">
+              {reverse ? currentItem.jp : currentItem.eng}
+            </p>
           </div>
         )}
       </div>

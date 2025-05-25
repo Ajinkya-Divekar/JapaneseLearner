@@ -902,7 +902,7 @@
   {
     "id": 151,
     "jp": "毎日",
-    "eng": "every day",
+    "eng": "everyday",
     "card": 17
   },
   {
@@ -1904,7 +1904,7 @@
   {
     "id": 318,
     "jp": "高",
-    "eng": "tall",
+    "eng": "tall/high/expensive",
     "card": 36
   },
   {
@@ -3915,12 +3915,6 @@
     "id": 653,
     "jp": "えん",
     "eng": "yen",
-    "card": 73
-  },
-  {
-    "id": 654,
-    "jp": "たかい",
-    "eng": "expensive",
     "card": 73
   },
   {
