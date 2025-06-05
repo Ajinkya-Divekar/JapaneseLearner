@@ -3073,8 +3073,8 @@
   },
   {
     "id": 513,
-    "jp": "ごちゅうもんは？",
-    "eng": "What would you like to order?",
+    "jp": "ごちゅうもんは",
+    "eng": "What would you like to order",
     "card": 57
   },
   {
@@ -3428,7 +3428,7 @@
   {
     "id": 572,
     "jp": "はじまる",
-    "eng": "to begin",
+    "eng": "to begin/to start",
     "card": 64
   },
   {
@@ -3918,1143 +3918,2139 @@
     "card": 73
   },
   {
-    "id": 655,
+    "id": 654,
     "jp": "やすい",
     "eng": "cheap",
     "card": 73
   },
   {
-    "id": 656,
+    "id": 655,
     "jp": "ひゃく",
     "eng": "hundred",
     "card": 73
   },
   {
-    "id": 657,
+    "id": 656,
     "jp": "せん",
     "eng": "thousand",
     "card": 73
   },
   {
-    "id": 658,
+    "id": 657,
     "jp": "まん",
     "eng": "ten thousand",
-    "card": 74
+    "card": 73
   },
   {
-    "id": 659,
+    "id": 658,
     "jp": "おく",
     "eng": "hundred million",
     "card": 74
   },
   {
-    "id": 660,
+    "id": 659,
     "jp": "ちょっと",
     "eng": "little",
     "card": 74
   },
   {
-    "id": 661,
+    "id": 660,
     "jp": "では",
     "eng": "then",
     "card": 74
   },
   {
-    "id": 662,
+    "id": 661,
     "jp": "おかね/お金",
     "eng": "money",
     "card": 74
   },
   {
-    "id": 663,
+    "id": 662,
     "jp": "はらう",
     "eng": "to pay",
     "card": 74
   },
   {
-    "id": 664,
+    "id": 663,
     "jp": "おつり",
     "eng": "change",
     "card": 74
   },
   {
-    "id": 665,
+    "id": 664,
     "jp": "こまかいおかね",
     "eng": "small money",
     "card": 74
   },
   {
-    "id": 666,
+    "id": 665,
     "jp": "たりる",
     "eng": "to be sufficient",
     "card": 74
   },
   {
-    "id": 667,
+    "id": 666,
     "jp": "せいかつ",
     "eng": "cost of living",
-    "card": 75
+    "card": 74
   },
   {
-    "id": 668,
+    "id": 667,
     "jp": "いくら",
     "eng": "how many",
     "card": 75
   },
   {
-    "id": 669,
+    "id": 668,
     "jp": "ぜんぶで",
     "eng": "in total",
     "card": 75
   },
   {
-    "id": 670,
+    "id": 669,
     "jp": "～つ",
     "eng": "general counter",
     "card": 75
   },
   {
-    "id": 671,
+    "id": 670,
     "jp": "みせ",
     "eng": "shop",
     "card": 75
   },
   {
-    "id": 672,
+    "id": 671,
     "jp": "～や",
     "eng": "store",
     "card": 75
   },
   {
-    "id": 673,
+    "id": 672,
     "jp": "デパート",
     "eng": "department store",
     "card": 75
   },
   {
-    "id": 674,
+    "id": 673,
     "jp": "コンビニ",
     "eng": "convenience store",
     "card": 75
   },
   {
-    "id": 675,
+    "id": 674,
     "jp": "うる",
     "eng": "to sell",
     "card": 75
   },
   {
-    "id": 676,
+    "id": 675,
     "jp": "うりば",
     "eng": "counter/booth",
-    "card": 76
+    "card": 75
   },
   {
-    "id": 677,
+    "id": 676,
     "jp": "コーナー",
     "eng": "corner",
     "card": 76
   },
   {
-    "id": 678,
+    "id": 677,
     "jp": "たな",
     "eng": "shelf",
     "card": 76
   },
   {
-    "id": 679,
+    "id": 678,
     "jp": "コピーする",
     "eng": "to copy",
     "card": 76
   },
   {
-    "id": 680,
+    "id": 679,
     "jp": "チケット",
     "eng": "ticket",
     "card": 76
   },
   {
-    "id": 681,
+    "id": 680,
     "jp": "カタログ",
     "eng": "catalogue",
     "card": 76
   },
   {
-    "id": 682,
+    "id": 681,
     "jp": "ざっし",
     "eng": "magazine",
     "card": 76
   },
   {
-    "id": 683,
+    "id": 682,
     "jp": "しんぶん",
     "eng": "newspaper",
     "card": 76
   },
   {
-    "id": 684,
+    "id": 683,
     "jp": "ほしい",
     "eng": "want",
     "card": 76
   },
   {
-    "id": 685,
+    "id": 684,
     "jp": "できる",
     "eng": "be able to",
-    "card": 77
+    "card": 76
   },
   {
-    "id": 686,
+    "id": 685,
     "jp": "～でございます",
     "eng": "is/am/are",
     "card": 77
   },
   {
-    "id": 687,
+    "id": 686,
     "jp": "おさがしですか",
     "eng": "are you looking for this?",
     "card": 77
   },
   {
-    "id": 688,
+    "id": 687,
     "jp": "かしこまりました",
     "eng": "understood",
     "card": 77
   },
   {
-    "id": 689,
+    "id": 688,
     "jp": "しょうしょうおまちください",
     "eng": "please wait a while",
     "card": 77
   },
   {
-    "id": 690,
+    "id": 689,
     "jp": "～かた",
     "eng": "method",
     "card": 77
   },
   {
-    "id": 691,
+    "id": 690,
     "jp": "おひきだしですか",
     "eng": "do you want to withdraw",
     "card": 77
   },
   {
-    "id": 692,
+    "id": 691,
     "jp": "げんきん",
     "eng": "cash",
     "card": 77
   },
   {
-    "id": 693,
+    "id": 692,
     "jp": "ATM",
     "eng": "ATM",
     "card": 77
   },
   {
-    "id": 694,
+    "id": 693,
     "jp": "おろす",
     "eng": "to withdraw",
-    "card": 78
+    "card": 77
   },
   {
-    "id": 695,
+    "id": 694,
     "jp": "まず",
     "eng": "first",
     "card": 78
   },
   {
-    "id": 696,
+    "id": 695,
     "jp": "キャッシュカード",
     "eng": "cash card",
     "card": 78
   },
   {
-    "id": 697,
+    "id": 696,
     "jp": "つぎ",
     "eng": "next",
     "card": 78
   },
   {
-    "id": 698,
+    "id": 697,
     "jp": "あんしょうばんごう",
     "eng": "pin code",
     "card": 78
   },
   {
-    "id": 699,
+    "id": 698,
     "jp": "おす",
     "eng": "push",
     "card": 78
   },
   {
-    "id": 700,
+    "id": 699,
     "jp": "それから",
     "eng": "then",
     "card": 78
   },
   {
-    "id": 701,
+    "id": 700,
     "jp": "きんがく",
     "eng": "amount",
     "card": 78
   },
   {
-    "id": 702,
+    "id": 701,
     "jp": "かくにんする",
     "eng": "to confirm",
     "card": 78
   },
   {
-    "id": 703,
+    "id": 702,
     "jp": "ボタン",
     "eng": "button",
-    "card": 79
+    "card": 78
   },
   {
-    "id": 704,
+    "id": 703,
     "jp": "でる",
     "eng": "to exit",
     "card": 79
   },
   {
-    "id": 705,
+    "id": 704,
     "jp": "かえる",
     "eng": "to exchange",
     "card": 79
   },
   {
-    "id": 706,
+    "id": 705,
     "jp": "ゆうびんきょく",
     "eng": "post office",
     "card": 79
   },
   {
-    "id": 707,
+    "id": 706,
     "jp": "ポスト",
     "eng": "mailbox",
     "card": 79
   },
   {
-    "id": 708,
+    "id": 707,
     "jp": "てがみ",
     "eng": "letter",
     "card": 79
   },
   {
-    "id": 709,
+    "id": 708,
     "jp": "はがき",
     "eng": "postcard",
     "card": 79
   },
   {
-    "id": 710,
+    "id": 709,
     "jp": "ねんがじょう",
     "eng": "new year's card",
     "card": 79
   },
   {
-    "id": 711,
+    "id": 710,
     "jp": "だす",
     "eng": "to send",
     "card": 79
   },
   {
-    "id": 712,
+    "id": 711,
     "jp": "メール",
     "eng": "mail",
-    "card": 80
+    "card": 79
   },
   {
-    "id": 713,
+    "id": 712,
     "jp": "おくる",
     "eng": "to send",
     "card": 80
   },
   {
-    "id": 714,
+    "id": 713,
     "jp": "きって",
     "eng": "stamps",
     "card": 80
   },
   {
-    "id": 715,
+    "id": 714,
     "jp": "あつめる",
     "eng": "to collect",
     "card": 80
   },
   {
-    "id": 716,
+    "id": 715,
     "jp": "ふうとう",
     "eng": "envelope",
     "card": 80
   },
   {
-    "id": 717,
+    "id": 716,
     "jp": "がいこく",
     "eng": "foreign country",
     "card": 80
   },
   {
-    "id": 718,
+    "id": 717,
     "jp": "エアメール",
     "eng": "airmail",
     "card": 80
   },
   {
-    "id": 719,
+    "id": 718,
     "jp": "こうくうびん",
     "eng": "airmail",
     "card": 80
   },
   {
-    "id": 720,
+    "id": 719,
     "jp": "ふなびん",
     "eng": "sea mail",
     "card": 80
   },
   {
-    "id": 721,
+    "id": 720,
     "jp": "にもつ",
     "eng": "package",
-    "card": 81
+    "card": 80
   },
   {
-    "id": 722,
+    "id": 721,
     "jp": "おもい",
     "eng": "heavy",
     "card": 81
   },
   {
-    "id": 723,
+    "id": 722,
     "jp": "かるい",
     "eng": "light",
     "card": 81
   },
   {
-    "id": 724,
+    "id": 723,
     "jp": "あげる",
     "eng": "to give",
     "card": 81
   },
   {
-    "id": 725,
+    "id": 724,
     "jp": "もらう",
     "eng": "to receive",
     "card": 81
   },
   {
-    "id": 726,
+    "id": 725,
     "jp": "くれる",
     "eng": "to give",
     "card": 81
   },
   {
-    "id": 727,
+    "id": 726,
     "jp": "プレゼント",
     "eng": "present",
     "card": 81
   },
   {
-    "id": 728,
+    "id": 727,
     "jp": "もの",
     "eng": "thing",
     "card": 81
   },
   {
-    "id": 729,
+    "id": 728,
     "jp": "パーティー",
     "eng": "party",
     "card": 81
   },
   {
-    "id": 730,
+    "id": 729,
     "jp": "はじめる",
     "eng": "to start/to begin",
-    "card": 82
+    "card": 81
   },
   {
-    "id": 731,
+    "id": 730,
     "jp": "だれ",
     "eng": "who",
     "card": 82
   },
   {
-    "id": 732,
+    "id": 731,
     "jp": "どなた",
     "eng": "who",
     "card": 82
   },
   {
-    "id": 733,
+    "id": 732,
     "jp": "あのひと",
     "eng": "that person",
     "card": 82
   },
   {
-    "id": 734,
+    "id": 733,
     "jp": "クリスマス",
     "eng": "christmas",
     "card": 82
   },
   {
-    "id": 735,
+    "id": 734,
     "jp": "おたんじょうび",
     "eng": "birthday",
     "card": 82
   },
   {
-    "id": 736,
+    "id": 735,
     "jp": "うまれる",
     "eng": "to be born",
     "card": 82
   },
   {
-    "id": 737,
+    "id": 736,
     "jp": "おめでとうございます",
     "eng": "congratulations",
     "card": 82
   },
   {
-    "id": 738,
+    "id": 737,
     "jp": "わあ",
     "eng": "ohh, yay",
     "card": 82
   },
   {
-    "id": 739,
+    "id": 738,
     "jp": "なんさい",
     "eng": "how old",
-    "card": 83
+    "card": 82
   },
   {
-    "id": 740,
+    "id": 739,
     "jp": "おいくつ",
     "eng": "how old",
     "card": 83
   },
   {
-    "id": 741,
+    "id": 740,
     "jp": "～さい",
     "eng": "years old",
     "card": 83
   },
   {
-    "id": 742,
+    "id": 741,
     "jp": "何日",
     "eng": "what date",
     "card": 83
   },
   {
-    "id": 743,
+    "id": 742,
     "jp": "～日",
     "eng": "date",
     "card": 83
   },
   {
-    "id": 744,
+    "id": 743,
     "jp": "えき",
     "eng": "station",
     "card": 83
   },
   {
-    "id": 745,
+    "id": 744,
     "jp": "でんしゃ",
     "eng": "train",
     "card": 83
   },
   {
-    "id": 746,
+    "id": 745,
     "jp": "のる",
     "eng": "to get in",
     "card": 83
   },
   {
-    "id": 747,
+    "id": 746,
     "jp": "おりる",
     "eng": "to get off",
     "card": 83
   },
   {
-    "id": 748,
+    "id": 747,
     "jp": "きっぷ",
     "eng": "ticket",
-    "card": 84
+    "card": 83
   },
   {
-    "id": 749,
+    "id": 748,
     "jp": "つぎの",
     "eng": "next",
     "card": 84
   },
   {
-    "id": 750,
+    "id": 749,
     "jp": "のりかえる",
     "eng": "to change / to transfer",
     "card": 84
   },
   {
-    "id": 751,
+    "id": 750,
     "jp": "かくえ電車",
     "eng": "local train",
     "card": 84
   },
   {
-    "id": 752,
+    "id": 751,
     "jp": "きゅうこう",
     "eng": "express train",
     "card": 84
   },
   {
-    "id": 753,
+    "id": 752,
     "jp": "とっきゅう",
     "eng": "limited express",
     "card": 84
   },
   {
-    "id": 754,
+    "id": 753,
     "jp": "しんかんせん",
     "eng": "bullet train",
     "card": 84
   },
   {
-    "id": 755,
+    "id": 754,
     "jp": "ちかてつ",
     "eng": "subway",
     "card": 84
   },
   {
-    "id": 756,
+    "id": 755,
     "jp": "～ばんせん",
     "eng": "track number",
     "card": 84
   },
   {
-    "id": 757,
+    "id": 756,
     "jp": "なんばんせん",
     "eng": "what track number",
-    "card": 85
+    "card": 84
   },
   {
-    "id": 758,
+    "id": 757,
     "jp": "じどうしゃ",
     "eng": "automobile",
     "card": 85
   },
   {
-    "id": 759,
+    "id": 758,
     "jp": "車",
     "eng": "car",
     "card": 85
   },
   {
-    "id": 760,
+    "id": 759,
     "jp": "うんてんする",
     "eng": "to drive",
     "card": 85
   },
   {
-    "id": 761,
+    "id": 760,
     "jp": "おくる",
     "eng": "to send",
     "card": 85
   },
   {
-    "id": 762,
+    "id": 761,
     "jp": "ちゅうしゃじょう",
     "eng": "parking lot",
     "card": 85
   },
   {
-    "id": 763,
+    "id": 762,
     "jp": "とめる",
     "eng": "to stop/to park",
     "card": 85
   },
   {
-    "id": 764,
+    "id": 763,
     "jp": "じてんしゃ",
     "eng": "bicycle",
     "card": 85
   },
   {
-    "id": 765,
+    "id": 764,
     "jp": "バイク",
     "eng": "bike",
     "card": 85
   },
   {
-    "id": 766,
+    "id": 765,
     "jp": "バス",
     "eng": "bus",
-    "card": 86
+    "card": 85
   },
   {
-    "id": 767,
+    "id": 766,
     "jp": "タクシー",
     "eng": "taxi",
     "card": 86
   },
   {
-    "id": 768,
+    "id": 767,
     "jp": "ひこうき",
     "eng": "airplane",
     "card": 86
   },
   {
-    "id": 769,
+    "id": 768,
     "jp": "ふね",
     "eng": "ship / boat",
     "card": 86
   },
   {
-    "id": 770,
+    "id": 769,
     "jp": "のりば",
     "eng": "place for boarding vehicles / stand",
     "card": 86
   },
   {
-    "id": 771,
+    "id": 770,
     "jp": "くうこう",
     "eng": "airport",
     "card": 86
   },
   {
-    "id": 772,
+    "id": 771,
     "jp": "じこくひょう",
     "eng": "timetable",
     "card": 86
   },
   {
-    "id": 773,
+    "id": 772,
     "jp": "じかん",
     "eng": "time",
     "card": 86
   },
   {
-    "id": 774,
+    "id": 773,
     "jp": "いそぐ",
     "eng": "to hurry",
     "card": 86
   },
   {
-    "id": 775,
+    "id": 774,
     "jp": "どのぐらい",
     "eng": "how long",
-    "card": 87
+    "card": 86
   },
   {
-    "id": 776,
+    "id": 775,
     "jp": "かかる",
     "eng": "to take time/to take money",
     "card": 87
   },
   {
-    "id": 777,
+    "id": 776,
     "jp": "ちかい",
     "eng": "near",
     "card": 87
   },
   {
-    "id": 778,
+    "id": 777,
     "jp": "とおい",
     "eng": "far",
     "card": 87
   },
   {
-    "id": 779,
+    "id": 778,
     "jp": "ずっと",
     "eng": "much / continuously",
     "card": 87
   },
   {
-    "id": 780,
+    "id": 779,
     "jp": "いつも",
     "eng": "always",
     "card": 87
   },
   {
-    "id": 781,
+    "id": 780,
     "jp": "たいてい",
     "eng": "mostly / usually",
     "card": 87
   },
   {
-    "id": 782,
+    "id": 781,
     "jp": "よく",
     "eng": "often",
     "card": 87
   },
   {
-    "id": 783,
+    "id": 782,
     "jp": "ときどき",
     "eng": "sometimes",
     "card": 87
   },
   {
-    "id": 784,
+    "id": 783,
     "jp": "だけ",
     "eng": "only",
-    "card": 88
+    "card": 87
   },
   {
-    "id": 785,
+    "id": 784,
     "jp": "どうやって",
     "eng": "how",
     "card": 88
   },
   {
-    "id": 786,
+    "id": 785,
     "jp": "あるく",
     "eng": "to walk",
     "card": 88
   },
   {
-    "id": 787,
+    "id": 786,
     "jp": "みち",
     "eng": "road",
     "card": 88
   },
   {
-    "id": 788,
+    "id": 787,
     "jp": "まっすぐ",
     "eng": "straight",
     "card": 88
   },
   {
-    "id": 789,
+    "id": 788,
     "jp": "まがる",
     "eng": "to bend / to turn",
     "card": 88
   },
   {
-    "id": 790,
+    "id": 789,
     "jp": "わたる",
     "eng": "to cross",
     "card": 88
   },
   {
-    "id": 791,
+    "id": 790,
     "jp": "せつめいする",
     "eng": "to explain",
     "card": 88
   },
   {
-    "id": 792,
+    "id": 791,
     "jp": "かど",
     "eng": "corner",
     "card": 88
   },
   {
-    "id": 793,
+    "id": 792,
     "jp": "こうさてん",
     "eng": "intersection",
-    "card": 89
+    "card": 88
   },
   {
-    "id": 794,
+    "id": 793,
     "jp": "しんごう",
     "eng": "signal",
     "card": 89
   },
   {
-    "id": 795,
+    "id": 794,
     "jp": "左",
     "eng": "left",
     "card": 89
   },
   {
-    "id": 796,
+    "id": 795,
     "jp": "右",
     "eng": "right",
     "card": 89
   },
   {
-    "id": 797,
+    "id": 796,
     "jp": "はし",
     "eng": "bridge",
     "card": 89
   },
   {
-    "id": 798,
+    "id": 797,
     "jp": "東",
     "eng": "east",
     "card": 89
   },
   {
-    "id": 799,
+    "id": 798,
     "jp": "西",
     "eng": "west",
     "card": 89
   },
   {
-    "id": 800,
+    "id": 799,
     "jp": "南",
     "eng": "south",
     "card": 89
   },
   {
-    "id": 801,
+    "id": 800,
     "jp": "北",
     "eng": "north",
     "card": 89
   },
   {
-    "id": 802,
+    "id": 801,
     "jp": "いくつ目",
     "eng": "how many / which",
-    "card": 90
+    "card": 89
   },
   {
-    "id": 803,
+    "id": 802,
     "jp": "ひとつ目",
     "eng": "first",
     "card": 90
   },
   {
-    "id": 804,
+    "id": 803,
     "jp": "ふたつ目",
     "eng": "second",
     "card": 90
   },
   {
-    "id": 805,
+    "id": 804,
     "jp": "みっつ目",
     "eng": "third",
     "card": 90
   },
   {
-    "id": 806,
+    "id": 805,
     "jp": "なんメートル",
     "eng": "how many meters",
     "card": 90
   },
   {
-    "id": 807,
+    "id": 806,
     "jp": "～メートル",
     "eng": "meters",
     "card": 90
   },
   {
-    "id": 808,
+    "id": 807,
     "jp": "となり",
     "eng": "next",
     "card": 90
   },
   {
-    "id": 809,
+    "id": 808,
     "jp": "間",
     "eng": "between",
     "card": 90
   },
   {
-    "id": 810,
+    "id": 809,
     "jp": "ちかく",
     "eng": "near",
     "card": 90
   },
   {
-    "id": 811,
+    "id": 810,
     "jp": "上",
     "eng": "above",
-    "card": 91
+    "card": 90
   },
   {
-    "id": 812,
+    "id": 811,
     "jp": "下",
     "eng": "below",
     "card": 91
   },
   {
-    "id": 813,
+    "id": 812,
     "jp": "前",
     "eng": "front",
     "card": 91
   },
   {
-    "id": 814,
+    "id": 813,
     "jp": "後ろ",
     "eng": "behind",
     "card": 91
   },
   {
-    "id": 815,
+    "id": 814,
     "jp": "なか",
     "eng": "inside",
     "card": 91
   },
   {
-    "id": 816,
+    "id": 815,
     "jp": "そと",
     "eng": "outside",
     "card": 91
   },
   {
-    "id": 817,
+    "id": 816,
     "jp": "ここ",
     "eng": "here",
     "card": 91
   },
   {
-    "id": 818,
+    "id": 817,
     "jp": "そこ",
     "eng": "there",
     "card": 91
   },
   {
-    "id": 819,
+    "id": 818,
     "jp": "あそこ",
     "eng": "over there",
     "card": 91
   },
   {
-    "id": 820,
+    "id": 819,
     "jp": "どこ",
     "eng": "where",
-    "card": 92
+    "card": 91
   },
   {
-    "id": 821,
+    "id": 820,
     "jp": "出る",
     "eng": "to go out",
     "card": 92
   },
   {
-    "id": 822,
+    "id": 821,
     "jp": "出かける",
     "eng": "to leave",
     "card": 92
   },
   {
-    "id": 823,
+    "id": 822,
     "jp": "つく",
     "eng": "to arrive",
     "card": 92
   },
   {
-    "id": 824,
+    "id": 823,
     "jp": "あう",
     "eng": "to meet",
     "card": 92
   },
   {
-    "id": 825,
+    "id": 824,
     "jp": "まつ",
     "eng": "to wait",
     "card": 92
   },
   {
-    "id": 826,
+    "id": 825,
     "jp": "デートする",
     "eng": "to date",
     "card": 92
   },
   {
-    "id": 827,
+    "id": 826,
     "jp": "やくそくする",
     "eng": "to promise",
     "card": 92
   },
   {
-    "id": 828,
+    "id": 827,
     "jp": "ようじ",
     "eng": "errand",
     "card": 92
   },
   {
-    "id": 829,
+    "id": 828,
     "jp": "つごうがいい",
     "eng": "be convenient",
-    "card": 93
+    "card": 92
   },
   {
-    "id": 830,
+    "id": 829,
     "jp": "つごうがわるい",
     "eng": "be inconvenient",
     "card": 93
   },
   {
-    "id": 831,
+    "id": 830,
     "jp": "だめ",
     "eng": "not good",
     "card": 93
   },
   {
-    "id": 832,
+    "id": 831,
     "jp": "かえる",
     "eng": "to change",
     "card": 93
   },
   {
-    "id": 833,
+    "id": 832,
     "jp": "おでかけますか",
-    "eng": "are you going out?",
+    "eng": "are you going out",
     "card": 93
   },
   {
-    "id": 834,
+    "id": 833,
     "jp": "よかったら",
     "eng": "if it is alright",
     "card": 93
   },
   {
-    "id": 835,
+    "id": 834,
     "jp": "すみません",
     "eng": "excuse me",
     "card": 93
   },
   {
-    "id": 836,
+    "id": 835,
     "jp": "ざんねんですが",
     "eng": "unfortunately",
     "card": 93
   },
   {
-    "id": 837,
+    "id": 836,
     "jp": "またこんどおねがいします",
     "eng": "next time please",
     "card": 93
   },
   {
-    "id": 838,
+    "id": 837,
     "jp": "チャンス",
     "eng": "chance",
-    "card": 94
+    "card": 93
   },
   {
-    "id": 839,
+    "id": 838,
     "jp": "行ってきます",
     "eng": "goodbye",
     "card": 94
   },
   {
-    "id": 840,
+    "id": 839,
     "jp": "行ってらっしゃい",
     "eng": "have a good day",
     "card": 94
   },
   {
-    "id": 841,
+    "id": 840,
     "jp": "ただいま",
     "eng": "I'm back",
     "card": 94
   },
   {
-    "id": 842,
+    "id": 841,
     "jp": "おかえり",
     "eng": "Welcome home",
     "card": 94
   },
   {
-    "id": 843,
+    "id": 842,
     "jp": "いえ",
     "eng": "house",
     "card": 94
   },
   {
-    "id": 844,
+    "id": 843,
     "jp": "へや",
     "eng": "room",
     "card": 94
+  },
+  {
+    "id": 844,
+    "jp": "おふろ",
+    "eng": "bathroom",
+    "card": 94
+  },
+  {
+    "id": 845,
+    "jp": "テーブル",
+    "eng": "table",
+    "card": 94
+  },
+  {
+    "id": 846,
+    "jp": "つくえ",
+    "eng": "table",
+    "card": 94
+  },
+  {
+    "id": 847,
+    "jp": "いす",
+    "eng": "chair",
+    "card": 95
+  },
+  {
+    "id": 848,
+    "jp": "すわる",
+    "eng": "to sit",
+    "card": 95
+  },
+  {
+    "id": 849,
+    "jp": "たつ",
+    "eng": "to stand",
+    "card": 95
+  },
+  {
+    "id": 850,
+    "jp": "せんたくする",
+    "eng": "to wash clothes",
+    "card": 95
+  },
+  {
+    "id": 851,
+    "jp": "そうじする",
+    "eng": "to clean",
+    "card": 95
+  },
+  {
+    "id": 852,
+    "jp": "ごみ",
+    "eng": "garbage",
+    "card": 95
+  },
+  {
+    "id": 853,
+    "jp": "すてる",
+    "eng": "to throw away",
+    "card": 95
+  },
+  {
+    "id": 854,
+    "jp": "おく",
+    "eng": "to put/to place/to keep",
+    "card": 95
+  },
+  {
+    "id": 855,
+    "jp": "すむ",
+    "eng": "to live",
+    "card": 95
+  },
+  {
+    "id": 856,
+    "jp": "じゅうしょ",
+    "eng": "address",
+    "card": 96
+  },
+  {
+    "id": 857,
+    "jp": "れいぞうこ",
+    "eng": "refrigerator",
+    "card": 96
+  },
+  {
+    "id": 858,
+    "jp": "せんたくき",
+    "eng": "washing machine",
+    "card": 96
+  },
+  {
+    "id": 859,
+    "jp": "そうじき",
+    "eng": "vacuum cleaner",
+    "card": 96
+  },
+  {
+    "id": 860,
+    "jp": "たてもの",
+    "eng": "building",
+    "card": 96
+  },
+  {
+    "id": 861,
+    "jp": "ビル",
+    "eng": "building",
+    "card": 96
+  },
+  {
+    "id": 862,
+    "jp": "アパート",
+    "eng": "apartment",
+    "card": 96
+  },
+  {
+    "id": 863,
+    "jp": "りょう",
+    "eng": "dormitory/dorm",
+    "card": 96
+  },
+  {
+    "id": 864,
+    "jp": "かいだん",
+    "eng": "stairs",
+    "card": 96
+  },
+  {
+    "id": 865,
+    "jp": "エスカレーター",
+    "eng": "escalator",
+    "card": 97
+  },
+  {
+    "id": 866,
+    "jp": "エレベーター",
+    "eng": "elevator",
+    "card": 97
+  },
+  {
+    "id": 867,
+    "jp": "なんがい",
+    "eng": "which floor",
+    "card": 97
+  },
+  {
+    "id": 868,
+    "jp": "〜かい",
+    "eng": "floor",
+    "card": 97
+  },
+  {
+    "id": 869,
+    "jp": "さんがい",
+    "eng": "third floor",
+    "card": 97
+  },
+  {
+    "id": 870,
+    "jp": "ちか",
+    "eng": "basement",
+    "card": 97
+  },
+  {
+    "id": 871,
+    "jp": "ひっこし",
+    "eng": "moving",
+    "card": 97
+  },
+  {
+    "id": 872,
+    "jp": "てんきん",
+    "eng": "to transfer",
+    "card": 97
+  },
+  {
+    "id": 873,
+    "jp": "やちん",
+    "eng": "rent",
+    "card": 97
+  },
+  {
+    "id": 874,
+    "jp": "ところ",
+    "eng": "place",
+    "card": 98
+  },
+  {
+    "id": 875,
+    "jp": "いなか",
+    "eng": "countryside",
+    "card": 98
+  },
+  {
+    "id": 876,
+    "jp": "しずかな",
+    "eng": "quiet",
+    "card": 98
+  },
+  {
+    "id": 877,
+    "jp": "にぎやかな",
+    "eng": "lively/crowded",
+    "card": 98
+  },
+  {
+    "id": 878,
+    "jp": "べんりな",
+    "eng": "convenient",
+    "card": 98
+  },
+  {
+    "id": 879,
+    "jp": "ふべん",
+    "eng": "inconvenient",
+    "card": 98
+  },
+  {
+    "id": 880,
+    "jp": "こうつう",
+    "eng": "traffic",
+    "card": 98
+  },
+  {
+    "id": 881,
+    "jp": "にわ",
+    "eng": "garden",
+    "card": 98
+  },
+  {
+    "id": 882,
+    "jp": "木",
+    "eng": "tree",
+    "card": 98
+  },
+  {
+    "id": 883,
+    "jp": "みどり",
+    "eng": "green",
+    "card": 99
+  },
+  {
+    "id": 884,
+    "jp": "わかい",
+    "eng": "young",
+    "card": 99
+  },
+  {
+    "id": 885,
+    "jp": "年をとる",
+    "eng": "to get old",
+    "card": 99
+  },
+  {
+    "id": 886,
+    "jp": "しやくしょ",
+    "eng": "city hall/ward office",
+    "card": 99
+  },
+  {
+    "id": 887,
+    "jp": "ひろい",
+    "eng": "wide/spacious",
+    "card": 99
+  },
+  {
+    "id": 888,
+    "jp": "せまい",
+    "eng": "narrow",
+    "card": 99
+  },
+  {
+    "id": 889,
+    "jp": "新しい",
+    "eng": "new",
+    "card": 99
+  },
+  {
+    "id": 890,
+    "jp": "古い",
+    "eng": "old",
+    "card": 99
+  },
+  {
+    "id": 891,
+    "jp": "いらっしゃい",
+    "eng": "welcome",
+    "card": 99
+  },
+  {
+    "id": 892,
+    "jp": "どうぞおあがりください",
+    "eng": "please come in",
+    "card": 100
+  },
+  {
+    "id": 893,
+    "jp": "そろそろしつれいします",
+    "eng": "I will excuse myself",
+    "card": 100
+  },
+  {
+    "id": 894,
+    "jp": "またいらっしゃってください",
+    "eng": "please come again",
+    "card": 100
+  },
+  {
+    "id": 895,
+    "jp": "おっと",
+    "eng": "husband",
+    "card": 100
+  },
+  {
+    "id": 896,
+    "jp": "つま",
+    "eng": "wife",
+    "card": 100
+  },
+  {
+    "id": 897,
+    "jp": "ごしゅじん",
+    "eng": "your husband",
+    "card": 100
+  },
+  {
+    "id": 898,
+    "jp": "おくさん",
+    "eng": "your wife",
+    "card": 100
+  },
+  {
+    "id": 899,
+    "jp": "しょうかいする",
+    "eng": "to introduce",
+    "card": 100
+  },
+  {
+    "id": 900,
+    "jp": "どくしん",
+    "eng": "single",
+    "card": 100
+  },
+  {
+    "id": 901,
+    "jp": "おせわになります",
+    "eng": "looking forward to your cooperation",
+    "card": 101
+  },
+  {
+    "id": 902,
+    "jp": "けっこんする",
+    "eng": "to marry",
+    "card": 101
+  },
+  {
+    "id": 903,
+    "jp": "おれ",
+    "eng": "I",
+    "card": 101
+  },
+  {
+    "id": 904,
+    "jp": "ぼく",
+    "eng": "I",
+    "card": 101
+  },
+  {
+    "id": 905,
+    "jp": "あたし",
+    "eng": "I",
+    "card": 101
+  },
+  {
+    "id": 906,
+    "jp": "いろいろ",
+    "eng": "various",
+    "card": 101
+  },
+  {
+    "id": 907,
+    "jp": "おせわになりました",
+    "eng": "thank you for taking care of me",
+    "card": 101
+  },
+  {
+    "id": 908,
+    "jp": "気をつけて",
+    "eng": "take care",
+    "card": 101
+  },
+  {
+    "id": 909,
+    "jp": "あぶない",
+    "eng": "dangerous",
+    "card": 101
+  },
+  {
+    "id": 910,
+    "jp": "しゅうまつ",
+    "eng": "weekend",
+    "card": 102
+  },
+  {
+    "id": 911,
+    "jp": "はじめ",
+    "eng": "beginning",
+    "card": 102
+  },
+  {
+    "id": 912,
+    "jp": "おわり",
+    "eng": "end",
+    "card": 102
+  },
+  {
+    "id": 913,
+    "jp": "せんしゅう",
+    "eng": "last week",
+    "card": 102
+  },
+  {
+    "id": 914,
+    "jp": "こんしゅう",
+    "eng": "this week",
+    "card": 102
+  },
+  {
+    "id": 915,
+    "jp": "らいしゅう",
+    "eng": "next week",
+    "card": 102
+  },
+  {
+    "id": 916,
+    "jp": "せんげつ",
+    "eng": "last month",
+    "card": 102
+  },
+  {
+    "id": 917,
+    "jp": "こんげつ",
+    "eng": "this month",
+    "card": 102
+  },
+  {
+    "id": 918,
+    "jp": "らいげつ",
+    "eng": "next month",
+    "card": 102
+  },
+  {
+    "id": 919,
+    "jp": "電気",
+    "eng": "electricity",
+    "card": 103
+  },
+  {
+    "id": 920,
+    "jp": "つける",
+    "eng": "to turn on",
+    "card": 103
+  },
+  {
+    "id": 921,
+    "jp": "けす",
+    "eng": "to turn off",
+    "card": 103
+  },
+  {
+    "id": 922,
+    "jp": "あかるい",
+    "eng": "bright",
+    "card": 103
+  },
+  {
+    "id": 923,
+    "jp": "くらい",
+    "eng": "dark",
+    "card": 103
+  },
+  {
+    "id": 924,
+    "jp": "エアコン",
+    "eng": "air conditioner",
+    "card": 103
+  },
+  {
+    "id": 925,
+    "jp": "ビデオ",
+    "eng": "video",
+    "card": 103
+  },
+  {
+    "id": 926,
+    "jp": "スイッチ",
+    "eng": "switch",
+    "card": 103
+  },
+  {
+    "id": 927,
+    "jp": "まわす",
+    "eng": "to rotate",
+    "card": 103
+  },
+  {
+    "id": 928,
+    "jp": "ひく",
+    "eng": "to pull",
+    "card": 104
+  },
+  {
+    "id": 929,
+    "jp": "うごく",
+    "eng": "to move",
+    "card": 104
+  },
+  {
+    "id": 930,
+    "jp": "おと",
+    "eng": "sound",
+    "card": 104
+  },
+  {
+    "id": 931,
+    "jp": "もし",
+    "eng": "if/in case",
+    "card": 104
+  },
+  {
+    "id": 932,
+    "jp": "こしょうする",
+    "eng": "to break down / out of order",
+    "card": 104
+  },
+  {
+    "id": 933,
+    "jp": "しゅうりする",
+    "eng": "to repair",
+    "card": 104
+  },
+  {
+    "id": 934,
+    "jp": "よぶ",
+    "eng": "to call",
+    "card": 104
+  },
+  {
+    "id": 935,
+    "jp": "なおす",
+    "eng": "to correct / to fix",
+    "card": 104
+  },
+  {
+    "id": 936,
+    "jp": "せいひん",
+    "eng": "product",
+    "card": 104
+  },
+  {
+    "id": 937,
+    "jp": "びょうき",
+    "eng": "sick / illness",
+    "card": 105
+  },
+  {
+    "id": 938,
+    "jp": "びょういん",
+    "eng": "hospital",
+    "card": 105
+  },
+  {
+    "id": 939,
+    "jp": "どうしましたか",
+    "eng": "what's the matter?",
+    "card": 105
+  },
+  {
+    "id": 940,
+    "jp": "ねつ",
+    "eng": "fever",
+    "card": 105
+  },
+  {
+    "id": 941,
+    "jp": "かぜ",
+    "eng": "cold",
+    "card": 105
+  },
+  {
+    "id": 942,
+    "jp": "インフルエンザ",
+    "eng": "influenza",
+    "card": 105
+  },
+  {
+    "id": 943,
+    "jp": "くすり",
+    "eng": "medicine",
+    "card": 105
+  },
+  {
+    "id": 944,
+    "jp": "はな",
+    "eng": "nose",
+    "card": 105
+  },
+  {
+    "id": 945,
+    "jp": "耳",
+    "eng": "ear",
+    "card": 105
+  },
+  {
+    "id": 946,
+    "jp": "口",
+    "eng": "mouth",
+    "card": 106
+  },
+  {
+    "id": 947,
+    "jp": "のど",
+    "eng": "throat",
+    "card": 106
+  },
+  {
+    "id": 948,
+    "jp": "あたま",
+    "eng": "head",
+    "card": 106
+  },
+  {
+    "id": 949,
+    "jp": "かお",
+    "eng": "face",
+    "card": 106
+  },
+  {
+    "id": 950,
+    "jp": "おなか",
+    "eng": "stomach",
+    "card": 106
+  },
+  {
+    "id": 951,
+    "jp": "手",
+    "eng": "hand",
+    "card": 106
+  },
+  {
+    "id": 952,
+    "jp": "足",
+    "eng": "leg / foot",
+    "card": 106
+  },
+  {
+    "id": 953,
+    "jp": "おだいじに",
+    "eng": "take care of yourself",
+    "card": 106
+  },
+  {
+    "id": 954,
+    "jp": "～がいたい",
+    "eng": "is painful / hurts",
+    "card": 106
+  },
+  {
+    "id": 955,
+    "jp": "はいしゃさん",
+    "eng": "dentist",
+    "card": 107
+  },
+  {
+    "id": 956,
+    "jp": "一人で",
+    "eng": "alone",
+    "card": 107
+  },
+  {
+    "id": 957,
+    "jp": "けんこう",
+    "eng": "health",
+    "card": 107
+  },
+  {
+    "id": 958,
+    "jp": "けんこうほけんしょう",
+    "eng": "health insurance card",
+    "card": 107
+  },
+  {
+    "id": 959,
+    "jp": "からだ",
+    "eng": "body",
+    "card": 107
+  },
+  {
+    "id": 960,
+    "jp": "からだにいい",
+    "eng": "good for the body",
+    "card": 107
+  },
+  {
+    "id": 961,
+    "jp": "ちょうし",
+    "eng": "condition",
+    "card": 107
+  },
+  {
+    "id": 962,
+    "jp": "つかれる",
+    "eng": "to get tired",
+    "card": 107
+  },
+  {
+    "id": 963,
+    "jp": "たいへん",
+    "eng": "terrible / tough",
+    "card": 107
+  },
+  {
+    "id": 964,
+    "jp": "さいきん",
+    "eng": "recently / lately",
+    "card": 108
+  },
+  {
+    "id": 965,
+    "jp": "しんぱいする",
+    "eng": "to worry",
+    "card": 108
+  },
+  {
+    "id": 966,
+    "jp": "たばこ",
+    "eng": "tobacco / cigarette",
+    "card": 108
+  },
+  {
+    "id": 967,
+    "jp": "すう",
+    "eng": "to smoke",
+    "card": 108
+  },
+  {
+    "id": 968,
+    "jp": "きんえん",
+    "eng": "no smoking",
+    "card": 108
+  },
+  {
+    "id": 969,
+    "jp": "だいじょうぶ",
+    "eng": "okay / all right",
+    "card": 108
+  },
+  {
+    "id": 970,
+    "jp": "むりな",
+    "eng": "impossible / not allowed",
+    "card": 108
+  },
+  {
+    "id": 971,
+    "jp": "ダイエット",
+    "eng": "diet",
+    "card": 108
+  },
+  {
+    "id": 972,
+    "jp": "おもいだす",
+    "eng": "to remember / to recall",
+    "card": 108
+  },
+  {
+    "id": 973,
+    "jp": "さびしい",
+    "eng": "lonely",
+    "card": 109
+  },
+  {
+    "id": 974,
+    "jp": "おひさしぶりです",
+    "eng": "long time no see",
+    "card": 109
+  },
+  {
+    "id": 975,
+    "jp": "あっ",
+    "eng": "oh",
+    "card": 109
+  },
+  {
+    "id": 976,
+    "jp": "おげんきですか",
+    "eng": "how are you?",
+    "card": 109
+  },
+  {
+    "id": 977,
+    "jp": "おかげさまで",
+    "eng": "thanks to you / because of you",
+    "card": 109
+  },
+  {
+    "id": 978,
+    "jp": "パスポート",
+    "eng": "passport",
+    "card": 109
+  },
+  {
+    "id": 979,
+    "jp": "ビザ",
+    "eng": "visa",
+    "card": 109
+  },
+  {
+    "id": 980,
+    "jp": "たいしかん",
+    "eng": "embassy",
+    "card": 109
+  },
+  {
+    "id": 981,
+    "jp": "たいせつ",
+    "eng": "important",
+    "card": 109
+  },
+  {
+    "id": 982,
+    "jp": "なくす",
+    "eng": "to lose something",
+    "card": 110
+  },
+  {
+    "id": 983,
+    "jp": "かす",
+    "eng": "to lend",
+    "card": 110
+  },
+  {
+    "id": 984,
+    "jp": "かりる",
+    "eng": "to borrow",
+    "card": 110
+  },
+  {
+    "id": 985,
+    "jp": "かえす",
+    "eng": "to return",
+    "card": 110
+  },
+  {
+    "id": 986,
+    "jp": "むだな",
+    "eng": "wasteful / uselessness",
+    "card": 110
+  },
+  {
+    "id": 987,
+    "jp": "いる",
+    "eng": "to be / to need",
+    "card": 110
+  },
+  {
+    "id": 988,
+    "jp": "えっ",
+    "eng": "really?",
+    "card": 110
+  },
+  {
+    "id": 989,
+    "jp": "ほんとう",
+    "eng": "truth / reality",
+    "card": 110
+  },
+  {
+    "id": 990,
+    "jp": "うそ",
+    "eng": "lie",
+    "card": 110
+  },
+  {
+    "id": 991,
+    "jp": "こと",
+    "eng": "thing / matter",
+    "card": 111
+  },
+  {
+    "id": 992,
+    "jp": "おいのり",
+    "eng": "prayer",
+    "card": 111
+  },
+  {
+    "id": 993,
+    "jp": "さわる",
+    "eng": "to touch",
+    "card": 111
+  },
+  {
+    "id": 994,
+    "jp": "しょうらい",
+    "eng": "future",
+    "card": 111
+  },
+  {
+    "id": 995,
+    "jp": "ゆめ",
+    "eng": "dream",
+    "card": 111
+  },
+  {
+    "id": 996,
+    "jp": "りゅうがくする",
+    "eng": "to study abroad",
+    "card": 111
+  },
+  {
+    "id": 997,
+    "jp": "けんきゅうする",
+    "eng": "to research",
+    "card": 111
+  },
+  {
+    "id": 998,
+    "jp": "けんきゅうしゃ",
+    "eng": "researcher",
+    "card": 111
+  },
+  {
+    "id": 999,
+    "jp": "だいがくいん",
+    "eng": "graduate school",
+    "card": 111
+  },
+  {
+    "id": 1000,
+    "jp": "せんもん",
+    "eng": "specialty / major subject",
+    "card": 112
+  },
+  {
+    "id": 1001,
+    "jp": "けいざい",
+    "eng": "economics",
+    "card": 112
+  },
+  {
+    "id": 1002,
+    "jp": "びじゅつ",
+    "eng": "art / fine arts",
+    "card": 112
+  },
+  {
+    "id": 1003,
+    "jp": "ちきゅう",
+    "eng": "earth",
+    "card": 112
+  },
+  {
+    "id": 1004,
+    "jp": "について",
+    "eng": "about / regarding",
+    "card": 112
+  },
+  {
+    "id": 1005,
+    "jp": "やめる",
+    "eng": "to resign / to stop",
+    "card": 112
+  },
+  {
+    "id": 1006,
+    "jp": "かんがえる",
+    "eng": "to think",
+    "card": 112
+  },
+  {
+    "id": 1007,
+    "jp": "もう",
+    "eng": "already",
+    "card": 112
+  },
+  {
+    "id": 1008,
+    "jp": "まだ",
+    "eng": "yet / still",
+    "card": 112
+  },
+  {
+    "id": 1009,
+    "jp": "これから",
+    "eng": "from now on",
+    "card": 113
   }
 ]

@@ -14,6 +14,7 @@ const VocabTest = () => {
   const [testStarted, setTestStarted] = useState(false);
   const [testComplete, setTestComplete] = useState(false);
   const [random100, setRandom100] = useState(false);
+  const [marks, setMarks] = useState(0);
 
   const dropdownRef = useRef(null);
 
@@ -96,7 +97,6 @@ const VocabTest = () => {
       filtered = vocabList.filter((entry) =>
         selectedCardRanges.includes(entry.card)
       );
-
       if (filtered.length === 0) {
         alert("Please select at least one card range.");
         return;
@@ -116,6 +116,7 @@ const VocabTest = () => {
     setUserInput("");
     setAttempts(0);
     setShowAnswer(false);
+    setMarks(0);
   };
 
   const handleNext = () => {
@@ -124,6 +125,7 @@ const VocabTest = () => {
       .filter((i) => !visited.includes(i));
     if (available.length === 0) {
       setTestComplete(true);
+      alert(`Test completed!\nScore: ${marks}/${testList.length}`);
       return;
     }
     const nextIdx = available[Math.floor(Math.random() * available.length)];
@@ -145,9 +147,10 @@ const VocabTest = () => {
     const input = userInput.trim().toLowerCase();
 
     if (acceptedAnswers.includes(input)) {
+      setMarks((prev) => prev + 1);
+      setUserInput("");
       setAttempts(0);
       setShowAnswer(false);
-      setUserInput("");
       handleNext();
     } else {
       setAttempts((prev) => prev + 1);
@@ -155,14 +158,12 @@ const VocabTest = () => {
   };
 
   const handleKeyDown = (e) => {
-    if (e.key === "Enter") {
-      handleSubmit();
-    }
+    if (e.key === "Enter") handleSubmit();
   };
 
   return (
     <div className="p-6 max-w-3xl mx-auto bg-gradient-to-br from-indigo-50 to-indigo-100 min-h-screen flex flex-col items-center">
-      {/* Control Section */}
+      {/* Control Panel */}
       <div className="bg-white/30 border border-white/50 rounded-2xl shadow-xl p-8 w-full mb-8 space-y-6">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <h2 className="text-xl font-bold text-indigo-900">
@@ -274,7 +275,7 @@ const VocabTest = () => {
         </div>
       </div>
 
-      {/* Test Section */}
+      {/* Quiz Panel */}
       {testStarted &&
         testList.length > 0 &&
         currentIndex !== null &&
@@ -301,7 +302,10 @@ const VocabTest = () => {
 
               {attempts >= 3 && !showAnswer && (
                 <button
-                  onClick={() => setShowAnswer(true)}
+                  onClick={() => {
+                    if (marks > 0) setMarks((prev) => prev - 1);
+                    setShowAnswer(true);
+                  }}
                   className="flex-1 py-3.5 px-6 bg-blue-100 hover:bg-blue-200 text-blue-800 border border-blue-800 font-semibold rounded-xl transition-all"
                 >
                   Reveal Answer
@@ -310,15 +314,13 @@ const VocabTest = () => {
             </div>
 
             {attempts > 0 && !showAnswer && (
-              <div className="text-center mt-2">
-                <div className="text-red-600 text-sm font-medium inline-block">
-                  Incorrect. Try again!
-                </div>
+              <div className="text-center mt-2 text-red-600 text-sm font-medium">
+                Incorrect. Try again!
               </div>
             )}
 
             <div className="text-center text-sm text-gray-500">
-              Progress: {visited.length}/{testList.length}
+              Progress: {visited.length}/{testList.length} | Score: {marks}
             </div>
           </div>
         )}
