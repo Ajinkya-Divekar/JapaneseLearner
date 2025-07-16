@@ -16,7 +16,6 @@ const Adjectives = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const [showAnswer, setShowAnswer] = useState(false);
 
-  // Merging data from selected files
   const getCurrentData = () => {
     let data = [];
     if (selectedFiles[0]) data = [...data, ...ikeyoshiData];
@@ -24,18 +23,16 @@ const Adjectives = () => {
     return data;
   };
 
-  // Get a random item from the available data
   const getRandomItem = (data) => {
     const unvisitedData = data.filter((item) => !visited.has(item.id));
     if (unvisitedData.length === 0) {
-      setFinished(true); // All questions have been answered
+      setFinished(true);
       return null;
     }
     const randomIndex = Math.floor(Math.random() * unvisitedData.length);
     return unvisitedData[randomIndex];
   };
 
-  // Start new test
   const startTest = () => {
     if (!selectedFiles[0] && !selectedFiles[1]) {
       setErrorMessage("Please select at least one file.");
@@ -50,24 +47,24 @@ const Adjectives = () => {
     setIncorrectAttempts(0);
     setShowFindAnswerButton(false);
     setErrorMessage("");
+    setShowAnswer(false);
     loadNextQuestion();
   };
 
-  // Load the next question
   const loadNextQuestion = () => {
     const data = getCurrentData();
     const newItem = getRandomItem(data);
     if (newItem) {
       setCurrentItem(newItem);
-      setShowAnswer(false); // reset answer display
+      setShowAnswer(false);
     }
   };
 
-  // Handle checking the user's answer
   const checkAnswer = () => {
     const correctAnswers = reverse
       ? currentItem.jp.split("/")
       : currentItem.eng.split("/");
+
     const normalizedAnswer = userAnswer.toLowerCase().trim();
     const isCorrect = correctAnswers.some(
       (answer) => answer.toLowerCase().trim() === normalizedAnswer
@@ -79,7 +76,7 @@ const Adjectives = () => {
       setHintVisible(false);
       setIncorrectAttempts(0);
       setShowFindAnswerButton(false);
-      setShowAnswer(false); // reset this
+      setShowAnswer(false);
       loadNextQuestion();
     } else {
       setIncorrectAttempts((prevAttempts) => prevAttempts + 1);
@@ -91,39 +88,27 @@ const Adjectives = () => {
     }
   };
 
-  // Handle "Find Answer" button click
   const findAnswer = () => {
     setShowAnswer(true);
     setShowFindAnswerButton(false);
     setHintVisible(false);
   };
 
-  // Handle checkbox selection (which files to include)
   const handleCheckboxChange = (index) => {
     const newSelectedFiles = [...selectedFiles];
     newSelectedFiles[index] = !newSelectedFiles[index];
-    if (newSelectedFiles.every((file) => !file)) return; // Prevent unchecking both checkboxes
+    if (newSelectedFiles.every((file) => !file)) return;
     setSelectedFiles(newSelectedFiles);
   };
 
-  // Handle reverse question/answer checkbox
-  const handleReverseChange = () => {
-    setReverse((prevReverse) => !prevReverse);
-  };
+  const totalData = getCurrentData().length;
 
-  // Handle user input
-  const handleInputChange = (event) => {
-    setUserAnswer(event.target.value);
-  };
-
-  // Effect hook to load next question when selected files change
   useEffect(() => {
     if (testStarted && currentItem === null) {
       loadNextQuestion();
     }
   }, [selectedFiles, testStarted, currentItem]);
 
-  // Detect Enter key press to trigger check answer
   useEffect(() => {
     const handleEnterKey = (event) => {
       if (event.key === "Enter" && testStarted) {
@@ -133,12 +118,9 @@ const Adjectives = () => {
     };
 
     window.addEventListener("keydown", handleEnterKey);
-    return () => {
-      window.removeEventListener("keydown", handleEnterKey);
-    };
+    return () => window.removeEventListener("keydown", handleEnterKey);
   }, [testStarted, userAnswer]);
 
-  // Show alert at the end of the test
   useEffect(() => {
     if (finished) {
       alert("Congratulations! You've completed the test.");
@@ -146,135 +128,126 @@ const Adjectives = () => {
     }
   }, [finished]);
 
-  const totalData = getCurrentData().length;
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 flex items-center flex-col p-6">
-      <div className="w-full max-w-5xl bg-white/60 backdrop-blur-md rounded-xl shadow-lg p-8">
-        <h1 className="text-4xl font-bold text-center mb-8 text-yellow-800">
-          Adjective Test
-        </h1>
+    <div className="p-6 w-full mx-auto bg-gradient-to-br from-indigo-100 via-gray-100 to-pink-100 min-h-screen flex flex-col items-center">
+      {/* Control Panel */}
+      <div className="bg-indigo-200/40 backdrop-blur-md border border-indigo-300 max-w-3xl rounded-2xl shadow-xl p-8 w-full mb-8 space-y-6">
+        <h2 className="text-2xl font-bold text-indigo-900 text-center">
+          🧠 Adjective Test
+        </h2>
 
         {errorMessage && (
-          <p className="text-red-600 font-semibold mb-4 text-center">
+          <p className="text-center text-red-600 font-semibold">
             {errorMessage}
           </p>
         )}
 
-        {/* Top controls: File selection + Reverse option */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-          <div>
-            <label className="block text-yellow-900 font-semibold text-lg mb-4">
-              Select Files
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="space-y-3">
+            <label className="font-semibold text-indigo-900">
+              Select Data:
             </label>
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                <input
-                  type="checkbox"
-                  checked={selectedFiles[0]}
-                  onChange={() => handleCheckboxChange(0)}
-                  disabled={testStarted}
-                  className="accent-yellow-500 w-5 h-5 border-2 border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-400"
-                />
-                <label className="text-yellow-900 font-medium text-lg">
-                  Ikeyoshi
+            <div className="space-y-2">
+              {["I-keyoushi", "Na-keyoushi"].map((label, i) => (
+                <label
+                  key={i}
+                  className="flex items-center space-x-2 text-indigo-800"
+                >
+                  <input
+                    type="checkbox"
+                    checked={selectedFiles[i]}
+                    onChange={() => handleCheckboxChange(i)}
+                    disabled={testStarted}
+                    className="accent-indigo-600"
+                  />
+                  <span>{label}</span>
                 </label>
-              </div>
-              <div className="flex items-center space-x-3">
-                <input
-                  type="checkbox"
-                  checked={selectedFiles[1]}
-                  onChange={() => handleCheckboxChange(1)}
-                  disabled={testStarted}
-                  className="accent-yellow-500 w-5 h-5 border-2 border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-400"
-                />
-                <label className="text-yellow-900 font-medium text-lg">
-                  Nakeyoshi
-                </label>
-              </div>
+              ))}
             </div>
           </div>
 
-          <div className="flex items-center md:justify-end mt-6 md:mt-0 space-x-3">
-            <input
-              type="checkbox"
-              checked={reverse}
-              onChange={handleReverseChange}
-              className="accent-yellow-500 w-5 h-5 border-2 border-gray-300 rounded-md focus:ring-2 focus:ring-yellow-400"
-            />
-            <label className="text-yellow-800 font-medium text-lg">
-              English to Japanese?
+          <div className="flex items-center justify-between">
+            <span className="text-indigo-900 font-medium">
+              Reverse: Show English First
+            </span>
+            <label className="cursor-pointer">
+              <div className="relative inline-block h-8 w-14 rounded-full bg-indigo-200 transition">
+                <input
+                  type="checkbox"
+                  className="peer sr-only"
+                  checked={reverse}
+                  onChange={() => setReverse(!reverse)}
+                />
+                <span className="absolute inset-y-0 left-0 m-1 w-6 h-6 rounded-full bg-white shadow-md transition-all peer-checked:left-6 peer-checked:bg-indigo-600"></span>
+              </div>
             </label>
           </div>
         </div>
 
-        {/* Generate Test Button */}
         <button
           onClick={startTest}
-          className="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-3 px-6 rounded-md transition mb-6"
+          className="w-full py-3.5 px-6 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl transition-all"
         >
-          Generate Test List
+          Generate Test
         </button>
+      </div>
 
-        {/* Display the word/question */}
-        {testStarted && currentItem && (
-          <h2 className="text-3xl font-semibold text-center text-yellow-900 mb-6">
+      {/* Quiz Panel */}
+      {testStarted && currentItem && (
+        <div className="bg-indigo-200/40 backdrop-blur-md border border-indigo-300 max-w-3xl rounded-2xl shadow-xl p-8 w-full space-y-6">
+          <div className="text-4xl font-bold text-indigo-900 text-center min-h-[100px] flex items-center justify-center">
             {reverse ? currentItem.eng : currentItem.jp}
-          </h2>
-        )}
+          </div>
 
-        {/* Input + Check button */}
-        {testStarted && (
-          <div className="space-y-4">
-            <input
-              type="text"
-              value={userAnswer}
-              onChange={handleInputChange}
-              placeholder="Your answer"
-              className="w-full p-3 border border-yellow-300 rounded-md text-lg"
-            />
+          <input
+            type="text"
+            value={userAnswer}
+            onChange={(e) => setUserAnswer(e.target.value)}
+            placeholder="Type your answer..."
+            className="p-4 border-2 border-indigo-200 rounded-xl bg-white/50 text-indigo-900 text-lg w-full focus:ring-2 focus:ring-indigo-300"
+          />
+
+          <div className="flex flex-col sm:flex-row gap-4">
             <button
               onClick={checkAnswer}
-              className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-md transition"
+              className="flex-1 py-3.5 px-6 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl transition-all"
             >
-              Check Answer
+              Submit Answer
             </button>
-            <div className="text-center text-sm text-gray-500">
-              Progress: {visited.size + 1}/{totalData}
+
+            {showFindAnswerButton && (
+              <button
+                onClick={findAnswer}
+                className="flex-1 py-3.5 px-6 bg-blue-100 hover:bg-blue-200 text-blue-800 border border-blue-800 font-semibold rounded-xl transition-all"
+              >
+                Reveal Answer
+              </button>
+            )}
+          </div>
+
+          {hintVisible && (
+            <div className="text-center mt-2 text-indigo-700 text-sm italic font-medium">
+              Hint: {currentItem.rom}
             </div>
-          </div>
-        )}
+          )}
 
-        {/* Hint */}
-        {hintVisible && (
-          <p className="mt-6 text-center text-sm text-gray-700 italic">
-            Hint: <span className="font-medium">{currentItem.rom}</span>
+          <div className="text-center text-sm text-gray-500">
+            Progress: {visited.size + 1}/{totalData}
+          </div>
+        </div>
+      )}
+
+      {/* Answer Panel */}
+      {showAnswer && (
+        <div className="mt-8 p-6 w-full bg-emerald-50/90 border border-emerald-200 rounded-2xl shadow-lg text-center">
+          <p className="text-sm font-semibold text-emerald-600 mb-2">
+            CORRECT ANSWER
           </p>
-        )}
-
-        {/* Find Answer */}
-        {showFindAnswerButton && (
-          <div className="mt-6 text-center">
-            <button
-              onClick={findAnswer}
-              className="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-md transition"
-            >
-              Find Answer
-            </button>
-          </div>
-        )}
-
-        {showAnswer && (
-          <div className="mt-8 p-6 w-full bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 border border-yellow-300 rounded-2xl shadow-lg text-center">
-            <p className="text-sm font-semibold text-yellow-600 mb-2">
-              CORRECT ANSWER
-            </p>
-            <p className="text-2xl font-medium text-yellow-800">
-              {reverse ? currentItem.jp : currentItem.eng}
-            </p>
-          </div>
-        )}
-      </div>
+          <p className="text-2xl font-medium text-emerald-900">
+            {reverse ? currentItem.jp : currentItem.eng}
+          </p>
+        </div>
+      )}
     </div>
   );
 };

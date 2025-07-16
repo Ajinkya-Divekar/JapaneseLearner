@@ -1,0 +1,416 @@
+{
+  "ア": {
+    "romaji": "a",
+    "strokeCount": 2,
+    "description": "Katakana for 'a'.",
+    "examples": [
+      { "word": "アイス", "meaning": "ice" },
+      { "word": "アニメ", "meaning": "anime" }
+    ]
+  },
+  "イ": {
+    "romaji": "i",
+    "strokeCount": 2,
+    "description": "Katakana for 'i'.",
+    "examples": [
+      { "word": "イヌ", "meaning": "dog" },
+      { "word": "インク", "meaning": "ink" }
+    ]
+  },
+  "ウ": {
+    "romaji": "u",
+    "strokeCount": 2,
+    "description": "Katakana for 'u'.",
+    "examples": [
+      { "word": "ウサギ", "meaning": "rabbit" },
+      { "word": "ウミ", "meaning": "sea" }
+    ]
+  },
+  "エ": {
+    "romaji": "e",
+    "strokeCount": 3,
+    "description": "Katakana for 'e'.",
+    "examples": [
+      { "word": "エビ", "meaning": "shrimp" },
+      { "word": "エネルギー", "meaning": "energy" }
+    ]
+  },
+  "オ": {
+    "romaji": "o",
+    "strokeCount": 3,
+    "description": "Katakana for 'o'.",
+    "examples": [
+      { "word": "オオカミ", "meaning": "wolf" },
+      { "word": "オイル", "meaning": "oil" }
+    ]
+  },
+  "カ": {
+    "romaji": "ka",
+    "strokeCount": 3,
+    "description": "Katakana for 'ka'.",
+    "examples": [
+      { "word": "カメラ", "meaning": "camera" },
+      { "word": "カフェ", "meaning": "cafe" }
+    ]
+  },
+  "キ": {
+    "romaji": "ki",
+    "strokeCount": 3,
+    "description": "Katakana for 'ki'.",
+    "examples": [
+      { "word": "キリン", "meaning": "giraffe" },
+      { "word": "キー", "meaning": "key" }
+    ]
+  },
+  "ク": {
+    "romaji": "ku",
+    "strokeCount": 2,
+    "description": "Katakana for 'ku'.",
+    "examples": [
+      { "word": "クマ", "meaning": "bear" },
+      { "word": "クッキー", "meaning": "cookie" }
+    ]
+  },
+  "ケ": {
+    "romaji": "ke",
+    "strokeCount": 3,
+    "description": "Katakana for 'ke'.",
+    "examples": [
+      { "word": "ケーキ", "meaning": "cake" },
+      { "word": "ケチャップ", "meaning": "ketchup" }
+    ]
+  },
+  "コ": {
+    "romaji": "ko",
+    "strokeCount": 2,
+    "description": "Katakana for 'ko'.",
+    "examples": [
+      { "word": "コンピュータ", "meaning": "computer" },
+      { "word": "コーヒー", "meaning": "coffee" }
+    ]
+  },
+  "サ": {
+    "romaji": "sa",
+    "strokeCount": 3,
+    "description": "Katakana for 'sa'.",
+    "examples": [
+      { "word": "サラダ", "meaning": "salad" },
+      { "word": "サッカー", "meaning": "soccer" }
+    ]
+  },
+  "シ": {
+    "romaji": "shi",
+    "strokeCount": 2,
+    "description": "Katakana for 'shi'.",
+    "examples": [
+      { "word": "シカ", "meaning": "deer" },
+      { "word": "シャンプー", "meaning": "shampoo" }
+    ]
+  },
+  "ス": {
+    "romaji": "su",
+    "strokeCount": 1,
+    "description": "Katakana for 'su'.",
+    "examples": [
+      { "word": "スープ", "meaning": "soup" },
+      { "word": "スズメ", "meaning": "sparrow" }
+    ]
+  },
+  "セ": {
+    "romaji": "se",
+    "strokeCount": 2,
+    "description": "Katakana for 'se'.",
+    "examples": [
+      { "word": "セーター", "meaning": "sweater" },
+      { "word": "セミ", "meaning": "cicada" }
+    ]
+  },
+  "ソ": {
+    "romaji": "so",
+    "strokeCount": 1,
+    "description": "Katakana for 'so'.",
+    "examples": [
+      { "word": "ソファ", "meaning": "sofa" },
+      { "word": "ソース", "meaning": "sauce" }
+    ]
+  },
+  "タ": {
+    "romaji": "ta",
+    "strokeCount": 3,
+    "description": "Katakana for 'ta'.",
+    "examples": [
+      { "word": "タクシー", "meaning": "taxi" },
+      { "word": "タコ", "meaning": "octopus" }
+    ]
+  },
+  "チ": {
+    "romaji": "chi",
+    "strokeCount": 3,
+    "description": "Katakana for 'chi'.",
+    "examples": [
+      { "word": "チーズ", "meaning": "cheese" },
+      { "word": "チョコ", "meaning": "chocolate" }
+    ]
+  },
+  "ツ": {
+    "romaji": "tsu",
+    "strokeCount": 2,
+    "description": "Katakana for 'tsu'.",
+    "examples": [
+      { "word": "ツナ", "meaning": "tuna" },
+      { "word": "ツリー", "meaning": "tree" }
+    ]
+  },
+  "テ": {
+    "romaji": "te",
+    "strokeCount": 2,
+    "description": "Katakana for 'te'.",
+    "examples": [
+      { "word": "テレビ", "meaning": "television" },
+      { "word": "テーブル", "meaning": "table" }
+    ]
+  },
+  "ト": {
+    "romaji": "to",
+    "strokeCount": 1,
+    "description": "Katakana for 'to'.",
+    "examples": [
+      { "word": "トマト", "meaning": "tomato" },
+      { "word": "トランプ", "meaning": "playing cards" }
+    ]
+  },
+  "ナ": {
+    "romaji": "na",
+    "strokeCount": 2,
+    "description": "Katakana for 'na'.",
+    "examples": [
+      { "word": "ナイフ", "meaning": "knife" },
+      { "word": "ナシ", "meaning": "pear" }
+    ]
+  },
+  "ニ": {
+    "romaji": "ni",
+    "strokeCount": 2,
+    "description": "Katakana for 'ni'.",
+    "examples": [
+      { "word": "ニンジン", "meaning": "carrot" },
+      { "word": "ニュース", "meaning": "news" }
+    ]
+  },
+  "ヌ": {
+    "romaji": "nu",
+    "strokeCount": 2,
+    "description": "Katakana for 'nu'.",
+    "examples": [
+      { "word": "ヌードル", "meaning": "noodle" },
+      { "word": "ヌル", "meaning": "paint" }
+    ]
+  },
+  "ネ": {
+    "romaji": "ne",
+    "strokeCount": 2,
+    "description": "Katakana for 'ne'.",
+    "examples": [
+      { "word": "ネコ", "meaning": "cat" },
+      { "word": "ネック", "meaning": "neck" }
+    ]
+  },
+  "ノ": {
+    "romaji": "no",
+    "strokeCount": 1,
+    "description": "Katakana for 'no'.",
+    "examples": [
+      { "word": "ノート", "meaning": "notebook" },
+      { "word": "ノリ", "meaning": "glue" }
+    ]
+  },
+  "ハ": {
+    "romaji": "ha",
+    "strokeCount": 3,
+    "description": "Katakana for 'ha'.",
+    "examples": [
+      { "word": "ハンバーガー", "meaning": "hamburger" },
+      { "word": "ハチ", "meaning": "bee" }
+    ]
+  },
+  "ヒ": {
+    "romaji": "hi",
+    "strokeCount": 2,
+    "description": "Katakana for 'hi'.",
+    "examples": [
+      { "word": "ヒツジ", "meaning": "sheep" },
+      { "word": "ヒゲ", "meaning": "beard" }
+    ]
+  },
+  "フ": {
+    "romaji": "fu",
+    "strokeCount": 2,
+    "description": "Katakana for 'fu'.",
+    "examples": [
+      { "word": "フルーツ", "meaning": "fruit" },
+      { "word": "フタ", "meaning": "lid" }
+    ]
+  },
+  "ヘ": {
+    "romaji": "he",
+    "strokeCount": 1,
+    "description": "Katakana for 'he'.",
+    "examples": [
+      { "word": "ヘリコプター", "meaning": "helicopter" },
+      { "word": "ヘヤ", "meaning": "hair" }
+    ]
+  },
+  "ホ": {
+    "romaji": "ho",
+    "strokeCount": 4,
+    "description": "Katakana for 'ho'.",
+    "examples": [
+      { "word": "ホット", "meaning": "hot" },
+      { "word": "ホタル", "meaning": "firefly" }
+    ]
+  },
+  "マ": {
+    "romaji": "ma",
+    "strokeCount": 3,
+    "description": "Katakana for 'ma'.",
+    "examples": [
+      { "word": "マイク", "meaning": "mic" },
+      { "word": "マヨネーズ", "meaning": "mayonnaise" }
+    ]
+  },
+  "ミ": {
+    "romaji": "mi",
+    "strokeCount": 3,
+    "description": "Katakana for 'mi'.",
+    "examples": [
+      { "word": "ミルク", "meaning": "milk" },
+      { "word": "ミカン", "meaning": "mandarin" }
+    ]
+  },
+  "ム": {
+    "romaji": "mu",
+    "strokeCount": 2,
+    "description": "Katakana for 'mu'.",
+    "examples": [
+      { "word": "ムシ", "meaning": "insect" },
+      { "word": "ムートン", "meaning": "sheepskin" }
+    ]
+  },
+  "メ": {
+    "romaji": "me",
+    "strokeCount": 2,
+    "description": "Katakana for 'me'.",
+    "examples": [
+      { "word": "メガネ", "meaning": "glasses" },
+      { "word": "メロン", "meaning": "melon" }
+    ]
+  },
+  "モ": {
+    "romaji": "mo",
+    "strokeCount": 3,
+    "description": "Katakana for 'mo'.",
+    "examples": [
+      { "word": "モモ", "meaning": "peach" },
+      { "word": "モップ", "meaning": "mop" }
+    ]
+  },
+  "ヤ": {
+    "romaji": "ya",
+    "strokeCount": 2,
+    "description": "Katakana for 'ya'.",
+    "examples": [
+      { "word": "ヤマ", "meaning": "mountain" },
+      { "word": "ヤギ", "meaning": "goat" }
+    ]
+  },
+  "ユ": {
+    "romaji": "yu",
+    "strokeCount": 2,
+    "description": "Katakana for 'yu'.",
+    "examples": [
+      { "word": "ユニコーン", "meaning": "unicorn" },
+      { "word": "ユメ", "meaning": "dream" }
+    ]
+  },
+  "ヨ": {
+    "romaji": "yo",
+    "strokeCount": 2,
+    "description": "Katakana for 'yo'.",
+    "examples": [
+      { "word": "ヨット", "meaning": "yacht" },
+      { "word": "ヨーグルト", "meaning": "yogurt" }
+    ]
+  },
+  "ラ": {
+    "romaji": "ra",
+    "strokeCount": 2,
+    "description": "Katakana for 'ra'.",
+    "examples": [
+      { "word": "ラジオ", "meaning": "radio" },
+      { "word": "ラクダ", "meaning": "camel" }
+    ]
+  },
+  "リ": {
+    "romaji": "ri",
+    "strokeCount": 2,
+    "description": "Katakana for 'ri'.",
+    "examples": [
+      { "word": "リンゴ", "meaning": "apple" },
+      { "word": "リボン", "meaning": "ribbon" }
+    ]
+  },
+  "ル": {
+    "romaji": "ru",
+    "strokeCount": 2,
+    "description": "Katakana for 'ru'.",
+    "examples": [
+      { "word": "ルビー", "meaning": "ruby" },
+      { "word": "ルール", "meaning": "rule" }
+    ]
+  },
+  "レ": {
+    "romaji": "re",
+    "strokeCount": 2,
+    "description": "Katakana for 're'.",
+    "examples": [
+      { "word": "レモン", "meaning": "lemon" },
+      { "word": "レコード", "meaning": "record" }
+    ]
+  },
+  "ロ": {
+    "romaji": "ro",
+    "strokeCount": 2,
+    "description": "Katakana for 'ro'.",
+    "examples": [
+      { "word": "ロボット", "meaning": "robot" },
+      { "word": "ロック", "meaning": "rock" }
+    ]
+  },
+  "ワ": {
+    "romaji": "wa",
+    "strokeCount": 2,
+    "description": "Katakana for 'wa'.",
+    "examples": [
+      { "word": "ワイン", "meaning": "wine" },
+      { "word": "ワニ", "meaning": "crocodile" }
+    ]
+  },
+  "ヲ": {
+    "romaji": "wo",
+    "strokeCount": 4,
+    "description": "Katakana for 'wo'.",
+    "examples": [
+      { "word": "ヲタク", "meaning": "otaku" },
+      { "word": "ヲ", "meaning": "rare particle" }
+    ]
+  },
+  "ン": {
+    "romaji": "n",
+    "strokeCount": 1,
+    "description": "Katakana for 'n'.",
+    "examples": [
+      { "word": "バン", "meaning": "group" },
+      { "word": "パン", "meaning": "bread" }
+    ]
+  }
+}

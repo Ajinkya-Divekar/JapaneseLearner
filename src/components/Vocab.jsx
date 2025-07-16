@@ -162,9 +162,9 @@ const VocabTest = () => {
   };
 
   return (
-    <div className="p-6 max-w-3xl mx-auto bg-gradient-to-br from-indigo-50 to-indigo-100 min-h-screen flex flex-col items-center">
+    <div className="p-6 w-full mx-auto bg-gradient-to-br from-indigo-100 via-gray-100 to-pink-100 min-h-screen flex flex-col items-center">
       {/* Control Panel */}
-      <div className="bg-white/30 border border-white/50 rounded-2xl shadow-xl p-8 w-full mb-8 space-y-6">
+      <div className="bg-indigo-200/40 backdrop-blur-md border border-indigo-300 max-w-3xl rounded-2xl shadow-xl p-8 w-full mb-8 space-y-6">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <h2 className="text-xl font-bold text-indigo-900">
             Select Card Ranges:
@@ -257,7 +257,7 @@ const VocabTest = () => {
           </button>
         </div>
 
-        <div className="flex items-center justify-between p-3 bg-indigo-50/50 rounded-lg">
+        <div className="flex items-center justify-between p-3 rounded-lg">
           <span className="text-lg text-indigo-900 font-medium">
             Reverse: Show English first
           </span>
@@ -280,7 +280,7 @@ const VocabTest = () => {
         testList.length > 0 &&
         currentIndex !== null &&
         !testComplete && (
-          <div className="bg-white/30 border border-white/50 rounded-2xl shadow-xl p-8 w-full space-y-6">
+          <div className="bg-indigo-200/40 backdrop-blur-md border border-indigo-300 max-w-3xl rounded-2xl shadow-xl p-8 w-full space-y-6">
             <div className="text-4xl font-bold text-indigo-900 text-center min-h-[120px] flex items-center justify-center">
               {reverse ? testList[currentIndex].eng : testList[currentIndex].jp}
             </div>

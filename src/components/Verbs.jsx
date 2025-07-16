@@ -3,259 +3,195 @@ import doushiData from "../data/doushi.json";
 
 const Verb = () => {
   const [selectedForm, setSelectedForm] = useState("jp");
-  const [currentItem, setCurrentItem] = useState(null);
-  const [userAnswer, setUserAnswer] = useState("");
-  const [hintVisible, setHintVisible] = useState(false);
-  const [visited, setVisited] = useState(new Set());
-  const [finished, setFinished] = useState(false);
   const [testStarted, setTestStarted] = useState(false);
-  const [incorrectAttempts, setIncorrectAttempts] = useState(0);
-  const [showFindAnswerButton, setShowFindAnswerButton] = useState(false);
-  const [revealedAnswer, setRevealedAnswer] = useState(null);
-  const [feedback, setFeedback] = useState("");
+  const [visited, setVisited] = useState([]);
+  const [currentItem, setCurrentItem] = useState(null);
+  const [userInput, setUserInput] = useState("");
+  const [attempts, setAttempts] = useState(0);
+  const [showAnswer, setShowAnswer] = useState(false);
+  const [score, setScore] = useState(0);
 
-  const getRandomItem = () => {
-    const allIds = new Set(doushiData.map((item) => item.id));
-    const unvisitedIds = [...allIds].filter((id) => !visited.has(id));
-    if (unvisitedIds.length === 0) return null;
-    const randId =
-      unvisitedIds[Math.floor(Math.random() * unvisitedIds.length)];
-    return doushiData.find((item) => item.id === randId);
-  };
-
-  const loadNextQuestion = () => {
-    const nextItem = getRandomItem();
-    if (nextItem) {
-      setCurrentItem(nextItem);
-      setUserAnswer("");
-      setHintVisible(false);
-      setIncorrectAttempts(0);
-      setShowFindAnswerButton(false);
-      setRevealedAnswer(null);
-      setFeedback(""); // Clear feedback on load
-    } else {
-      setFinished(true);
-    }
+  const getRandomUnvisited = () => {
+    const unvisited = doushiData.filter((item) => !visited.includes(item.id));
+    if (unvisited.length === 0) return null;
+    return unvisited[Math.floor(Math.random() * unvisited.length)];
   };
 
   const startTest = () => {
-    setVisited(new Set());
-    setFinished(false);
     setTestStarted(true);
-    loadNextQuestion();
-  };
-
-  const checkAnswer = () => {
-    if (!currentItem) return;
-
-    let correctAnswer = "";
-    switch (selectedForm) {
-      case "jp":
-        correctAnswer = currentItem.jp;
-        break;
-      case "masu":
-        correctAnswer = currentItem.masu_form;
-        break;
-      case "te":
-        correctAnswer = currentItem.te_form;
-        break;
-      case "eng":
-        correctAnswer = currentItem.eng;
-        break;
-      default:
-        return;
-    }
-
-    const normalized = userAnswer.toLowerCase().trim();
-    const correctNormalized = correctAnswer.toLowerCase().trim();
-
-    if (normalized === correctNormalized) {
-      setVisited((prevVisited) => new Set([...prevVisited, currentItem.id]));
-
-      setTimeout(() => {
-        setFeedback(""); // Clear feedback on next question
-        loadNextQuestion();
-      }, 200);
-    } else {
-      setIncorrectAttempts((prev) => prev + 1);
-      setHintVisible(true);
-      setFeedback("❌ Incorrect. Try again!");
-      if (incorrectAttempts >= 2) {
-        setShowFindAnswerButton(true);
-      }
-    }
-  };
-
-  const findAnswer = () => {
-    if (!currentItem) return;
-
-    let correctAnswer = "";
-    switch (selectedForm) {
-      case "jp":
-        correctAnswer = currentItem.jp;
-        break;
-      case "masu":
-        correctAnswer = currentItem.masu_form;
-        break;
-      case "te":
-        correctAnswer = currentItem.te_form;
-        break;
-      case "eng":
-        correctAnswer = currentItem.eng;
-        break;
-      default:
-        correctAnswer = "";
-    }
-
-    setRevealedAnswer(correctAnswer);
-    setIncorrectAttempts(0);
-    setShowFindAnswerButton(false);
+    setVisited([]);
+    setScore(0);
+    setAttempts(0);
+    setShowAnswer(false);
+    const first = getRandomUnvisited();
+    setCurrentItem(first);
   };
 
   const handleInputChange = (e) => {
-    setUserAnswer(e.target.value);
+    setUserInput(e.target.value);
   };
 
-  const handleFormSelect = (e) => {
-    setSelectedForm(e.target.value);
-  };
-
-  useEffect(() => {
-    const onEnter = (e) => {
-      if (e.key === "Enter" && testStarted) {
-        e.preventDefault();
-        checkAnswer();
-      }
-    };
-    window.addEventListener("keydown", onEnter);
-    return () => window.removeEventListener("keydown", onEnter);
-  }, [testStarted, userAnswer, incorrectAttempts, currentItem]);
-
-  useEffect(() => {
-    if (finished) {
-      alert("Congratulations! You've completed the test.");
-      window.location.reload();
+  const getCorrectAnswer = (item) => {
+    switch (selectedForm) {
+      case "jp":
+        return item.jp;
+      case "masu":
+        return item.masu_form;
+      case "te":
+        return item.te_form;
+      case "eng":
+        return item.eng;
+      default:
+        return "";
     }
-  }, [finished]);
+  };
+
+  const getPromptWord = (item) => {
+    return selectedForm === "eng" ? item.jp : item.eng;
+  };
+
+  const handleSubmit = () => {
+    if (!currentItem) return;
+
+    const correctAnswer = getCorrectAnswer(currentItem);
+    const acceptedAnswers = correctAnswer
+      .split("/")
+      .map((a) => a.trim().toLowerCase());
+    const input = userInput.trim().toLowerCase();
+
+    if (acceptedAnswers.includes(input)) {
+      setScore((prev) => prev + 1);
+      const newVisited = [...visited, currentItem.id];
+      setVisited(newVisited);
+      setUserInput("");
+      setAttempts(0);
+      setShowAnswer(false);
+
+      const next = getRandomUnvisited();
+      if (next) {
+        setCurrentItem(next);
+      } else {
+        alert(`Test completed!\nScore: ${score + 1}/${doushiData.length}`);
+        setTestStarted(false);
+      }
+    } else {
+      setAttempts((prev) => prev + 1);
+    }
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") handleSubmit();
+  };
 
   return (
-    <div className="max-w-4xl mx-auto my-10 p-8 bg-gradient-to-br from-teal-50 via-white to-cyan-50 shadow-2xl rounded-3xl space-y-8 border border-teal-100">
-      <h1 className="text-3xl font-extrabold text-teal-700 tracking-tight text-center">
-        📝 Japanese Verb Test
-      </h1>
+    <div className="p-6 w-full mx-auto bg-gradient-to-br from-indigo-100 via-gray-100 to-pink-100 min-h-screen flex flex-col items-center">
+      <div className="bg-indigo-200/40 backdrop-blur-md border border-indigo-300 max-w-3xl rounded-2xl shadow-xl p-8 w-full mb-8 space-y-6">
+        <div className="text-center space-y-4">
+          <h1 className="text-2xl font-extrabold text-indigo-800">
+            📝 Verb Conjugation Test
+          </h1>
 
-      {/* Checkbox Section */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
-        {[
-          { value: "masu", label: "Masu-form" },
-          { value: "te", label: "Te-form" },
-          { value: "jp", label: "Dictionary (JP)" },
-          { value: "eng", label: "English" },
-        ].map(({ value, label }) => (
-          <label
-            key={value}
-            className="flex items-center space-x-3 cursor-pointer p-3 rounded-xl bg-white border border-teal-200 hover:border-teal-500 shadow-sm hover:shadow-md transition-all"
+          {/* Form selection */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { value: "masu", label: "Masu-form" },
+              { value: "te", label: "Te-form" },
+              { value: "jp", label: "Dictionary (JP)" },
+              { value: "eng", label: "English" },
+            ].map(({ value, label }) => (
+              <label
+                key={value}
+                className="flex items-center space-x-3 cursor-pointer p-3 rounded-xl bg-white border border-indigo-300 hover:border-indigo-500 shadow-sm hover:shadow-md transition"
+              >
+                <input
+                  type="radio"
+                  name="form"
+                  value={value}
+                  checked={selectedForm === value}
+                  onChange={(e) => setSelectedForm(e.target.value)}
+                  className="hidden peer"
+                />
+                <span className="w-5 h-5 border-2 border-indigo-500 rounded-full flex items-center justify-center text-transparent peer-checked:bg-indigo-500 peer-checked:text-white peer-checked:border-indigo-600 transition-colors">
+                  <svg
+                    className="w-3 h-3"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                  </svg>
+                </span>
+                <span className="text-sm font-medium text-indigo-900">
+                  {label}
+                </span>
+              </label>
+            ))}
+          </div>
+
+          <button
+            onClick={startTest}
+            className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-xl transition-all mt-4"
           >
-            <input
-              type="radio"
-              name="form"
-              value={value}
-              checked={selectedForm === value}
-              onChange={handleFormSelect}
-              className="hidden peer"
-            />
-            <span className="w-5 h-5 border-2 border-teal-500 rounded-full flex items-center justify-center text-transparent peer-checked:bg-teal-500 peer-checked:text-white peer-checked:border-teal-600 transition-colors">
-              <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
-              </svg>
-            </span>
-            <span className="text-sm font-medium text-teal-900">{label}</span>
-          </label>
-        ))}
+            Generate Test
+          </button>
+        </div>
       </div>
 
-      {/* Generate Button */}
-      <div className="text-center">
-        <button
-          onClick={startTest}
-          className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-teal-600 to-cyan-600 text-white rounded-xl font-semibold hover:brightness-110 shadow-lg transition"
-        >
-          <svg
-            className="w-5 h-5"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M12 4v16m8-8H4"
-            />
-          </svg>
-          Generate Test
-        </button>
-      </div>
-
-      {/* Test Interface */}
+      {/* Quiz Panel */}
       {testStarted && currentItem && (
-        <div className="space-y-6 bg-white border border-cyan-100 p-6 rounded-2xl shadow-inner">
-          <h2 className="text-2xl font-bold text-cyan-700 text-center">
-            {selectedForm === "eng"
-              ? currentItem.jp
-              : selectedForm === "jp"
-              ? currentItem.eng
-              : currentItem.eng}
-          </h2>
+        <div className="bg-indigo-200/40 backdrop-blur-md border border-indigo-300 max-w-3xl rounded-2xl shadow-xl p-8 w-full space-y-6">
+          <div className="text-4xl font-bold text-indigo-900 text-center min-h-[120px] flex items-center justify-center">
+            {getPromptWord(currentItem)}
+          </div>
 
           <input
             type="text"
-            value={userAnswer}
+            value={userInput}
             onChange={handleInputChange}
-            placeholder="Type your answer..."
-            className="w-full px-4 py-3 border border-cyan-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 text-lg"
+            onKeyDown={handleKeyDown}
+            className="p-4 border-2 border-indigo-200 rounded-xl bg-white/50 text-indigo-900 text-lg w-full focus:ring-2 focus:ring-indigo-300"
+            placeholder="Type your answer here..."
           />
 
-          {feedback && (
-            <div className="text-center">
-              <div className="text-red-600 text-sm font-medium inline-block">
-                {feedback}
-              </div>
-            </div>
-          )}
-
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-col sm:flex-row gap-4">
             <button
-              onClick={checkAnswer}
-              className="px-5 py-2 bg-gradient-to-r from-teal-600 to-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition shadow-md"
+              onClick={handleSubmit}
+              className="flex-1 py-3.5 px-6 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl transition-all"
             >
-              ✅ Check Answer
+              Submit Answer
             </button>
 
-            {showFindAnswerButton && (
+            {attempts >= 3 && !showAnswer && (
               <button
-                onClick={findAnswer}
-                className="px-5 py-2 bg-gradient-to-l from-teal-600 to-cyan-600 text-white rounded-lg hover:bg-teal-600 transition shadow-md"
+                onClick={() => {
+                  if (score > 0) setScore((prev) => prev - 1);
+                  setShowAnswer(true);
+                }}
+                className="flex-1 py-3.5 px-6 bg-blue-100 hover:bg-blue-200 text-blue-800 border border-blue-800 font-semibold rounded-xl transition-all"
               >
-                🕵️ Find Answer
+                Reveal Answer
               </button>
             )}
           </div>
 
-          {/* Answer Reveal Block */}
-          {revealedAnswer && (
-            <div className="mt-8 p-6 w-full bg-teal-50/90 border border-cyan-300 rounded-2xl shadow-lg text-center">
-              <p className="text-sm font-semibold text-cyan-600 mb-2">
+          {attempts > 0 && !showAnswer && (
+            <div className="text-center mt-2 text-red-600 text-sm font-medium">
+              Incorrect. Try again!
+            </div>
+          )}
+
+          {showAnswer && (
+            <div className="mt-8 p-6 w-full bg-emerald-50/90 border border-emerald-200 rounded-2xl shadow-lg text-center">
+              <p className="text-sm font-semibold text-emerald-600 mb-2">
                 CORRECT ANSWER
               </p>
-              <p className="text-2xl font-medium text-cyan-900">
-                {revealedAnswer}
+              <p className="text-2xl font-medium text-emerald-900">
+                {getCorrectAnswer(currentItem)}
               </p>
             </div>
           )}
 
           <div className="text-center text-sm text-gray-500">
-            Progress: {visited.size}/{doushiData.length}
+            Progress: {visited.length}/{doushiData.length} | Score: {score}
           </div>
         </div>
       )}

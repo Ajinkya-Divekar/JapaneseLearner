@@ -11,12 +11,13 @@ const KanjiTest = () => {
   const [showAnswer, setShowAnswer] = useState(false);
   const [testStarted, setTestStarted] = useState(false);
   const [selectedField, setSelectedField] = useState("kun");
-  const [showHint, setShowHint] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [revealedAnswer, setRevealedAnswer] = useState(null);
-  const [feedback, setFeedback] = useState("");
+  const [marks, setMarks] = useState(0);
 
   const dropdownRef = useRef(null);
+  const maxLesson = Math.max(...kanjiList.map((entry) => entry.lesson));
+  const allLessons = Array.from({ length: maxLesson }, (_, i) => i + 1);
+  const isAllSelected = selectedLessons.length === allLessons.length;
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -25,18 +26,34 @@ const KanjiTest = () => {
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+
+  const toggleLessonSelection = (lesson) => {
+    setSelectedLessons((prev) =>
+      prev.includes(lesson)
+        ? prev.filter((l) => l !== lesson)
+        : [...prev, lesson]
+    );
+  };
+
+  const toggleSelectAll = () => {
+    setSelectedLessons(isAllSelected ? [] : allLessons);
+  };
 
   const generateTestList = () => {
     const filtered = kanjiList.filter((entry) =>
       selectedLessons.includes(entry.lesson)
     );
+    if (filtered.length === 0) {
+      alert("Please select at least one lesson.");
+      return;
+    }
     setTestList(filtered);
     resetTest(filtered);
     setTestStarted(true);
+    setShowAnswer(false);
+    setMarks(0);
   };
 
   const resetTest = (list) => {
@@ -46,9 +63,7 @@ const KanjiTest = () => {
     setUserInput("");
     setAttempts(0);
     setShowAnswer(false);
-    setShowHint(false);
-    setRevealedAnswer(null);
-    setFeedback("");
+    setMarks(0);
   };
 
   const handleNext = () => {
@@ -57,6 +72,7 @@ const KanjiTest = () => {
       .filter((i) => !visited.includes(i));
     if (available.length === 0) {
       setTestStarted(false);
+      alert(`Test completed!\nScore: ${marks}/${testList.length}`);
       return;
     }
     const nextIdx = available[Math.floor(Math.random() * available.length)];
@@ -65,9 +81,6 @@ const KanjiTest = () => {
     setUserInput("");
     setAttempts(0);
     setShowAnswer(false);
-    setShowHint(false);
-    setRevealedAnswer(null);
-    setFeedback("");
   };
 
   const handleSubmit = () => {
@@ -79,235 +92,177 @@ const KanjiTest = () => {
     const input = userInput.trim().toLowerCase();
 
     if (acceptedAnswers.includes(input)) {
-      setFeedback("");
+      setMarks((prev) => prev + 1);
+      setUserInput("");
+      setAttempts(0);
+      setShowAnswer(false);
       handleNext();
     } else {
-      const newAttempts = attempts + 1;
-      setAttempts(newAttempts);
-      setShowHint(true);
-      setFeedback("Incorrect. Try again!");
-      if (newAttempts >= 3) {
-        setShowAnswer(true);
-      }
+      setAttempts((prev) => prev + 1);
     }
   };
 
   const handleKeyDown = (e) => {
-    if (e.key === "Enter") {
-      handleSubmit();
-    }
-  };
-
-  const handleRevealAnswer = () => {
-    const answer = testList[currentIndex][selectedField];
-    setRevealedAnswer(answer);
-  };
-
-  const getHint = () => {
-    if (!testList[currentIndex] || !showHint) return "";
-    return selectedField !== "kun"
-      ? `Hint (kun): ${testList[currentIndex].kun}`
-      : `Hint (meaning): ${testList[currentIndex].meaning}`;
-  };
-
-  const toggleLessonSelection = (lessonNumber) => {
-    setSelectedLessons((prev) =>
-      prev.includes(lessonNumber)
-        ? prev.filter((lesson) => lesson !== lessonNumber)
-        : [...prev, lessonNumber]
-    );
-  };
-
-  const maxLesson = Math.max(...kanjiList.map((entry) => entry.lesson));
-  const allLessons = Array.from({ length: maxLesson }, (_, i) => i + 1);
-  const isAllSelected = selectedLessons.length === allLessons.length;
-
-  const toggleSelectAll = () => {
-    setSelectedLessons(isAllSelected ? [] : allLessons);
+    if (e.key === "Enter") handleSubmit();
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-100 to-emerald-200 flex items-center flex-col p-6">
-      <div className="w-full max-w-5xl bg-white/60 backdrop-blur-md rounded-xl shadow-lg p-8 space-y-10">
-        <h1 className="text-4xl font-bold text-center mb-4 text-green-800">
-          Kanji Practice
-        </h1>
+    <div className="p-6 w-full mx-auto bg-gradient-to-br from-indigo-100 via-gray-100 to-pink-100 min-h-screen flex flex-col items-center">
+      {/* Control Panel */}
+      <div className="bg-indigo-200/40 backdrop-blur-md border border-indigo-300 max-w-3xl rounded-2xl shadow-xl p-8 w-full mb-8 space-y-6">
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+          <h2 className="text-xl font-bold text-indigo-900">Select Lessons:</h2>
 
-        {/* Lesson Selection */}
-        <div className="w-full max-w-xl mx-auto space-y-6" ref={dropdownRef}>
-          <div className="relative">
+          <div className="relative w-full md:w-auto" ref={dropdownRef}>
             <button
-              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="w-full px-6 py-3 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 flex items-center justify-between"
+              onClick={() =>
+                !testStarted
+                  ? setIsDropdownOpen(!isDropdownOpen)
+                  : setIsDropdownOpen(false)
+              }
+              className="w-full px-4 py-2.5 bg-white/50 border-2 border-indigo-200 rounded-xl text-indigo-900 font-medium text-left"
             >
-              <span>Select Lessons ({selectedLessons.join(", ")})</span>
-              <svg
-                className={`w-5 h-5 transition-transform ${
-                  isDropdownOpen ? "rotate-180" : ""
-                }`}
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
+              {selectedLessons.length === 0
+                ? "Choose lessons"
+                : `${selectedLessons.length} lessons selected`}
             </button>
 
             {isDropdownOpen && (
-              <div className="absolute top-full left-0 right-0 mt-2 bg-white border border-green-200 rounded-xl shadow-xl z-50 overflow-hidden">
-                <div className="p-4 space-y-4 max-h-96 overflow-y-auto">
-                  <label className="flex items-center space-x-2 cursor-pointer p-2 hover:bg-green-50 rounded-lg">
+              <div className="absolute z-40 mt-2 w-64 bg-white border border-indigo-200 rounded-xl shadow-xl p-4 max-h-60 overflow-y-auto space-y-3">
+                <label className="flex items-center space-x-2 font-semibold text-indigo-900">
+                  <input
+                    type="checkbox"
+                    checked={isAllSelected}
+                    onChange={toggleSelectAll}
+                    className="accent-indigo-600"
+                  />
+                  <span>Select All</span>
+                </label>
+
+                {allLessons.map((lesson) => (
+                  <label
+                    key={lesson}
+                    className="flex items-center space-x-2 cursor-pointer text-indigo-800"
+                  >
                     <input
                       type="checkbox"
-                      checked={isAllSelected}
-                      onChange={toggleSelectAll}
-                      className="hidden peer"
+                      checked={selectedLessons.includes(lesson)}
+                      onChange={() => toggleLessonSelection(lesson)}
+                      className="accent-indigo-600"
                     />
-                    <span className="w-5 h-5 border-2 border-green-500 rounded-md flex items-center justify-center text-transparent peer-checked:bg-green-500 peer-checked:text-white peer-checked:border-green-600 transition-colors">
-                      <svg
-                        className="w-3 h-3"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                      >
-                        <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
-                      </svg>
-                    </span>
-                    <span className="text-gray-700 font-semibold">
-                      Select All
-                    </span>
+                    <span>Lesson {lesson}</span>
                   </label>
-
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                    {allLessons.map((lesson) => (
-                      <label
-                        key={lesson}
-                        className="flex items-center space-x-2 cursor-pointer p-2 hover:bg-green-50 rounded-lg"
-                      >
-                        <input
-                          type="checkbox"
-                          checked={selectedLessons.includes(lesson)}
-                          onChange={() => toggleLessonSelection(lesson)}
-                          className="hidden peer"
-                        />
-                        <span className="w-5 h-5 border-2 border-green-500 rounded-md flex items-center justify-center text-transparent peer-checked:bg-green-500 peer-checked:text-white peer-checked:border-green-600 transition-colors">
-                          <svg
-                            className="w-3 h-3"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
-                          </svg>
-                        </span>
-                        <span className="text-gray-700">Lesson {lesson}</span>
-                      </label>
-                    ))}
-                  </div>
-                </div>
+                ))}
               </div>
             )}
           </div>
-        </div>
 
-        {/* Controls */}
-        <div className="space-y-4 max-w-xl mx-auto">
           <button
             onClick={generateTestList}
-            className="w-full bg-green-600 text-white px-6 py-3 rounded-xl shadow hover:bg-green-700"
+            className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-xl transition-all"
           >
             Start Test
           </button>
+        </div>
 
-          <div className="flex flex-wrap gap-4 bg-green-100 p-4 rounded-xl shadow-lg justify-center">
+        <div className="flex items-center justify-between p-3 rounded-lg">
+          <span className="text-lg text-indigo-900 font-medium">
+            Answer Field:
+          </span>
+          <div className="flex space-x-3">
             {["kun", "on", "meaning"].map((field) => (
               <label
                 key={field}
-                className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg shadow-sm"
+                className={`px-4 py-2 rounded-xl font-medium cursor-pointer transition ${
+                  selectedField === field
+                    ? "bg-indigo-600 text-white"
+                    : "bg-white/50 border border-indigo-200 text-indigo-900"
+                }`}
               >
                 <input
                   type="radio"
-                  name="answerType"
+                  name="field"
                   value={field}
                   checked={selectedField === field}
                   onChange={() => setSelectedField(field)}
-                  className="form-radio text-green-600 h-4 w-4"
+                  className="hidden"
                 />
-                <span className="capitalize text-gray-800">{field}</span>
+                {field.charAt(0).toUpperCase() + field.slice(1)}
               </label>
             ))}
           </div>
         </div>
+      </div>
 
-        {/* Test Area */}
-        {testStarted && testList.length > 0 && currentIndex !== null && (
-          <div className="bg-white p-8 rounded-2xl shadow-xl space-y-6 max-w-xl mx-auto">
-            <div className="text-center">
-              <div className="text-6xl font-bold text-green-700 mb-3">
-                {testList[currentIndex].kanji}
-              </div>
-              <div className="text-gray-500 italic min-h-6">
-                {showHint && getHint()}
-              </div>
+      {/* Test Panel */}
+      {testStarted &&
+        testList.length > 0 &&
+        currentIndex !== null &&
+        !showAnswer && (
+          <div className="bg-indigo-200/40 backdrop-blur-md border border-indigo-300 max-w-3xl rounded-2xl shadow-xl p-8 w-full space-y-6">
+            <div className="text-5xl font-bold text-indigo-900 text-center min-h-[120px] flex items-center justify-center">
+              {testList[currentIndex].kanji}
             </div>
 
-            <div className="space-y-4">
-              <input
-                type="text"
-                value={userInput}
-                onChange={(e) => setUserInput(e.target.value)}
-                onKeyDown={handleKeyDown}
-                placeholder="Type your answer here"
-                className="w-full px-4 py-3 border border-green-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
-              />
+            {attempts > 0 && selectedField !== "kun" && (
+              <div className="text-center text-sm italic text-indigo-700">
+                Hint (kun): {testList[currentIndex].kun}
+              </div>
+            )}
 
-              {feedback && (
-                <div className="text-center">
-                  <div className="text-red-600 text-sm font-medium inline-block">
-                    {feedback}
-                  </div>
-                </div>
-              )}
+            <input
+              type="text"
+              value={userInput}
+              onChange={(e) => setUserInput(e.target.value)}
+              onKeyDown={handleKeyDown}
+              className="p-4 border-2 border-indigo-200 rounded-xl bg-white/50 text-indigo-900 text-lg w-full focus:ring-2 focus:ring-indigo-300"
+              placeholder="Type your answer here..."
+            />
 
-              <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4">
+              <button
+                onClick={handleSubmit}
+                className="flex-1 py-3.5 px-6 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl transition-all"
+              >
+                Submit Answer
+              </button>
+
+              {attempts >= 3 && (
                 <button
-                  onClick={handleSubmit}
-                  className="bg-green-600 text-white px-8 py-3 rounded-lg shadow hover:bg-green-700 flex-1"
+                  onClick={() => {
+                    if (marks > 0) setMarks((prev) => prev - 1);
+                    setShowAnswer(true);
+                  }}
+                  className="flex-1 py-3.5 px-6 bg-blue-100 hover:bg-blue-200 text-blue-800 border border-blue-800 font-semibold rounded-xl transition-all"
                 >
-                  Submit Answer
+                  Reveal Answer
                 </button>
-
-                {showAnswer && (
-                  <button
-                    onClick={handleRevealAnswer}
-                    className="bg-green-100 text-green-700 px-8 py-3 rounded-lg shadow hover:bg-green-200 flex-1"
-                  >
-                    Reveal Answer
-                  </button>
-                )}
-              </div>
-
-              {revealedAnswer && (
-                <div className="mt-8 p-6 w-full bg-emerald-50/90 border border-emerald-200 rounded-2xl shadow-lg text-center">
-                  <p className="text-sm font-semibold text-emerald-600 mb-2">
-                    CORRECT ANSWER
-                  </p>
-                  <p className="text-2xl font-medium text-emerald-900">
-                    {revealedAnswer}
-                  </p>
-                </div>
               )}
             </div>
+
+            {attempts > 0 && !showAnswer && (
+              <div className="text-center mt-2 text-red-600 text-sm font-medium">
+                Incorrect. Try again!
+              </div>
+            )}
 
             <div className="text-center text-sm text-gray-500">
-              Progress: {visited.length}/{testList.length}
+              Progress: {visited.length}/{testList.length} | Score: {marks}
             </div>
           </div>
         )}
-      </div>
+
+      {/* Answer Reveal */}
+      {showAnswer && (
+        <div className="mt-8 p-6 w-full bg-emerald-50/90 border border-emerald-200 rounded-2xl shadow-lg text-center">
+          <p className="text-sm font-semibold text-emerald-600 mb-2">
+            CORRECT ANSWER
+          </p>
+          <p className="text-2xl font-medium text-emerald-900">
+            {testList[currentIndex][selectedField]}
+          </p>
+        </div>
+      )}
     </div>
   );
 };

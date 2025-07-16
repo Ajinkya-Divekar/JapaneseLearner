@@ -1,0 +1,416 @@
+{
+  "あ": {
+    "romaji": "a",
+    "strokeCount": 3,
+    "description": "The first vowel sound in Japanese, pronounced like 'ah'.",
+    "examples": [
+      { "word": "あめ", "meaning": "rain" },
+      { "word": "あさ", "meaning": "morning" }
+    ]
+  },
+  "い": {
+    "romaji": "i",
+    "strokeCount": 2,
+    "description": "Pronounced like 'ee' in 'see'.",
+    "examples": [
+      { "word": "いぬ", "meaning": "dog" },
+      { "word": "いえ", "meaning": "house" }
+    ]
+  },
+  "う": {
+    "romaji": "u",
+    "strokeCount": 2,
+    "description": "Pronounced like 'oo' in 'food'.",
+    "examples": [
+      { "word": "うみ", "meaning": "sea" },
+      { "word": "うた", "meaning": "song" }
+    ]
+  },
+  "え": {
+    "romaji": "e",
+    "strokeCount": 2,
+    "description": "Pronounced like 'e' in 'net'.",
+    "examples": [
+      { "word": "えき", "meaning": "station" },
+      { "word": "えんぴつ", "meaning": "pencil" }
+    ]
+  },
+  "お": {
+    "romaji": "o",
+    "strokeCount": 3,
+    "description": "Pronounced like 'o' in 'orange'.",
+    "examples": [
+      { "word": "おかね", "meaning": "money" },
+      { "word": "おちゃ", "meaning": "tea" }
+    ]
+  },
+  "か": {
+    "romaji": "ka",
+    "strokeCount": 3,
+    "description": "Pronounced like 'ka' in 'karma'.",
+    "examples": [
+      { "word": "かさ", "meaning": "umbrella" },
+      { "word": "かみ", "meaning": "paper" }
+    ]
+  },
+  "き": {
+    "romaji": "ki",
+    "strokeCount": 3,
+    "description": "Pronounced like 'key'.",
+    "examples": [
+      { "word": "き", "meaning": "tree" },
+      { "word": "きた", "meaning": "north" }
+    ]
+  },
+  "く": {
+    "romaji": "ku",
+    "strokeCount": 1,
+    "description": "Pronounced like 'ku' in 'cuckoo'.",
+    "examples": [
+      { "word": "くるま", "meaning": "car" },
+      { "word": "くち", "meaning": "mouth" }
+    ]
+  },
+  "け": {
+    "romaji": "ke",
+    "strokeCount": 3,
+    "description": "Pronounced like 'ke' in 'keg'.",
+    "examples": [
+      { "word": "けむり", "meaning": "smoke" },
+      { "word": "けいさつ", "meaning": "police" }
+    ]
+  },
+  "こ": {
+    "romaji": "ko",
+    "strokeCount": 2,
+    "description": "Pronounced like 'co' in 'cold'.",
+    "examples": [
+      { "word": "ことば", "meaning": "word" },
+      { "word": "こども", "meaning": "child" }
+    ]
+  },
+  "さ": {
+    "romaji": "sa",
+    "strokeCount": 3,
+    "description": "Pronounced like 'sa' in 'sand'.",
+    "examples": [
+      { "word": "さけ", "meaning": "alcohol" },
+      { "word": "さくら", "meaning": "cherry blossom" }
+    ]
+  },
+  "し": {
+    "romaji": "shi",
+    "strokeCount": 1,
+    "description": "Pronounced like 'she'.",
+    "examples": [
+      { "word": "しろ", "meaning": "white" },
+      { "word": "しま", "meaning": "island" }
+    ]
+  },
+  "す": {
+    "romaji": "su",
+    "strokeCount": 2,
+    "description": "Pronounced like 'su' in 'soon'.",
+    "examples": [
+      { "word": "すいか", "meaning": "watermelon" },
+      { "word": "すし", "meaning": "sushi" }
+    ]
+  },
+  "せ": {
+    "romaji": "se",
+    "strokeCount": 3,
+    "description": "Pronounced like 'se' in 'set'.",
+    "examples": [
+      { "word": "せんせい", "meaning": "teacher" },
+      { "word": "せき", "meaning": "seat" }
+    ]
+  },
+  "そ": {
+    "romaji": "so",
+    "strokeCount": 2,
+    "description": "Pronounced like 'so' in 'song'.",
+    "examples": [
+      { "word": "そら", "meaning": "sky" },
+      { "word": "そば", "meaning": "soba noodles" }
+    ]
+  },
+  "た": {
+    "romaji": "ta",
+    "strokeCount": 4,
+    "description": "Pronounced like 'ta' in 'taco'.",
+    "examples": [
+      { "word": "たまご", "meaning": "egg" },
+      { "word": "たべる", "meaning": "to eat" }
+    ]
+  },
+  "ち": {
+    "romaji": "chi",
+    "strokeCount": 2,
+    "description": "Pronounced like 'chee' in 'cheese'.",
+    "examples": [
+      { "word": "ちず", "meaning": "map" },
+      { "word": "ちかてつ", "meaning": "subway" }
+    ]
+  },
+  "つ": {
+    "romaji": "tsu",
+    "strokeCount": 1,
+    "description": "Pronounced like 'tsu' in 'tsunami'.",
+    "examples": [
+      { "word": "つき", "meaning": "moon" },
+      { "word": "つくえ", "meaning": "desk" }
+    ]
+  },
+  "て": {
+    "romaji": "te",
+    "strokeCount": 1,
+    "description": "Pronounced like 'te' in 'ten'.",
+    "examples": [
+      { "word": "てがみ", "meaning": "letter" },
+      { "word": "て", "meaning": "hand" }
+    ]
+  },
+  "と": {
+    "romaji": "to",
+    "strokeCount": 2,
+    "description": "Pronounced like 'to' in 'tornado'.",
+    "examples": [
+      { "word": "ともだち", "meaning": "friend" },
+      { "word": "とり", "meaning": "bird" }
+    ]
+  },
+  "な": {
+    "romaji": "na",
+    "strokeCount": 4,
+    "description": "Pronounced like 'na' in 'nacho'.",
+    "examples": [
+      { "word": "なまえ", "meaning": "name" },
+      { "word": "なつ", "meaning": "summer" }
+    ]
+  },
+  "に": {
+    "romaji": "ni",
+    "strokeCount": 2,
+    "description": "Pronounced like 'knee'.",
+    "examples": [
+      { "word": "にく", "meaning": "meat" },
+      { "word": "にんじん", "meaning": "carrot" }
+    ]
+  },
+  "ぬ": {
+    "romaji": "nu",
+    "strokeCount": 2,
+    "description": "Pronounced like 'new'.",
+    "examples": [
+      { "word": "ぬの", "meaning": "cloth" },
+      { "word": "ぬま", "meaning": "swamp" }
+    ]
+  },
+  "ね": {
+    "romaji": "ne",
+    "strokeCount": 2,
+    "description": "Pronounced like 'neigh'.",
+    "examples": [
+      { "word": "ねこ", "meaning": "cat" },
+      { "word": "ねつ", "meaning": "fever" }
+    ]
+  },
+  "の": {
+    "romaji": "no",
+    "strokeCount": 1,
+    "description": "Pronounced like 'no' in 'not'.",
+    "examples": [
+      { "word": "のう", "meaning": "brain" },
+      { "word": "のど", "meaning": "throat" }
+    ]
+  },
+  "は": {
+    "romaji": "ha",
+    "strokeCount": 3,
+    "description": "Pronounced like 'ha' in 'haha'.",
+    "examples": [
+      { "word": "はな", "meaning": "flower" },
+      { "word": "はし", "meaning": "chopsticks" }
+    ]
+  },
+  "ひ": {
+    "romaji": "hi",
+    "strokeCount": 2,
+    "description": "Pronounced like 'he' in 'he'.",
+    "examples": [
+      { "word": "ひと", "meaning": "person" },
+      { "word": "ひる", "meaning": "noon" }
+    ]
+  },
+  "ふ": {
+    "romaji": "fu",
+    "strokeCount": 1,
+    "description": "Pronounced like 'foo' with less emphasis.",
+    "examples": [
+      { "word": "ふゆ", "meaning": "winter" },
+      { "word": "ふく", "meaning": "clothes" }
+    ]
+  },
+  "へ": {
+    "romaji": "he",
+    "strokeCount": 1,
+    "description": "Pronounced like 'hey'.",
+    "examples": [
+      { "word": "へや", "meaning": "room" },
+      { "word": "へん", "meaning": "strange" }
+    ]
+  },
+  "ほ": {
+    "romaji": "ho",
+    "strokeCount": 4,
+    "description": "Pronounced like 'ho' in 'hotel'.",
+    "examples": [
+      { "word": "ほし", "meaning": "star" },
+      { "word": "ほん", "meaning": "book" }
+    ]
+  },
+  "ま": {
+    "romaji": "ma",
+    "strokeCount": 3,
+    "description": "Pronounced like 'ma' in 'mama'.",
+    "examples": [
+      { "word": "まち", "meaning": "town" },
+      { "word": "まど", "meaning": "window" }
+    ]
+  },
+  "み": {
+    "romaji": "mi",
+    "strokeCount": 2,
+    "description": "Pronounced like 'me'.",
+    "examples": [
+      { "word": "みず", "meaning": "water" },
+      { "word": "みみ", "meaning": "ear" }
+    ]
+  },
+  "む": {
+    "romaji": "mu",
+    "strokeCount": 3,
+    "description": "Pronounced like 'moo'.",
+    "examples": [
+      { "word": "むし", "meaning": "insect" },
+      { "word": "むね", "meaning": "chest" }
+    ]
+  },
+  "め": {
+    "romaji": "me",
+    "strokeCount": 2,
+    "description": "Pronounced like 'meh'.",
+    "examples": [
+      { "word": "め", "meaning": "eye" },
+      { "word": "めがね", "meaning": "glasses" }
+    ]
+  },
+  "も": {
+    "romaji": "mo",
+    "strokeCount": 3,
+    "description": "Pronounced like 'mo' in 'more'.",
+    "examples": [
+      { "word": "もり", "meaning": "forest" },
+      { "word": "もも", "meaning": "peach" }
+    ]
+  },
+  "や": {
+    "romaji": "ya",
+    "strokeCount": 3,
+    "description": "Pronounced like 'ya' in 'yarn'.",
+    "examples": [
+      { "word": "やま", "meaning": "mountain" },
+      { "word": "やさい", "meaning": "vegetable" }
+    ]
+  },
+  "ゆ": {
+    "romaji": "yu",
+    "strokeCount": 2,
+    "description": "Pronounced like 'you'.",
+    "examples": [
+      { "word": "ゆき", "meaning": "snow" },
+      { "word": "ゆめ", "meaning": "dream" }
+    ]
+  },
+  "よ": {
+    "romaji": "yo",
+    "strokeCount": 2,
+    "description": "Pronounced like 'yo' in 'yogurt'.",
+    "examples": [
+      { "word": "よる", "meaning": "night" },
+      { "word": "ようふく", "meaning": "clothing" }
+    ]
+  },
+  "ら": {
+    "romaji": "ra",
+    "strokeCount": 2,
+    "description": "Pronounced lightly between 'ra' and 'la'.",
+    "examples": [
+      { "word": "らいねん", "meaning": "next year" },
+      { "word": "らっぱ", "meaning": "trumpet" }
+    ]
+  },
+  "り": {
+    "romaji": "ri",
+    "strokeCount": 2,
+    "description": "Pronounced between 'ri' and 'li'.",
+    "examples": [
+      { "word": "りす", "meaning": "squirrel" },
+      { "word": "りんご", "meaning": "apple" }
+    ]
+  },
+  "る": {
+    "romaji": "ru",
+    "strokeCount": 1,
+    "description": "Pronounced like 'ru' in 'rule'.",
+    "examples": [
+      { "word": "るす", "meaning": "absence" },
+      { "word": "るい", "meaning": "kind/type" }
+    ]
+  },
+  "れ": {
+    "romaji": "re",
+    "strokeCount": 2,
+    "description": "Pronounced like 'ray'.",
+    "examples": [
+      { "word": "れいぞうこ", "meaning": "refrigerator" },
+      { "word": "れきし", "meaning": "history" }
+    ]
+  },
+  "ろ": {
+    "romaji": "ro",
+    "strokeCount": 1,
+    "description": "Pronounced like 'row'.",
+    "examples": [
+      { "word": "ろうそく", "meaning": "candle" },
+      { "word": "ろじ", "meaning": "alley" }
+    ]
+  },
+  "わ": {
+    "romaji": "wa",
+    "strokeCount": 2,
+    "description": "Pronounced like 'wa' in 'wander'.",
+    "examples": [
+      { "word": "わたし", "meaning": "I / me" },
+      { "word": "わに", "meaning": "crocodile" }
+    ]
+  },
+  "を": {
+    "romaji": "wo",
+    "strokeCount": 3,
+    "description": "Rarely used, pronounced like 'o'.",
+    "examples": [
+      { "word": "りんごをたべる", "meaning": "eat an apple" },
+      { "word": "みずをのむ", "meaning": "drink water" }
+    ]
+  },
+  "ん": {
+    "romaji": "n",
+    "strokeCount": 1,
+    "description": "The only consonant-only sound in Japanese.",
+    "examples": [
+      { "word": "ほん", "meaning": "book" },
+      { "word": "さん", "meaning": "three" }
+    ]
+  }
+}
