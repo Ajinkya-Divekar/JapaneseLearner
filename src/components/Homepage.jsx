@@ -44,7 +44,11 @@ function Homepage() {
         </div>
       </nav> */}
 
-      <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-6 auto-rows-min gap-6 mt-20 px-4 sm:px-6">
+      <div
+        className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-6 auto-rows-min gap-6
+       mt-5
+        px-4 sm:px-6"
+      >
         {/* Header */}
         <header className="md:col-span-6 p-6 bg-white/60 backdrop-blur-md text-center rounded-3xl border border-gray-200 shadow-2xl space-y-3">
           <h1 className="text-3xl sm:text-4xl font-extrabold text-indigo-800">
