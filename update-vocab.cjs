@@ -1,37 +1,55 @@
 const fs = require("fs");
 const path = require("path");
 
-const filePath = path.join(__dirname, "src", "data", "vocab.json");
-const filepath2 = path.join(__dirname, "src", "data", "doushi.json");
+// List of target files to update
+const targetFiles = [
+  { path: "src/data/vocab.json", addCard: true },
+  { path: "src/data/doushi.json", addCard: false },
+  { path: "src/data/ikeyoshi.json", addCard: false },
+  { path: "src/data/nakeyoshi.json", addCard: false },
+  { path: "src/data/kanji.json", addCard: false },
+];
 
-try {
-  // Read and parse the vocab data
-  const rawData = fs.readFileSync(filePath, "utf-8");
-  const vocab = JSON.parse(rawData);
+const level = "N5"; // Or use lowercase 'n5' if needed
 
-  const rawData2 = fs.readFileSync(filepath2, "utf-8");
-  const verb = JSON.parse(rawData2);
+targetFiles.forEach(({ path: relativePath, addCard }) => {
+  const filePath = path.join(__dirname, relativePath);
 
-  // Optional: Sort the entries by current ID (just in case it's unordered)
-  const sorted = [...vocab].sort((a, b) => a.id - b.id);
+  try {
+    const rawData = fs.readFileSync(filePath, "utf-8");
+    const data = JSON.parse(rawData);
 
-  // Update IDs and recalculate card numbers
-  const updated = sorted.map((entry, index) => ({
-    ...entry,
-    id: index + 1, // Sequentially reassign IDs
-    card: Math.floor(index / 9) + 1, // Update card number
-  }));
+    let updated = [...data];
 
-  const updatedVerb = verb.map((entry, index) => ({
-    ...entry,
-    id: entry.id || index + 1, // If no ID exists, assign a new one
-  }));
+    // Sort vocab by ID before reassigning (only for vocab)
+    if (relativePath.includes("vocab")) {
+      updated = updated.sort((a, b) => a.id - b.id);
+    }
 
-  // Save the updated data back to the JSON file
-  fs.writeFileSync(filePath, JSON.stringify(updated, null, 2), "utf-8");
-  fs.writeFileSync(filepath2, JSON.stringify(updatedVerb, null, 2), "utf-8");
+    // Update each entry
+    updated = updated.map((entry, index) => {
+      const newEntry = {
+        ...entry,
+        id: entry.id || index + 1,
+        level: entry.level || level, // Add level if not present
+      };
 
-  console.log("✅ vocab.json updated with new IDs and card numbers.");
-} catch (error) {
-  console.error("❌ Failed to update vocab.json:", error);
-}
+      // Only vocab gets 'card' key
+      if (addCard) {
+        newEntry.card = Math.floor(index / 9) + 1;
+      }
+
+      return newEntry;
+    });
+
+    // Write back to file
+    fs.writeFileSync(filePath, JSON.stringify(updated, null, 2), "utf-8");
+    console.log(
+      `✅ ${relativePath} updated with 'level' and ID${
+        addCard ? ", card" : ""
+      }.`
+    );
+  } catch (error) {
+    console.error(`❌ Failed to process ${relativePath}:`, error.message);
+  }
+});

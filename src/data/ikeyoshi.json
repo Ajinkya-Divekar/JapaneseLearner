@@ -3,318 +3,371 @@
     "id": 1,
     "eng": "blue",
     "jp": "あおい",
-    "rom": "akarui"
+    "rom": "akarui",
+    "level": "N5"
   },
   {
     "id": 2,
     "eng": "red",
     "jp": "あかい",
-    "rom": "akai"
+    "rom": "akai",
+    "level": "N5"
   },
   {
     "id": 3,
     "eng": "bright",
     "jp": "あかるい",
-    "rom": "akarui"
+    "rom": "akarui",
+    "level": "N5"
   },
   {
     "id": 4,
     "eng": "warm",
     "jp": "あたたかい",
-    "rom": "atatakai"
+    "rom": "atatakai",
+    "level": "N5"
   },
   {
     "id": 5,
     "eng": "new",
     "jp": "あたらしい",
-    "rom": "atarashii"
+    "rom": "atarashii",
+    "level": "N5"
   },
   {
     "id": 6,
     "eng": "hot/thick",
     "jp": "あつい",
-    "rom": "atsui"
+    "rom": "atsui",
+    "level": "N5"
   },
   {
     "id": 8,
     "eng": "dangerous",
     "jp": "あぶない",
-    "rom": "abunai"
+    "rom": "abunai",
+    "level": "N5"
   },
   {
     "id": 9,
     "eng": "sweet",
     "jp": "あまい",
-    "rom": "amai"
+    "rom": "amai",
+    "level": "N5"
   },
   {
     "id": 10,
     "eng": "good",
     "jp": "いい",
-    "rom": "ii"
+    "rom": "ii",
+    "level": "N5"
   },
   {
     "id": 11,
     "eng": "busy",
     "jp": "いそがしい",
-    "rom": "isogashii"
+    "rom": "isogashii",
+    "level": "N5"
   },
   {
     "id": 12,
     "eng": "painful",
     "jp": "いたい",
-    "rom": "itai"
+    "rom": "itai",
+    "level": "N5"
   },
   {
     "id": 13,
     "eng": "thin",
     "jp": "うすい",
-    "rom": "usui"
+    "rom": "usui",
+    "level": "N5"
   },
   {
     "id": 14,
     "eng": "noisy",
     "jp": "うるさい",
-    "rom": "urusai"
+    "rom": "urusai",
+    "level": "N5"
   },
   {
     "id": 15,
     "eng": "tasty",
     "jp": "おいしい",
-    "rom": "oishii"
+    "rom": "oishii",
+    "level": "N5"
   },
   {
     "id": 16,
     "eng": "big",
     "jp": "おおきい",
-    "rom": "ookii"
+    "rom": "ookii",
+    "level": "N5"
   },
   {
     "id": 17,
     "eng": "late",
     "jp": "おそい",
-    "rom": "osoi"
+    "rom": "osoi",
+    "level": "N5"
   },
   {
     "id": 18,
     "eng": "slow",
     "jp": "おそい",
-    "rom": "osoi"
+    "rom": "osoi",
+    "level": "N5"
   },
   {
     "id": 19,
     "eng": "heavy",
     "jp": "おもい",
-    "rom": "omoi"
+    "rom": "omoi",
+    "level": "N5"
   },
   {
     "id": 20,
     "eng": "interesting",
     "jp": "おもしろい",
-    "rom": "omoshiroi"
+    "rom": "omoshiroi",
+    "level": "N5"
   },
   {
     "id": 21,
     "eng": "hot/spicy",
     "jp": "からい",
-    "rom": "karai"
+    "rom": "karai",
+    "level": "N5"
   },
   {
     "id": 22,
     "eng": "light",
     "jp": "かるい",
-    "rom": "karui"
+    "rom": "karui",
+    "level": "N5"
   },
   {
     "id": 23,
     "eng": "cute/pretty",
     "jp": "かわいい",
-    "rom": "kawaii"
+    "rom": "kawaii",
+    "level": "N5"
   },
   {
     "id": 24,
     "eng": "yellow",
     "jp": "きいろい",
-    "rom": "kiiroi"
+    "rom": "kiiroi",
+    "level": "N5"
   },
   {
     "id": 25,
     "eng": "dirty",
     "jp": "きたない",
-    "rom": "kitanai"
+    "rom": "kitanai",
+    "level": "N5"
   },
   {
     "id": 26,
     "eng": "good",
     "jp": "よい",
-    "rom": "yoi"
+    "rom": "yoi",
+    "level": "N5"
   },
   {
     "id": 27,
     "eng": "dark",
     "jp": "くらい",
-    "rom": "kurai"
+    "rom": "kurai",
+    "level": "N5"
   },
   {
     "id": 28,
     "eng": "black",
     "jp": "くろい",
-    "rom": "kuroi"
+    "rom": "kuroi",
+    "level": "N5"
   },
   {
     "id": 29,
     "eng": "cold",
     "jp": "さむい",
-    "rom": "samui"
+    "rom": "samui",
+    "level": "N5"
   },
   {
     "id": 30,
     "eng": "white",
     "jp": "しろい",
-    "rom": "shiroi"
+    "rom": "shiroi",
+    "level": "N5"
   },
   {
     "id": 31,
     "eng": "cold",
     "jp": "つめたい",
-    "rom": "tsumetai"
+    "rom": "tsumetai",
+    "level": "N5"
   },
   {
     "id": 32,
     "eng": "strong",
     "jp": "つよい",
-    "rom": "tsuyoi"
+    "rom": "tsuyoi",
+    "level": "N5"
   },
   {
     "id": 33,
     "eng": "far",
     "jp": "とおい",
-    "rom": "tooi"
+    "rom": "tooi",
+    "level": "N5"
   },
   {
     "id": 34,
     "eng": "long",
     "jp": "ながい",
-    "rom": "nagai"
+    "rom": "nagai",
+    "level": "N5"
   },
   {
     "id": 35,
     "eng": "early/fast/quick",
     "jp": "はやい",
-    "rom": "hayai"
+    "rom": "hayai",
+    "level": "N5"
   },
   {
     "id": 37,
     "eng": "low",
     "jp": "ひくい",
-    "rom": "hikui"
+    "rom": "hikui",
+    "level": "N5"
   },
   {
     "id": 38,
     "eng": "wide",
     "jp": "ひろい",
-    "rom": "hiroi"
+    "rom": "hiroi",
+    "level": "N5"
   },
   {
     "id": 39,
     "eng": "fat",
     "jp": "ふとい",
-    "rom": "futoi"
+    "rom": "futoi",
+    "level": "N5"
   },
   {
     "id": 40,
     "eng": "old",
     "jp": "ふるい",
-    "rom": "furui"
+    "rom": "furui",
+    "level": "N5"
   },
   {
     "id": 41,
     "eng": "want/desire",
     "jp": "ほしい",
-    "rom": "hoshii"
+    "rom": "hoshii",
+    "level": "N5"
   },
   {
     "id": 42,
     "eng": "thin/fine",
     "jp": "ほそい",
-    "rom": "hosoi"
+    "rom": "hosoi",
+    "level": "N5"
   },
   {
     "id": 43,
     "eng": "tasteless",
     "jp": "まずい",
-    "rom": "mazui"
+    "rom": "mazui",
+    "level": "N5"
   },
   {
     "id": 44,
     "eng": "round",
     "jp": "まるい",
-    "rom": "marui"
+    "rom": "marui",
+    "level": "N5"
   },
   {
     "id": 45,
     "eng": "difficult",
     "jp": "むずかしい",
-    "rom": "muzukashii"
+    "rom": "muzukashii",
+    "level": "N5"
   },
   {
     "id": 46,
     "eng": "kind",
     "jp": "やさしい",
-    "rom": "yasashii"
+    "rom": "yasashii",
+    "level": "N5"
   },
   {
     "id": 47,
     "eng": "cheap",
     "jp": "やすい",
-    "rom": "yasui"
+    "rom": "yasui",
+    "level": "N5"
   },
   {
     "id": 48,
     "eng": "young",
     "jp": "わかい",
-    "rom": "wakai"
+    "rom": "wakai",
+    "level": "N5"
   },
   {
     "id": 49,
     "eng": "pleasant",
     "jp": "すずしい",
-    "rom": "suzukashii"
+    "rom": "suzukashii",
+    "level": "N5"
   },
   {
     "id": 50,
     "eng": "narrow",
     "jp": "せまい",
-    "rom": "semai"
+    "rom": "semai",
+    "level": "N5"
   },
   {
     "id": 51,
     "eng": "high/expensive",
     "jp": "たかい",
-    "rom": "takai"
+    "rom": "takai",
+    "level": "N5"
   },
   {
     "id": 52,
     "eng": "enjoyable",
     "jp": "たのしい",
-    "rom": "tanoshii"
+    "rom": "tanoshii",
+    "level": "N5"
   },
   {
     "id": 53,
     "eng": "small",
     "jp": "ちいさい",
-    "rom": "chiisai"
+    "rom": "chiisai",
+    "level": "N5"
   },
   {
     "id": 54,
     "eng": "near/close",
     "jp": "ちかい",
-    "rom": "chikai"
+    "rom": "chikai",
+    "level": "N5"
   },
   {
     "id": 54,
     "eng": "boring",
     "jp": "つまらない",
-    "rom": "tsumaranai"
+    "rom": "tsumaranai",
+    "level": "N5"
   }
 ]

@@ -3,6054 +3,7063 @@
     "id": 1,
     "jp": "わたし",
     "eng": "I",
-    "card": 1
+    "card": 1,
+    "level": "N5"
   },
   {
     "id": 2,
     "jp": "です",
     "eng": "is/am/are",
-    "card": 1
+    "card": 1,
+    "level": "N5"
   },
   {
     "id": 3,
     "jp": "さん",
     "eng": "Mr./Ms./Mrs.",
-    "card": 1
+    "card": 1,
+    "level": "N5"
   },
   {
     "id": 4,
     "jp": "ちゃん",
     "eng": "Ms.",
-    "card": 1
+    "card": 1,
+    "level": "N5"
   },
   {
     "id": 5,
     "jp": "あなた",
     "eng": "you",
-    "card": 1
+    "card": 1,
+    "level": "N5"
   },
   {
     "id": 6,
     "jp": "かれ",
     "eng": "he",
-    "card": 1
+    "card": 1,
+    "level": "N5"
   },
   {
     "id": 7,
     "jp": "かのじょ",
     "eng": "she",
-    "card": 1
+    "card": 1,
+    "level": "N5"
   },
   {
     "id": 8,
     "jp": "おなまえ",
     "eng": "your name",
-    "card": 1
+    "card": 1,
+    "level": "N5"
   },
   {
     "id": 9,
     "jp": "はい",
     "eng": "yes",
-    "card": 1
+    "card": 1,
+    "level": "N5"
   },
   {
     "id": 10,
     "jp": "ええ",
     "eng": "yes",
-    "card": 2
+    "card": 2,
+    "level": "N5"
   },
   {
     "id": 11,
     "jp": "いいえ",
     "eng": "no",
-    "card": 2
+    "card": 2,
+    "level": "N5"
   },
   {
     "id": 12,
     "jp": "そうです",
     "eng": "yes, That's correct",
-    "card": 2
+    "card": 2,
+    "level": "N5"
   },
   {
     "id": 13,
     "jp": "ちがいます",
     "eng": "no, That's incorrect",
-    "card": 2
+    "card": 2,
+    "level": "N5"
   },
   {
     "id": 14,
     "jp": "おはよう / おはようございます",
     "eng": "Good morning",
-    "card": 2
+    "card": 2,
+    "level": "N5"
   },
   {
     "id": 15,
     "jp": "こんにちは",
     "eng": "Hello / Good afternoon",
-    "card": 2
+    "card": 2,
+    "level": "N5"
   },
   {
     "id": 16,
     "jp": "こんばんは",
     "eng": "Good evening",
-    "card": 2
+    "card": 2,
+    "level": "N5"
   },
   {
     "id": 17,
     "jp": "さようなら",
     "eng": "Goodbye",
-    "card": 2
+    "card": 2,
+    "level": "N5"
   },
   {
     "id": 18,
     "jp": "じゃ、また",
     "eng": "See you later",
-    "card": 2
+    "card": 2,
+    "level": "N5"
   },
   {
     "id": 19,
     "jp": "おやすみなさい",
     "eng": "Good night",
-    "card": 3
+    "card": 3,
+    "level": "N5"
   },
   {
     "id": 20,
     "jp": "ありがとう / ありがとうございます",
     "eng": "Thank you",
-    "card": 3
+    "card": 3,
+    "level": "N5"
   },
   {
     "id": 21,
     "jp": "どういたしまして",
     "eng": "You're welcome",
-    "card": 3
+    "card": 3,
+    "level": "N5"
   },
   {
     "id": 22,
     "jp": "どうぞ",
     "eng": "go ahead",
-    "card": 3
+    "card": 3,
+    "level": "N5"
   },
   {
     "id": 23,
     "jp": "どうも",
     "eng": "Thank you",
-    "card": 3
+    "card": 3,
+    "level": "N5"
   },
   {
     "id": 24,
     "jp": "はじめまして",
     "eng": "hello",
-    "card": 3
+    "card": 3,
+    "level": "N5"
   },
   {
     "id": 25,
     "jp": "どうぞよろしく",
     "eng": "glad to meet you",
-    "card": 3
+    "card": 3,
+    "level": "N5"
   },
   {
     "id": 26,
     "jp": "こちらこそ",
     "eng": "Me too, Same here",
-    "card": 3
+    "card": 3,
+    "level": "N5"
   },
   {
     "id": 27,
     "jp": "かぞく",
     "eng": "family",
-    "card": 3
+    "card": 3,
+    "level": "N5"
   },
   {
     "id": 28,
     "jp": "りょうしん",
     "eng": "parents",
-    "card": 4
+    "card": 4,
+    "level": "N5"
   },
   {
     "id": 29,
     "jp": "父",
     "eng": "father",
-    "card": 4
+    "card": 4,
+    "level": "N5"
   },
   {
     "id": 30,
     "jp": "母",
     "eng": "mother",
-    "card": 4
+    "card": 4,
+    "level": "N5"
   },
   {
     "id": 31,
     "jp": "あね",
     "eng": "elder sister",
-    "card": 4
+    "card": 4,
+    "level": "N5"
   },
   {
     "id": 32,
     "jp": "あに",
     "eng": "elder brother",
-    "card": 4
+    "card": 4,
+    "level": "N5"
   },
   {
     "id": 33,
     "jp": "わたし",
     "eng": "I",
-    "card": 4
+    "card": 4,
+    "level": "N5"
   },
   {
     "id": 34,
     "jp": "おとうと",
     "eng": "younger brother",
-    "card": 4
+    "card": 4,
+    "level": "N5"
   },
   {
     "id": 35,
     "jp": "いもうと",
     "eng": "younger sister",
-    "card": 4
+    "card": 4,
+    "level": "N5"
   },
   {
     "id": 36,
     "jp": "きょうだい",
     "eng": "siblings",
-    "card": 4
+    "card": 4,
+    "level": "N5"
   },
   {
     "id": 37,
     "jp": "いぬ",
     "eng": "dog",
-    "card": 5
+    "card": 5,
+    "level": "N5"
   },
   {
     "id": 38,
     "jp": "ねこ",
     "eng": "cat",
-    "card": 5
+    "card": 5,
+    "level": "N5"
   },
   {
     "id": 39,
     "jp": "いる",
     "eng": "to have/to be",
-    "card": 5
+    "card": 5,
+    "level": "N5"
   },
   {
     "id": 40,
     "jp": "うち",
     "eng": "household",
-    "card": 5
+    "card": 5,
+    "level": "N5"
   },
   {
     "id": 41,
     "jp": "おじいさん",
     "eng": "grandfather",
-    "card": 5
+    "card": 5,
+    "level": "N5"
   },
   {
     "id": 42,
     "jp": "おばあさん",
     "eng": "grandmother",
-    "card": 5
+    "card": 5,
+    "level": "N5"
   },
   {
     "id": 43,
     "jp": "おとうさん",
     "eng": "your father",
-    "card": 5
+    "card": 5,
+    "level": "N5"
   },
   {
     "id": 44,
     "jp": "ごりょうしん",
     "eng": "your parents",
-    "card": 5
+    "card": 5,
+    "level": "N5"
   },
   {
     "id": 45,
     "jp": "おかあさん",
     "eng": "your mother",
-    "card": 5
+    "card": 5,
+    "level": "N5"
   },
   {
     "id": 46,
     "jp": "おねえさん",
     "eng": "your elder sister",
-    "card": 6
+    "card": 6,
+    "level": "N5"
   },
   {
     "id": 47,
     "jp": "おにいさん",
     "eng": "your elder brother",
-    "card": 6
+    "card": 6,
+    "level": "N5"
   },
   {
     "id": 48,
     "jp": "おとうとさん",
     "eng": "your younger brother",
-    "card": 6
+    "card": 6,
+    "level": "N5"
   },
   {
     "id": 49,
     "jp": "いもうとさん",
     "eng": "your younger sister",
-    "card": 6
+    "card": 6,
+    "level": "N5"
   },
   {
     "id": 50,
     "jp": "ひとり",
     "eng": "one person",
-    "card": 6
+    "card": 6,
+    "level": "N5"
   },
   {
     "id": 51,
     "jp": "ふたり",
     "eng": "two people",
-    "card": 6
+    "card": 6,
+    "level": "N5"
   },
   {
     "id": 52,
     "jp": "よにん",
     "eng": "four people",
-    "card": 6
+    "card": 6,
+    "level": "N5"
   },
   {
     "id": 53,
     "jp": "何人",
     "eng": "how many people",
-    "card": 6
+    "card": 6,
+    "level": "N5"
   },
   {
     "id": 54,
     "jp": "大人",
     "eng": "adult",
-    "card": 6
+    "card": 6,
+    "level": "N5"
   },
   {
     "id": 55,
     "jp": "子ども",
     "eng": "child",
-    "card": 7
+    "card": 7,
+    "level": "N5"
   },
   {
     "id": 56,
     "jp": "男",
     "eng": "man",
-    "card": 7
+    "card": 7,
+    "level": "N5"
   },
   {
     "id": 57,
     "jp": "女",
     "eng": "woman",
-    "card": 7
+    "card": 7,
+    "level": "N5"
   },
   {
     "id": 58,
     "jp": "男の子",
     "eng": "boy",
-    "card": 7
+    "card": 7,
+    "level": "N5"
   },
   {
     "id": 59,
     "jp": "女の子",
     "eng": "girl",
-    "card": 7
+    "card": 7,
+    "level": "N5"
   },
   {
     "id": 60,
     "jp": "くに",
     "eng": "country",
-    "card": 7
+    "card": 7,
+    "level": "N5"
   },
   {
     "id": 61,
     "jp": "ある",
     "eng": "to be",
-    "card": 7
+    "card": 7,
+    "level": "N5"
   },
   {
     "id": 62,
     "jp": "どちら",
     "eng": "which",
-    "card": 7
+    "card": 7,
+    "level": "N5"
   },
   {
     "id": 63,
     "jp": "〜からきました",
     "eng": "came from ~",
-    "card": 7
+    "card": 7,
+    "level": "N5"
   },
   {
     "id": 64,
     "jp": "〜じん",
     "eng": "nationality",
-    "card": 8
+    "card": 8,
+    "level": "N5"
   },
   {
     "id": 65,
     "jp": "ちず",
     "eng": "map",
-    "card": 8
+    "card": 8,
+    "level": "N5"
   },
   {
     "id": 66,
     "jp": "せかい",
     "eng": "world",
-    "card": 8
+    "card": 8,
+    "level": "N5"
   },
   {
     "id": 67,
     "jp": "にほん",
     "eng": "Japan",
-    "card": 8
+    "card": 8,
+    "level": "N5"
   },
   {
     "id": 68,
     "jp": "インド",
     "eng": "India",
-    "card": 8
+    "card": 8,
+    "level": "N5"
   },
   {
     "id": 69,
     "jp": "インドネシア",
     "eng": "Indonesia",
-    "card": 8
+    "card": 8,
+    "level": "N5"
   },
   {
     "id": 70,
     "jp": "かんこく",
     "eng": "South Korea",
-    "card": 8
+    "card": 8,
+    "level": "N5"
   },
   {
     "id": 71,
     "jp": "タイ",
     "eng": "Thailand",
-    "card": 8
+    "card": 8,
+    "level": "N5"
   },
   {
     "id": 72,
     "jp": "タイワン",
     "eng": "Taiwan",
-    "card": 8
+    "card": 8,
+    "level": "N5"
   },
   {
     "id": 73,
     "jp": "ちゅうごく",
     "eng": "China",
-    "card": 9
+    "card": 9,
+    "level": "N5"
   },
   {
     "id": 74,
     "jp": "ネパル",
     "eng": "Nepal",
-    "card": 9
+    "card": 9,
+    "level": "N5"
   },
   {
     "id": 75,
     "jp": "フィリピン",
     "eng": "Philippines",
-    "card": 9
+    "card": 9,
+    "level": "N5"
   },
   {
     "id": 76,
     "jp": "ベトナム",
     "eng": "Vietnam",
-    "card": 9
+    "card": 9,
+    "level": "N5"
   },
   {
     "id": 77,
     "jp": "マレシア",
     "eng": "Malaysia",
-    "card": 9
+    "card": 9,
+    "level": "N5"
   },
   {
     "id": 78,
     "jp": "ミャンマ",
     "eng": "Myanmar",
-    "card": 9
+    "card": 9,
+    "level": "N5"
   },
   {
     "id": 79,
     "jp": "トルコ",
     "eng": "Turkey",
-    "card": 9
+    "card": 9,
+    "level": "N5"
   },
   {
     "id": 80,
     "jp": "オストラリア",
     "eng": "Australia",
-    "card": 9
+    "card": 9,
+    "level": "N5"
   },
   {
     "id": 81,
     "jp": "ニュジランド",
     "eng": "New Zealand",
-    "card": 9
+    "card": 9,
+    "level": "N5"
   },
   {
     "id": 82,
     "jp": "アメリカ",
     "eng": "America",
-    "card": 10
+    "card": 10,
+    "level": "N5"
   },
   {
     "id": 83,
     "jp": "カナダ",
     "eng": "Canada",
-    "card": 10
+    "card": 10,
+    "level": "N5"
   },
   {
     "id": 84,
     "jp": "メキシコ",
     "eng": "Mexico",
-    "card": 10
+    "card": 10,
+    "level": "N5"
   },
   {
     "id": 85,
     "jp": "ブラジル",
     "eng": "Brazil",
-    "card": 10
+    "card": 10,
+    "level": "N5"
   },
   {
     "id": 86,
     "jp": "ロシア",
     "eng": "Russia",
-    "card": 10
+    "card": 10,
+    "level": "N5"
   },
   {
     "id": 87,
     "jp": "イギリス",
     "eng": "england",
-    "card": 10
+    "card": 10,
+    "level": "N5"
   },
   {
     "id": 88,
     "jp": "フランス",
     "eng": "France",
-    "card": 10
+    "card": 10,
+    "level": "N5"
   },
   {
     "id": 89,
     "jp": "ドイツ",
     "eng": "Germany",
-    "card": 10
+    "card": 10,
+    "level": "N5"
   },
   {
     "id": 90,
     "jp": "スイス",
     "eng": "Switzerland",
-    "card": 10
+    "card": 10,
+    "level": "N5"
   },
   {
     "id": 91,
     "jp": "イタリア",
     "eng": "Italy",
-    "card": 11
+    "card": 11,
+    "level": "N5"
   },
   {
     "id": 92,
     "jp": "スペイン",
     "eng": "Spain",
-    "card": 11
+    "card": 11,
+    "level": "N5"
   },
   {
     "id": 93,
     "jp": "エジプト",
     "eng": "Egypt",
-    "card": 11
+    "card": 11,
+    "level": "N5"
   },
   {
     "id": 94,
     "jp": "ケニア",
     "eng": "Kenya",
-    "card": 11
+    "card": 11,
+    "level": "N5"
   },
   {
     "id": 95,
     "jp": "先生",
     "eng": "teacher",
-    "card": 11
+    "card": 11,
+    "level": "N5"
   },
   {
     "id": 96,
     "jp": "がくせい",
     "eng": "student",
-    "card": 11
+    "card": 11,
+    "level": "N5"
   },
   {
     "id": 97,
     "jp": "りゅうがくせい",
     "eng": "foreign student",
-    "card": 11
+    "card": 11,
+    "level": "N5"
   },
   {
     "id": 98,
     "jp": "がっこう",
     "eng": "school",
-    "card": 11
+    "card": 11,
+    "level": "N5"
   },
   {
     "id": 99,
     "jp": "べんきょう",
     "eng": "study",
-    "card": 11
+    "card": 11,
+    "level": "N5"
   },
   {
     "id": 100,
     "jp": "べんきょうする",
     "eng": "to study",
-    "card": 12
+    "card": 12,
+    "level": "N5"
   },
   {
     "id": 101,
     "jp": "にほんごがっこう",
     "eng": "Japanese school",
-    "card": 12
+    "card": 12,
+    "level": "N5"
   },
   {
     "id": 102,
     "jp": "しょうがっこう",
     "eng": "elementary school",
-    "card": 12
+    "card": 12,
+    "level": "N5"
   },
   {
     "id": 103,
     "jp": "ちゅうがっこう",
     "eng": "junior high school",
-    "card": 12
+    "card": 12,
+    "level": "N5"
   },
   {
     "id": 104,
     "jp": "高校",
     "eng": "high school",
-    "card": 12
+    "card": 12,
+    "level": "N5"
   },
   {
     "id": 105,
     "jp": "だいがく",
     "eng": "college/university",
-    "card": 12
+    "card": 12,
+    "level": "N5"
   },
   {
     "id": 106,
     "jp": "きょうしつ",
     "eng": "classroom",
-    "card": 12
+    "card": 12,
+    "level": "N5"
   },
   {
     "id": 107,
     "jp": "クラス",
     "eng": "class",
-    "card": 12
+    "card": 12,
+    "level": "N5"
   },
   {
     "id": 108,
     "jp": "いく",
     "eng": "to go",
-    "card": 12
+    "card": 12,
+    "level": "N5"
   },
   {
     "id": 109,
     "jp": "くる",
     "eng": "to come",
-    "card": 13
+    "card": 13,
+    "level": "N5"
   },
   {
     "id": 110,
     "jp": "かえる",
     "eng": "to leave/to go home",
-    "card": 13
+    "card": 13,
+    "level": "N5"
   },
   {
     "id": 111,
     "jp": "ゼロ",
     "eng": "zero",
-    "card": 13
+    "card": 13,
+    "level": "N5"
   },
   {
     "id": 112,
     "jp": "いち/一",
     "eng": "one",
-    "card": 13
+    "card": 13,
+    "level": "N5"
   },
   {
     "id": 113,
     "jp": "に/二",
     "eng": "two",
-    "card": 13
+    "card": 13,
+    "level": "N5"
   },
   {
     "id": 114,
     "jp": "さん/三",
     "eng": "three",
-    "card": 13
+    "card": 13,
+    "level": "N5"
   },
   {
     "id": 115,
     "jp": "よん/四",
     "eng": "four",
-    "card": 13
+    "card": 13,
+    "level": "N5"
   },
   {
     "id": 116,
     "jp": "ご/五",
     "eng": "five",
-    "card": 13
+    "card": 13,
+    "level": "N5"
   },
   {
     "id": 117,
     "jp": "ろく/六",
     "eng": "six",
-    "card": 13
+    "card": 13,
+    "level": "N5"
   },
   {
     "id": 118,
     "jp": "なな/七",
     "eng": "seven",
-    "card": 14
+    "card": 14,
+    "level": "N5"
   },
   {
     "id": 119,
     "jp": "はち/八",
     "eng": "eight",
-    "card": 14
+    "card": 14,
+    "level": "N5"
   },
   {
     "id": 120,
     "jp": "きゅう/九",
     "eng": "nine",
-    "card": 14
+    "card": 14,
+    "level": "N5"
   },
   {
     "id": 121,
     "jp": "じゅう/十",
     "eng": "ten",
-    "card": 14
+    "card": 14,
+    "level": "N5"
   },
   {
     "id": 122,
     "jp": "じゅういち/十一",
     "eng": "eleven",
-    "card": 14
+    "card": 14,
+    "level": "N5"
   },
   {
     "id": 123,
     "jp": "じゅうに/十二",
     "eng": "twelve",
-    "card": 14
+    "card": 14,
+    "level": "N5"
   },
   {
     "id": 124,
     "jp": "~がつ",
     "eng": "~month",
-    "card": 14
+    "card": 14,
+    "level": "N5"
   },
   {
     "id": 125,
     "jp": "一月",
     "eng": "January",
-    "card": 14
+    "card": 14,
+    "level": "N5"
   },
   {
     "id": 126,
     "jp": "二月",
     "eng": "February",
-    "card": 14
+    "card": 14,
+    "level": "N5"
   },
   {
     "id": 127,
     "jp": "三月",
     "eng": "March",
-    "card": 15
+    "card": 15,
+    "level": "N5"
   },
   {
     "id": 128,
     "jp": "四月",
     "eng": "April",
-    "card": 15
+    "card": 15,
+    "level": "N5"
   },
   {
     "id": 129,
     "jp": "五月",
     "eng": "May",
-    "card": 15
+    "card": 15,
+    "level": "N5"
   },
   {
     "id": 130,
     "jp": "六月",
     "eng": "June",
-    "card": 15
+    "card": 15,
+    "level": "N5"
   },
   {
     "id": 131,
     "jp": "七月",
     "eng": "July",
-    "card": 15
+    "card": 15,
+    "level": "N5"
   },
   {
     "id": 132,
     "jp": "八月",
     "eng": "August",
-    "card": 15
+    "card": 15,
+    "level": "N5"
   },
   {
     "id": 133,
     "jp": "九月",
     "eng": "September",
-    "card": 15
+    "card": 15,
+    "level": "N5"
   },
   {
     "id": 134,
     "jp": "十月",
     "eng": "October",
-    "card": 15
+    "card": 15,
+    "level": "N5"
   },
   {
     "id": 135,
     "jp": "十一月",
     "eng": "November",
-    "card": 15
+    "card": 15,
+    "level": "N5"
   },
   {
     "id": 136,
     "jp": "十二月",
     "eng": "December",
-    "card": 16
+    "card": 16,
+    "level": "N5"
   },
   {
     "id": 137,
     "jp": "何月",
     "eng": "what month",
-    "card": 16
+    "card": 16,
+    "level": "N5"
   },
   {
     "id": 138,
     "jp": "日曜日",
     "eng": "Sunday",
-    "card": 16
+    "card": 16,
+    "level": "N5"
   },
   {
     "id": 139,
     "jp": "月曜日",
     "eng": "Monday",
-    "card": 16
+    "card": 16,
+    "level": "N5"
   },
   {
     "id": 140,
     "jp": "火曜日",
     "eng": "Tuesday",
-    "card": 16
+    "card": 16,
+    "level": "N5"
   },
   {
     "id": 141,
     "jp": "水曜日",
     "eng": "Wednesday",
-    "card": 16
+    "card": 16,
+    "level": "N5"
   },
   {
     "id": 142,
     "jp": "木曜日",
     "eng": "Thursday",
-    "card": 16
+    "card": 16,
+    "level": "N5"
   },
   {
     "id": 143,
     "jp": "金曜日",
     "eng": "Friday",
-    "card": 16
+    "card": 16,
+    "level": "N5"
   },
   {
     "id": 144,
     "jp": "土曜日",
     "eng": "Saturday",
-    "card": 16
+    "card": 16,
+    "level": "N5"
   },
   {
     "id": 145,
     "jp": "何曜日",
     "eng": "what day",
-    "card": 17
+    "card": 17,
+    "level": "N5"
   },
   {
     "id": 146,
     "jp": "おととい",
     "eng": "day before yesterday",
-    "card": 17
+    "card": 17,
+    "level": "N5"
   },
   {
     "id": 147,
     "jp": "きのう",
     "eng": "yesterday",
-    "card": 17
+    "card": 17,
+    "level": "N5"
   },
   {
     "id": 148,
     "jp": "今日",
     "eng": "today",
-    "card": 17
+    "card": 17,
+    "level": "N5"
   },
   {
     "id": 149,
     "jp": "あした",
     "eng": "tomorrow",
-    "card": 17
+    "card": 17,
+    "level": "N5"
   },
   {
     "id": 150,
     "jp": "あさって",
     "eng": "day after tomorrow",
-    "card": 17
+    "card": 17,
+    "level": "N5"
   },
   {
     "id": 151,
     "jp": "毎日",
     "eng": "everyday",
-    "card": 17
+    "card": 17,
+    "level": "N5"
   },
   {
     "id": 152,
     "jp": "~しゅうかん",
     "eng": "weeks",
-    "card": 17
+    "card": 17,
+    "level": "N5"
   },
   {
     "id": 153,
     "jp": "～月",
     "eng": "months",
-    "card": 17
+    "card": 17,
+    "level": "N5"
   },
   {
     "id": 154,
     "jp": "～年",
     "eng": "years",
-    "card": 18
+    "card": 18,
+    "level": "N5"
   },
   {
     "id": 155,
     "jp": "~かい",
     "eng": "~times",
-    "card": 18
+    "card": 18,
+    "level": "N5"
   },
   {
     "id": 156,
     "jp": "何かい",
     "eng": "how many times",
-    "card": 18
+    "card": 18,
+    "level": "N5"
   },
   {
     "id": 157,
     "jp": "アルバイトする",
     "eng": "to work part-time job",
-    "card": 18
+    "card": 18,
+    "level": "N5"
   },
   {
     "id": 158,
     "jp": "する",
     "eng": "to do",
-    "card": 18
+    "card": 18,
+    "level": "N5"
   },
   {
     "id": 159,
     "jp": "ことば",
     "eng": "word",
-    "card": 18
+    "card": 18,
+    "level": "N5"
   },
   {
     "id": 160,
     "jp": "じ",
     "eng": "letter",
-    "card": 18
+    "card": 18,
+    "level": "N5"
   },
   {
     "id": 161,
     "jp": "日本語",
     "eng": "Japanese language",
-    "card": 18
+    "card": 18,
+    "level": "N5"
   },
   {
     "id": 162,
     "jp": "~ご",
     "eng": "language suffix",
-    "card": 18
+    "card": 18,
+    "level": "N5"
   },
   {
     "id": 163,
     "jp": "はなす",
     "eng": "to speak",
-    "card": 19
+    "card": 19,
+    "level": "N5"
   },
   {
     "id": 164,
     "jp": "ゆっくり",
     "eng": "slowly",
-    "card": 19
+    "card": 19,
+    "level": "N5"
   },
   {
     "id": 165,
     "jp": "いう/言",
     "eng": "to say/to tell",
-    "card": 19
+    "card": 19,
+    "level": "N5"
   },
   {
     "id": 166,
     "jp": "もういちど",
     "eng": "once more",
-    "card": 19
+    "card": 19,
+    "level": "N5"
   },
   {
     "id": 167,
     "jp": "おねがいします",
     "eng": "please",
-    "card": 19
+    "card": 19,
+    "level": "N5"
   },
   {
     "id": 168,
     "jp": "わかる",
     "eng": "to understand/to know",
-    "card": 19
+    "card": 19,
+    "level": "N5"
   },
   {
     "id": 169,
     "jp": "すこし",
     "eng": "little",
-    "card": 19
+    "card": 19,
+    "level": "N5"
   },
   {
     "id": 170,
     "jp": "もうすこし",
     "eng": "a little bit",
-    "card": 19
+    "card": 19,
+    "level": "N5"
   },
   {
     "id": 171,
     "jp": "よく",
     "eng": "well/properly",
-    "card": 19
+    "card": 19,
+    "level": "N5"
   },
   {
     "id": 172,
     "jp": "だいたい",
     "eng": "about/roughly",
-    "card": 20
+    "card": 20,
+    "level": "N5"
   },
   {
     "id": 173,
     "jp": "ぜんぜん ～いません",
     "eng": "not at all",
-    "card": 20
+    "card": 20,
+    "level": "N5"
   },
   {
     "id": 174,
     "jp": "ひらがな",
     "eng": "hiragana",
-    "card": 20
+    "card": 20,
+    "level": "N5"
   },
   {
     "id": 175,
     "jp": "かたかな",
     "eng": "katakana",
-    "card": 20
+    "card": 20,
+    "level": "N5"
   },
   {
     "id": 176,
     "jp": "かんじ",
     "eng": "kanji",
-    "card": 20
+    "card": 20,
+    "level": "N5"
   },
   {
     "id": 177,
     "jp": "ろーまじ",
     "eng": "romaji",
-    "card": 20
+    "card": 20,
+    "level": "N5"
   },
   {
     "id": 178,
     "jp": "よむ",
     "eng": "to read",
-    "card": 20
+    "card": 20,
+    "level": "N5"
   },
   {
     "id": 179,
     "jp": "本",
     "eng": "book",
-    "card": 20
+    "card": 20,
+    "level": "N5"
   },
   {
     "id": 180,
     "jp": "書",
     "eng": "to write",
-    "card": 20
+    "card": 20,
+    "level": "N5"
   },
   {
     "id": 181,
     "jp": "聞",
     "eng": "to listen",
-    "card": 21
+    "card": 21,
+    "level": "N5"
   },
   {
     "id": 182,
     "jp": "シーディー",
     "eng": "CD",
-    "card": 21
+    "card": 21,
+    "level": "N5"
   },
   {
     "id": 183,
     "jp": "買",
     "eng": "to buy",
-    "card": 21
+    "card": 21,
+    "level": "N5"
   },
   {
     "id": 184,
     "jp": "じしょ",
     "eng": "dictionary",
-    "card": 21
+    "card": 21,
+    "level": "N5"
   },
   {
     "id": 185,
     "jp": "でんしじしょ",
     "eng": "electronic dictionary",
-    "card": 21
+    "card": 21,
+    "level": "N5"
   },
   {
     "id": 186,
     "jp": "いみ",
     "eng": "meaning",
-    "card": 21
+    "card": 21,
+    "level": "N5"
   },
   {
     "id": 187,
     "jp": "がんばる",
     "eng": "to give one's best",
-    "card": 21
+    "card": 21,
+    "level": "N5"
   },
   {
     "id": 188,
     "jp": "しゅくだい",
     "eng": "homework",
-    "card": 21
+    "card": 21,
+    "level": "N5"
   },
   {
     "id": 189,
     "jp": "にっき",
     "eng": "diary",
-    "card": 21
+    "card": 21,
+    "level": "N5"
   },
   {
     "id": 190,
     "jp": "レポート",
     "eng": "report",
-    "card": 22
+    "card": 22,
+    "level": "N5"
   },
   {
     "id": 191,
     "jp": "としょかん",
     "eng": "library",
-    "card": 22
+    "card": 22,
+    "level": "N5"
   },
   {
     "id": 192,
     "jp": "ほんや",
     "eng": "bookstore",
-    "card": 22
+    "card": 22,
+    "level": "N5"
   },
   {
     "id": 193,
     "jp": "れんしゅう",
     "eng": "practice",
-    "card": 22
+    "card": 22,
+    "level": "N5"
   },
   {
     "id": 194,
     "jp": "れんしゅうする",
     "eng": "to practice",
-    "card": 22
+    "card": 22,
+    "level": "N5"
   },
   {
     "id": 195,
     "jp": "スピーチ",
     "eng": "speech",
-    "card": 22
+    "card": 22,
+    "level": "N5"
   },
   {
     "id": 196,
     "jp": "おぼえる",
     "eng": "to remember",
-    "card": 22
+    "card": 22,
+    "level": "N5"
   },
   {
     "id": 197,
     "jp": "わすれる",
     "eng": "to forget",
-    "card": 22
+    "card": 22,
+    "level": "N5"
   },
   {
     "id": 198,
     "jp": "もんだい",
     "eng": "problem",
-    "card": 22
+    "card": 22,
+    "level": "N5"
   },
   {
     "id": 199,
     "jp": "れい",
     "eng": "example",
-    "card": 23
+    "card": 23,
+    "level": "N5"
   },
   {
     "id": 200,
     "jp": "こたえ",
     "eng": "answer",
-    "card": 23
+    "card": 23,
+    "level": "N5"
   },
   {
     "id": 201,
     "jp": "しつもんする",
     "eng": "to ask a question",
-    "card": 23
+    "card": 23,
+    "level": "N5"
   },
   {
     "id": 202,
     "jp": "けんがくする",
     "eng": "to observe",
-    "card": 23
+    "card": 23,
+    "level": "N5"
   },
   {
     "id": 203,
     "jp": "かいしゃ",
     "eng": "company",
-    "card": 23
+    "card": 23,
+    "level": "N5"
   },
   {
     "id": 204,
     "jp": "ぎんこう",
     "eng": "bank",
-    "card": 23
+    "card": 23,
+    "level": "N5"
   },
   {
     "id": 205,
     "jp": "はたらく",
     "eng": "to work",
-    "card": 23
+    "card": 23,
+    "level": "N5"
   },
   {
     "id": 206,
     "jp": "やすむ",
     "eng": "to rest/to take a leave",
-    "card": 23
+    "card": 23,
+    "level": "N5"
   },
   {
     "id": 207,
     "jp": "やすみ",
     "eng": "day off/holiday",
-    "card": 23
+    "card": 23,
+    "level": "N5"
   },
   {
     "id": 208,
     "jp": "ひるやすみ",
     "eng": "lunch break",
-    "card": 24
+    "card": 24,
+    "level": "N5"
   },
   {
     "id": 209,
     "jp": "ひまな",
     "eng": "free time",
-    "card": 24
+    "card": 24,
+    "level": "N5"
   },
   {
     "id": 210,
     "jp": "いそがしい",
     "eng": "busy",
-    "card": 24
+    "card": 24,
+    "level": "N5"
   },
   {
     "id": 211,
     "jp": "ざんぎょうする",
     "eng": "to do overtime",
-    "card": 24
+    "card": 24,
+    "level": "N5"
   },
   {
     "id": 212,
     "jp": "しゅっちょう",
     "eng": "business trip",
-    "card": 24
+    "card": 24,
+    "level": "N5"
   },
   {
     "id": 213,
     "jp": "じむしょ",
     "eng": "office",
-    "card": 24
+    "card": 24,
+    "level": "N5"
   },
   {
     "id": 214,
     "jp": "こうじょう",
     "eng": "factory",
-    "card": 24
+    "card": 24,
+    "level": "N5"
   },
   {
     "id": 215,
     "jp": "うけつけ",
     "eng": "reception desk",
-    "card": 24
+    "card": 24,
+    "level": "N5"
   },
   {
     "id": 216,
     "jp": "かいぎ",
     "eng": "meeting",
-    "card": 24
+    "card": 24,
+    "level": "N5"
   },
   {
     "id": 217,
     "jp": "かいぎしつ",
     "eng": "meeting room",
-    "card": 25
+    "card": 25,
+    "level": "N5"
   },
   {
     "id": 218,
     "jp": "電話",
     "eng": "telephone",
-    "card": 25
+    "card": 25,
+    "level": "N5"
   },
   {
     "id": 219,
     "jp": "電話をかける",
     "eng": "to make a call",
-    "card": 25
+    "card": 25,
+    "level": "N5"
   },
   {
     "id": 220,
     "jp": "もしもし",
     "eng": "hello",
-    "card": 25
+    "card": 25,
+    "level": "N5"
   },
   {
     "id": 221,
     "jp": "電話ばんごう",
     "eng": "phone number",
-    "card": 25
+    "card": 25,
+    "level": "N5"
   },
   {
     "id": 222,
     "jp": "しる",
     "eng": "to know",
-    "card": 25
+    "card": 25,
+    "level": "N5"
   },
   {
     "id": 223,
     "jp": "何ばん",
     "eng": "what number",
-    "card": 25
+    "card": 25,
+    "level": "N5"
   },
   {
     "id": 224,
     "jp": "おしえる",
     "eng": "to teach/to tell",
-    "card": 25
+    "card": 25,
+    "level": "N5"
   },
   {
     "id": 225,
     "jp": "てつだう",
     "eng": "to help",
-    "card": 25
+    "card": 25,
+    "level": "N5"
   },
   {
     "id": 226,
     "jp": "つくる",
     "eng": "to cook/to prepare",
-    "card": 26
+    "card": 26,
+    "level": "N5"
   },
   {
     "id": 227,
     "jp": "やくにたつ",
     "eng": "to be helpful",
-    "card": 26
+    "card": 26,
+    "level": "N5"
   },
   {
     "id": 228,
     "jp": "しごと",
     "eng": "work",
-    "card": 26
+    "card": 26,
+    "level": "N5"
   },
   {
     "id": 229,
     "jp": "かいしゃいん",
     "eng": "company employee",
-    "card": 26
+    "card": 26,
+    "level": "N5"
   },
   {
     "id": 230,
     "jp": "ぎんこういん",
     "eng": "bank employee",
-    "card": 26
+    "card": 26,
+    "level": "N5"
   },
   {
     "id": 231,
     "jp": "いしゃ/おいしゃさん",
     "eng": "doctor",
-    "card": 26
+    "card": 26,
+    "level": "N5"
   },
   {
     "id": 232,
     "jp": "かんごし/かんごしさん",
     "eng": "nurse",
-    "card": 26
+    "card": 26,
+    "level": "N5"
   },
   {
     "id": 233,
     "jp": "かいごし/かいごしさん",
     "eng": "care worker",
-    "card": 26
+    "card": 26,
+    "level": "N5"
   },
   {
     "id": 234,
     "jp": "けいさつさん/おまわりさん",
     "eng": "policeman",
-    "card": 26
+    "card": 26,
+    "level": "N5"
   },
   {
     "id": 235,
     "jp": "えきいん/えきいんさん",
     "eng": "station master",
-    "card": 27
+    "card": 27,
+    "level": "N5"
   },
   {
     "id": 236,
     "jp": "うんてんしゅ/うんてんしゅさん",
     "eng": "driver",
-    "card": 27
+    "card": 27,
+    "level": "N5"
   },
   {
     "id": 237,
     "jp": "しゃちょう",
     "eng": "CEO",
-    "card": 27
+    "card": 27,
+    "level": "N5"
   },
   {
     "id": 238,
     "jp": "ぶちょう",
     "eng": "manager",
-    "card": 27
+    "card": 27,
+    "level": "N5"
   },
   {
     "id": 239,
     "jp": "かちょう",
     "eng": "section manager",
-    "card": 27
+    "card": 27,
+    "level": "N5"
   },
   {
     "id": 240,
     "jp": "しゃいん",
     "eng": "employee",
-    "card": 27
+    "card": 27,
+    "level": "N5"
   },
   {
     "id": 241,
     "jp": "これ",
     "eng": "this",
-    "card": 27
+    "card": 27,
+    "level": "N5"
   },
   {
     "id": 242,
     "jp": "それ",
     "eng": "that",
-    "card": 27
+    "card": 27,
+    "level": "N5"
   },
   {
     "id": 243,
     "jp": "あれ",
     "eng": "that over there",
-    "card": 27
+    "card": 27,
+    "level": "N5"
   },
   {
     "id": 244,
     "jp": "どれ",
     "eng": "which",
-    "card": 28
+    "card": 28,
+    "level": "N5"
   },
   {
     "id": 245,
     "jp": "この",
     "eng": "this",
-    "card": 28
+    "card": 28,
+    "level": "N5"
   },
   {
     "id": 246,
     "jp": "その",
     "eng": "that",
-    "card": 28
+    "card": 28,
+    "level": "N5"
   },
   {
     "id": 247,
     "jp": "あの",
     "eng": "that over there",
-    "card": 28
+    "card": 28,
+    "level": "N5"
   },
   {
     "id": 248,
     "jp": "どの",
     "eng": "which",
-    "card": 28
+    "card": 28,
+    "level": "N5"
   },
   {
     "id": 249,
     "jp": "何",
     "eng": "what",
-    "card": 28
+    "card": 28,
+    "level": "N5"
   },
   {
     "id": 250,
     "jp": "めいし",
     "eng": "visiting card",
-    "card": 28
+    "card": 28,
+    "level": "N5"
   },
   {
     "id": 251,
     "jp": "けいたいでんわ",
     "eng": "cell phone",
-    "card": 28
+    "card": 28,
+    "level": "N5"
   },
   {
     "id": 252,
     "jp": "スマートフォン",
     "eng": "smartphone",
-    "card": 28
+    "card": 28,
+    "level": "N5"
   },
   {
     "id": 253,
     "jp": "でんち",
     "eng": "battery",
-    "card": 29
+    "card": 29,
+    "level": "N5"
   },
   {
     "id": 254,
     "jp": "ノート",
     "eng": "notebook",
-    "card": 29
+    "card": 29,
+    "level": "N5"
   },
   {
     "id": 255,
     "jp": "かみ",
     "eng": "paper",
-    "card": 29
+    "card": 29,
+    "level": "N5"
   },
   {
     "id": 256,
     "jp": "てちょう",
     "eng": "pocket diary",
-    "card": 29
+    "card": 29,
+    "level": "N5"
   },
   {
     "id": 257,
     "jp": "ボールペン",
     "eng": "ball pen",
-    "card": 29
+    "card": 29,
+    "level": "N5"
   },
   {
     "id": 258,
     "jp": "シャープペンシル",
     "eng": "sharp pencil",
-    "card": 29
+    "card": 29,
+    "level": "N5"
   },
   {
     "id": 259,
     "jp": "えんぴつ",
     "eng": "pencil",
-    "card": 29
+    "card": 29,
+    "level": "N5"
   },
   {
     "id": 260,
     "jp": "けしごむ",
     "eng": "eraser",
-    "card": 29
+    "card": 29,
+    "level": "N5"
   },
   {
     "id": 261,
     "jp": "パンチ",
     "eng": "hole punch",
-    "card": 29
+    "card": 29,
+    "level": "N5"
   },
   {
     "id": 262,
     "jp": "ホッチキス",
     "eng": "stapler",
-    "card": 30
+    "card": 30,
+    "level": "N5"
   },
   {
     "id": 263,
     "jp": "セロテープ",
     "eng": "cello tape",
-    "card": 30
+    "card": 30,
+    "level": "N5"
   },
   {
     "id": 264,
     "jp": "はさみ",
     "eng": "scissor",
-    "card": 30
+    "card": 30,
+    "level": "N5"
   },
   {
     "id": 265,
     "jp": "はこ",
     "eng": "box",
-    "card": 30
+    "card": 30,
+    "level": "N5"
   },
   {
     "id": 266,
     "jp": "コンピューター",
     "eng": "computer",
-    "card": 30
+    "card": 30,
+    "level": "N5"
   },
   {
     "id": 267,
     "jp": "パソコン",
     "eng": "personal computer",
-    "card": 30
+    "card": 30,
+    "level": "N5"
   },
   {
     "id": 268,
     "jp": "インターネット",
     "eng": "internet",
-    "card": 30
+    "card": 30,
+    "level": "N5"
   },
   {
     "id": 269,
     "jp": "しりょう",
     "eng": "material",
-    "card": 30
+    "card": 30,
+    "level": "N5"
   },
   {
     "id": 270,
     "jp": "きる",
     "eng": "to cut",
-    "card": 30
+    "card": 30,
+    "level": "N5"
   },
   {
     "id": 271,
     "jp": "つかう",
     "eng": "to use",
-    "card": 31
+    "card": 31,
+    "level": "N5"
   },
   {
     "id": 272,
     "jp": "なんこ",
     "eng": "how many small things",
-    "card": 31
+    "card": 31,
+    "level": "N5"
   },
   {
     "id": 273,
     "jp": "～こ",
     "eng": "counter for small things",
-    "card": 31
+    "card": 31,
+    "level": "N5"
   },
   {
     "id": 274,
     "jp": "何だい",
     "eng": "how many electronic things",
-    "card": 31
+    "card": 31,
+    "level": "N5"
   },
   {
     "id": 275,
     "jp": "～だい",
     "eng": "counter for electronic things",
-    "card": 31
+    "card": 31,
+    "level": "N5"
   },
   {
     "id": 276,
     "jp": "なんじ",
     "eng": "what time",
-    "card": 31
+    "card": 31,
+    "level": "N5"
   },
   {
     "id": 277,
     "jp": "なんぷん",
     "eng": "how many minutes",
-    "card": 31
+    "card": 31,
+    "level": "N5"
   },
   {
     "id": 278,
     "jp": "～じ/～時",
     "eng": "hours",
-    "card": 31
+    "card": 31,
+    "level": "N5"
   },
   {
     "id": 279,
     "jp": "1時",
     "eng": "1 o'clock",
-    "card": 31
+    "card": 31,
+    "level": "N5"
   },
   {
     "id": 280,
     "jp": "4時",
     "eng": "4 o'clock",
-    "card": 32
+    "card": 32,
+    "level": "N5"
   },
   {
     "id": 281,
     "jp": "9時",
     "eng": "9 o'clock",
-    "card": 32
+    "card": 32,
+    "level": "N5"
   },
   {
     "id": 282,
     "jp": "～分",
     "eng": "minutes",
-    "card": 32
+    "card": 32,
+    "level": "N5"
   },
   {
     "id": 283,
     "jp": "一分",
     "eng": "one minute",
-    "card": 32
+    "card": 32,
+    "level": "N5"
   },
   {
     "id": 284,
     "jp": "二分",
     "eng": "two minutes",
-    "card": 32
+    "card": 32,
+    "level": "N5"
   },
   {
     "id": 285,
     "jp": "三分",
     "eng": "three minutes",
-    "card": 32
+    "card": 32,
+    "level": "N5"
   },
   {
     "id": 286,
     "jp": "四分",
     "eng": "four minutes",
-    "card": 32
+    "card": 32,
+    "level": "N5"
   },
   {
     "id": 287,
     "jp": "五分",
     "eng": "five minutes",
-    "card": 32
+    "card": 32,
+    "level": "N5"
   },
   {
     "id": 288,
     "jp": "六分",
     "eng": "six minutes",
-    "card": 32
+    "card": 32,
+    "level": "N5"
   },
   {
     "id": 289,
     "jp": "七分",
     "eng": "seven minutes",
-    "card": 33
+    "card": 33,
+    "level": "N5"
   },
   {
     "id": 290,
     "jp": "八分",
     "eng": "eight minutes",
-    "card": 33
+    "card": 33,
+    "level": "N5"
   },
   {
     "id": 291,
     "jp": "九分",
     "eng": "nine minutes",
-    "card": 33
+    "card": 33,
+    "level": "N5"
   },
   {
     "id": 292,
     "jp": "十分",
     "eng": "ten minutes",
-    "card": 33
+    "card": 33,
+    "level": "N5"
   },
   {
     "id": 293,
     "jp": "15分/じゅうごふん",
     "eng": "15 minutes",
-    "card": 33
+    "card": 33,
+    "level": "N5"
   },
   {
     "id": 294,
     "jp": "半",
     "eng": "half",
-    "card": 33
+    "card": 33,
+    "level": "N5"
   },
   {
     "id": 295,
     "jp": "ごろ",
     "eng": "around",
-    "card": 33
+    "card": 33,
+    "level": "N5"
   },
   {
     "id": 296,
     "jp": "午前",
     "eng": "a.m.",
-    "card": 33
+    "card": 33,
+    "level": "N5"
   },
   {
     "id": 297,
     "jp": "午後",
     "eng": "p.m.",
-    "card": 33
+    "card": 33,
+    "level": "N5"
   },
   {
     "id": 298,
     "jp": "いま",
     "eng": "now",
-    "card": 34
+    "card": 34,
+    "level": "N5"
   },
   {
     "id": 299,
     "jp": "～ぐらい",
     "eng": "approximately",
-    "card": 34
+    "card": 34,
+    "level": "N5"
   },
   {
     "id": 300,
     "jp": "～じかん",
     "eng": "hours",
-    "card": 34
+    "card": 34,
+    "level": "N5"
   },
   {
     "id": 301,
     "jp": "何じかん",
     "eng": "how many hours",
-    "card": 34
+    "card": 34,
+    "level": "N5"
   },
   {
     "id": 302,
     "jp": "～から",
     "eng": "from",
-    "card": 34
+    "card": 34,
+    "level": "N5"
   },
   {
     "id": 303,
     "jp": "～まで",
     "eng": "to",
-    "card": 34
+    "card": 34,
+    "level": "N5"
   },
   {
     "id": 304,
     "jp": "友だち",
     "eng": "friend",
-    "card": 34
+    "card": 34,
+    "level": "N5"
   },
   {
     "id": 305,
     "jp": "どんな",
     "eng": "what kind of",
-    "card": 34
+    "card": 34,
+    "level": "N5"
   },
   {
     "id": 306,
     "jp": "人",
     "eng": "person",
-    "card": 34
+    "card": 34,
+    "level": "N5"
   },
   {
     "id": 307,
     "jp": "しんせつな",
     "eng": "kind",
-    "card": 35
+    "card": 35,
+    "level": "N5"
   },
   {
     "id": 308,
     "jp": "みんな",
     "eng": "everyone",
-    "card": 35
+    "card": 35,
+    "level": "N5"
   },
   {
     "id": 309,
     "jp": "げんきな",
     "eng": "energetic/fine",
-    "card": 35
+    "card": 35,
+    "level": "N5"
   },
   {
     "id": 310,
     "jp": "きれいな",
     "eng": "beautiful/clean",
-    "card": 35
+    "card": 35,
+    "level": "N5"
   },
   {
     "id": 311,
     "jp": "ハンサム",
     "eng": "handsome",
-    "card": 35
+    "card": 35,
+    "level": "N5"
   },
   {
     "id": 312,
     "jp": "かわいい",
     "eng": "cute",
-    "card": 35
+    "card": 35,
+    "level": "N5"
   },
   {
     "id": 313,
     "jp": "かっこういい",
     "eng": "cool",
-    "card": 35
+    "card": 35,
+    "level": "N5"
   },
   {
     "id": 314,
     "jp": "あたまがいい",
     "eng": "intelligent",
-    "card": 35
+    "card": 35,
+    "level": "N5"
   },
   {
     "id": 315,
     "jp": "やさしい",
     "eng": "kind",
-    "card": 35
+    "card": 35,
+    "level": "N5"
   },
   {
     "id": 316,
     "jp": "ユーモア",
     "eng": "humor",
-    "card": 36
+    "card": 36,
+    "level": "N5"
   },
   {
     "id": 317,
     "jp": "せい",
     "eng": "height",
-    "card": 36
+    "card": 36,
+    "level": "N5"
   },
   {
     "id": 318,
     "jp": "高",
     "eng": "tall/high/expensive",
-    "card": 36
+    "card": 36,
+    "level": "N5"
   },
   {
     "id": 319,
     "jp": "ひくい",
     "eng": "low",
-    "card": 36
+    "card": 36,
+    "level": "N5"
   },
   {
     "id": 320,
     "jp": "目",
     "eng": "eyes",
-    "card": 36
+    "card": 36,
+    "level": "N5"
   },
   {
     "id": 321,
     "jp": "大きい",
     "eng": "big",
-    "card": 36
+    "card": 36,
+    "level": "N5"
   },
   {
     "id": 322,
     "jp": "小さい",
     "eng": "small",
-    "card": 36
+    "card": 36,
+    "level": "N5"
   },
   {
     "id": 323,
     "jp": "かみ",
     "eng": "hair",
-    "card": 36
+    "card": 36,
+    "level": "N5"
   },
   {
     "id": 324,
     "jp": "長",
     "eng": "long",
-    "card": 36
+    "card": 36,
+    "level": "N5"
   },
   {
     "id": 325,
     "jp": "みじかい",
     "eng": "short",
-    "card": 37
+    "card": 37,
+    "level": "N5"
   },
   {
     "id": 326,
     "jp": "ふく",
     "eng": "clothes",
-    "card": 37
+    "card": 37,
+    "level": "N5"
   },
   {
     "id": 327,
     "jp": "サイズ",
     "eng": "size",
-    "card": 37
+    "card": 37,
+    "level": "N5"
   },
   {
     "id": 328,
     "jp": "すてきな",
     "eng": "fancy/nice",
-    "card": 37
+    "card": 37,
+    "level": "N5"
   },
   {
     "id": 329,
     "jp": "デザイン",
     "eng": "designer",
-    "card": 37
+    "card": 37,
+    "level": "N5"
   },
   {
     "id": 330,
     "jp": "きる",
     "eng": "to wear",
-    "card": 37
+    "card": 37,
+    "level": "N5"
   },
   {
     "id": 331,
     "jp": "ぬぐ",
     "eng": "to take off",
-    "card": 37
+    "card": 37,
+    "level": "N5"
   },
   {
     "id": 332,
     "jp": "あかい",
     "eng": "red",
-    "card": 37
+    "card": 37,
+    "level": "N5"
   },
   {
     "id": 333,
     "jp": "あおい",
     "eng": "blue",
-    "card": 37
+    "card": 37,
+    "level": "N5"
   },
   {
     "id": 334,
     "jp": "しろい",
     "eng": "white",
-    "card": 38
+    "card": 38,
+    "level": "N5"
   },
   {
     "id": 335,
     "jp": "くろい",
     "eng": "black",
-    "card": 38
+    "card": 38,
+    "level": "N5"
   },
   {
     "id": 336,
     "jp": "きいろい",
     "eng": "yellow",
-    "card": 38
+    "card": 38,
+    "level": "N5"
   },
   {
     "id": 337,
     "jp": "いろいろな",
     "eng": "various",
-    "card": 38
+    "card": 38,
+    "level": "N5"
   },
   {
     "id": 338,
     "jp": "シャツ",
     "eng": "shirt",
-    "card": 38
+    "card": 38,
+    "level": "N5"
   },
   {
     "id": 339,
     "jp": "セーター",
     "eng": "sweater",
-    "card": 38
+    "card": 38,
+    "level": "N5"
   },
   {
     "id": 340,
     "jp": "コート",
     "eng": "coat",
-    "card": 38
+    "card": 38,
+    "level": "N5"
   },
   {
     "id": 341,
     "jp": "スーツ",
     "eng": "suit",
-    "card": 38
+    "card": 38,
+    "level": "N5"
   },
   {
     "id": 342,
     "jp": "うわぎ",
     "eng": "coat/jacket",
-    "card": 38
+    "card": 38,
+    "level": "N5"
   },
   {
     "id": 343,
     "jp": "したぎ",
     "eng": "underwear",
-    "card": 39
+    "card": 39,
+    "level": "N5"
   },
   {
     "id": 344,
     "jp": "きもの",
     "eng": "kimono",
-    "card": 39
+    "card": 39,
+    "level": "N5"
   },
   {
     "id": 345,
     "jp": "はく",
     "eng": "to wear",
-    "card": 39
+    "card": 39,
+    "level": "N5"
   },
   {
     "id": 346,
     "jp": "ズボン",
     "eng": "pants",
-    "card": 39
+    "card": 39,
+    "level": "N5"
   },
   {
     "id": 347,
     "jp": "ジーンズ",
     "eng": "jeans",
-    "card": 39
+    "card": 39,
+    "level": "N5"
   },
   {
     "id": 348,
     "jp": "パンツ",
     "eng": "pants",
-    "card": 39
+    "card": 39,
+    "level": "N5"
   },
   {
     "id": 349,
     "jp": "スカート",
     "eng": "skirt",
-    "card": 39
+    "card": 39,
+    "level": "N5"
   },
   {
     "id": 350,
     "jp": "くつ",
     "eng": "shoes",
-    "card": 39
+    "card": 39,
+    "level": "N5"
   },
   {
     "id": 351,
     "jp": "くつした",
     "eng": "socks",
-    "card": 39
+    "card": 39,
+    "level": "N5"
   },
   {
     "id": 352,
     "jp": "かぶる",
     "eng": "to wear headgear",
-    "card": 40
+    "card": 40,
+    "level": "N5"
   },
   {
     "id": 353,
     "jp": "ぼうし",
     "eng": "hat",
-    "card": 40
+    "card": 40,
+    "level": "N5"
   },
   {
     "id": 354,
     "jp": "めがねをかける",
     "eng": "to wear glasses",
-    "card": 40
+    "card": 40,
+    "level": "N5"
   },
   {
     "id": 355,
     "jp": "めがね",
     "eng": "glasses",
-    "card": 40
+    "card": 40,
+    "level": "N5"
   },
   {
     "id": 356,
     "jp": "サングラス",
     "eng": "sunglasses",
-    "card": 40
+    "card": 40,
+    "level": "N5"
   },
   {
     "id": 357,
     "jp": "ゆびわをかける",
     "eng": "to wear a ring",
-    "card": 40
+    "card": 40,
+    "level": "N5"
   },
   {
     "id": 358,
     "jp": "ネクタイ",
     "eng": "necktie",
-    "card": 40
+    "card": 40,
+    "level": "N5"
   },
   {
     "id": 359,
     "jp": "ゆびわ",
     "eng": "ring",
-    "card": 40
+    "card": 40,
+    "level": "N5"
   },
   {
     "id": 360,
     "jp": "とけい",
     "eng": "watch",
-    "card": 40
+    "card": 40,
+    "level": "N5"
   },
   {
     "id": 361,
     "jp": "もつ",
     "eng": "to hold",
-    "card": 41
+    "card": 41,
+    "level": "N5"
   },
   {
     "id": 362,
     "jp": "かばん",
     "eng": "bag",
-    "card": 41
+    "card": 41,
+    "level": "N5"
   },
   {
     "id": 363,
     "jp": "あそぶ",
     "eng": "to play/to have fun",
-    "card": 41
+    "card": 41,
+    "level": "N5"
   },
   {
     "id": 364,
     "jp": "あんないする",
     "eng": "to guide",
-    "card": 41
+    "card": 41,
+    "level": "N5"
   },
   {
     "id": 365,
     "jp": "むかえる",
     "eng": "to pick up/go and receive",
-    "card": 41
+    "card": 41,
+    "level": "N5"
   },
   {
     "id": 366,
     "jp": "もっていく",
     "eng": "to take along",
-    "card": 41
+    "card": 41,
+    "level": "N5"
   },
   {
     "id": 367,
     "jp": "もってくる",
     "eng": "to bring over",
-    "card": 41
+    "card": 41,
+    "level": "N5"
   },
   {
     "id": 368,
     "jp": "どうぶつ",
     "eng": "animal",
-    "card": 41
+    "card": 41,
+    "level": "N5"
   },
   {
     "id": 369,
     "jp": "どうぶつえん",
     "eng": "zoo",
-    "card": 41
+    "card": 41,
+    "level": "N5"
   },
   {
     "id": 370,
     "jp": "パンダ",
     "eng": "panda",
-    "card": 42
+    "card": 42,
+    "level": "N5"
   },
   {
     "id": 371,
     "jp": "ぞう",
     "eng": "elephant",
-    "card": 42
+    "card": 42,
+    "level": "N5"
   },
   {
     "id": 372,
     "jp": "うま",
     "eng": "horse",
-    "card": 42
+    "card": 42,
+    "level": "N5"
   },
   {
     "id": 373,
     "jp": "うし",
     "eng": "cow",
-    "card": 42
+    "card": 42,
+    "level": "N5"
   },
   {
     "id": 374,
     "jp": "まつり",
     "eng": "festival",
-    "card": 42
+    "card": 42,
+    "level": "N5"
   },
   {
     "id": 375,
     "jp": "おてら",
     "eng": "temple",
-    "card": 42
+    "card": 42,
+    "level": "N5"
   },
   {
     "id": 376,
     "jp": "じんじゃ",
     "eng": "shrine",
-    "card": 42
+    "card": 42,
+    "level": "N5"
   },
   {
     "id": 377,
     "jp": "りょこうする",
     "eng": "to travel",
-    "card": 42
+    "card": 42,
+    "level": "N5"
   },
   {
     "id": 378,
     "jp": "じゅんびする",
     "eng": "to prepare",
-    "card": 42
+    "card": 42,
+    "level": "N5"
   },
   {
     "id": 379,
     "jp": "よやくする",
     "eng": "to reserve",
-    "card": 43
+    "card": 43,
+    "level": "N5"
   },
   {
     "id": 380,
     "jp": "ホテル",
     "eng": "hotel",
-    "card": 43
+    "card": 43,
+    "level": "N5"
   },
   {
     "id": 381,
     "jp": "とまる",
     "eng": "to stay",
-    "card": 43
+    "card": 43,
+    "level": "N5"
   },
   {
     "id": 382,
     "jp": "ロビー",
     "eng": "lobby",
-    "card": 43
+    "card": 43,
+    "level": "N5"
   },
   {
     "id": 383,
     "jp": "おみやげ",
     "eng": "souvenir",
-    "card": 43
+    "card": 43,
+    "level": "N5"
   },
   {
     "id": 384,
     "jp": "サービス",
     "eng": "service",
-    "card": 43
+    "card": 43,
+    "level": "N5"
   },
   {
     "id": 385,
     "jp": "ホームステイ",
     "eng": "homestay",
-    "card": 43
+    "card": 43,
+    "level": "N5"
   },
   {
     "id": 386,
     "jp": "まち",
     "eng": "city",
-    "card": 43
+    "card": 43,
+    "level": "N5"
   },
   {
     "id": 387,
     "jp": "けん",
     "eng": "prefecture",
-    "card": 43
+    "card": 43,
+    "level": "N5"
   },
   {
     "id": 388,
     "jp": "とうきょう",
     "eng": "Tokyo",
-    "card": 44
+    "card": 44,
+    "level": "N5"
   },
   {
     "id": 389,
     "jp": "なりた",
     "eng": "Narita",
-    "card": 44
+    "card": 44,
+    "level": "N5"
   },
   {
     "id": 390,
     "jp": "うえの",
     "eng": "Ueno",
-    "card": 44
+    "card": 44,
+    "level": "N5"
   },
   {
     "id": 391,
     "jp": "あさくさ",
     "eng": "Asakusa",
-    "card": 44
+    "card": 44,
+    "level": "N5"
   },
   {
     "id": 392,
     "jp": "しんじゅく",
     "eng": "Shinjuku",
-    "card": 44
+    "card": 44,
+    "level": "N5"
   },
   {
     "id": 393,
     "jp": "あきはばら",
     "eng": "Akihabara",
-    "card": 44
+    "card": 44,
+    "level": "N5"
   },
   {
     "id": 394,
     "jp": "しぶや",
     "eng": "Shibuya",
-    "card": 44
+    "card": 44,
+    "level": "N5"
   },
   {
     "id": 395,
     "jp": "ぎんざ",
     "eng": "Ginza",
-    "card": 44
+    "card": 44,
+    "level": "N5"
   },
   {
     "id": 396,
     "jp": "はねだ",
     "eng": "Haneda",
-    "card": 44
+    "card": 44,
+    "level": "N5"
   },
   {
     "id": 397,
     "jp": "よこはま",
     "eng": "Yokohama",
-    "card": 45
+    "card": 45,
+    "level": "N5"
   },
   {
     "id": 398,
     "jp": "かまくら",
     "eng": "Kamakura",
-    "card": 45
+    "card": 45,
+    "level": "N5"
   },
   {
     "id": 399,
     "jp": "ほっかいどう",
     "eng": "Hokkaido",
-    "card": 45
+    "card": 45,
+    "level": "N5"
   },
   {
     "id": 400,
     "jp": "さっぽろ",
     "eng": "Sapporo",
-    "card": 45
+    "card": 45,
+    "level": "N5"
   },
   {
     "id": 401,
     "jp": "せんだい",
     "eng": "Sendai",
-    "card": 45
+    "card": 45,
+    "level": "N5"
   },
   {
     "id": 402,
     "jp": "にっこう",
     "eng": "Nikko",
-    "card": 45
+    "card": 45,
+    "level": "N5"
   },
   {
     "id": 403,
     "jp": "ふじさん",
     "eng": "Mt. Fuji",
-    "card": 45
+    "card": 45,
+    "level": "N5"
   },
   {
     "id": 404,
     "jp": "かなざわ",
     "eng": "Kanazawa",
-    "card": 45
+    "card": 45,
+    "level": "N5"
   },
   {
     "id": 405,
     "jp": "なごや",
     "eng": "Nagoya",
-    "card": 45
+    "card": 45,
+    "level": "N5"
   },
   {
     "id": 406,
     "jp": "きょうと",
     "eng": "Kyoto",
-    "card": 46
+    "card": 46,
+    "level": "N5"
   },
   {
     "id": 407,
     "jp": "なら",
     "eng": "Nara",
-    "card": 46
+    "card": 46,
+    "level": "N5"
   },
   {
     "id": 408,
     "jp": "おおさか",
     "eng": "Osaka",
-    "card": 46
+    "card": 46,
+    "level": "N5"
   },
   {
     "id": 409,
     "jp": "こうべ",
     "eng": "Kobe",
-    "card": 46
+    "card": 46,
+    "level": "N5"
   },
   {
     "id": 410,
     "jp": "ひろしま",
     "eng": "Hiroshima",
-    "card": 46
+    "card": 46,
+    "level": "N5"
   },
   {
     "id": 411,
     "jp": "ふくおか",
     "eng": "Fukuoka",
-    "card": 46
+    "card": 46,
+    "level": "N5"
   },
   {
     "id": 412,
     "jp": "ながさき",
     "eng": "Nagasaki",
-    "card": 46
+    "card": 46,
+    "level": "N5"
   },
   {
     "id": 413,
     "jp": "おきなわ",
     "eng": "Okinawa",
-    "card": 46
+    "card": 46,
+    "level": "N5"
   },
   {
     "id": 414,
     "jp": "あさ",
     "eng": "morning",
-    "card": 46
+    "card": 46,
+    "level": "N5"
   },
   {
     "id": 415,
     "jp": "ひる",
     "eng": "noon",
-    "card": 47
+    "card": 47,
+    "level": "N5"
   },
   {
     "id": 416,
     "jp": "よる",
     "eng": "evening",
-    "card": 47
+    "card": 47,
+    "level": "N5"
   },
   {
     "id": 417,
     "jp": "まいあさ",
     "eng": "every morning",
-    "card": 47
+    "card": 47,
+    "level": "N5"
   },
   {
     "id": 418,
     "jp": "まいばん",
     "eng": "every night",
-    "card": 47
+    "card": 47,
+    "level": "N5"
   },
   {
     "id": 419,
     "jp": "けさ",
     "eng": "this morning",
-    "card": 47
+    "card": 47,
+    "level": "N5"
   },
   {
     "id": 420,
     "jp": "こんばん",
     "eng": "this evening",
-    "card": 47
+    "card": 47,
+    "level": "N5"
   },
   {
     "id": 421,
     "jp": "おきる",
     "eng": "to wake up",
-    "card": 47
+    "card": 47,
+    "level": "N5"
   },
   {
     "id": 422,
     "jp": "ねる",
     "eng": "to sleep",
-    "card": 47
+    "card": 47,
+    "level": "N5"
   },
   {
     "id": 423,
     "jp": "みる",
     "eng": "to see",
-    "card": 47
+    "card": 47,
+    "level": "N5"
   },
   {
     "id": 424,
     "jp": "ニュース",
     "eng": "news",
-    "card": 48
+    "card": 48,
+    "level": "N5"
   },
   {
     "id": 425,
     "jp": "ラジオ",
     "eng": "radio",
-    "card": 48
+    "card": 48,
+    "level": "N5"
   },
   {
     "id": 426,
     "jp": "テレビ",
     "eng": "tv",
-    "card": 48
+    "card": 48,
+    "level": "N5"
   },
   {
     "id": 427,
     "jp": "はやい",
     "eng": "fast/early/quick",
-    "card": 48
+    "card": 48,
+    "level": "N5"
   },
   {
     "id": 428,
     "jp": "おそい",
     "eng": "slow/late",
-    "card": 48
+    "card": 48,
+    "level": "N5"
   },
   {
     "id": 429,
     "jp": "かがみ",
     "eng": "mirror",
-    "card": 48
+    "card": 48,
+    "level": "N5"
   },
   {
     "id": 430,
     "jp": "かお",
     "eng": "face",
-    "card": 48
+    "card": 48,
+    "level": "N5"
   },
   {
     "id": 431,
     "jp": "あらう",
     "eng": "to wash",
-    "card": 48
+    "card": 48,
+    "level": "N5"
   },
   {
     "id": 432,
     "jp": "おふろ",
     "eng": "bath",
-    "card": 48
+    "card": 48,
+    "level": "N5"
   },
   {
     "id": 433,
     "jp": "はいる",
     "eng": "to enter",
-    "card": 49
+    "card": 49,
+    "level": "N5"
   },
   {
     "id": 434,
     "jp": "シャワー",
     "eng": "shower",
-    "card": 49
+    "card": 49,
+    "level": "N5"
   },
   {
     "id": 435,
     "jp": "あびる",
     "eng": "to take a shower",
-    "card": 49
+    "card": 49,
+    "level": "N5"
   },
   {
     "id": 436,
     "jp": "は",
     "eng": "teeth",
-    "card": 49
+    "card": 49,
+    "level": "N5"
   },
   {
     "id": 437,
     "jp": "みがく",
     "eng": "to brush",
-    "card": 49
+    "card": 49,
+    "level": "N5"
   },
   {
     "id": 438,
     "jp": "たべる",
     "eng": "to eat",
-    "card": 49
+    "card": 49,
+    "level": "N5"
   },
   {
     "id": 439,
     "jp": "たべもの",
     "eng": "food",
-    "card": 49
+    "card": 49,
+    "level": "N5"
   },
   {
     "id": 440,
     "jp": "あさごはん",
     "eng": "breakfast",
-    "card": 49
+    "card": 49,
+    "level": "N5"
   },
   {
     "id": 441,
     "jp": "ひるごはん",
     "eng": "lunch",
-    "card": 49
+    "card": 49,
+    "level": "N5"
   },
   {
     "id": 442,
     "jp": "ばんごはん",
     "eng": "dinner",
-    "card": 50
+    "card": 50,
+    "level": "N5"
   },
   {
     "id": 443,
     "jp": "たくさん",
     "eng": "lot",
-    "card": 50
+    "card": 50,
+    "level": "N5"
   },
   {
     "id": 444,
     "jp": "スーパー",
     "eng": "supermarket",
-    "card": 50
+    "card": 50,
+    "level": "N5"
   },
   {
     "id": 445,
     "jp": "にく",
     "eng": "meat",
-    "card": 50
+    "card": 50,
+    "level": "N5"
   },
   {
     "id": 446,
     "jp": "ぎゅうにく",
     "eng": "beef",
-    "card": 50
+    "card": 50,
+    "level": "N5"
   },
   {
     "id": 447,
     "jp": "ぶたにく",
     "eng": "pork",
-    "card": 50
+    "card": 50,
+    "level": "N5"
   },
   {
     "id": 448,
     "jp": "とりにく",
     "eng": "chicken",
-    "card": 50
+    "card": 50,
+    "level": "N5"
   },
   {
     "id": 449,
     "jp": "さかな",
     "eng": "fish",
-    "card": 50
+    "card": 50,
+    "level": "N5"
   },
   {
     "id": 450,
     "jp": "たまご",
     "eng": "egg",
-    "card": 50
+    "card": 50,
+    "level": "N5"
   },
   {
     "id": 451,
     "jp": "やさい",
     "eng": "vegetables",
-    "card": 51
+    "card": 51,
+    "level": "N5"
   },
   {
     "id": 452,
     "jp": "くだもの",
     "eng": "fruits",
-    "card": 51
+    "card": 51,
+    "level": "N5"
   },
   {
     "id": 453,
     "jp": "バナナ",
     "eng": "banana",
-    "card": 51
+    "card": 51,
+    "level": "N5"
   },
   {
     "id": 454,
     "jp": "りんご",
     "eng": "apple",
-    "card": 51
+    "card": 51,
+    "level": "N5"
   },
   {
     "id": 455,
     "jp": "レモン",
     "eng": "lemon",
-    "card": 51
+    "card": 51,
+    "level": "N5"
   },
   {
     "id": 456,
     "jp": "みかん",
     "eng": "orange",
-    "card": 51
+    "card": 51,
+    "level": "N5"
   },
   {
     "id": 457,
     "jp": "パン",
     "eng": "bread",
-    "card": 51
+    "card": 51,
+    "level": "N5"
   },
   {
     "id": 458,
     "jp": "おかし",
     "eng": "sweets",
-    "card": 51
+    "card": 51,
+    "level": "N5"
   },
   {
     "id": 459,
     "jp": "チョコレート",
     "eng": "chocolate",
-    "card": 51
+    "card": 51,
+    "level": "N5"
   },
   {
     "id": 460,
     "jp": "のむ",
     "eng": "to drink",
-    "card": 52
+    "card": 52,
+    "level": "N5"
   },
   {
     "id": 461,
     "jp": "のみもの",
     "eng": "drinks",
-    "card": 52
+    "card": 52,
+    "level": "N5"
   },
   {
     "id": 462,
     "jp": "みず",
     "eng": "water",
-    "card": 52
+    "card": 52,
+    "level": "N5"
   },
   {
     "id": 463,
     "jp": "おゆ",
     "eng": "hot water",
-    "card": 52
+    "card": 52,
+    "level": "N5"
   },
   {
     "id": 464,
     "jp": "つめたい",
     "eng": "cold",
-    "card": 52
+    "card": 52,
+    "level": "N5"
   },
   {
     "id": 465,
     "jp": "～がいい",
     "eng": "want",
-    "card": 52
+    "card": 52,
+    "level": "N5"
   },
   {
     "id": 466,
     "jp": "いれる",
     "eng": "to put in",
-    "card": 52
+    "card": 52,
+    "level": "N5"
   },
   {
     "id": 467,
     "jp": "ぎゅうにゅう",
     "eng": "milk",
-    "card": 52
+    "card": 52,
+    "level": "N5"
   },
   {
     "id": 468,
     "jp": "じどうはんばいき",
     "eng": "vending machine",
-    "card": 52
+    "card": 52,
+    "level": "N5"
   },
   {
     "id": 469,
     "jp": "ミルク",
     "eng": "milk",
-    "card": 53
+    "card": 53,
+    "level": "N5"
   },
   {
     "id": 470,
     "jp": "ジュース",
     "eng": "juice",
-    "card": 53
+    "card": 53,
+    "level": "N5"
   },
   {
     "id": 471,
     "jp": "コーヒー",
     "eng": "coffee",
-    "card": 53
+    "card": 53,
+    "level": "N5"
   },
   {
     "id": 472,
     "jp": "こうちゃ",
     "eng": "tea",
-    "card": 53
+    "card": 53,
+    "level": "N5"
   },
   {
     "id": 473,
     "jp": "おちゃ",
     "eng": "green tea",
-    "card": 53
+    "card": 53,
+    "level": "N5"
   },
   {
     "id": 474,
     "jp": "さけ",
     "eng": "sake",
-    "card": 53
+    "card": 53,
+    "level": "N5"
   },
   {
     "id": 475,
     "jp": "ビール",
     "eng": "beer",
-    "card": 53
+    "card": 53,
+    "level": "N5"
   },
   {
     "id": 476,
     "jp": "ワイン",
     "eng": "wine",
-    "card": 53
+    "card": 53,
+    "level": "N5"
   },
   {
     "id": 477,
     "jp": "カップ,コップ",
     "eng": "cup",
-    "card": 53
+    "card": 53,
+    "level": "N5"
   },
   {
     "id": 478,
     "jp": "りょうり",
     "eng": "cuisine/cooking",
-    "card": 54
+    "card": 54,
+    "level": "N5"
   },
   {
     "id": 479,
     "jp": "ごはん",
     "eng": "rice",
-    "card": 54
+    "card": 54,
+    "level": "N5"
   },
   {
     "id": 480,
     "jp": "サンドイッチ",
     "eng": "sandwich",
-    "card": 54
+    "card": 54,
+    "level": "N5"
   },
   {
     "id": 481,
     "jp": "おにぎり",
     "eng": "onigiri",
-    "card": 54
+    "card": 54,
+    "level": "N5"
   },
   {
     "id": 482,
     "jp": "べんとう",
     "eng": "lunch box",
-    "card": 54
+    "card": 54,
+    "level": "N5"
   },
   {
     "id": 483,
     "jp": "ラーメン",
     "eng": "ramen",
-    "card": 54
+    "card": 54,
+    "level": "N5"
   },
   {
     "id": 484,
     "jp": "パスタ",
     "eng": "pasta",
-    "card": 54
+    "card": 54,
+    "level": "N5"
   },
   {
     "id": 485,
     "jp": "うどん",
     "eng": "udon noodles",
-    "card": 54
+    "card": 54,
+    "level": "N5"
   },
   {
     "id": 486,
     "jp": "そば",
     "eng": "soba noodles",
-    "card": 54
+    "card": 54,
+    "level": "N5"
   },
   {
     "id": 487,
     "jp": "てんぷら",
     "eng": "tenpura",
-    "card": 55
+    "card": 55,
+    "level": "N5"
   },
   {
     "id": 488,
     "jp": "すきやき",
     "eng": "sukiyaki",
-    "card": 55
+    "card": 55,
+    "level": "N5"
   },
   {
     "id": 489,
     "jp": "さしみ",
     "eng": "sashimi",
-    "card": 55
+    "card": 55,
+    "level": "N5"
   },
   {
     "id": 490,
     "jp": "カレーライス",
     "eng": "curry rice",
-    "card": 55
+    "card": 55,
+    "level": "N5"
   },
   {
     "id": 491,
     "jp": "ぎゅうどん",
     "eng": "beef bowl",
-    "card": 55
+    "card": 55,
+    "level": "N5"
   },
   {
     "id": 492,
     "jp": "すし",
     "eng": "sushi",
-    "card": 55
+    "card": 55,
+    "level": "N5"
   },
   {
     "id": 493,
     "jp": "ケーキ",
     "eng": "cake",
-    "card": 55
+    "card": 55,
+    "level": "N5"
   },
   {
     "id": 494,
     "jp": "アイスクリーム",
     "eng": "ice cream",
-    "card": 55
+    "card": 55,
+    "level": "N5"
   },
   {
     "id": 495,
     "jp": "さとう",
     "eng": "sugar",
-    "card": 55
+    "card": 55,
+    "level": "N5"
   },
   {
     "id": 496,
     "jp": "しお",
     "eng": "salt",
-    "card": 56
+    "card": 56,
+    "level": "N5"
   },
   {
     "id": 497,
     "jp": "しょうゆ",
     "eng": "soy sauce",
-    "card": 56
+    "card": 56,
+    "level": "N5"
   },
   {
     "id": 498,
     "jp": "なに",
     "eng": "what",
-    "card": 56
+    "card": 56,
+    "level": "N5"
   },
   {
     "id": 499,
     "jp": "何か",
     "eng": "someone",
-    "card": 56
+    "card": 56,
+    "level": "N5"
   },
   {
     "id": 500,
     "jp": "しょくじする",
     "eng": "to have meal",
-    "card": 56
+    "card": 56,
+    "level": "N5"
   },
   {
     "id": 501,
     "jp": "ゆうめいな",
     "eng": "famous",
-    "card": 56
+    "card": 56,
+    "level": "N5"
   },
   {
     "id": 502,
     "jp": "レストラン",
     "eng": "restaurant",
-    "card": 56
+    "card": 56,
+    "level": "N5"
   },
   {
     "id": 503,
     "jp": "しょくどう",
     "eng": "cafeteria",
-    "card": 56
+    "card": 56,
+    "level": "N5"
   },
   {
     "id": 504,
     "jp": "ていしょく",
     "eng": "set meal",
-    "card": 56
+    "card": 56,
+    "level": "N5"
   },
   {
     "id": 505,
     "jp": "～で",
     "eng": "with someone",
-    "card": 57
+    "card": 57,
+    "level": "N5"
   },
   {
     "id": 506,
     "jp": "はし",
     "eng": "chopsticks",
-    "card": 57
+    "card": 57,
+    "level": "N5"
   },
   {
     "id": 507,
     "jp": "スプーン",
     "eng": "spoon",
-    "card": 57
+    "card": 57,
+    "level": "N5"
   },
   {
     "id": 508,
     "jp": "フォーク",
     "eng": "fork",
-    "card": 57
+    "card": 57,
+    "level": "N5"
   },
   {
     "id": 509,
     "jp": "ナイフ",
     "eng": "knife",
-    "card": 57
+    "card": 57,
+    "level": "N5"
   },
   {
     "id": 510,
     "jp": "ちゃわん",
     "eng": "bowl",
-    "card": 57
+    "card": 57,
+    "level": "N5"
   },
   {
     "id": 511,
     "jp": "さら",
     "eng": "plate",
-    "card": 57
+    "card": 57,
+    "level": "N5"
   },
   {
     "id": 512,
     "jp": "いらっしゃいませ",
     "eng": "Welcome",
-    "card": 57
+    "card": 57,
+    "level": "N5"
   },
   {
     "id": 513,
     "jp": "ごちゅうもんは",
     "eng": "What would you like to order",
-    "card": 57
+    "card": 57,
+    "level": "N5"
   },
   {
     "id": 514,
     "jp": "これでおねがいします",
     "eng": "This one please",
-    "card": 58
+    "card": 58,
+    "level": "N5"
   },
   {
     "id": 515,
     "jp": "ほかに",
     "eng": "anything else?",
-    "card": 58
+    "card": 58,
+    "level": "N5"
   },
   {
     "id": 516,
     "jp": "べつべつに",
     "eng": "separately",
-    "card": 58
+    "card": 58,
+    "level": "N5"
   },
   {
     "id": 517,
     "jp": "どう",
     "eng": "how",
-    "card": 58
+    "card": 58,
+    "level": "N5"
   },
   {
     "id": 518,
     "jp": "あまい",
     "eng": "sweet",
-    "card": 58
+    "card": 58,
+    "level": "N5"
   },
   {
     "id": 519,
     "jp": "からい",
     "eng": "spicy",
-    "card": 58
+    "card": 58,
+    "level": "N5"
   },
   {
     "id": 520,
     "jp": "おいしい",
     "eng": "delicious",
-    "card": 58
+    "card": 58,
+    "level": "N5"
   },
   {
     "id": 521,
     "jp": "ぜんぶ",
     "eng": "all",
-    "card": 58
+    "card": 58,
+    "level": "N5"
   },
   {
     "id": 522,
     "jp": "じぶんで",
     "eng": "by myself",
-    "card": 58
+    "card": 58,
+    "level": "N5"
   },
   {
     "id": 523,
     "jp": "おなかがすく",
     "eng": "to be hungry",
-    "card": 59
+    "card": 59,
+    "level": "N5"
   },
   {
     "id": 524,
     "jp": "のどがかわく",
     "eng": "to be thirsty",
-    "card": 59
+    "card": 59,
+    "level": "N5"
   },
   {
     "id": 525,
     "jp": "いっぱいな",
     "eng": "full",
-    "card": 59
+    "card": 59,
+    "level": "N5"
   },
   {
     "id": 526,
     "jp": "いかがですか",
     "eng": "Would you like some?",
-    "card": 59
+    "card": 59,
+    "level": "N5"
   },
   {
     "id": 527,
     "jp": "もういっぱい",
     "eng": "one more serving",
-    "card": 59
+    "card": 59,
+    "level": "N5"
   },
   {
     "id": 528,
     "jp": "けっこうです",
     "eng": "No thank you",
-    "card": 59
+    "card": 59,
+    "level": "N5"
   },
   {
     "id": 529,
     "jp": "かんぱい",
     "eng": "cheers",
-    "card": 59
+    "card": 59,
+    "level": "N5"
   },
   {
     "id": 530,
     "jp": "いただきます",
     "eng": "Let's eat",
-    "card": 59
+    "card": 59,
+    "level": "N5"
   },
   {
     "id": 531,
     "jp": "ごちそうさまでした",
     "eng": "Thank you for the meal",
-    "card": 59
+    "card": 59,
+    "level": "N5"
   },
   {
     "id": 532,
     "jp": "しゅみ",
     "eng": "hobby",
-    "card": 60
+    "card": 60,
+    "level": "N5"
   },
   {
     "id": 533,
     "jp": "ひ",
     "eng": "day",
-    "card": 60
+    "card": 60,
+    "level": "N5"
   },
   {
     "id": 534,
     "jp": "たのしい",
     "eng": "fun/enjoyable",
-    "card": 60
+    "card": 60,
+    "level": "N5"
   },
   {
     "id": 535,
     "jp": "すきな",
     "eng": "like",
-    "card": 60
+    "card": 60,
+    "level": "N5"
   },
   {
     "id": 536,
     "jp": "きらいな",
     "eng": "dislike",
-    "card": 60
+    "card": 60,
+    "level": "N5"
   },
   {
     "id": 537,
     "jp": "あまり～ません",
     "eng": "not much",
-    "card": 60
+    "card": 60,
+    "level": "N5"
   },
   {
     "id": 538,
     "jp": "どちら",
     "eng": "which",
-    "card": 60
+    "card": 60,
+    "level": "N5"
   },
   {
     "id": 539,
     "jp": "どちらも",
     "eng": "both/none",
-    "card": 60
+    "card": 60,
+    "level": "N5"
   },
   {
     "id": 540,
     "jp": "どっち",
     "eng": "which",
-    "card": 60
+    "card": 60,
+    "level": "N5"
   },
   {
     "id": 541,
     "jp": "じょうずな",
     "eng": "good at",
-    "card": 61
+    "card": 61,
+    "level": "N5"
   },
   {
     "id": 542,
     "jp": "へたな",
     "eng": "bad at",
-    "card": 61
+    "card": 61,
+    "level": "N5"
   },
   {
     "id": 543,
     "jp": "まだまだです",
     "eng": "not yet",
-    "card": 61
+    "card": 61,
+    "level": "N5"
   },
   {
     "id": 544,
     "jp": "ならう",
     "eng": "to learn",
-    "card": 61
+    "card": 61,
+    "level": "N5"
   },
   {
     "id": 545,
     "jp": "いけばな",
     "eng": "flower arrangement",
-    "card": 61
+    "card": 61,
+    "level": "N5"
   },
   {
     "id": 546,
     "jp": "さどう",
     "eng": "tea ceremony",
-    "card": 61
+    "card": 61,
+    "level": "N5"
   },
   {
     "id": 547,
     "jp": "かんたんな",
     "eng": "simple",
-    "card": 61
+    "card": 61,
+    "level": "N5"
   },
   {
     "id": 548,
     "jp": "やさしい",
     "eng": "kind",
-    "card": 61
+    "card": 61,
+    "level": "N5"
   },
   {
     "id": 549,
     "jp": "むずかしい",
     "eng": "difficult",
-    "card": 61
+    "card": 61,
+    "level": "N5"
   },
   {
     "id": 550,
     "jp": "しゃしん",
     "eng": "photo",
-    "card": 62
+    "card": 62,
+    "level": "N5"
   },
   {
     "id": 551,
     "jp": "とる",
     "eng": "to take/to get",
-    "card": 62
+    "card": 62,
+    "level": "N5"
   },
   {
     "id": 552,
     "jp": "カメラ",
     "eng": "camera",
-    "card": 62
+    "card": 62,
+    "level": "N5"
   },
   {
     "id": 553,
     "jp": "え",
     "eng": "drawing/painting",
-    "card": 62
+    "card": 62,
+    "level": "N5"
   },
   {
     "id": 554,
     "jp": "かく",
     "eng": "to draw/to write",
-    "card": 62
+    "card": 62,
+    "level": "N5"
   },
   {
     "id": 555,
     "jp": "びじゅつかん",
     "eng": "museum",
-    "card": 62
+    "card": 62,
+    "level": "N5"
   },
   {
     "id": 556,
     "jp": "おんがく",
     "eng": "music",
-    "card": 62
+    "card": 62,
+    "level": "N5"
   },
   {
     "id": 557,
     "jp": "カラオケ",
     "eng": "karaoke",
-    "card": 62
+    "card": 62,
+    "level": "N5"
   },
   {
     "id": 558,
     "jp": "いっしょに",
     "eng": "together",
-    "card": 62
+    "card": 62,
+    "level": "N5"
   },
   {
     "id": 559,
     "jp": "みんなで",
     "eng": "with everyone",
-    "card": 63
+    "card": 63,
+    "level": "N5"
   },
   {
     "id": 560,
     "jp": "うた",
     "eng": "song",
-    "card": 63
+    "card": 63,
+    "level": "N5"
   },
   {
     "id": 561,
     "jp": "うたう",
     "eng": "to sing",
-    "card": 63
+    "card": 63,
+    "level": "N5"
   },
   {
     "id": 562,
     "jp": "コンサート",
     "eng": "concert",
-    "card": 63
+    "card": 63,
+    "level": "N5"
   },
   {
     "id": 563,
     "jp": "クラシック",
     "eng": "classical music",
-    "card": 63
+    "card": 63,
+    "level": "N5"
   },
   {
     "id": 564,
     "jp": "ジャズ",
     "eng": "jazz",
-    "card": 63
+    "card": 63,
+    "level": "N5"
   },
   {
     "id": 565,
     "jp": "ポップス",
     "eng": "pop",
-    "card": 63
+    "card": 63,
+    "level": "N5"
   },
   {
     "id": 566,
     "jp": "ロック",
     "eng": "rock",
-    "card": 63
+    "card": 63,
+    "level": "N5"
   },
   {
     "id": 567,
     "jp": "ピアノ",
     "eng": "piano",
-    "card": 63
+    "card": 63,
+    "level": "N5"
   },
   {
     "id": 568,
     "jp": "ギター",
     "eng": "guitar",
-    "card": 64
+    "card": 64,
+    "level": "N5"
   },
   {
     "id": 569,
     "jp": "ひく",
     "eng": "to play",
-    "card": 64
+    "card": 64,
+    "level": "N5"
   },
   {
     "id": 570,
     "jp": "えいが",
     "eng": "movie",
-    "card": 64
+    "card": 64,
+    "level": "N5"
   },
   {
     "id": 571,
     "jp": "えいがかん",
     "eng": "movie theater",
-    "card": 64
+    "card": 64,
+    "level": "N5"
   },
   {
     "id": 572,
     "jp": "はじまる",
     "eng": "to begin/to start",
-    "card": 64
+    "card": 64,
+    "level": "N5"
   },
   {
     "id": 573,
     "jp": "おわる",
     "eng": "to end",
-    "card": 64
+    "card": 64,
+    "level": "N5"
   },
   {
     "id": 574,
     "jp": "まんが",
     "eng": "comic/manga",
-    "card": 64
+    "card": 64,
+    "level": "N5"
   },
   {
     "id": 575,
     "jp": "アニメ",
     "eng": "anime",
-    "card": 64
+    "card": 64,
+    "level": "N5"
   },
   {
     "id": 576,
     "jp": "ゲーム",
     "eng": "game",
-    "card": 64
+    "card": 64,
+    "level": "N5"
   },
   {
     "id": 577,
     "jp": "ソフト",
     "eng": "software",
-    "card": 65
+    "card": 65,
+    "level": "N5"
   },
   {
     "id": 578,
     "jp": "おもしろい",
     "eng": "interesting",
-    "card": 65
+    "card": 65,
+    "level": "N5"
   },
   {
     "id": 579,
     "jp": "ジョギング",
     "eng": "jogging",
-    "card": 65
+    "card": 65,
+    "level": "N5"
   },
   {
     "id": 580,
     "jp": "スキー",
     "eng": "skiing",
-    "card": 65
+    "card": 65,
+    "level": "N5"
   },
   {
     "id": 581,
     "jp": "ダンス",
     "eng": "dance",
-    "card": 65
+    "card": 65,
+    "level": "N5"
   },
   {
     "id": 582,
     "jp": "およぐ",
     "eng": "to swim",
-    "card": 65
+    "card": 65,
+    "level": "N5"
   },
   {
     "id": 583,
     "jp": "うみ",
     "eng": "sea/ocean",
-    "card": 65
+    "card": 65,
+    "level": "N5"
   },
   {
     "id": 584,
     "jp": "プール",
     "eng": "pool",
-    "card": 65
+    "card": 65,
+    "level": "N5"
   },
   {
     "id": 585,
     "jp": "かわ",
     "eng": "river",
-    "card": 65
+    "card": 65,
+    "level": "N5"
   },
   {
     "id": 586,
     "jp": "つり",
     "eng": "fishing",
-    "card": 66
+    "card": 66,
+    "level": "N5"
   },
   {
     "id": 587,
     "jp": "のぼる",
     "eng": "to climb",
-    "card": 66
+    "card": 66,
+    "level": "N5"
   },
   {
     "id": 588,
     "jp": "やま",
     "eng": "mountain",
-    "card": 66
+    "card": 66,
+    "level": "N5"
   },
   {
     "id": 589,
     "jp": "しあい",
     "eng": "game",
-    "card": 66
+    "card": 66,
+    "level": "N5"
   },
   {
     "id": 590,
     "jp": "かつ",
     "eng": "to win",
-    "card": 66
+    "card": 66,
+    "level": "N5"
   },
   {
     "id": 591,
     "jp": "まける",
     "eng": "to lose",
-    "card": 66
+    "card": 66,
+    "level": "N5"
   },
   {
     "id": 592,
     "jp": "さあ",
     "eng": "well",
-    "card": 66
+    "card": 66,
+    "level": "N5"
   },
   {
     "id": 593,
     "jp": "つよい",
     "eng": "strong",
-    "card": 66
+    "card": 66,
+    "level": "N5"
   },
   {
     "id": 594,
     "jp": "よわい",
     "eng": "weak",
-    "card": 66
+    "card": 66,
+    "level": "N5"
   },
   {
     "id": 595,
     "jp": "サッカー",
     "eng": "soccer",
-    "card": 67
+    "card": 67,
+    "level": "N5"
   },
   {
     "id": 596,
     "jp": "やきゅう",
     "eng": "baseball",
-    "card": 67
+    "card": 67,
+    "level": "N5"
   },
   {
     "id": 597,
     "jp": "すもう",
     "eng": "sumo",
-    "card": 67
+    "card": 67,
+    "level": "N5"
   },
   {
     "id": 598,
     "jp": "じゅうどう",
     "eng": "judo",
-    "card": 67
+    "card": 67,
+    "level": "N5"
   },
   {
     "id": 599,
     "jp": "テニス",
     "eng": "tennis",
-    "card": 67
+    "card": 67,
+    "level": "N5"
   },
   {
     "id": 600,
     "jp": "ゴルフ",
     "eng": "golf",
-    "card": 67
+    "card": 67,
+    "level": "N5"
   },
   {
     "id": 601,
     "jp": "天気",
     "eng": "weather",
-    "card": 67
+    "card": 67,
+    "level": "N5"
   },
   {
     "id": 602,
     "jp": "いい",
     "eng": "good",
-    "card": 67
+    "card": 67,
+    "level": "N5"
   },
   {
     "id": 603,
     "jp": "わるい",
     "eng": "bad",
-    "card": 67
+    "card": 67,
+    "level": "N5"
   },
   {
     "id": 604,
     "jp": "いい天気ですね",
     "eng": "the weather is nice, isn't it?",
-    "card": 68
+    "card": 68,
+    "level": "N5"
   },
   {
     "id": 605,
     "jp": "あめ",
     "eng": "rain",
-    "card": 68
+    "card": 68,
+    "level": "N5"
   },
   {
     "id": 606,
     "jp": "ゆき",
     "eng": "snow",
-    "card": 68
+    "card": 68,
+    "level": "N5"
   },
   {
     "id": 607,
     "jp": "ふる",
     "eng": "to fall ",
-    "card": 68
+    "card": 68,
+    "level": "N5"
   },
   {
     "id": 608,
     "jp": "あつい",
     "eng": "hot",
-    "card": 68
+    "card": 68,
+    "level": "N5"
   },
   {
     "id": 609,
     "jp": "すずしい",
     "eng": "cool",
-    "card": 68
+    "card": 68,
+    "level": "N5"
   },
   {
     "id": 610,
     "jp": "さむい",
     "eng": "cold",
-    "card": 68
+    "card": 68,
+    "level": "N5"
   },
   {
     "id": 611,
     "jp": "あたたかい",
     "eng": "warm",
-    "card": 68
+    "card": 68,
+    "level": "N5"
   },
   {
     "id": 612,
     "jp": "おおい",
     "eng": "plenty",
-    "card": 68
+    "card": 68,
+    "level": "N5"
   },
   {
     "id": 613,
     "jp": "すくない",
     "eng": "little",
-    "card": 69
+    "card": 69,
+    "level": "N5"
   },
   {
     "id": 614,
     "jp": "おもう",
     "eng": "to think",
-    "card": 69
+    "card": 69,
+    "level": "N5"
   },
   {
     "id": 615,
     "jp": "たぶん",
     "eng": "maybe",
-    "card": 69
+    "card": 69,
+    "level": "N5"
   },
   {
     "id": 616,
     "jp": "きっと",
     "eng": "definitely",
-    "card": 69
+    "card": 69,
+    "level": "N5"
   },
   {
     "id": 617,
     "jp": "かさ",
     "eng": "umbrella",
-    "card": 69
+    "card": 69,
+    "level": "N5"
   },
   {
     "id": 618,
     "jp": "つれていく",
     "eng": "to take someone",
-    "card": 69
+    "card": 69,
+    "level": "N5"
   },
   {
     "id": 619,
     "jp": "つれてくる",
     "eng": "to bring someone",
-    "card": 69
+    "card": 69,
+    "level": "N5"
   },
   {
     "id": 620,
     "jp": "ばんぐみ",
     "eng": "programme",
-    "card": 69
+    "card": 69,
+    "level": "N5"
   },
   {
     "id": 621,
     "jp": "いつ",
     "eng": "when",
-    "card": 69
+    "card": 69,
+    "level": "N5"
   },
   {
     "id": 622,
     "jp": "きょねん",
     "eng": "last year",
-    "card": 70
+    "card": 70,
+    "level": "N5"
   },
   {
     "id": 623,
     "jp": "ことし",
     "eng": "this year",
-    "card": 70
+    "card": 70,
+    "level": "N5"
   },
   {
     "id": 624,
     "jp": "らいねん",
     "eng": "next year",
-    "card": 70
+    "card": 70,
+    "level": "N5"
   },
   {
     "id": 625,
     "jp": "きせつ",
     "eng": "season",
-    "card": 70
+    "card": 70,
+    "level": "N5"
   },
   {
     "id": 626,
     "jp": "いちばん",
     "eng": "best/top",
-    "card": 70
+    "card": 70,
+    "level": "N5"
   },
   {
     "id": 627,
     "jp": "なる",
     "eng": "to become",
-    "card": 70
+    "card": 70,
+    "level": "N5"
   },
   {
     "id": 628,
     "jp": "はる",
     "eng": "spring",
-    "card": 70
+    "card": 70,
+    "level": "N5"
   },
   {
     "id": 629,
     "jp": "なつ",
     "eng": "summer",
-    "card": 70
+    "card": 70,
+    "level": "N5"
   },
   {
     "id": 630,
     "jp": "あき",
     "eng": "autumn",
-    "card": 70
+    "card": 70,
+    "level": "N5"
   },
   {
     "id": 631,
     "jp": "ふゆ",
     "eng": "winter",
-    "card": 71
+    "card": 71,
+    "level": "N5"
   },
   {
     "id": 632,
     "jp": "はな",
     "eng": "flower",
-    "card": 71
+    "card": 71,
+    "level": "N5"
   },
   {
     "id": 633,
     "jp": "つき",
     "eng": "moon",
-    "card": 71
+    "card": 71,
+    "level": "N5"
   },
   {
     "id": 634,
     "jp": "おはなみ",
     "eng": "flower viewing",
-    "card": 71
+    "card": 71,
+    "level": "N5"
   },
   {
     "id": 635,
     "jp": "さくら",
     "eng": "cherry blossom",
-    "card": 71
+    "card": 71,
+    "level": "N5"
   },
   {
     "id": 636,
     "jp": "はなび",
     "eng": "fireworks",
-    "card": 71
+    "card": 71,
+    "level": "N5"
   },
   {
     "id": 637,
     "jp": "もみじ",
     "eng": "maple",
-    "card": 71
+    "card": 71,
+    "level": "N5"
   },
   {
     "id": 638,
     "jp": "はじめて",
     "eng": "first time",
-    "card": 71
+    "card": 71,
+    "level": "N5"
   },
   {
     "id": 639,
     "jp": "いちど",
     "eng": "once",
-    "card": 71
+    "card": 71,
+    "level": "N5"
   },
   {
     "id": 640,
     "jp": "なんかいも",
     "eng": "many times",
-    "card": 72
+    "card": 72,
+    "level": "N5"
   },
   {
     "id": 641,
     "jp": "いちども",
     "eng": "never",
-    "card": 72
+    "card": 72,
+    "level": "N5"
   },
   {
     "id": 642,
     "jp": "こうえん",
     "eng": "park",
-    "card": 72
+    "card": 72,
+    "level": "N5"
   },
   {
     "id": 643,
     "jp": "さんぽする",
     "eng": "to walk",
-    "card": 72
+    "card": 72,
+    "level": "N5"
   },
   {
     "id": 644,
     "jp": "とても",
     "eng": "very",
-    "card": 72
+    "card": 72,
+    "level": "N5"
   },
   {
     "id": 645,
     "jp": "ほんとうに",
     "eng": "really",
-    "card": 72
+    "card": 72,
+    "level": "N5"
   },
   {
     "id": 646,
     "jp": "ぜひ",
     "eng": "by all means",
-    "card": 72
+    "card": 72,
+    "level": "N5"
   },
   {
     "id": 647,
     "jp": "もちろん",
     "eng": "of course",
-    "card": 72
+    "card": 72,
+    "level": "N5"
   },
   {
     "id": 648,
     "jp": "かいものする",
     "eng": "to go shopping",
-    "card": 72
+    "card": 72,
+    "level": "N5"
   },
   {
     "id": 649,
     "jp": "～をください",
     "eng": "give me",
-    "card": 73
+    "card": 73,
+    "level": "N5"
   },
   {
     "id": 650,
     "jp": "～と",
     "eng": "and",
-    "card": 73
+    "card": 73,
+    "level": "N5"
   },
   {
     "id": 651,
     "jp": "～や～など",
     "eng": "and, etc.",
-    "card": 73
+    "card": 73,
+    "level": "N5"
   },
   {
     "id": 652,
     "jp": "いくら",
     "eng": "how much",
-    "card": 73
+    "card": 73,
+    "level": "N5"
   },
   {
     "id": 653,
     "jp": "えん",
     "eng": "yen",
-    "card": 73
+    "card": 73,
+    "level": "N5"
   },
   {
     "id": 654,
     "jp": "やすい",
     "eng": "cheap",
-    "card": 73
+    "card": 73,
+    "level": "N5"
   },
   {
     "id": 655,
     "jp": "ひゃく",
     "eng": "hundred",
-    "card": 73
+    "card": 73,
+    "level": "N5"
   },
   {
     "id": 656,
     "jp": "せん",
     "eng": "thousand",
-    "card": 73
+    "card": 73,
+    "level": "N5"
   },
   {
     "id": 657,
     "jp": "まん",
     "eng": "ten thousand",
-    "card": 73
+    "card": 73,
+    "level": "N5"
   },
   {
     "id": 658,
     "jp": "おく",
     "eng": "hundred million",
-    "card": 74
+    "card": 74,
+    "level": "N5"
   },
   {
     "id": 659,
     "jp": "ちょっと",
     "eng": "little",
-    "card": 74
+    "card": 74,
+    "level": "N5"
   },
   {
     "id": 660,
     "jp": "では",
     "eng": "then",
-    "card": 74
+    "card": 74,
+    "level": "N5"
   },
   {
     "id": 661,
     "jp": "おかね/お金",
     "eng": "money",
-    "card": 74
+    "card": 74,
+    "level": "N5"
   },
   {
     "id": 662,
     "jp": "はらう",
     "eng": "to pay",
-    "card": 74
+    "card": 74,
+    "level": "N5"
   },
   {
     "id": 663,
     "jp": "おつり",
     "eng": "change",
-    "card": 74
+    "card": 74,
+    "level": "N5"
   },
   {
     "id": 664,
     "jp": "こまかいおかね",
     "eng": "small money",
-    "card": 74
+    "card": 74,
+    "level": "N5"
   },
   {
     "id": 665,
     "jp": "たりる",
     "eng": "to be sufficient",
-    "card": 74
+    "card": 74,
+    "level": "N5"
   },
   {
     "id": 666,
     "jp": "せいかつ",
     "eng": "cost of living",
-    "card": 74
+    "card": 74,
+    "level": "N5"
   },
   {
     "id": 667,
     "jp": "いくら",
     "eng": "how many",
-    "card": 75
+    "card": 75,
+    "level": "N5"
   },
   {
     "id": 668,
     "jp": "ぜんぶで",
     "eng": "in total",
-    "card": 75
+    "card": 75,
+    "level": "N5"
   },
   {
     "id": 669,
     "jp": "～つ",
     "eng": "general counter",
-    "card": 75
+    "card": 75,
+    "level": "N5"
   },
   {
     "id": 670,
     "jp": "みせ",
     "eng": "shop",
-    "card": 75
+    "card": 75,
+    "level": "N5"
   },
   {
     "id": 671,
     "jp": "～や",
     "eng": "store",
-    "card": 75
+    "card": 75,
+    "level": "N5"
   },
   {
     "id": 672,
     "jp": "デパート",
     "eng": "department store",
-    "card": 75
+    "card": 75,
+    "level": "N5"
   },
   {
     "id": 673,
     "jp": "コンビニ",
     "eng": "convenience store",
-    "card": 75
+    "card": 75,
+    "level": "N5"
   },
   {
     "id": 674,
     "jp": "うる",
     "eng": "to sell",
-    "card": 75
+    "card": 75,
+    "level": "N5"
   },
   {
     "id": 675,
     "jp": "うりば",
     "eng": "counter/booth",
-    "card": 75
+    "card": 75,
+    "level": "N5"
   },
   {
     "id": 676,
     "jp": "コーナー",
     "eng": "corner",
-    "card": 76
+    "card": 76,
+    "level": "N5"
   },
   {
     "id": 677,
     "jp": "たな",
     "eng": "shelf",
-    "card": 76
+    "card": 76,
+    "level": "N5"
   },
   {
     "id": 678,
     "jp": "コピーする",
     "eng": "to copy",
-    "card": 76
+    "card": 76,
+    "level": "N5"
   },
   {
     "id": 679,
     "jp": "チケット",
     "eng": "ticket",
-    "card": 76
+    "card": 76,
+    "level": "N5"
   },
   {
     "id": 680,
     "jp": "カタログ",
     "eng": "catalogue",
-    "card": 76
+    "card": 76,
+    "level": "N5"
   },
   {
     "id": 681,
     "jp": "ざっし",
     "eng": "magazine",
-    "card": 76
+    "card": 76,
+    "level": "N5"
   },
   {
     "id": 682,
     "jp": "しんぶん",
     "eng": "newspaper",
-    "card": 76
+    "card": 76,
+    "level": "N5"
   },
   {
     "id": 683,
     "jp": "ほしい",
     "eng": "want",
-    "card": 76
+    "card": 76,
+    "level": "N5"
   },
   {
     "id": 684,
     "jp": "できる",
     "eng": "be able to",
-    "card": 76
+    "card": 76,
+    "level": "N5"
   },
   {
     "id": 685,
     "jp": "～でございます",
     "eng": "is/am/are",
-    "card": 77
+    "card": 77,
+    "level": "N5"
   },
   {
     "id": 686,
     "jp": "おさがしですか",
     "eng": "are you looking for this?",
-    "card": 77
+    "card": 77,
+    "level": "N5"
   },
   {
     "id": 687,
     "jp": "かしこまりました",
     "eng": "understood",
-    "card": 77
+    "card": 77,
+    "level": "N5"
   },
   {
     "id": 688,
     "jp": "しょうしょうおまちください",
     "eng": "please wait a while",
-    "card": 77
+    "card": 77,
+    "level": "N5"
   },
   {
     "id": 689,
     "jp": "～かた",
     "eng": "method",
-    "card": 77
+    "card": 77,
+    "level": "N5"
   },
   {
     "id": 690,
     "jp": "おひきだしですか",
     "eng": "do you want to withdraw",
-    "card": 77
+    "card": 77,
+    "level": "N5"
   },
   {
     "id": 691,
     "jp": "げんきん",
     "eng": "cash",
-    "card": 77
+    "card": 77,
+    "level": "N5"
   },
   {
     "id": 692,
     "jp": "ATM",
     "eng": "ATM",
-    "card": 77
+    "card": 77,
+    "level": "N5"
   },
   {
     "id": 693,
     "jp": "おろす",
     "eng": "to withdraw",
-    "card": 77
+    "card": 77,
+    "level": "N5"
   },
   {
     "id": 694,
     "jp": "まず",
     "eng": "first",
-    "card": 78
+    "card": 78,
+    "level": "N5"
   },
   {
     "id": 695,
     "jp": "キャッシュカード",
     "eng": "cash card",
-    "card": 78
+    "card": 78,
+    "level": "N5"
   },
   {
     "id": 696,
     "jp": "つぎ",
     "eng": "next",
-    "card": 78
+    "card": 78,
+    "level": "N5"
   },
   {
     "id": 697,
     "jp": "あんしょうばんごう",
     "eng": "pin code",
-    "card": 78
+    "card": 78,
+    "level": "N5"
   },
   {
     "id": 698,
     "jp": "おす",
     "eng": "push",
-    "card": 78
+    "card": 78,
+    "level": "N5"
   },
   {
     "id": 699,
     "jp": "それから",
     "eng": "then",
-    "card": 78
+    "card": 78,
+    "level": "N5"
   },
   {
     "id": 700,
     "jp": "きんがく",
     "eng": "amount",
-    "card": 78
+    "card": 78,
+    "level": "N5"
   },
   {
     "id": 701,
     "jp": "かくにんする",
     "eng": "to confirm",
-    "card": 78
+    "card": 78,
+    "level": "N5"
   },
   {
     "id": 702,
     "jp": "ボタン",
     "eng": "button",
-    "card": 78
+    "card": 78,
+    "level": "N5"
   },
   {
     "id": 703,
     "jp": "でる",
     "eng": "to exit",
-    "card": 79
+    "card": 79,
+    "level": "N5"
   },
   {
     "id": 704,
     "jp": "かえる",
     "eng": "to exchange",
-    "card": 79
+    "card": 79,
+    "level": "N5"
   },
   {
     "id": 705,
     "jp": "ゆうびんきょく",
     "eng": "post office",
-    "card": 79
+    "card": 79,
+    "level": "N5"
   },
   {
     "id": 706,
     "jp": "ポスト",
     "eng": "mailbox",
-    "card": 79
+    "card": 79,
+    "level": "N5"
   },
   {
     "id": 707,
     "jp": "てがみ",
     "eng": "letter",
-    "card": 79
+    "card": 79,
+    "level": "N5"
   },
   {
     "id": 708,
     "jp": "はがき",
     "eng": "postcard",
-    "card": 79
+    "card": 79,
+    "level": "N5"
   },
   {
     "id": 709,
     "jp": "ねんがじょう",
     "eng": "new year's card",
-    "card": 79
+    "card": 79,
+    "level": "N5"
   },
   {
     "id": 710,
     "jp": "だす",
     "eng": "to send",
-    "card": 79
+    "card": 79,
+    "level": "N5"
   },
   {
     "id": 711,
     "jp": "メール",
     "eng": "mail",
-    "card": 79
+    "card": 79,
+    "level": "N5"
   },
   {
     "id": 712,
     "jp": "おくる",
     "eng": "to send",
-    "card": 80
+    "card": 80,
+    "level": "N5"
   },
   {
     "id": 713,
     "jp": "きって",
     "eng": "stamps",
-    "card": 80
+    "card": 80,
+    "level": "N5"
   },
   {
     "id": 714,
     "jp": "あつめる",
     "eng": "to collect",
-    "card": 80
+    "card": 80,
+    "level": "N5"
   },
   {
     "id": 715,
     "jp": "ふうとう",
     "eng": "envelope",
-    "card": 80
+    "card": 80,
+    "level": "N5"
   },
   {
     "id": 716,
     "jp": "がいこく",
     "eng": "foreign country",
-    "card": 80
+    "card": 80,
+    "level": "N5"
   },
   {
     "id": 717,
     "jp": "エアメール",
     "eng": "airmail",
-    "card": 80
+    "card": 80,
+    "level": "N5"
   },
   {
     "id": 718,
     "jp": "こうくうびん",
     "eng": "airmail",
-    "card": 80
+    "card": 80,
+    "level": "N5"
   },
   {
     "id": 719,
     "jp": "ふなびん",
     "eng": "sea mail",
-    "card": 80
+    "card": 80,
+    "level": "N5"
   },
   {
     "id": 720,
     "jp": "にもつ",
     "eng": "package",
-    "card": 80
+    "card": 80,
+    "level": "N5"
   },
   {
     "id": 721,
     "jp": "おもい",
     "eng": "heavy",
-    "card": 81
+    "card": 81,
+    "level": "N5"
   },
   {
     "id": 722,
     "jp": "かるい",
     "eng": "light",
-    "card": 81
+    "card": 81,
+    "level": "N5"
   },
   {
     "id": 723,
     "jp": "あげる",
     "eng": "to give",
-    "card": 81
+    "card": 81,
+    "level": "N5"
   },
   {
     "id": 724,
     "jp": "もらう",
     "eng": "to receive",
-    "card": 81
+    "card": 81,
+    "level": "N5"
   },
   {
     "id": 725,
     "jp": "くれる",
     "eng": "to give",
-    "card": 81
+    "card": 81,
+    "level": "N5"
   },
   {
     "id": 726,
     "jp": "プレゼント",
     "eng": "present",
-    "card": 81
+    "card": 81,
+    "level": "N5"
   },
   {
     "id": 727,
     "jp": "もの",
     "eng": "thing",
-    "card": 81
+    "card": 81,
+    "level": "N5"
   },
   {
     "id": 728,
     "jp": "パーティー",
     "eng": "party",
-    "card": 81
+    "card": 81,
+    "level": "N5"
   },
   {
     "id": 729,
     "jp": "はじめる",
     "eng": "to start/to begin",
-    "card": 81
+    "card": 81,
+    "level": "N5"
   },
   {
     "id": 730,
     "jp": "だれ",
     "eng": "who",
-    "card": 82
+    "card": 82,
+    "level": "N5"
   },
   {
     "id": 731,
     "jp": "どなた",
     "eng": "who",
-    "card": 82
+    "card": 82,
+    "level": "N5"
   },
   {
     "id": 732,
     "jp": "あのひと",
     "eng": "that person",
-    "card": 82
+    "card": 82,
+    "level": "N5"
   },
   {
     "id": 733,
     "jp": "クリスマス",
     "eng": "christmas",
-    "card": 82
+    "card": 82,
+    "level": "N5"
   },
   {
     "id": 734,
     "jp": "おたんじょうび",
     "eng": "birthday",
-    "card": 82
+    "card": 82,
+    "level": "N5"
   },
   {
     "id": 735,
     "jp": "うまれる",
     "eng": "to be born",
-    "card": 82
+    "card": 82,
+    "level": "N5"
   },
   {
     "id": 736,
     "jp": "おめでとうございます",
     "eng": "congratulations",
-    "card": 82
+    "card": 82,
+    "level": "N5"
   },
   {
     "id": 737,
     "jp": "わあ",
     "eng": "ohh, yay",
-    "card": 82
+    "card": 82,
+    "level": "N5"
   },
   {
     "id": 738,
     "jp": "なんさい",
     "eng": "how old",
-    "card": 82
+    "card": 82,
+    "level": "N5"
   },
   {
     "id": 739,
     "jp": "おいくつ",
     "eng": "how old",
-    "card": 83
+    "card": 83,
+    "level": "N5"
   },
   {
     "id": 740,
     "jp": "～さい",
     "eng": "years old",
-    "card": 83
+    "card": 83,
+    "level": "N5"
   },
   {
     "id": 741,
     "jp": "何日",
     "eng": "what date",
-    "card": 83
+    "card": 83,
+    "level": "N5"
   },
   {
     "id": 742,
     "jp": "～日",
     "eng": "date",
-    "card": 83
+    "card": 83,
+    "level": "N5"
   },
   {
     "id": 743,
     "jp": "えき",
     "eng": "station",
-    "card": 83
+    "card": 83,
+    "level": "N5"
   },
   {
     "id": 744,
     "jp": "でんしゃ",
     "eng": "train",
-    "card": 83
+    "card": 83,
+    "level": "N5"
   },
   {
     "id": 745,
     "jp": "のる",
     "eng": "to get in",
-    "card": 83
+    "card": 83,
+    "level": "N5"
   },
   {
     "id": 746,
     "jp": "おりる",
     "eng": "to get off",
-    "card": 83
+    "card": 83,
+    "level": "N5"
   },
   {
     "id": 747,
     "jp": "きっぷ",
     "eng": "ticket",
-    "card": 83
+    "card": 83,
+    "level": "N5"
   },
   {
     "id": 748,
     "jp": "つぎの",
     "eng": "next",
-    "card": 84
+    "card": 84,
+    "level": "N5"
   },
   {
     "id": 749,
     "jp": "のりかえる",
     "eng": "to change / to transfer",
-    "card": 84
+    "card": 84,
+    "level": "N5"
   },
   {
     "id": 750,
     "jp": "かくえ電車",
     "eng": "local train",
-    "card": 84
+    "card": 84,
+    "level": "N5"
   },
   {
     "id": 751,
     "jp": "きゅうこう",
     "eng": "express train",
-    "card": 84
+    "card": 84,
+    "level": "N5"
   },
   {
     "id": 752,
     "jp": "とっきゅう",
     "eng": "limited express",
-    "card": 84
+    "card": 84,
+    "level": "N5"
   },
   {
     "id": 753,
     "jp": "しんかんせん",
     "eng": "bullet train",
-    "card": 84
+    "card": 84,
+    "level": "N5"
   },
   {
     "id": 754,
     "jp": "ちかてつ",
     "eng": "subway",
-    "card": 84
+    "card": 84,
+    "level": "N5"
   },
   {
     "id": 755,
     "jp": "～ばんせん",
     "eng": "track number",
-    "card": 84
+    "card": 84,
+    "level": "N5"
   },
   {
     "id": 756,
     "jp": "なんばんせん",
     "eng": "what track number",
-    "card": 84
+    "card": 84,
+    "level": "N5"
   },
   {
     "id": 757,
     "jp": "じどうしゃ",
     "eng": "automobile",
-    "card": 85
+    "card": 85,
+    "level": "N5"
   },
   {
     "id": 758,
     "jp": "車",
     "eng": "car",
-    "card": 85
+    "card": 85,
+    "level": "N5"
   },
   {
     "id": 759,
     "jp": "うんてんする",
     "eng": "to drive",
-    "card": 85
+    "card": 85,
+    "level": "N5"
   },
   {
     "id": 760,
     "jp": "おくる",
     "eng": "to send",
-    "card": 85
+    "card": 85,
+    "level": "N5"
   },
   {
     "id": 761,
     "jp": "ちゅうしゃじょう",
     "eng": "parking lot",
-    "card": 85
+    "card": 85,
+    "level": "N5"
   },
   {
     "id": 762,
     "jp": "とめる",
     "eng": "to stop/to park",
-    "card": 85
+    "card": 85,
+    "level": "N5"
   },
   {
     "id": 763,
     "jp": "じてんしゃ",
     "eng": "bicycle",
-    "card": 85
+    "card": 85,
+    "level": "N5"
   },
   {
     "id": 764,
     "jp": "バイク",
     "eng": "bike",
-    "card": 85
+    "card": 85,
+    "level": "N5"
   },
   {
     "id": 765,
     "jp": "バス",
     "eng": "bus",
-    "card": 85
+    "card": 85,
+    "level": "N5"
   },
   {
     "id": 766,
     "jp": "タクシー",
     "eng": "taxi",
-    "card": 86
+    "card": 86,
+    "level": "N5"
   },
   {
     "id": 767,
     "jp": "ひこうき",
     "eng": "airplane",
-    "card": 86
+    "card": 86,
+    "level": "N5"
   },
   {
     "id": 768,
     "jp": "ふね",
     "eng": "ship / boat",
-    "card": 86
+    "card": 86,
+    "level": "N5"
   },
   {
     "id": 769,
     "jp": "のりば",
     "eng": "place for boarding vehicles / stand",
-    "card": 86
+    "card": 86,
+    "level": "N5"
   },
   {
     "id": 770,
     "jp": "くうこう",
     "eng": "airport",
-    "card": 86
+    "card": 86,
+    "level": "N5"
   },
   {
     "id": 771,
     "jp": "じこくひょう",
     "eng": "timetable",
-    "card": 86
+    "card": 86,
+    "level": "N5"
   },
   {
     "id": 772,
     "jp": "じかん",
     "eng": "time",
-    "card": 86
+    "card": 86,
+    "level": "N5"
   },
   {
     "id": 773,
     "jp": "いそぐ",
     "eng": "to hurry",
-    "card": 86
+    "card": 86,
+    "level": "N5"
   },
   {
     "id": 774,
     "jp": "どのぐらい",
     "eng": "how long",
-    "card": 86
+    "card": 86,
+    "level": "N5"
   },
   {
     "id": 775,
     "jp": "かかる",
     "eng": "to take time/to take money",
-    "card": 87
+    "card": 87,
+    "level": "N5"
   },
   {
     "id": 776,
     "jp": "ちかい",
     "eng": "near",
-    "card": 87
+    "card": 87,
+    "level": "N5"
   },
   {
     "id": 777,
     "jp": "とおい",
     "eng": "far",
-    "card": 87
+    "card": 87,
+    "level": "N5"
   },
   {
     "id": 778,
     "jp": "ずっと",
     "eng": "much / continuously",
-    "card": 87
+    "card": 87,
+    "level": "N5"
   },
   {
     "id": 779,
     "jp": "いつも",
     "eng": "always",
-    "card": 87
+    "card": 87,
+    "level": "N5"
   },
   {
     "id": 780,
     "jp": "たいてい",
     "eng": "mostly / usually",
-    "card": 87
+    "card": 87,
+    "level": "N5"
   },
   {
     "id": 781,
     "jp": "よく",
     "eng": "often",
-    "card": 87
+    "card": 87,
+    "level": "N5"
   },
   {
     "id": 782,
     "jp": "ときどき",
     "eng": "sometimes",
-    "card": 87
+    "card": 87,
+    "level": "N5"
   },
   {
     "id": 783,
     "jp": "だけ",
     "eng": "only",
-    "card": 87
+    "card": 87,
+    "level": "N5"
   },
   {
     "id": 784,
     "jp": "どうやって",
     "eng": "how",
-    "card": 88
+    "card": 88,
+    "level": "N5"
   },
   {
     "id": 785,
     "jp": "あるく",
     "eng": "to walk",
-    "card": 88
+    "card": 88,
+    "level": "N5"
   },
   {
     "id": 786,
     "jp": "みち",
     "eng": "road",
-    "card": 88
+    "card": 88,
+    "level": "N5"
   },
   {
     "id": 787,
     "jp": "まっすぐ",
     "eng": "straight",
-    "card": 88
+    "card": 88,
+    "level": "N5"
   },
   {
     "id": 788,
     "jp": "まがる",
     "eng": "to bend / to turn",
-    "card": 88
+    "card": 88,
+    "level": "N5"
   },
   {
     "id": 789,
     "jp": "わたる",
     "eng": "to cross",
-    "card": 88
+    "card": 88,
+    "level": "N5"
   },
   {
     "id": 790,
     "jp": "せつめいする",
     "eng": "to explain",
-    "card": 88
+    "card": 88,
+    "level": "N5"
   },
   {
     "id": 791,
     "jp": "かど",
     "eng": "corner",
-    "card": 88
+    "card": 88,
+    "level": "N5"
   },
   {
     "id": 792,
     "jp": "こうさてん",
     "eng": "intersection",
-    "card": 88
+    "card": 88,
+    "level": "N5"
   },
   {
     "id": 793,
     "jp": "しんごう",
     "eng": "signal",
-    "card": 89
+    "card": 89,
+    "level": "N5"
   },
   {
     "id": 794,
     "jp": "左",
     "eng": "left",
-    "card": 89
+    "card": 89,
+    "level": "N5"
   },
   {
     "id": 795,
     "jp": "右",
     "eng": "right",
-    "card": 89
+    "card": 89,
+    "level": "N5"
   },
   {
     "id": 796,
     "jp": "はし",
     "eng": "bridge",
-    "card": 89
+    "card": 89,
+    "level": "N5"
   },
   {
     "id": 797,
     "jp": "東",
     "eng": "east",
-    "card": 89
+    "card": 89,
+    "level": "N5"
   },
   {
     "id": 798,
     "jp": "西",
     "eng": "west",
-    "card": 89
+    "card": 89,
+    "level": "N5"
   },
   {
     "id": 799,
     "jp": "南",
     "eng": "south",
-    "card": 89
+    "card": 89,
+    "level": "N5"
   },
   {
     "id": 800,
     "jp": "北",
     "eng": "north",
-    "card": 89
+    "card": 89,
+    "level": "N5"
   },
   {
     "id": 801,
     "jp": "いくつ目",
     "eng": "how many / which",
-    "card": 89
+    "card": 89,
+    "level": "N5"
   },
   {
     "id": 802,
     "jp": "ひとつ目",
     "eng": "first",
-    "card": 90
+    "card": 90,
+    "level": "N5"
   },
   {
     "id": 803,
     "jp": "ふたつ目",
     "eng": "second",
-    "card": 90
+    "card": 90,
+    "level": "N5"
   },
   {
     "id": 804,
     "jp": "みっつ目",
     "eng": "third",
-    "card": 90
+    "card": 90,
+    "level": "N5"
   },
   {
     "id": 805,
     "jp": "なんメートル",
     "eng": "how many meters",
-    "card": 90
+    "card": 90,
+    "level": "N5"
   },
   {
     "id": 806,
     "jp": "～メートル",
     "eng": "meters",
-    "card": 90
+    "card": 90,
+    "level": "N5"
   },
   {
     "id": 807,
     "jp": "となり",
     "eng": "next",
-    "card": 90
+    "card": 90,
+    "level": "N5"
   },
   {
     "id": 808,
     "jp": "間",
     "eng": "between",
-    "card": 90
+    "card": 90,
+    "level": "N5"
   },
   {
     "id": 809,
     "jp": "ちかく",
     "eng": "near",
-    "card": 90
+    "card": 90,
+    "level": "N5"
   },
   {
     "id": 810,
     "jp": "上",
     "eng": "above",
-    "card": 90
+    "card": 90,
+    "level": "N5"
   },
   {
     "id": 811,
     "jp": "下",
     "eng": "below",
-    "card": 91
+    "card": 91,
+    "level": "N5"
   },
   {
     "id": 812,
     "jp": "前",
     "eng": "front",
-    "card": 91
+    "card": 91,
+    "level": "N5"
   },
   {
     "id": 813,
     "jp": "後ろ",
     "eng": "behind",
-    "card": 91
+    "card": 91,
+    "level": "N5"
   },
   {
     "id": 814,
     "jp": "なか",
     "eng": "inside",
-    "card": 91
+    "card": 91,
+    "level": "N5"
   },
   {
     "id": 815,
     "jp": "そと",
     "eng": "outside",
-    "card": 91
+    "card": 91,
+    "level": "N5"
   },
   {
     "id": 816,
     "jp": "ここ",
     "eng": "here",
-    "card": 91
+    "card": 91,
+    "level": "N5"
   },
   {
     "id": 817,
     "jp": "そこ",
     "eng": "there",
-    "card": 91
+    "card": 91,
+    "level": "N5"
   },
   {
     "id": 818,
     "jp": "あそこ",
     "eng": "over there",
-    "card": 91
+    "card": 91,
+    "level": "N5"
   },
   {
     "id": 819,
     "jp": "どこ",
     "eng": "where",
-    "card": 91
+    "card": 91,
+    "level": "N5"
   },
   {
     "id": 820,
     "jp": "出る",
     "eng": "to go out",
-    "card": 92
+    "card": 92,
+    "level": "N5"
   },
   {
     "id": 821,
     "jp": "出かける",
     "eng": "to leave",
-    "card": 92
+    "card": 92,
+    "level": "N5"
   },
   {
     "id": 822,
     "jp": "つく",
     "eng": "to arrive",
-    "card": 92
+    "card": 92,
+    "level": "N5"
   },
   {
     "id": 823,
     "jp": "あう",
     "eng": "to meet",
-    "card": 92
+    "card": 92,
+    "level": "N5"
   },
   {
     "id": 824,
     "jp": "まつ",
     "eng": "to wait",
-    "card": 92
+    "card": 92,
+    "level": "N5"
   },
   {
     "id": 825,
     "jp": "デートする",
     "eng": "to date",
-    "card": 92
+    "card": 92,
+    "level": "N5"
   },
   {
     "id": 826,
     "jp": "やくそくする",
     "eng": "to promise",
-    "card": 92
+    "card": 92,
+    "level": "N5"
   },
   {
     "id": 827,
     "jp": "ようじ",
     "eng": "errand",
-    "card": 92
+    "card": 92,
+    "level": "N5"
   },
   {
     "id": 828,
     "jp": "つごうがいい",
     "eng": "be convenient",
-    "card": 92
+    "card": 92,
+    "level": "N5"
   },
   {
     "id": 829,
     "jp": "つごうがわるい",
     "eng": "be inconvenient",
-    "card": 93
+    "card": 93,
+    "level": "N5"
   },
   {
     "id": 830,
     "jp": "だめ",
     "eng": "not good",
-    "card": 93
+    "card": 93,
+    "level": "N5"
   },
   {
     "id": 831,
     "jp": "かえる",
     "eng": "to change",
-    "card": 93
+    "card": 93,
+    "level": "N5"
   },
   {
     "id": 832,
     "jp": "おでかけますか",
     "eng": "are you going out",
-    "card": 93
+    "card": 93,
+    "level": "N5"
   },
   {
     "id": 833,
     "jp": "よかったら",
     "eng": "if it is alright",
-    "card": 93
+    "card": 93,
+    "level": "N5"
   },
   {
     "id": 834,
     "jp": "すみません",
     "eng": "excuse me",
-    "card": 93
+    "card": 93,
+    "level": "N5"
   },
   {
     "id": 835,
     "jp": "ざんねんですが",
     "eng": "unfortunately",
-    "card": 93
+    "card": 93,
+    "level": "N5"
   },
   {
     "id": 836,
     "jp": "またこんどおねがいします",
     "eng": "next time please",
-    "card": 93
+    "card": 93,
+    "level": "N5"
   },
   {
     "id": 837,
     "jp": "チャンス",
     "eng": "chance",
-    "card": 93
+    "card": 93,
+    "level": "N5"
   },
   {
     "id": 838,
     "jp": "行ってきます",
     "eng": "goodbye",
-    "card": 94
+    "card": 94,
+    "level": "N5"
   },
   {
     "id": 839,
     "jp": "行ってらっしゃい",
     "eng": "have a good day",
-    "card": 94
+    "card": 94,
+    "level": "N5"
   },
   {
     "id": 840,
     "jp": "ただいま",
     "eng": "I'm back",
-    "card": 94
+    "card": 94,
+    "level": "N5"
   },
   {
     "id": 841,
     "jp": "おかえり",
     "eng": "Welcome home",
-    "card": 94
+    "card": 94,
+    "level": "N5"
   },
   {
     "id": 842,
     "jp": "いえ",
     "eng": "house",
-    "card": 94
+    "card": 94,
+    "level": "N5"
   },
   {
     "id": 843,
     "jp": "へや",
     "eng": "room",
-    "card": 94
+    "card": 94,
+    "level": "N5"
   },
   {
     "id": 844,
     "jp": "おふろ",
     "eng": "bathroom",
-    "card": 94
+    "card": 94,
+    "level": "N5"
   },
   {
     "id": 845,
     "jp": "テーブル",
     "eng": "table",
-    "card": 94
+    "card": 94,
+    "level": "N5"
   },
   {
     "id": 846,
     "jp": "つくえ",
     "eng": "table",
-    "card": 94
+    "card": 94,
+    "level": "N5"
   },
   {
     "id": 847,
     "jp": "いす",
     "eng": "chair",
-    "card": 95
+    "card": 95,
+    "level": "N5"
   },
   {
     "id": 848,
     "jp": "すわる",
     "eng": "to sit",
-    "card": 95
+    "card": 95,
+    "level": "N5"
   },
   {
     "id": 849,
     "jp": "たつ",
     "eng": "to stand",
-    "card": 95
+    "card": 95,
+    "level": "N5"
   },
   {
     "id": 850,
     "jp": "せんたくする",
     "eng": "to wash clothes",
-    "card": 95
+    "card": 95,
+    "level": "N5"
   },
   {
     "id": 851,
     "jp": "そうじする",
     "eng": "to clean",
-    "card": 95
+    "card": 95,
+    "level": "N5"
   },
   {
     "id": 852,
     "jp": "ごみ",
     "eng": "garbage",
-    "card": 95
+    "card": 95,
+    "level": "N5"
   },
   {
     "id": 853,
     "jp": "すてる",
     "eng": "to throw away",
-    "card": 95
+    "card": 95,
+    "level": "N5"
   },
   {
     "id": 854,
     "jp": "おく",
     "eng": "to put/to place/to keep",
-    "card": 95
+    "card": 95,
+    "level": "N5"
   },
   {
     "id": 855,
     "jp": "すむ",
     "eng": "to live",
-    "card": 95
+    "card": 95,
+    "level": "N5"
   },
   {
     "id": 856,
     "jp": "じゅうしょ",
     "eng": "address",
-    "card": 96
+    "card": 96,
+    "level": "N5"
   },
   {
     "id": 857,
     "jp": "れいぞうこ",
     "eng": "refrigerator",
-    "card": 96
+    "card": 96,
+    "level": "N5"
   },
   {
     "id": 858,
     "jp": "せんたくき",
     "eng": "washing machine",
-    "card": 96
+    "card": 96,
+    "level": "N5"
   },
   {
     "id": 859,
     "jp": "そうじき",
     "eng": "vacuum cleaner",
-    "card": 96
+    "card": 96,
+    "level": "N5"
   },
   {
     "id": 860,
     "jp": "たてもの",
     "eng": "building",
-    "card": 96
+    "card": 96,
+    "level": "N5"
   },
   {
     "id": 861,
     "jp": "ビル",
     "eng": "building",
-    "card": 96
+    "card": 96,
+    "level": "N5"
   },
   {
     "id": 862,
     "jp": "アパート",
     "eng": "apartment",
-    "card": 96
+    "card": 96,
+    "level": "N5"
   },
   {
     "id": 863,
     "jp": "りょう",
     "eng": "dormitory/dorm",
-    "card": 96
+    "card": 96,
+    "level": "N5"
   },
   {
     "id": 864,
     "jp": "かいだん",
     "eng": "stairs",
-    "card": 96
+    "card": 96,
+    "level": "N5"
   },
   {
     "id": 865,
     "jp": "エスカレーター",
     "eng": "escalator",
-    "card": 97
+    "card": 97,
+    "level": "N5"
   },
   {
     "id": 866,
     "jp": "エレベーター",
     "eng": "elevator",
-    "card": 97
+    "card": 97,
+    "level": "N5"
   },
   {
     "id": 867,
     "jp": "なんがい",
     "eng": "which floor",
-    "card": 97
+    "card": 97,
+    "level": "N5"
   },
   {
     "id": 868,
     "jp": "〜かい",
     "eng": "floor",
-    "card": 97
+    "card": 97,
+    "level": "N5"
   },
   {
     "id": 869,
     "jp": "さんがい",
     "eng": "third floor",
-    "card": 97
+    "card": 97,
+    "level": "N5"
   },
   {
     "id": 870,
     "jp": "ちか",
     "eng": "basement",
-    "card": 97
+    "card": 97,
+    "level": "N5"
   },
   {
     "id": 871,
     "jp": "ひっこし",
     "eng": "moving",
-    "card": 97
+    "card": 97,
+    "level": "N5"
   },
   {
     "id": 872,
     "jp": "てんきん",
     "eng": "to transfer",
-    "card": 97
+    "card": 97,
+    "level": "N5"
   },
   {
     "id": 873,
     "jp": "やちん",
     "eng": "rent",
-    "card": 97
+    "card": 97,
+    "level": "N5"
   },
   {
     "id": 874,
     "jp": "ところ",
     "eng": "place",
-    "card": 98
+    "card": 98,
+    "level": "N5"
   },
   {
     "id": 875,
     "jp": "いなか",
     "eng": "countryside",
-    "card": 98
+    "card": 98,
+    "level": "N5"
   },
   {
     "id": 876,
     "jp": "しずかな",
     "eng": "quiet",
-    "card": 98
+    "card": 98,
+    "level": "N5"
   },
   {
     "id": 877,
     "jp": "にぎやかな",
     "eng": "lively/crowded",
-    "card": 98
+    "card": 98,
+    "level": "N5"
   },
   {
     "id": 878,
     "jp": "べんりな",
     "eng": "convenient",
-    "card": 98
+    "card": 98,
+    "level": "N5"
   },
   {
     "id": 879,
     "jp": "ふべん",
     "eng": "inconvenient",
-    "card": 98
+    "card": 98,
+    "level": "N5"
   },
   {
     "id": 880,
     "jp": "こうつう",
     "eng": "traffic",
-    "card": 98
+    "card": 98,
+    "level": "N5"
   },
   {
     "id": 881,
     "jp": "にわ",
     "eng": "garden",
-    "card": 98
+    "card": 98,
+    "level": "N5"
   },
   {
     "id": 882,
     "jp": "木",
     "eng": "tree",
-    "card": 98
+    "card": 98,
+    "level": "N5"
   },
   {
     "id": 883,
     "jp": "みどり",
     "eng": "green",
-    "card": 99
+    "card": 99,
+    "level": "N5"
   },
   {
     "id": 884,
     "jp": "わかい",
     "eng": "young",
-    "card": 99
+    "card": 99,
+    "level": "N5"
   },
   {
     "id": 885,
     "jp": "年をとる",
     "eng": "to get old",
-    "card": 99
+    "card": 99,
+    "level": "N5"
   },
   {
     "id": 886,
     "jp": "しやくしょ",
     "eng": "city hall/ward office",
-    "card": 99
+    "card": 99,
+    "level": "N5"
   },
   {
     "id": 887,
     "jp": "ひろい",
     "eng": "wide/spacious",
-    "card": 99
+    "card": 99,
+    "level": "N5"
   },
   {
     "id": 888,
     "jp": "せまい",
     "eng": "narrow",
-    "card": 99
+    "card": 99,
+    "level": "N5"
   },
   {
     "id": 889,
     "jp": "新しい",
     "eng": "new",
-    "card": 99
+    "card": 99,
+    "level": "N5"
   },
   {
     "id": 890,
     "jp": "古い",
     "eng": "old",
-    "card": 99
+    "card": 99,
+    "level": "N5"
   },
   {
     "id": 891,
     "jp": "いらっしゃい",
     "eng": "welcome",
-    "card": 99
+    "card": 99,
+    "level": "N5"
   },
   {
     "id": 892,
     "jp": "どうぞおあがりください",
     "eng": "please come in",
-    "card": 100
+    "card": 100,
+    "level": "N5"
   },
   {
     "id": 893,
     "jp": "そろそろしつれいします",
     "eng": "I will excuse myself",
-    "card": 100
+    "card": 100,
+    "level": "N5"
   },
   {
     "id": 894,
     "jp": "またいらっしゃってください",
     "eng": "please come again",
-    "card": 100
+    "card": 100,
+    "level": "N5"
   },
   {
     "id": 895,
     "jp": "おっと",
     "eng": "husband",
-    "card": 100
+    "card": 100,
+    "level": "N5"
   },
   {
     "id": 896,
     "jp": "つま",
     "eng": "wife",
-    "card": 100
+    "card": 100,
+    "level": "N5"
   },
   {
     "id": 897,
     "jp": "ごしゅじん",
     "eng": "your husband",
-    "card": 100
+    "card": 100,
+    "level": "N5"
   },
   {
     "id": 898,
     "jp": "おくさん",
     "eng": "your wife",
-    "card": 100
+    "card": 100,
+    "level": "N5"
   },
   {
     "id": 899,
     "jp": "しょうかいする",
     "eng": "to introduce",
-    "card": 100
+    "card": 100,
+    "level": "N5"
   },
   {
     "id": 900,
     "jp": "どくしん",
     "eng": "single",
-    "card": 100
+    "card": 100,
+    "level": "N5"
   },
   {
     "id": 901,
     "jp": "おせわになります",
     "eng": "looking forward to your cooperation",
-    "card": 101
+    "card": 101,
+    "level": "N5"
   },
   {
     "id": 902,
     "jp": "けっこんする",
     "eng": "to marry",
-    "card": 101
+    "card": 101,
+    "level": "N5"
   },
   {
     "id": 903,
     "jp": "おれ",
     "eng": "I",
-    "card": 101
+    "card": 101,
+    "level": "N5"
   },
   {
     "id": 904,
     "jp": "ぼく",
     "eng": "I",
-    "card": 101
+    "card": 101,
+    "level": "N5"
   },
   {
     "id": 905,
     "jp": "あたし",
     "eng": "I",
-    "card": 101
+    "card": 101,
+    "level": "N5"
   },
   {
     "id": 906,
     "jp": "いろいろ",
     "eng": "various",
-    "card": 101
+    "card": 101,
+    "level": "N5"
   },
   {
     "id": 907,
     "jp": "おせわになりました",
     "eng": "thank you for taking care of me",
-    "card": 101
+    "card": 101,
+    "level": "N5"
   },
   {
     "id": 908,
     "jp": "気をつけて",
     "eng": "take care",
-    "card": 101
+    "card": 101,
+    "level": "N5"
   },
   {
     "id": 909,
     "jp": "あぶない",
     "eng": "dangerous",
-    "card": 101
+    "card": 101,
+    "level": "N5"
   },
   {
     "id": 910,
     "jp": "しゅうまつ",
     "eng": "weekend",
-    "card": 102
+    "card": 102,
+    "level": "N5"
   },
   {
     "id": 911,
     "jp": "はじめ",
     "eng": "beginning",
-    "card": 102
+    "card": 102,
+    "level": "N5"
   },
   {
     "id": 912,
     "jp": "おわり",
     "eng": "end",
-    "card": 102
+    "card": 102,
+    "level": "N5"
   },
   {
     "id": 913,
     "jp": "せんしゅう",
     "eng": "last week",
-    "card": 102
+    "card": 102,
+    "level": "N5"
   },
   {
     "id": 914,
     "jp": "こんしゅう",
     "eng": "this week",
-    "card": 102
+    "card": 102,
+    "level": "N5"
   },
   {
     "id": 915,
     "jp": "らいしゅう",
     "eng": "next week",
-    "card": 102
+    "card": 102,
+    "level": "N5"
   },
   {
     "id": 916,
     "jp": "せんげつ",
     "eng": "last month",
-    "card": 102
+    "card": 102,
+    "level": "N5"
   },
   {
     "id": 917,
     "jp": "こんげつ",
     "eng": "this month",
-    "card": 102
+    "card": 102,
+    "level": "N5"
   },
   {
     "id": 918,
     "jp": "らいげつ",
     "eng": "next month",
-    "card": 102
+    "card": 102,
+    "level": "N5"
   },
   {
     "id": 919,
     "jp": "電気",
     "eng": "electricity",
-    "card": 103
+    "card": 103,
+    "level": "N5"
   },
   {
     "id": 920,
     "jp": "つける",
     "eng": "to turn on",
-    "card": 103
+    "card": 103,
+    "level": "N5"
   },
   {
     "id": 921,
     "jp": "けす",
     "eng": "to turn off",
-    "card": 103
+    "card": 103,
+    "level": "N5"
   },
   {
     "id": 922,
     "jp": "あかるい",
     "eng": "bright",
-    "card": 103
+    "card": 103,
+    "level": "N5"
   },
   {
     "id": 923,
     "jp": "くらい",
     "eng": "dark",
-    "card": 103
+    "card": 103,
+    "level": "N5"
   },
   {
     "id": 924,
     "jp": "エアコン",
     "eng": "air conditioner",
-    "card": 103
+    "card": 103,
+    "level": "N5"
   },
   {
     "id": 925,
     "jp": "ビデオ",
     "eng": "video",
-    "card": 103
+    "card": 103,
+    "level": "N5"
   },
   {
     "id": 926,
     "jp": "スイッチ",
     "eng": "switch",
-    "card": 103
+    "card": 103,
+    "level": "N5"
   },
   {
     "id": 927,
     "jp": "まわす",
     "eng": "to rotate",
-    "card": 103
+    "card": 103,
+    "level": "N5"
   },
   {
     "id": 928,
     "jp": "ひく",
     "eng": "to pull",
-    "card": 104
+    "card": 104,
+    "level": "N5"
   },
   {
     "id": 929,
     "jp": "うごく",
     "eng": "to move",
-    "card": 104
+    "card": 104,
+    "level": "N5"
   },
   {
     "id": 930,
     "jp": "おと",
     "eng": "sound",
-    "card": 104
+    "card": 104,
+    "level": "N5"
   },
   {
     "id": 931,
     "jp": "もし",
     "eng": "if/in case",
-    "card": 104
+    "card": 104,
+    "level": "N5"
   },
   {
     "id": 932,
     "jp": "こしょうする",
     "eng": "to break down / out of order",
-    "card": 104
+    "card": 104,
+    "level": "N5"
   },
   {
     "id": 933,
     "jp": "しゅうりする",
     "eng": "to repair",
-    "card": 104
+    "card": 104,
+    "level": "N5"
   },
   {
     "id": 934,
     "jp": "よぶ",
     "eng": "to call",
-    "card": 104
+    "card": 104,
+    "level": "N5"
   },
   {
     "id": 935,
     "jp": "なおす",
     "eng": "to correct / to fix",
-    "card": 104
+    "card": 104,
+    "level": "N5"
   },
   {
     "id": 936,
     "jp": "せいひん",
     "eng": "product",
-    "card": 104
+    "card": 104,
+    "level": "N5"
   },
   {
     "id": 937,
     "jp": "びょうき",
     "eng": "sick / illness",
-    "card": 105
+    "card": 105,
+    "level": "N5"
   },
   {
     "id": 938,
     "jp": "びょういん",
     "eng": "hospital",
-    "card": 105
+    "card": 105,
+    "level": "N5"
   },
   {
     "id": 939,
     "jp": "どうしましたか",
     "eng": "what's the matter?",
-    "card": 105
+    "card": 105,
+    "level": "N5"
   },
   {
     "id": 940,
     "jp": "ねつ",
     "eng": "fever",
-    "card": 105
+    "card": 105,
+    "level": "N5"
   },
   {
     "id": 941,
     "jp": "かぜ",
     "eng": "cold",
-    "card": 105
+    "card": 105,
+    "level": "N5"
   },
   {
     "id": 942,
     "jp": "インフルエンザ",
     "eng": "influenza",
-    "card": 105
+    "card": 105,
+    "level": "N5"
   },
   {
     "id": 943,
     "jp": "くすり",
     "eng": "medicine",
-    "card": 105
+    "card": 105,
+    "level": "N5"
   },
   {
     "id": 944,
     "jp": "はな",
     "eng": "nose",
-    "card": 105
+    "card": 105,
+    "level": "N5"
   },
   {
     "id": 945,
     "jp": "耳",
     "eng": "ear",
-    "card": 105
+    "card": 105,
+    "level": "N5"
   },
   {
     "id": 946,
     "jp": "口",
     "eng": "mouth",
-    "card": 106
+    "card": 106,
+    "level": "N5"
   },
   {
     "id": 947,
     "jp": "のど",
     "eng": "throat",
-    "card": 106
+    "card": 106,
+    "level": "N5"
   },
   {
     "id": 948,
     "jp": "あたま",
     "eng": "head",
-    "card": 106
+    "card": 106,
+    "level": "N5"
   },
   {
     "id": 949,
     "jp": "かお",
     "eng": "face",
-    "card": 106
+    "card": 106,
+    "level": "N5"
   },
   {
     "id": 950,
     "jp": "おなか",
     "eng": "stomach",
-    "card": 106
+    "card": 106,
+    "level": "N5"
   },
   {
     "id": 951,
     "jp": "手",
     "eng": "hand",
-    "card": 106
+    "card": 106,
+    "level": "N5"
   },
   {
     "id": 952,
     "jp": "足",
     "eng": "leg / foot",
-    "card": 106
+    "card": 106,
+    "level": "N5"
   },
   {
     "id": 953,
     "jp": "おだいじに",
     "eng": "take care of yourself",
-    "card": 106
+    "card": 106,
+    "level": "N5"
   },
   {
     "id": 954,
     "jp": "～がいたい",
     "eng": "is painful / hurts",
-    "card": 106
+    "card": 106,
+    "level": "N5"
   },
   {
     "id": 955,
     "jp": "はいしゃさん",
     "eng": "dentist",
-    "card": 107
+    "card": 107,
+    "level": "N5"
   },
   {
     "id": 956,
     "jp": "一人で",
     "eng": "alone",
-    "card": 107
+    "card": 107,
+    "level": "N5"
   },
   {
     "id": 957,
     "jp": "けんこう",
     "eng": "health",
-    "card": 107
+    "card": 107,
+    "level": "N5"
   },
   {
     "id": 958,
     "jp": "けんこうほけんしょう",
     "eng": "health insurance card",
-    "card": 107
+    "card": 107,
+    "level": "N5"
   },
   {
     "id": 959,
     "jp": "からだ",
     "eng": "body",
-    "card": 107
+    "card": 107,
+    "level": "N5"
   },
   {
     "id": 960,
     "jp": "からだにいい",
     "eng": "good for the body",
-    "card": 107
+    "card": 107,
+    "level": "N5"
   },
   {
     "id": 961,
     "jp": "ちょうし",
     "eng": "condition",
-    "card": 107
+    "card": 107,
+    "level": "N5"
   },
   {
     "id": 962,
     "jp": "つかれる",
     "eng": "to get tired",
-    "card": 107
+    "card": 107,
+    "level": "N5"
   },
   {
     "id": 963,
     "jp": "たいへん",
     "eng": "terrible / tough",
-    "card": 107
+    "card": 107,
+    "level": "N5"
   },
   {
     "id": 964,
     "jp": "さいきん",
     "eng": "recently / lately",
-    "card": 108
+    "card": 108,
+    "level": "N5"
   },
   {
     "id": 965,
     "jp": "しんぱいする",
     "eng": "to worry",
-    "card": 108
+    "card": 108,
+    "level": "N5"
   },
   {
     "id": 966,
     "jp": "たばこ",
     "eng": "tobacco / cigarette",
-    "card": 108
+    "card": 108,
+    "level": "N5"
   },
   {
     "id": 967,
     "jp": "すう",
     "eng": "to smoke",
-    "card": 108
+    "card": 108,
+    "level": "N5"
   },
   {
     "id": 968,
     "jp": "きんえん",
     "eng": "no smoking",
-    "card": 108
+    "card": 108,
+    "level": "N5"
   },
   {
     "id": 969,
     "jp": "だいじょうぶ",
     "eng": "okay / all right",
-    "card": 108
+    "card": 108,
+    "level": "N5"
   },
   {
     "id": 970,
     "jp": "むりな",
     "eng": "impossible / not allowed",
-    "card": 108
+    "card": 108,
+    "level": "N5"
   },
   {
     "id": 971,
     "jp": "ダイエット",
     "eng": "diet",
-    "card": 108
+    "card": 108,
+    "level": "N5"
   },
   {
     "id": 972,
     "jp": "おもいだす",
     "eng": "to remember / to recall",
-    "card": 108
+    "card": 108,
+    "level": "N5"
   },
   {
     "id": 973,
     "jp": "さびしい",
     "eng": "lonely",
-    "card": 109
+    "card": 109,
+    "level": "N5"
   },
   {
     "id": 974,
     "jp": "おひさしぶりです",
     "eng": "long time no see",
-    "card": 109
+    "card": 109,
+    "level": "N5"
   },
   {
     "id": 975,
     "jp": "あっ",
     "eng": "oh",
-    "card": 109
+    "card": 109,
+    "level": "N5"
   },
   {
     "id": 976,
     "jp": "おげんきですか",
     "eng": "how are you?",
-    "card": 109
+    "card": 109,
+    "level": "N5"
   },
   {
     "id": 977,
     "jp": "おかげさまで",
     "eng": "thanks to you / because of you",
-    "card": 109
+    "card": 109,
+    "level": "N5"
   },
   {
     "id": 978,
     "jp": "パスポート",
     "eng": "passport",
-    "card": 109
+    "card": 109,
+    "level": "N5"
   },
   {
     "id": 979,
     "jp": "ビザ",
     "eng": "visa",
-    "card": 109
+    "card": 109,
+    "level": "N5"
   },
   {
     "id": 980,
     "jp": "たいしかん",
     "eng": "embassy",
-    "card": 109
+    "card": 109,
+    "level": "N5"
   },
   {
     "id": 981,
     "jp": "たいせつ",
     "eng": "important",
-    "card": 109
+    "card": 109,
+    "level": "N5"
   },
   {
     "id": 982,
     "jp": "なくす",
     "eng": "to lose something",
-    "card": 110
+    "card": 110,
+    "level": "N5"
   },
   {
     "id": 983,
     "jp": "かす",
     "eng": "to lend",
-    "card": 110
+    "card": 110,
+    "level": "N5"
   },
   {
     "id": 984,
     "jp": "かりる",
     "eng": "to borrow",
-    "card": 110
+    "card": 110,
+    "level": "N5"
   },
   {
     "id": 985,
     "jp": "かえす",
     "eng": "to return",
-    "card": 110
+    "card": 110,
+    "level": "N5"
   },
   {
     "id": 986,
     "jp": "むだな",
     "eng": "wasteful / uselessness",
-    "card": 110
+    "card": 110,
+    "level": "N5"
   },
   {
     "id": 987,
     "jp": "いる",
     "eng": "to be / to need",
-    "card": 110
+    "card": 110,
+    "level": "N5"
   },
   {
     "id": 988,
     "jp": "えっ",
     "eng": "really?",
-    "card": 110
+    "card": 110,
+    "level": "N5"
   },
   {
     "id": 989,
     "jp": "ほんとう",
     "eng": "truth / reality",
-    "card": 110
+    "card": 110,
+    "level": "N5"
   },
   {
     "id": 990,
     "jp": "うそ",
     "eng": "lie",
-    "card": 110
+    "card": 110,
+    "level": "N5"
   },
   {
     "id": 991,
     "jp": "こと",
     "eng": "thing / matter",
-    "card": 111
+    "card": 111,
+    "level": "N5"
   },
   {
     "id": 992,
     "jp": "おいのり",
     "eng": "prayer",
-    "card": 111
+    "card": 111,
+    "level": "N5"
   },
   {
     "id": 993,
     "jp": "さわる",
     "eng": "to touch",
-    "card": 111
+    "card": 111,
+    "level": "N5"
   },
   {
     "id": 994,
     "jp": "しょうらい",
     "eng": "future",
-    "card": 111
+    "card": 111,
+    "level": "N5"
   },
   {
     "id": 995,
     "jp": "ゆめ",
     "eng": "dream",
-    "card": 111
+    "card": 111,
+    "level": "N5"
   },
   {
     "id": 996,
     "jp": "りゅうがくする",
     "eng": "to study abroad",
-    "card": 111
+    "card": 111,
+    "level": "N5"
   },
   {
     "id": 997,
     "jp": "けんきゅうする",
     "eng": "to research",
-    "card": 111
+    "card": 111,
+    "level": "N5"
   },
   {
     "id": 998,
     "jp": "けんきゅうしゃ",
     "eng": "researcher",
-    "card": 111
+    "card": 111,
+    "level": "N5"
   },
   {
     "id": 999,
     "jp": "だいがくいん",
     "eng": "graduate school",
-    "card": 111
+    "card": 111,
+    "level": "N5"
   },
   {
     "id": 1000,
     "jp": "せんもん",
     "eng": "specialty / major subject",
-    "card": 112
+    "card": 112,
+    "level": "N5"
   },
   {
     "id": 1001,
     "jp": "けいざい",
     "eng": "economics",
-    "card": 112
+    "card": 112,
+    "level": "N5"
   },
   {
     "id": 1002,
     "jp": "びじゅつ",
     "eng": "art / fine arts",
-    "card": 112
+    "card": 112,
+    "level": "N5"
   },
   {
     "id": 1003,
     "jp": "ちきゅう",
     "eng": "earth",
-    "card": 112
+    "card": 112,
+    "level": "N5"
   },
   {
     "id": 1004,
     "jp": "について",
     "eng": "about / regarding",
-    "card": 112
+    "card": 112,
+    "level": "N5"
   },
   {
     "id": 1005,
     "jp": "やめる",
     "eng": "to resign / to stop",
-    "card": 112
+    "card": 112,
+    "level": "N5"
   },
   {
     "id": 1006,
     "jp": "かんがえる",
     "eng": "to think",
-    "card": 112
+    "card": 112,
+    "level": "N5"
   },
   {
     "id": 1007,
     "jp": "もう",
     "eng": "already",
-    "card": 112
+    "card": 112,
+    "level": "N5"
   },
   {
     "id": 1008,
     "jp": "まだ",
     "eng": "yet / still",
-    "card": 112
+    "card": 112,
+    "level": "N5"
   },
   {
     "id": 1009,
     "jp": "これから",
     "eng": "from now on",
-    "card": 113
+    "card": 113,
+    "level": "N5"
   }
 ]
