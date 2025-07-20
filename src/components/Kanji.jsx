@@ -195,66 +195,63 @@ const KanjiTest = () => {
       </div>
 
       {/* Test Panel */}
-      {testStarted &&
-        testList.length > 0 &&
-        currentIndex !== null &&
-        !showAnswer && (
-          <div className="bg-indigo-200/40 backdrop-blur-md border border-indigo-300 max-w-3xl rounded-2xl shadow-xl p-8 w-full space-y-6">
-            <div className="text-5xl font-bold text-indigo-900 text-center min-h-[120px] flex items-center justify-center">
-              {testList[currentIndex].kanji}
-            </div>
-
-            {attempts > 0 && selectedField !== "kun" && (
-              <div className="text-center text-sm italic text-indigo-700">
-                Hint (kun): {testList[currentIndex].kun}
-              </div>
-            )}
-
-            <input
-              type="text"
-              value={userInput}
-              onChange={(e) => setUserInput(e.target.value)}
-              onKeyDown={handleKeyDown}
-              className="p-4 border-2 border-indigo-200 rounded-xl bg-white/50 text-indigo-900 text-lg w-full focus:ring-2 focus:ring-indigo-300"
-              placeholder="Type your answer here..."
-            />
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <button
-                onClick={handleSubmit}
-                className="flex-1 py-3.5 px-6 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl transition-all"
-              >
-                Submit Answer
-              </button>
-
-              {attempts >= 3 && (
-                <button
-                  onClick={() => {
-                    if (marks > 0) setMarks((prev) => prev - 1);
-                    setShowAnswer(true);
-                  }}
-                  className="flex-1 py-3.5 px-6 bg-blue-100 hover:bg-blue-200 text-blue-800 border border-blue-800 font-semibold rounded-xl transition-all"
-                >
-                  Reveal Answer
-                </button>
-              )}
-            </div>
-
-            {attempts > 0 && !showAnswer && (
-              <div className="text-center mt-2 text-red-600 text-sm font-medium">
-                Incorrect. Try again!
-              </div>
-            )}
-
-            <div className="text-center text-sm text-gray-500">
-              Progress: {visited.length}/{testList.length} | Score: {marks}
-            </div>
+      {testStarted && testList.length > 0 && currentIndex !== null && (
+        <div className="bg-indigo-200/40 backdrop-blur-md border border-indigo-300 max-w-3xl rounded-2xl shadow-xl p-8 w-full space-y-6">
+          <div className="text-5xl font-bold text-indigo-900 text-center min-h-[120px] flex items-center justify-center">
+            {testList[currentIndex].kanji}
           </div>
-        )}
+
+          {attempts > 0 && selectedField !== "kun" && (
+            <div className="text-center text-sm italic text-indigo-700">
+              Hint (kun): {testList[currentIndex].kun}
+            </div>
+          )}
+
+          <input
+            type="text"
+            value={userInput}
+            onChange={(e) => setUserInput(e.target.value)}
+            onKeyDown={handleKeyDown}
+            className="p-4 border-2 border-indigo-200 rounded-xl bg-white/50 text-indigo-900 text-lg w-full focus:ring-2 focus:ring-indigo-300"
+            placeholder="Type your answer here..."
+          />
+
+          <div className="flex flex-col sm:flex-row gap-4">
+            <button
+              onClick={handleSubmit}
+              className="flex-1 py-3.5 px-6 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl transition-all"
+            >
+              Submit Answer
+            </button>
+
+            {attempts >= 3 && (
+              <button
+                onClick={() => {
+                  if (marks > 0) setMarks((prev) => prev - 1);
+                  setShowAnswer(true);
+                }}
+                className="flex-1 py-3.5 px-6 bg-blue-100 hover:bg-blue-200 text-blue-800 border border-blue-800 font-semibold rounded-xl transition-all"
+              >
+                Reveal Answer
+              </button>
+            )}
+          </div>
+
+          {attempts > 0 && !showAnswer && (
+            <div className="text-center mt-2 text-red-600 text-sm font-medium">
+              Incorrect. Try again!
+            </div>
+          )}
+
+          <div className="text-center text-sm text-gray-500">
+            Progress: {visited.length}/{testList.length} | Score: {marks}
+          </div>
+        </div>
+      )}
 
       {/* Answer Reveal */}
       {showAnswer && (
-        <div className="mt-8 p-6 w-full bg-emerald-50/90 border border-emerald-200 rounded-2xl shadow-lg text-center">
+        <div className="mt-8 p-6 min-w-3xl bg-emerald-50/90 border border-emerald-200 rounded-2xl shadow-lg text-center">
           <p className="text-sm font-semibold text-emerald-600 mb-2">
             CORRECT ANSWER
           </p>
