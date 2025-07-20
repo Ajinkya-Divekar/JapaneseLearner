@@ -326,7 +326,7 @@ const VocabTest = () => {
         )}
 
       {showAnswer && (
-        <div className="mt-8 p-6 w-full bg-emerald-50/90 border border-emerald-200 rounded-2xl shadow-lg text-center">
+        <div className="mt-8 p-6 max-w-3xl bg-emerald-50/90 border border-emerald-200 rounded-2xl shadow-lg text-center">
           <p className="text-sm font-semibold text-emerald-600 mb-2">
             CORRECT ANSWER
           </p>
