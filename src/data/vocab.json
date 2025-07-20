@@ -3495,7 +3495,7 @@
   {
     "id": 500,
     "jp": "しょくじする",
-    "eng": "to have meal",
+    "eng": "to have a meal",
     "card": 56,
     "level": "N5"
   },
@@ -3880,7 +3880,7 @@
   {
     "id": 555,
     "jp": "びじゅつかん",
-    "eng": "museum",
+    "eng": "art museum",
     "card": 62,
     "level": "N5"
   },
@@ -4881,7 +4881,7 @@
   {
     "id": 698,
     "jp": "おす",
-    "eng": "push",
+    "eng": "to push",
     "card": 78,
     "level": "N5"
   },
